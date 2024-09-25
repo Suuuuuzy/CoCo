@@ -4,9 +4,14 @@ CoCo
 CoCo is a tool that utilizes Coverage-guided,
 Concurrent Abstract Interpretation to analyze JavaScript code, specifically, browser extension code, to find vulnerabilities.
 
+Please refer to the paper for details. 
+
+[CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation](https://yinzhicao.org/CoCo/CoCo.pdf)
+
+CoCo won the Distinguished Paper Award of CCS 2023.
+
 ## Installation
-CoCo requires Python 3.7+ and Node.js 12+. To set up the environment, simply
-run `./install.sh`.
+CoCo requires Python 3.7+ and Node.js 12+. To set up the environment, run `./install.sh`.
 
 ## Command line arguments
 Use the following arugments to run the tool:
@@ -32,3 +37,16 @@ $ ./single_run.sh demos/test
 ## Results
 Results are stored in `extension_dir/opgen_generated_files/used_time.txt`
 
+## Citation
+
+If you find CoCo useful, please cite our paper :)
+```
+@inproceedings{CoCoYu,
+author = {Yu, Jianjia and Li, Song and Zhu, Junmin and Cao, Yinzhi},
+year = {2023},
+month = {11},
+pages = {2441-2455},
+title = {CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation},
+doi = {10.1145/3576915.3616584}
+}
+```
