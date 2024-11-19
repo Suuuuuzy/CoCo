@@ -1,0 +1,94 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f994f68ff10>, <pdg_js.node.FunctionExpression object at 0x7f994f68fa90>)",
+                "sink-param1": "['access_token']",
+                "sink-param2": "function(result) {\n if(result.access_token){\n chrome.runtime.sendMessage({contentScriptQuery: 'queryVin', token: result.access_token, vin: drivably.vin, mileage: drivably.mileage}, response => drivably.drawModal(response));\n } else {\n drivably.handleError('Unauthenticated user', '');\n }\n }",
+                "line": "24 - 30",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9945ecc400>, <pdg_js.node.FunctionExpression object at 0x7f9945ecceb0>)",
+                "sink-param1": "['access_token']",
+                "sink-param2": "function(result) {\n chrome.runtime.sendMessage({contentScriptQuery: 'querySaveVehicle', token: result.access_token, vehicle: drivably.vehicle, list: list, buy_price:buy_price, mileage:mileage}, response => drivably.saveVehicleResponse(response));\n }",
+                "line": "220 - 222",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f993b7567c0>, <pdg_js.node.FunctionExpression object at 0x7f993b7567f0>)",
+                "sink-param1": "{'access_token': request.data.access_token}",
+                "sink-param2": "function() {\n sendResponse(true);\n }",
+                "line": "105 - 107",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "103 - 103",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(https://platform.drivably.com/api/vehicles/vin/encodeURIComponent(request.vin)?mileage=encodeURIComponent(request.mileage), <pdg_js.node.ValueExpr object at 0x7f99585508b0>)",
+                "sink-param1": "https://platform.drivably.com/api/vehicles/vin/encodeURIComponent(request.vin)?mileage=encodeURIComponent(request.mileage)",
+                "sink-param2": "{\n headers: {\n 'Content-Type': 'application/json',\n 'Authorization': token\n }\n }",
+                "line": "14 - 19",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "fetch",
+                "value": "fetch(https://platform.drivably.com/api/vehicles, <pdg_js.node.ValueExpr object at 0x7f9957ae3880>)",
+                "sink-param1": "https://platform.drivably.com/api/vehicles",
+                "sink-param2": "{\n method: 'POST',\n body: JSON.stringify({\n vin: request.vehicle.vin,\n selected_index_detail: request.vehicle.selected_index_detail,\n selected_index_valuation: request.vehicle.selected_index_valuation,\n currentDetail: request.vehicle.details[request.vehicle.selected_index_detail].style+' '+request.vehicle.details[request.vehicle.selected_index_detail].series,\n currentValuation: request.vehicle.valuations[request.vehicle.selected_index_valuation].trim,\n list: request.list,\n buy_price: request.buy_price,\n mileage: request.mileage,\n site_url: tabs[0].url,\n details: request.vehicle.details\n }),\n headers: {\n 'Content-Type': 'application/json',\n 'Authorization': token\n }\n }",
+                "line": "32 - 50",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "fetch",
+                "value": "fetch(https://platform.drivably.com/api/login, <pdg_js.node.ValueExpr object at 0x7f9954d95700>)",
+                "sink-param1": "https://platform.drivably.com/api/login",
+                "sink-param2": "{\n method: 'POST',\n body: '{\"email\": \"'+request.email+'\", \"password\": \"'+request.password+'\", \"remember_me\": true}',\n headers: {\n 'Content-Type': 'application/json',\n 'X-Requested-With': 'XMLHttpRequest'\n }\n }",
+                "line": "62 - 69",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "fetch",
+                "value": "fetch(https://platform.drivably.com/api/logout, <pdg_js.node.ValueExpr object at 0x7f9943e966a0>)",
+                "sink-param1": "https://platform.drivably.com/api/logout",
+                "sink-param2": "{\n headers: {\n 'Content-Type': 'application/json',\n 'Authorization': token\n }\n }",
+                "line": "81 - 86",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

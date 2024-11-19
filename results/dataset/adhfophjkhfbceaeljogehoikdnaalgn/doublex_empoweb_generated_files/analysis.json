@@ -1,0 +1,67 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7fe1e460cbb0>, <pdg_js.node.FunctionExpression object at 0x7fe1e460cb80>)",
+                "sink-param1": "{ urlCtrl: e.detail }",
+                "sink-param2": "function() {}",
+                "line": "19 - 19",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7fe1e593f6d0>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{\n code: `\n (function(){\n if(document.getElementById(\"infomax_ifrm_super\")){\n document.getElementById(\"infomax_ifrm_super\").remove()\n }\n })()\n `\n }",
+                "line": "41 - 49",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(id, <pdg_js.node.ValueExpr object at 0x7fe1e595bd00>)",
+                "sink-param1": "id",
+                "sink-param2": " ",
+                "line": "88 - 88",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7fe1e593f8b0>, <pdg_js.node.FunctionExpression object at 0x7fe1e593f8e0>)",
+                "sink-param1": "['userkey', 'urlExcludeList', 'urlCtrl']",
+                "sink-param2": "function(data) {\n if (data && data.userkey) {\n let isRun = false;\n\n const { viewOption, allowUrls, denyUrls } = data.urlCtrl;\n\n if (viewOption === '\ubcf4\uc9c0 \uc54a\uae30') {\n } else if (viewOption === '\uc120\ud0dd\ub41c \uc0ac\uc774\ud2b8\ub9cc \ubcf4\uae30') {\n if (allowUrls.find((str) => realUrl.includes(str))) {\n isRun = true;\n }\n } else if (viewOption === '\ubaa8\ub4e0 \uc0ac\uc774\ud2b8 \ubcf4\uae30') {\n if (!denyUrls.find((str) => realUrl.includes(str))) {\n isRun = true;\n }\n }\n\n // console.log(isRun, denyUrls, realUrl);\n\n if (isRun) {\n const code = `\n (function(){\n if(!document.getElementById(\"infomax_ifrm_super\")){\n //document.getElementById(\"infomax_ifrm_super\").remove()\n var iframe = document.createElement('iframe');\n iframe.setAttribute('id', 'infomax_ifrm_super');\n iframe.src = 'https://chrome.einfomax.co.kr/view/${data.userkey}'\n iframe.scrolling = 'no'\n iframe.frameBorder = 0\n iframe.style.cssText =\n 'position: fixed;bottom: 0px;left: 0px;width: 100%;height: 30px;min-height: 30px;max-height: 30px;z-index: 999999;border: 0;background-color: #FFF;border-top: 0px solid #000;'\n document.documentElement.appendChild(iframe)\n }\n })()\n `;\n chrome.tabs.executeScript(id, ",
+                "line": "53 - 91",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7fe1e593f8b0>, <pdg_js.node.FunctionExpression object at 0x7fe1e593f8e0>)",
+                "sink-param1": "['userkey', 'urlExcludeList', 'urlCtrl']",
+                "sink-param2": "function(data) {\n if (data && data.userkey) {\n let isRun = false;\n\n const { viewOption, allowUrls, denyUrls } = data.urlCtrl;\n\n if (viewOption === '\ubcf4\uc9c0 \uc54a\uae30') {\n } else if (viewOption === '\uc120\ud0dd\ub41c \uc0ac\uc774\ud2b8\ub9cc \ubcf4\uae30') {\n if (allowUrls.find((str) => realUrl.includes(str))) {\n isRun = true;\n }\n } else if (viewOption === '\ubaa8\ub4e0 \uc0ac\uc774\ud2b8 \ubcf4\uae30') {\n if (!denyUrls.find((str) => realUrl.includes(str))) {\n isRun = true;\n }\n }\n\n // console.log(isRun, denyUrls, realUrl);\n\n if (isRun) {\n const code = `\n (function(){\n if(!document.getElementById(\"infomax_ifrm_super\")){\n //document.getElementById(\"infomax_ifrm_super\").remove()\n var iframe = document.createElement('iframe');\n iframe.setAttribute('id', 'infomax_ifrm_super');\n iframe.src = 'https://chrome.einfomax.co.kr/view/${data.userkey}'\n iframe.scrolling = 'no'\n iframe.frameBorder = 0\n iframe.style.cssText =\n 'position: fixed;bottom: 0px;left: 0px;width: 100%;height: 30px;min-height: 30px;max-height: 30px;z-index: 999999;border: 0;background-color: #FFF;border-top: 0px solid #000;'\n document.documentElement.appendChild(iframe)\n }\n })()\n `;\n chrome.tabs.executeScript(id, ",
+                "line": "53 - 91",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

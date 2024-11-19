@@ -1,0 +1,70 @@
+(['8880', '8920'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with BookmarkCreate_sink
+from bg_chrome_runtime_MessageExternal to BookmarkCreate_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 910	            else if (request.addBookmarkUrl) {
+	request.addBookmarkUrl
+
+(['8880', '8926'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with BookmarkCreate_sink
+from bg_chrome_runtime_MessageExternal to BookmarkCreate_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 912	                    title: request.title,
+	request.title
+
+(['8880', '8920'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_setItem_key
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_key
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 910	            else if (request.addBookmarkUrl) {
+	request.addBookmarkUrl
+
+(['8880', '9092'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 915	                localStorage.setItem(request.addBookmarkUrl, request.bookCoverUrl);
+	request.bookCoverUrl
+
+(['8880', '8920', '9114'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_setItem_key
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_key
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 910	            else if (request.addBookmarkUrl) {
+	request.addBookmarkUrl
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 916	                localStorage.setItem(request.addBookmarkUrl + "::expired", request.expired);
+	localStorage.setItem(request.addBookmarkUrl + "::expired", request.expired)
+
+(['8880', '9108'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 916	                localStorage.setItem(request.addBookmarkUrl + "::expired", request.expired);
+	request.expired
+
+(['8880', '9150', '9242'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_remove_sink
+from bg_chrome_runtime_MessageExternal to localStorage_remove_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 919	            else if(request.deleteBookmarkUrl) {
+	request.deleteBookmarkUrl
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 940	                if (aNodes[i].url && aNodes[i].url.indexOf(url.toLowerCase()) > -1) {
+	url.toLowerCase()
+
+(['8880', '9150'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn with localStorage_remove_sink
+from bg_chrome_runtime_MessageExternal to localStorage_remove_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/pdjmoegkkmdbohppjcnpfcggajjniepn/opgen_generated_files/bg.js
+Line 919	            else if(request.deleteBookmarkUrl) {
+	request.deleteBookmarkUrl
+

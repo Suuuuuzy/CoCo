@@ -1,0 +1,32 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(message.request.args.0, message.request.args.1)",
+                "sink-param1": "message.request.args.0",
+                "sink-param2": "message.request.args.1",
+                "line": "29 - 29",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "message",
+                        "line": "18 - 18",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/doublex_empoweb_generated_files/bg.js",
+                        "where": "message"
+                    }
+                }
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

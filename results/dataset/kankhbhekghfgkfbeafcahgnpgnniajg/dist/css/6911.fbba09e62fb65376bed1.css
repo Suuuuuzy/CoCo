@@ -1,0 +1,25 @@
+.widget-notes-header {
+    color: #000000;
+    border: none !important;
+}
+
+.widget-notes-header .widget-setting-btn:hover {
+    background-color: rgba(161, 160, 142, 0.7);
+}
+
+.widget-notes-content {
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.widget-notes-content textarea {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(230, 221, 136, 0.9) !important; */
+    border: none;
+    padding: 10px;
+}
+
+.widget-notes-content textarea:focus {
+    outline: none;
+}

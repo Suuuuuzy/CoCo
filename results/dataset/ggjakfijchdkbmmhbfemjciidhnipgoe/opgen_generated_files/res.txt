@@ -1,0 +1,153 @@
+(['14903', '14916', '14954', '15181', '15239'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cs_window_eventListener_message to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['9385'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cookies_source to chrome_cookies_set_sink
+==========================
+
+(['14903', '14916', '14954', '15181', '15239'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['9385'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cookies_source to chrome_cookies_set_sink
+==========================
+
+(['14903', '14916', '14954', '15181', '15391'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cs_window_eventListener_message to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 880	        let engine = request.engine.toLowerCase() === 'default' ? 'duckduckgo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['14903', '14916', '14954', '15181', '15183'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['14903', '14916', '14954', '15181'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 876	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+
+(['14903', '14916', '14954', '15703', '15708', '15859'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_tabs_create_sink
+from cs_window_eventListener_message to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 886	        const data = request.data;
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 887	        openIncognito(data.query, data.se);
+	data.se
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 894	        const url = data.query ? `${config.search}&se=${data.se}&q=${data.query}` : null;
+	`${config.search}&se=${data.se}&q=${data.query}`
+
+(['14903', '14916', '14954', '15703', '15706', '15859'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_tabs_create_sink
+from cs_window_eventListener_message to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 886	        const data = request.data;
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 887	        openIncognito(data.query, data.se);
+	data.query
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 894	        const url = data.query ? `${config.search}&se=${data.se}&q=${data.query}` : null;
+	`${config.search}&se=${data.se}&q=${data.query}`
+

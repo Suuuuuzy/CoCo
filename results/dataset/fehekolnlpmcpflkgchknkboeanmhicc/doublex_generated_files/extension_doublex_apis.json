@@ -1,0 +1,27 @@
+{
+  "_description": "Suspicious APIs considered by DoubleX for /Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/doublex_generated_files",
+  "cs": {
+    "direct_dangers": {
+      "execution": [
+        "eval",
+        "setInterval",
+        "setTimeout"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {}
+  },
+  "bp": {
+    "direct_dangers": {
+      "execution": [
+        "tabs.executeScript"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {
+      "cookies": [
+        "cookies.getAll"
+      ]
+    }
+  }
+}

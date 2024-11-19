@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Emițător AirMedia"
+  },
+  "appDesc": {
+    "message": "Oglindiți dispozitivul dvs. în orice moment peecranul oricărui computer"
+  },
+  "extTitle": {
+    "message": "Emițător AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Conectare la AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Prezentare desktop"
+  },
+  "tip_sel_dsk": {
+    "message": "Se va oglindi doar videoclipul"
+  },
+  "hit_pin": {
+    "message": "Introduceți codul PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Se vor oglindi atât videoclipul cât și fișierul audio"
+  },
+  "btn_connect": {
+    "message": "CONECTARE"
+  },
+  "btn_cancel": {
+    "message": "ANULARE"
+  },
+  "btn_stop": {
+    "message": "OPRIRE"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANULARE"
+  },
+  "btn_retry_cancel": {
+    "message": "ANULARE"
+  },
+  "btn_retry": {
+    "message": "REÎNCERCARE"
+  },
+  "hit_warn": {
+    "message": "Nu se poate conecta. Verificați setările."
+  },
+  "hit_ip": {
+    "message": "Adresă IP sau Nume gazdă"
+  },
+  "tip_sel_tab_title": {
+    "message": "Prezentare filă curentă"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Cod PIN incorect. Încercați din nou."
+  }
+}

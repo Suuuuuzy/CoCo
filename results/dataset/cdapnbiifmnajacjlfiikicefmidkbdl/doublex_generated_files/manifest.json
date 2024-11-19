@@ -1,0 +1,39 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Remember YouTube subtitle settings",
+  "description": "Set and forget. No need to re-select your subtitle language anymore.",
+  "version": "1.0.2",
+  "author": "Wessel Kroos",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon-19.png",
+    "default_popup": "options.html"
+  },
+  "background" : {
+    "scripts" : ["scripts/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["scripts/scriptinjector.js"]
+  }],
+  "web_accessible_resources": [
+    "styles/options.css",
+    "scripts/contentscript.js"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": false
+  },
+  "permissions": [
+    "https://www.youtube.com/*",
+    "storage"
+  ]
+}

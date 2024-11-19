@@ -1,0 +1,351 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf43b3db50>, Math.ceil(None)1000)",
+                "sink-param1": "function () {\n $(window).scrollTop(val);\n val += 100;\n if ((val + 400) < des) {\n timeOutScrollDown(val, des, callback, timeScroll);\n } else {\n callback();\n }\n }",
+                "sink-param2": "Math.ceil(None)1000",
+                "line": "770 - 778",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf43b23340>, 3000)",
+                "sink-param1": "function () {\n callback();\n }",
+                "sink-param2": 3000,
+                "line": "735 - 737",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf43a81e80>, 5000)",
+                "sink-param1": "function () {\n window.location.href = $(o).attr(\"href\");\n }",
+                "sink-param2": 5000,
+                "line": "646 - 648",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf4396ebe0>, 5000)",
+                "sink-param1": "function () { InitView(); }",
+                "sink-param2": 5000,
+                "line": "467 - 467",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf439a6730>, 5000)",
+                "sink-param1": "function () { InitView(); }",
+                "sink-param2": 5000,
+                "line": "496 - 496",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf439a6eb0>, 5000)",
+                "sink-param1": "function () { winName = window.name; InitView(); }",
+                "sink-param2": 5000,
+                "line": "507 - 507",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger7": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf439dc2e0>, 5000)",
+                "sink-param1": "function () { InitView(); }",
+                "sink-param2": 5000,
+                "line": "526 - 526",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger8": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf439dce80>, 2000)",
+                "sink-param1": "function () {\n if (oLink != null) {\n var minTimePage = (Math.ceil(Math.random() * 30) * 1000) + 30000;\n var pos = getRealPosition(oLink);\n ScrollDown(pos.y, function () {\n if ((timeViewTotal - timeView) < minTimePage) {\n setTimeout(function () {\n EndPage(true);\n LinkRedirect(oLink);\n }, minTimePage - (timeViewTotal - timeView));\n } else {\n EndPage(true);\n LinkRedirect(oLink);\n }\n });\n }\n }",
+                "sink-param2": 2000,
+                "line": "549 - 565",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger9": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf439f88e0>, None)",
+                "sink-param1": "function () {\n EndPage(true);\n LinkRedirect(oLink);\n }",
+                "sink-param2": null,
+                "line": "555 - 558",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger10": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf43a13d00>, None)",
+                "sink-param1": "function () {\n LinkRedirect(GetRamdomLink());\n }",
+                "sink-param2": null,
+                "line": "578 - 580",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger11": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf43a48760>, time)",
+                "sink-param1": "function () {\n LinkRedirect(GetRamdomLink());\n }",
+                "sink-param2": "time",
+                "line": "605 - 607",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger12": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf4393a130>, 1000)",
+                "sink-param1": "function () {\n timeView -= 1000;\n if (timeView <= 0) {\n window.onbeforeunload = function () { };\n window.close();\n }\n }",
+                "sink-param2": 1000,
+                "line": "429 - 435",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger13": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf438caee0>, 100)",
+                "sink-param1": "function () { RequestLinkFun(); }",
+                "sink-param2": 100,
+                "line": "374 - 374",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger14": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42fb18b0>, 1000)",
+                "sink-param1": "function () {\n if ($(\"#vB_Editor_001 .cke_source.cke_enable_context_menu\").size() > 0) {\n $(\"#vB_Editor_001 .cke_source.cke_enable_context_menu\").val(detailBBCode);\n clearInterval(intervalContent);\n }\n }",
+                "sink-param2": 1000,
+                "line": "203 - 208",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger15": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42fb1e80>, 1000)",
+                "sink-param1": "function () {\n if ($(\"#cke_contents_vB_Editor_001_editor iframe\").size() > 0) {\n $(\"body\", $(\"#cke_contents_vB_Editor_001_editor iframe\").contents()).html(detail);\n clearInterval(intervalContent);\n }\n }",
+                "sink-param2": 1000,
+                "line": "210 - 215",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger16": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42fe7d00>, 1000)",
+                "sink-param1": "function () {\n if ($(\".redactor_MessageEditor\").size() > 0) {\n $(\"body\", $(\".redactor_MessageEditor\").contents()).html(detail);\n clearInterval(intervalContent);\n } else if ($(\"#ctrl_message_html_ifr\").size() > 0) {\n $(\"body\", $(\"#ctrl_message_html_ifr\").contents()).html(detail);\n clearInterval(intervalContent);\n } else if ($(\"div[contenteditable='true']\").size() > 0) {\n $(\"div[contenteditable='true']\").html(detail);\n clearInterval(intervalContent);\n }\n\n }",
+                "sink-param2": 1000,
+                "line": "237 - 249",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger17": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf438534f0>, 1000)",
+                "sink-param1": "function () {\n if ($(\"#vB_Editor_001_mode\").size() > 0) {\n var mode = $(\"#vB_Editor_001_mode\").val();\n if (mode == 0) {\n if ($(\"#vB_Editor_001 .cke_source.cke_enable_context_menu\").size() > 0) {\n $(\"#vB_Editor_001 .cke_source.cke_enable_context_menu\").val(detailBBCode);\n clearInterval(intervalContent);\n }\n } else {\n if ($(\"#cke_contents_vB_Editor_001_editor iframe\").size() > 0) {\n $(\"body\", $(\"#cke_contents_vB_Editor_001_editor iframe\").contents()).html(detail);\n clearInterval(intervalContent);\n }\n }\n }\n if ($(\"#vB_Editor_001_textarea\").size() > 0) {\n $(\"#vB_Editor_001_textarea\").val(detailBBCode);\n clearInterval(intervalContent);\n }\n }",
+                "sink-param2": 1000,
+                "line": "285 - 304",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger18": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(GET, window.JSON.parse(data).LinkPost.protocol//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=winName.replace(unlogin, login).split(_).2)",
+                "sink-param1": "GET",
+                "sink-param2": "window.JSON.parse(data).LinkPost.protocol//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=winName.replace(unlogin, login).split(_).2",
+                "line": "24 - 24",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger19": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42d9f370>, 500)",
+                "sink-param1": "function () {\n if (window.location.href.match(/https:\\/\\/www.google.com\\/recaptcha\\/api\\d\\/anchor/) && $(\"#recaptcha-anchor div.recaptcha-checkbox-checkmark\").length\n && $(\"#recaptcha-anchor div.recaptcha-checkbox-checkmark\").is(':visible') && isScrolledIntoView($(\"#recaptcha-anchor div.recaptcha-checkbox-checkmark\").get(0))) {\n var execute = true;\n\n if (sessionStorage.getItem('accesstime')) {\n if (new Date().getTime() - sessionStorage.getItem('accesstime') < 7000) {\n execute = false;\n }\n }\n\n if (execute) {\n if (parent.name.startsWith(\"spineditor-captcha-\")) {\n $(\"#recaptcha-anchor div.recaptcha-checkbox-checkmark\").click();\n sessionStorage.setItem('accesstime', new Date().getTime());\n }\n }\n clearInterval(sid);\n\n }\n}",
+                "sink-param2": 500,
+                "line": "58 - 78",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger20": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf42dd57f0>, 4000)",
+                "sink-param1": "function () {\n\n if (!window.location.href.toLowerCase().startsWith(\"https://ipv6.google.com/sorry/index\") && !window.location.href.toLowerCase().startsWith(\"https://ipv4.google.com/sorry/index\") && !window.location.href.toLowerCase().startsWith(\"http://ipv6.google.com/sorry/index\") && !window.location.href.toLowerCase().startsWith(\"http://ipv4.google.com/sorry/index\") && !window.location.href.toLowerCase().startsWith(\"https://www.google.com/sorry/index\") && !window.location.href.toLowerCase().startsWith(\"http://www.google.com/sorry/index\")&& !window.location.href.toLowerCase().startsWith(\"http://localhost:9090/processcaptcha.aspx\")) {\n if (window.name == \"spineditor-noncaptcha\" || window.name.startsWith(\"spineditor-captcha-\")) {\n\t\t\t\tcloseTabCaptcha();\n setInterval(function(){closeTabCaptcha();},2000);\n window.close();\n }\n } else {\n if (window.name.startsWith(\"spineditor-captcha-\")) {\n\t\t\t\tvar mid=window.name.replace(\"spineditor-captcha-\",\"\");\n var siteKey = document.getElementsByClassName('g-recaptcha')[0].getAttribute(\"data-sitekey\");\n var pageUrl = window.location.href;\n var url = \"https://spineditor.com/deathByCaptcha2.ashx?sitekey=\" + siteKey + \"&pageurl=\" + encodeURIComponent(pageUrl)+\"&mid=\"+mid;\n $.get(url).success(function (data) {\n if (data != \"\") {\n url = \"https://spineditor.com/deathByCaptcha2.ashx?idcaptcha=\" + data+\"&mid=\"+mid;\n var countReqCaptcha = 0;\n var timeCaptcha = setInterval(function () {\n $.get(url).success(function (datacaptcha) {\n countReqCaptcha++;\n if (datacaptcha) {\n clearInterval(timeCaptcha);\n $(\"#g-recaptcha-response\").val(datacaptcha);\n }\n if (countReqCaptcha == 40) {\n clearInterval(timeCaptcha);\n }\n }).error(function(xhr, statusText) { \n\t\t\t\t\t\t\t\tconsole.log(\"Error: \"+statusText); \n\t\t\t\t\t\t\t})\n }, 5000);\n }\n }).error(function(xhr, statusText) { \n\t\t\t\t\tconsole.log(\"Error: \"+statusText); \n\t\t\t\t})\n\t\t\t\t\n\t\t\t\tvar timeCatpchaSubmit = setInterval(function () {\n\t\t\t\t\tif ($(\"#g-recaptcha-response\").size() > 0) {\n\t\t\t\t\t\tif ($(\"#g-recaptcha-response\").val().trim() != \"\") {\n\t\t\t\t\t\t\tif ($(\"#captcha-form\").size() > 0) {\n\t\t\t\t\t\t\t\t$(\"#captcha-form\").submit();\n\t\t\t\t\t\t\t\t clearInterval(timeCatpchaSubmit);\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\t$(\"input[name='submit']\").click();\n\t\t\t\t\t\t\t\t$(\"input[name='submit']\").attr(\"disabled\", \"disabled\");\n\t\t\t\t\t\t\t\tclearInterval(timeCatpchaSubmit);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}, 2000);\n } \n }\n }",
+                "sink-param2": 4000,
+                "line": "97 - 150",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger21": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42deefd0>, 2000)",
+                "sink-param1": "function(){closeTabCaptcha();}",
+                "sink-param2": 2000,
+                "line": "102 - 102",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger22": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42f26550>, 5000)",
+                "sink-param1": "function () {\n $.get(url).success(function (datacaptcha) {\n countReqCaptcha++;\n if (datacaptcha) {\n clearInterval(timeCaptcha);\n $(\"#g-recaptcha-response\").val(datacaptcha);\n }\n if (countReqCaptcha == 40) {\n clearInterval(timeCaptcha);\n }\n }).error(function(xhr, statusText) { \n\t\t\t\t\t\t\t\tconsole.log(\"Error: \"+statusText); \n\t\t\t\t\t\t\t})\n }",
+                "sink-param2": 5000,
+                "line": "115 - 128",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger23": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf42f3f310>, 2000)",
+                "sink-param1": "function () {\n\t\t\t\t\tif ($(\"#g-recaptcha-response\").size() > 0) {\n\t\t\t\t\t\tif ($(\"#g-recaptcha-response\").val().trim() != \"\") {\n\t\t\t\t\t\t\tif ($(\"#captcha-form\").size() > 0) {\n\t\t\t\t\t\t\t\t$(\"#captcha-form\").submit();\n\t\t\t\t\t\t\t\t clearInterval(timeCatpchaSubmit);\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\t$(\"input[name='submit']\").click();\n\t\t\t\t\t\t\t\t$(\"input[name='submit']\").attr(\"disabled\", \"disabled\");\n\t\t\t\t\t\t\t\tclearInterval(timeCatpchaSubmit);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}",
+                "sink-param2": 2000,
+                "line": "134 - 147",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger24": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fbf42f3f2e0>, 3000)",
+                "sink-param1": "function () {\n window.onbeforeunload = function () { };\n if (winName.startsWith(\"spineditorview_\")) {\n InitView();\n } else if (winName.startsWith(\"spineditorpost_\")) {\n ProcessPostForum();\n }\n }",
+                "sink-param2": 3000,
+                "line": "151 - 158",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger25": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7fbf438e8c10>, 500)",
+                "sink-param1": "function () {\n chrome.runtime.sendMessage({ type: \"PostRequest\", obj: evt.detail }, function (response) {\n var data = \"\";\n try {\n data = response.response;\n } catch (ex) {\n\n }\n if (data != \"\") {\n clearInterval(timeReq);\n if (data == '-1' || data == '-2' || data == '-3') {\n var event = document.createEvent('CustomEvent');\n event.initCustomEvent('AjaxLinkError', true, false, data);\n document.dispatchEvent(event);\n } else {\n var event = document.createEvent('CustomEvent');\n event.initCustomEvent('AjaxLinkSuccess', true, false, data);\n document.dispatchEvent(event);\n }\n }\n });\n }",
+                "sink-param2": 500,
+                "line": "396 - 417",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "get",
+                "value": "$.get(https://spineditor.com/deathByCaptcha2.ashx?sitekey=document.getElementsByClassName(g-recaptcha).0.getAttribute(data-sitekey)&pageurl=encodeURIComponent(window.JSON.parse(data).LinkPost.href)&mid=window.spineditorview_parseInt(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).substring(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.",
+                "sink-param1": "https://spineditor.com/deathByCaptcha2.ashx?sitekey=document.getElementsByClassName(g-recaptcha).0.getAttribute(data-sitekey)&pageurl=encodeURIComponent(window.JSON.parse(data).LinkPost.href)&mid=window.spineditorview_parseInt(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).substring(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexO",
+                "line": "111 - 111",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "get",
+                "value": "$.get(https://spineditor.com/deathByCaptcha2.ashx?idcaptcha=None&mid=window.spineditorview_parseInt(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).substring(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substr",
+                "sink-param1": "https://spineditor.com/deathByCaptcha2.ashx?idcaptcha=None&mid=window.spineditorview_parseInt(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).substring(spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).substring(spineditorview_parseInt(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).substring(0, spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).substring(spineditorview_None_None_spinView.substring(spinView.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(;)1).indexOf(_)1).indexOf(_)))_None_temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).indexOf(_)1).substring(temp.substring(temp.indexOf(_)1).substring(temp.substring(te",
+                "line": "116 - 116",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(GET, linkUrl)",
+                "sink-param1": "GET",
+                "sink-param2": "linkUrl",
+                "line": "186 - 186",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7fbf428a8dc0>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{ code: \"winName=\\\"spineditorview_\" + request.Id + \"_\" + (request.Time * 1000) + \"_\" + spinView + \"\\\";\" }",
+                "line": "46 - 46",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7fbf428c1fa0>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{ code: \"winName='spineditorpost_unlogin_\" + request.Id + \"'\" }",
+                "line": "60 - 60",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(GET, request.obj.obj)",
+                "sink-param1": "GET",
+                "sink-param2": "request.obj.obj",
+                "line": "87 - 87",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id1, <pdg_js.node.ValueExpr object at 0x7fbf4290e760>)",
+                "sink-param1": "tab.id1",
+                "sink-param2": "{ code: \"window.name='spineditor-captcha-\"+request.mid+\"'\" }",
+                "line": "101 - 101",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id1, <pdg_js.node.ValueExpr object at 0x7fbf4290eaf0>)",
+                "sink-param1": "tab.id1",
+                "sink-param2": "{ code: \"window.name='spineditor-noncaptcha'\" }",
+                "line": "103 - 103",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7fbf42929340>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{ code: \"window.name='spineditor-captcha-\"+request.mid+\"'\" }",
+                "line": "113 - 113",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7fbf429296d0>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{ code: \"window.name='spineditor-noncaptcha'\" }",
+                "line": "115 - 115",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, request.obj.obj.url)",
+                "sink-param1": "POST",
+                "sink-param2": "request.obj.obj.url",
+                "line": "149 - 149",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

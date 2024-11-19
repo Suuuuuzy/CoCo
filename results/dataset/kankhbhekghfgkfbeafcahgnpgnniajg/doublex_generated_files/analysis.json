@@ -1,0 +1,24 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "history.search",
+                "value": "chrome.history.search(<pdg_js.node.ValueExpr object at 0x7fe1aee8df10>, <pdg_js.node.FunctionExpression object at 0x7fe1aee8df40>)",
+                "sink-param1": "{ text: query, maxResults: 10 }",
+                "sink-param2": "(res) => {\n resolve(res);\n }",
+                "line": "419 - 421",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

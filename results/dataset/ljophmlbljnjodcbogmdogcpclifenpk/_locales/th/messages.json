@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "ผู้ส่ง AirMedia"
+  },
+  "appDesc": {
+    "message": "สะท้อนอุปกรณ์ของคุณกับหน้าจอคอมพิวเตอร์ใดๆ ได้ทุกเมื่อ"
+  },
+  "extTitle": {
+    "message": "ผู้ส่ง AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "เชื่อมต่อไปยัง AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "แสดงเดสก์ท็อป"
+  },
+  "tip_sel_dsk": {
+    "message": "วิดีโอเท่านั้นจะเป็นแบบสะท้อน"
+  },
+  "hit_pin": {
+    "message": "ป้อนรหัส PIN"
+  },
+  "tip_sel_tab": {
+    "message": "ทั้งวิดีโอและเสียงจะเป็นแบบสะท้อน"
+  },
+  "btn_connect": {
+    "message": "เชื่อมต่อ"
+  },
+  "btn_cancel": {
+    "message": "ยกเลิก"
+  },
+  "btn_stop": {
+    "message": "หยุด"
+  },
+  "btn_ok": {
+    "message": "ตกลง"
+  },
+  "btn_auth_cancel": {
+    "message": "ยกเลิก"
+  },
+  "btn_retry_cancel": {
+    "message": "ยกเลิก"
+  },
+  "btn_retry": {
+    "message": "ลองใหม่"
+  },
+  "hit_warn": {
+    "message": "ไม่สามารถเชื่อมต่อได้ โปรดตรวจสอบการตั้งค่าของคุณ"
+  },
+  "hit_ip": {
+    "message": "ที่อยู่หรือชื่อโฮสต์"
+  },
+  "tip_sel_tab_title": {
+    "message": "แสดงแท็บปัจจุบัน"
+  },
+  "inp_pincode_helper_text": {
+    "message": "รหัส PIN ไม่ถูกต้อง โปรดลองอีกครั้ง"
+  }
+}

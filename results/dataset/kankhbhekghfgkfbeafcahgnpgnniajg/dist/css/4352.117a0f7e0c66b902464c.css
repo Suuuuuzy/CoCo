@@ -1,0 +1,10 @@
+.gmail-ext-prompt {
+    text-align: center;
+    color: #fff;
+}
+
+.gmail-ext-prompt a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "FixPlay G Server",
+    "version": "1.1.1",
+    "manifest_version": 2,
+    "description": "Play Video Server G By Setting a Cookie in Specific Websites",
+    "icons": {
+        "16": "16-on.png",
+        "48": "48-on.png",
+        "128": "128-on.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "16-on.png",
+            "24": "24-on.png",
+            "32": "32-on.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["js/jquery.js", "js/content.js"]
+        },
+        {
+            "matches": [
+            	"*://localhost/*",
+				"*://*.kotakhitam.casa/*",
+				"*://*.kotakputih.casa/*",
+				"*://dutaxx1.com/*",
+				"*://*.dutaxx1.com/*",
+				"*://indxxi.link/*",
+		        "*://*.indxxi.link/*",
+		        "*://indxxi.xyz/*",
+		        "*://*.indxxi.xyz/*",
+		        "*://gdriveplayer.net/*",
+		        "*://*.gdriveplayer.net/*",
+		        "*://driveplayer.net/*",
+		        "*://*.driveplayer.net/*",
+		        "*://193.164.131.42/*",
+                "*://204.48.22.58/*",
+		        "*://104.248.67.9/*",
+		        "*://159.65.7.78/*",
+		        "*://174.138.17.52/*",
+		        "*://188.166.222.161/*"
+            ],
+            "js": ["js/jquery.js", "js/iframe.js"],
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "cookies",
+		"*://drive.google.com/*"
+    ],
+    "externally_connectable": {
+        "matches": [
+        "*://localhost/*",
+		"*://*.kotakhitam.casa/*",
+		"*://*.kotakputih.casa/*",
+		"*://dutaxx1.com/*",
+		"*://*.dutaxx1.com/*",
+		"*://indxxi.link/*",
+        "*://*.indxxi.link/*",
+        "*://indxxi.xyz/*",
+        "*://*.indxxi.xyz/*",
+        "*://gdriveplayer.net/*",
+        "*://*.gdriveplayer.net/*",
+        "*://driveplayer.net/*",
+        "*://*.driveplayer.net/*",
+        "*://193.164.131.42/*",
+        "*://204.48.22.58/*",
+        "*://104.248.67.9/*",
+        "*://159.65.7.78/*",
+        "*://174.138.17.52/*",
+        "*://188.166.222.161/*"
+	]
+    }
+}

@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Appareil AirMedia émetteur"
+  },
+  "appDesc": {
+    "message": "Répliquez l'écran de votre appareil sur n'importe quel ordinateur quand vous le souhaitez"
+  },
+  "extTitle": {
+    "message": "Appareil AirMedia émetteur"
+  },
+  "titleConnectRecv": {
+    "message": "Connexion à AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Présenter le bureau"
+  },
+  "tip_sel_dsk": {
+    "message": "Seule la vidéo sera répliquée"
+  },
+  "hit_pin": {
+    "message": "Saisir le code PIN"
+  },
+  "tip_sel_tab": {
+    "message": "La vidéo et le son seront répliqués"
+  },
+  "btn_connect": {
+    "message": "CONNEXION"
+  },
+  "btn_cancel": {
+    "message": "ANNULER"
+  },
+  "btn_stop": {
+    "message": "ARRÊTER"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANNULER"
+  },
+  "btn_retry_cancel": {
+    "message": "ANNULER"
+  },
+  "btn_retry": {
+    "message": "RÉESSAYER"
+  },
+  "hit_warn": {
+    "message": "Connexion impossible. Vérifiez vos paramètres."
+  },
+  "hit_ip": {
+    "message": "Adresse IP ou nom d'hôte"
+  },
+  "tip_sel_tab_title": {
+    "message": "Présenter l'onglet actuel"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Code PIN incorrect. Veuillez réessayer."
+  }
+}

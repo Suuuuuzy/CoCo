@@ -1,0 +1,129 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(unloadVoiceActivation, 500)",
+                "sink-param1": "unloadVoiceActivation",
+                "sink-param2": 500,
+                "line": "1325 - 1325",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(loadVoiceActivation, 500)",
+                "sink-param1": "loadVoiceActivation",
+                "sink-param2": 500,
+                "line": "1235 - 1235",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fcda8e01880>, 60000)",
+                "sink-param1": "function() {\n\t\tif (pendingTabCommands[tabId] && pendingTabCommands[tabId].indexOf(command) !== -1) { // Still pending and the same command is there (so nothing happened so far)\n\t\t\tdelete pendingTabCommands[tabId]; // Remove the pending events\n\t\t}\n\t}",
+                "sink-param2": 60000,
+                "line": "595 - 599",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(loadVoiceActivation, [2000, 0])",
+                "sink-param1": "loadVoiceActivation",
+                "sink-param2": [
+                    2000,
+                    0
+                ],
+                "line": "466 - 466",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(unloadVoiceActivation, [2000, 0])",
+                "sink-param1": "unloadVoiceActivation",
+                "sink-param2": [
+                    2000,
+                    0
+                ],
+                "line": "470 - 470",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fcdc45f25e0>, 4000)",
+                "sink-param1": "function() {\n\t\t\tchrome.notifications.clear(notificationId);\n\t\t}",
+                "sink-param2": 4000,
+                "line": "395 - 397",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger7": {
+                "danger": "setTimeout",
+                "value": "setTimeout(processQueue, 22)",
+                "sink-param1": "processQueue",
+                "sink-param2": 22,
+                "line": "760 - 760",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger8": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>, 22)",
+                "sink-param1": "<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>",
+                "sink-param2": 22,
+                "line": "775 - 775",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger9": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>, 22)",
+                "sink-param1": "<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>",
+                "sink-param2": 22,
+                "line": "790 - 790",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger10": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>, 22)",
+                "sink-param1": "<pdg_js.node.Identifier object at 0x7fcdb2d25eb0>",
+                "sink-param2": 22,
+                "line": "809 - 809",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger11": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7fcda8da74c0>, 2000)",
+                "sink-param1": "function() {\n\t\t\tif (webkitRecognizerRunning) {\n\t\t\t\tconsole.log('Auto-cancelling');\n\t\t\t\twebkitRecognizer.abort();\n\t\t\t}\n\t\t}",
+                "sink-param2": 2000,
+                "line": "842 - 847",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger12": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.Identifier object at 0x7fcdacd6bb80>, 5000)",
+                "sink-param1": "<pdg_js.node.Identifier object at 0x7fcdacd6bb80>",
+                "sink-param2": 5000,
+                "line": "885 - 885",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_generated_files/bg.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

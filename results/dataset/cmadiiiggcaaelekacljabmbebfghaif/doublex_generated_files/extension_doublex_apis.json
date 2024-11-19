@@ -1,0 +1,59 @@
+{
+  "_description": "Suspicious APIs considered by DoubleX for /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_generated_files",
+  "cs": {
+    "direct_dangers": {
+      "execution": [
+        "eval",
+        "setInterval",
+        "setTimeout"
+      ],
+      "bypass_sop": [
+        "XMLHttpRequest().open",
+        "XMLHttpRequest.open"
+      ]
+    },
+    "indirect_dangers": {
+      "bypass_sop": [
+        "fetch",
+        "$.ajax",
+        "jQuery.ajax",
+        "$.get",
+        "jQuery.get",
+        "$.post",
+        "jQuery.post",
+        "$http.get",
+        "$http.post"
+      ]
+    },
+    "exfiltration_dangers": {}
+  },
+  "bp": {
+    "direct_dangers": {
+      "execution": [
+        "tabs.executeScript"
+      ],
+      "bypass_sop": [
+        "XMLHttpRequest().open",
+        "XMLHttpRequest.open"
+      ]
+    },
+    "indirect_dangers": {
+      "bypass_sop": [
+        "fetch",
+        "$.ajax",
+        "jQuery.ajax",
+        "$.get",
+        "jQuery.get",
+        "$.post",
+        "jQuery.post",
+        "$http.get",
+        "$http.post"
+      ]
+    },
+    "exfiltration_dangers": {
+      "cookies": [
+        "cookies.getAll"
+      ]
+    }
+  }
+}

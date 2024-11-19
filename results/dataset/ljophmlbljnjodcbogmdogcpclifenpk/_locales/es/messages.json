@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Emisor AirMedia"
+  },
+  "appDesc": {
+    "message": "Reproduzca su dispositivo en cualquier pantalla de ordenador cuando quiera"
+  },
+  "extTitle": {
+    "message": "Emisor AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Conectar a AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Mostrar escritorio"
+  },
+  "tip_sel_dsk": {
+    "message": "Solo se reproducirá el vídeo"
+  },
+  "hit_pin": {
+    "message": "Introduzca el código PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Se reproducirán el audio y el vídeo"
+  },
+  "btn_connect": {
+    "message": "CONECTAR"
+  },
+  "btn_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_stop": {
+    "message": "DETENER"
+  },
+  "btn_ok": {
+    "message": "ACEPTAR"
+  },
+  "btn_auth_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry": {
+    "message": "REINTENTAR"
+  },
+  "hit_warn": {
+    "message": "No se ha podido conectar. Compruebe su configuración."
+  },
+  "hit_ip": {
+    "message": "Dirección IP o nombre de host"
+  },
+  "tip_sel_tab_title": {
+    "message": "Mostrar la ficha actual"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Código PIN incorrecto. Inténtelo de nuevo."
+  }
+}

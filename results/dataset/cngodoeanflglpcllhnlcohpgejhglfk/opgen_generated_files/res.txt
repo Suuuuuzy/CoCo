@@ -1,0 +1,214 @@
+(['36814', '36835', '36843', '36868', '37017', '37252'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 952	var AppList=JSON.parse(AppListDetail);
+	JSON.parse(AppListDetail)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 953	 for(j=0;j<AppList.content.length;j++)
+	AppList.content
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 977												( ($.trim(AppList.content[j].url)!=""&&decodeURIComponent(turl).match(AppList.content[j].url)
+	AppList.content[j]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 991												 ($.trim(AppList.content[j].appId)==$.trim(decodeURIComponent(appName[tab.id]))||appName[tab.id]==""||appName[tab.id]==undefined))
+	AppList.content[j].appId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 1034						                        	xhr3.send("appId="+appId);
+	xhr3.send("appId="+appId)
+
+(['36814', '36835', '36843', '37297', '37436', '37648'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 952	var AppList=JSON.parse(AppListDetail);
+	JSON.parse(AppListDetail)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 953	 for(j=0;j<AppList.content.length;j++)
+	AppList.content
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 977												( ($.trim(AppList.content[j].url)!=""&&decodeURIComponent(turl).match(AppList.content[j].url)
+	AppList.content[j]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 991												 ($.trim(AppList.content[j].appId)==$.trim(decodeURIComponent(appName[tab.id]))||appName[tab.id]==""||appName[tab.id]==undefined))
+	AppList.content[j].appId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 1034						                        	xhr3.send("appId="+appId);
+	xhr3.send("appId="+appId)
+
+(['36814', '36835', '36843', '37684', '37821', '38035'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 952	var AppList=JSON.parse(AppListDetail);
+	JSON.parse(AppListDetail)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 953	 for(j=0;j<AppList.content.length;j++)
+	AppList.content
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 977												( ($.trim(AppList.content[j].url)!=""&&decodeURIComponent(turl).match(AppList.content[j].url)
+	AppList.content[j]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 991												 ($.trim(AppList.content[j].appId)==$.trim(decodeURIComponent(appName[tab.id]))||appName[tab.id]==""||appName[tab.id]==undefined))
+	AppList.content[j].appId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 1034						                        	xhr3.send("appId="+appId);
+	xhr3.send("appId="+appId)
+
+(['36814', '36835', '36843', '38071', '38208', '38422'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 952	var AppList=JSON.parse(AppListDetail);
+	JSON.parse(AppListDetail)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 953	 for(j=0;j<AppList.content.length;j++)
+	AppList.content
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 977												( ($.trim(AppList.content[j].url)!=""&&decodeURIComponent(turl).match(AppList.content[j].url)
+	AppList.content[j]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 991												 ($.trim(AppList.content[j].appId)==$.trim(decodeURIComponent(appName[tab.id]))||appName[tab.id]==""||appName[tab.id]==undefined))
+	AppList.content[j].appId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/bg.js
+Line 1034						                        	xhr3.send("appId="+appId);
+	xhr3.send("appId="+appId)
+
+(['54711', '54820'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1581				            xhr.send(JSON.stringify(data));
+	JSON.stringify(data)
+
+(['60275', '60294', '60482'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with JQ_obj_html_sink
+from jQuery_ajax_result_source to JQ_obj_html_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1678										  data = JSON.parse(data);
+	JSON.parse(data)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1679										  $('#lpad').html(data.IFedWebLaunchpadMsgCode0004);
+	data.IFedWebLaunchpadMsgCode0004
+
+(['60275', '60294', '60694'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with JQ_obj_html_sink
+from jQuery_ajax_result_source to JQ_obj_html_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1678										  data = JSON.parse(data);
+	JSON.parse(data)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1681										$('#logout').html(data.IFedWebLaunchpadMsgCode00099);
+	data.IFedWebLaunchpadMsgCode00099
+
+(['60870', '60906', '61180'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with jQuery_ajax_settings_url_sink
+from jQuery_ajax_result_source to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1479			var userType=JSON.parse(userTypeAndLoggedInUserName);
+	JSON.parse(userTypeAndLoggedInUserName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1507		                             url:userType.amLogoutUrl,
+	userType.amLogoutUrl
+
+(['62695', '62804'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with XMLHttpRequest_post_sink
+from jQuery_ajax_result_source to XMLHttpRequest_post_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1581				            xhr.send(JSON.stringify(data));
+	JSON.stringify(data)
+
+(['68188', '68207', '68395'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with JQ_obj_html_sink
+from jQuery_ajax_result_source to JQ_obj_html_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1678										  data = JSON.parse(data);
+	JSON.parse(data)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1679										  $('#lpad').html(data.IFedWebLaunchpadMsgCode0004);
+	data.IFedWebLaunchpadMsgCode0004
+
+(['68188', '68207', '68607'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with JQ_obj_html_sink
+from jQuery_ajax_result_source to JQ_obj_html_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1678										  data = JSON.parse(data);
+	JSON.parse(data)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1681										$('#logout').html(data.IFedWebLaunchpadMsgCode00099);
+	data.IFedWebLaunchpadMsgCode00099
+
+(['68783', '68819', '69091'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with jQuery_ajax_settings_url_sink
+from jQuery_ajax_result_source to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1479			var userType=JSON.parse(userTypeAndLoggedInUserName);
+	JSON.parse(userTypeAndLoggedInUserName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 1507		                             url:userType.amLogoutUrl,
+	userType.amLogoutUrl
+
+(['70085'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with jQuery_ajax_settings_data_sink
+from jQuery_ajax_result_source to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+
+(['69969'], 'jQuery_ajax_result_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk with jQuery_ajax_settings_data_sink
+from jQuery_ajax_result_source to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/opgen_generated_files/cs_1.js
+Line 170	            var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+

@@ -1,0 +1,189 @@
+{
+    "extension": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x1101aa048>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(chromeSettings) {\n\n var injectedScript = document.createElement('script');\n injectedScript.src = chrome.extension.getURL('js/StravistiX.js');\n injectedScript.onload = function() {\n\n this.parentNode.removeChild(this);\n var inner = document.createElement('script');\n\n if (_.isEmpty(chromeSettings)) { // If settings from chrome sync storage are empty\n chromeSettings = self.userSettings_;\n }\n\n inner.textContent = 'var $ = jQuery;';\n inner.textContent += 'var stravistiX = new StravistiX(' + JSON.stringify(chromeSettings) + ', ' + JSON.stringify(self.appResources_) + ');';\n\n inner.onload = function() {\n this.parentNode.removeChild(this);\n };\n (document.head || document.documentElement).appendChild(inner);\n };\n (document.head || document.documentElement).appendChild(injectedScript);\n }",
+                "line": "1122 - 1144",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "eval",
+                "value": "eval(Strava.Labs.Activities.SegmentLeaderboardView)",
+                "sink-param1": "Strava.Labs.Activities.SegmentLeaderboardView",
+                "line": "1175 - 1175",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(userSettingsResponseData, <pdg_js.node.FunctionExpression object at 0x110ab1e48>)",
+                "sink-param1": "userSettingsResponseData",
+                "sink-param2": "function() {\n // Reload and callback sync get values\n chrome.storage.sync.get(userSettings, function(userSettingsResponseData) {\n\n callback(userSettingsResponseData);\n\n });\n }",
+                "line": "1964 - 1971",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(allData)",
+                "sink-param1": "allData",
+                "line": "1979 - 1979",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110a86c88>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n console.log(userSettingsResponseData);\n var result = userSettingsResponseData[key];\n result = (typeof result === 'undefined') ? null : result;\n callback(result);\n }",
+                "line": "1919 - 1924",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x110a9b6a0>, <pdg_js.node.FunctionExpression object at 0x110a9b6d8>)",
+                "sink-param1": "[key]",
+                "sink-param2": "function(value) {\n value = value[key];\n value = (typeof value == 'undefined') ? null : value;\n callback(value);\n }",
+                "line": "1930 - 1934",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110ab19b0>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n\n userSettingsResponseData[key] = value; // Set value to key\n\n chrome.storage.sync.set(userSettingsResponseData, function() {\n // Reload and callback sync get values\n chrome.storage.sync.get(userSettings, function(userSettingsResponseData) {\n\n callback(userSettingsResponseData);\n\n });\n });\n }",
+                "line": "1960 - 1972",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110ac6198>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n\n callback(userSettingsResponseData);\n\n }",
+                "line": "1966 - 1970",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x110ac65f8>)",
+                "sink-param1": null,
+                "sink-param2": "function(allData) {\n allData[key] = value;\n chrome.storage.local.set(allData);\n callback(allData);\n }",
+                "line": "1977 - 1981",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(None, <pdg_js.node.FunctionExpression object at 0x110add198>)",
+                "sink-param1": null,
+                "sink-param2": "function(data) {\n console.log(data);\n }",
+                "line": "1992 - 1994",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x110add748>)",
+                "sink-param1": null,
+                "sink-param2": "function(data) {\n console.log(data);\n }",
+                "line": "1997 - 1999",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110a86c88>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n console.log(userSettingsResponseData);\n var result = userSettingsResponseData[key];\n result = (typeof result === 'undefined') ? null : result;\n callback(result);\n }",
+                "line": "1919 - 1924",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x110a9b6a0>, <pdg_js.node.FunctionExpression object at 0x110a9b6d8>)",
+                "sink-param1": "[key]",
+                "sink-param2": "function(value) {\n value = value[key];\n value = (typeof value == 'undefined') ? null : value;\n callback(value);\n }",
+                "line": "1930 - 1934",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110ab19b0>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n\n userSettingsResponseData[key] = value; // Set value to key\n\n chrome.storage.sync.set(userSettingsResponseData, function() {\n // Reload and callback sync get values\n chrome.storage.sync.get(userSettings, function(userSettingsResponseData) {\n\n callback(userSettingsResponseData);\n\n });\n });\n }",
+                "line": "1960 - 1972",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userSettings, <pdg_js.node.FunctionExpression object at 0x110ac6198>)",
+                "sink-param1": "userSettings",
+                "sink-param2": "function(userSettingsResponseData) {\n\n callback(userSettingsResponseData);\n\n }",
+                "line": "1966 - 1970",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x110ac65f8>)",
+                "sink-param1": null,
+                "sink-param2": "function(allData) {\n allData[key] = value;\n chrome.storage.local.set(allData);\n callback(allData);\n }",
+                "line": "1977 - 1981",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(None, <pdg_js.node.FunctionExpression object at 0x110add198>)",
+                "sink-param1": null,
+                "sink-param2": "function(data) {\n console.log(data);\n }",
+                "line": "1992 - 1994",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger7": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x110add748>)",
+                "sink-param1": null,
+                "sink-param2": "function(data) {\n console.log(data);\n }",
+                "line": "1997 - 1999",
+                "filename": "/Users/jia/Desktop/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bilbbbdgdimchenccmooakpfomfajepd/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

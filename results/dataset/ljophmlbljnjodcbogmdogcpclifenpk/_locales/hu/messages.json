@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-küldő"
+  },
+  "appDesc": {
+    "message": "Bármikor tükrözheti az eszközét bármilyen számítógépes képernyőre"
+  },
+  "extTitle": {
+    "message": "AirMedia-küldő"
+  },
+  "titleConnectRecv": {
+    "message": "AirMedia-csatlakozás"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Asztal bemutatása"
+  },
+  "tip_sel_dsk": {
+    "message": "Csak a videó lesz tükrözve"
+  },
+  "hit_pin": {
+    "message": "Adja meg a PIN-kódot"
+  },
+  "tip_sel_tab": {
+    "message": "A hang és a videó is tükrözve lesz"
+  },
+  "btn_connect": {
+    "message": "CSATLAKOZÁS"
+  },
+  "btn_cancel": {
+    "message": "MÉGSE"
+  },
+  "btn_stop": {
+    "message": "LEÁLLÍTÁS"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "MÉGSE"
+  },
+  "btn_retry_cancel": {
+    "message": "MÉGSE"
+  },
+  "btn_retry": {
+    "message": "ÚJRAPRÓBÁLKOZÁS"
+  },
+  "hit_warn": {
+    "message": "Nem sikerült kapcsolódni. Kérjük, ellenőrizze a beállításait."
+  },
+  "hit_ip": {
+    "message": "IP-cím vagy gazdagépnév"
+  },
+  "tip_sel_tab_title": {
+    "message": "Aktuális lap bemutatása"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Helytelen PIN-kód. Kérjük, próbálkozzon újra."
+  }
+}

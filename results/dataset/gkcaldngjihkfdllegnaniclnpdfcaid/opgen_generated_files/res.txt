@@ -1,0 +1,8 @@
+(['36330', '36425'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/12_doublex_empoweb_api_result/detected/gkcaldngjihkfdllegnaniclnpdfcaid with chrome_storage_sync_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_storage_sync_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/12_doublex_empoweb_api_result/detected/gkcaldngjihkfdllegnaniclnpdfcaid/opgen_generated_files/bg.js
+Line 1025			storeData('should_store_data', request.data);
+	request.data
+

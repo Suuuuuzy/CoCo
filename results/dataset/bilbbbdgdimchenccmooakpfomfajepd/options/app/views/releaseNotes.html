@@ -1,0 +1,575 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <div class="changelog">
+                <h1>Release notes</h1>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/2.2.1...KamensekD:release-2.3.2">Version 2.3.2 <font size=-1>StraTistiX fork based on StravistiX 2.2.1</font></a>
+       	                 </h2><br>
+						<div>
+							- Greatly improved grade/VAM analysis and flat/uphill/downhill estimates<br>
+							- Added VAM, ascent time and maximum negative grade to overview table<br>
+							- FIX Stationary workouts with altitude, but no distance data<br>
+							- FIX small bug in HR data analysis resulted in wrong (sorted) HR export to CSV<br>
+							- v2.3.1 QuickFIX Mapbox flipper<br>
+						</div>
+						<br>        
+                        <div>
+							TODO - fix having to refresh "race" activities to show TRIMP/aRPEe charts<br>
+							TODO - fix csv export for very long workouts<br>
+						</div>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/2.2.1...KamensekD:release-2.3.0">Version 2.3.0 <font size=-1>StraTistiX fork based on StravistiX 2.2.1</font></a>
+                        </h2><br>
+						<div>
+							- NEW <strong>graphic aRPEe Zones</strong> (~TRIMP/hour) % and minute distribution!<br>
+							&nbsp&nbspNice visualization of percent and minutes spent in different zones<br>
+							- heart rate extended statistics <strong>returned to total elapsed time</strong>, from moving time<br>
+							&nbsp&nbsp(after consideration and case analysis I decided it is better this way, sorry for inconvenience)<br>
+							- <strong>MapFlippers</strong> working again after Strava's changes that made them unfunctional<br>
+							- removed some caching, because it introduced more problems than gains (also fixes CSV export)<br>
+							- more extended statistics view data<br>
+							- fine-tuned some default zones<br>
+							- Various less important additions and fixes<br>
+						</div>
+						<br>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/2.2.1...KamensekD:release-2.2.3">Version 2.2.3 <font size=-1>StraTistiX fork based on StravistiX 2.2.1</font></a>
+                        <br><font size=+0><a target="_blank" href="https://github.com/thomaschampagne/stravistix/releases/tag/2.2.1">Mostly 'Feature' Synced with Thomas Champagne's StravistiX v2.2.1</a></font>
+                        <br>
+			        	<strong><font size=+1>Important changes!</strong> (Some might change in future)</font>
+                        </h2>
+						<div>
+							- statistics now computed on <strong>weighted percentiles</strong><br>
+							&nbsp&nbsp(might have big impact for activities with dynamic sampling period!)<br>
+							- heart rate extended statistics now computed based on <strong>moving time</strong>, not total time<br>
+							&nbsp&nbsp(still not quite sure, which method is better... might decide to include both in future)<br>
+						</div>
+						<br>
+                        <div>
+							- Added CSV export (for easy analysis in spreadsheet software)<br>
+							- Added Ascent speed statistics (VAM) for cycling<br>
+							- Improved 'Best Splits' - click on them to highlight the part of activity they represent!<br>
+							- Improved elevation data accuracy while computing extended statistics.<br>
+							&nbsp&nbsp(Elevation data smoothed using low pass filter with gain matched to Strava's)<br>
+							- Added cadence, power and altitude data in overview table<br>
+							- reordered and added some new data in extended statistics<br>
+							- Weather unis preferences<br>
+							- Various smaller additions and fixes, <u>sorry</u> for bigbug in 2.0.0.1 - settings menu not working :/<br>
+                        </div>
+
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/2.0.0...KamensekD:release-2.0.0.1">Version 2.0.0.1 <font size=-1>StraTistiX fork based on StravistiX 2.0.0</font></a>
+                        <br><font size=+0><a target="_blank" href="https://github.com/thomaschampagne/stravistix/releases/tag/2.0.0">Mostly 'Feature' Synced with Thomas Champagne's StravistiX v2.x</a></font>
+                        <br>
+			        	<strong><font size=+1>BIG UPDATE WITH LOTS OF GREAT NEW FEATURES :)
+			            <br>Rebased to StravistiX v2.0 for easier updates</strong></font></strong>
+                        </h2>
+                        <div>
+							- improved grade profile word description<br>
+							- Added year progression (activity count, distance, elevation, time) table and chart<br>
+							- Added 'Best Splits' (distance, time, elevation, hr,...) to biking activities<br>
+							- export of segments as Virtual Partner (cycling: button under segment compare)<br>
+							- Added segment builder link to segments page<br>
+							- Added biking segment time comparisons to KOM's and PR's<br>
+							- Added weather at activity date/time (wind/temp/clouds/humidity)<br>
+							- more analysis data (climbing time and speed, pedalling time,...)<br>
+							- Searchable common settings<br>
+							- Moved leftside buttons/links under Edit/Action buttons<br>
+							- Moved some leftside links to menu, reordered menu a bit<br>
+							- Changed HR related computations from total to moving time<br>
+							- Filtering altitude for gain computations<br>
+							- Various Fixes (most important was settings page not working)<br>
+							<br>
+							* Credits for many of new features go to <a href=https://github.com/tazmanska>tomasz.terlecki / tazmanska</a> and <a href=https://github.com/glandais>Gabriel Landais / glandais</a> !
+                        </div>
+
+
+                <div class="release">
+                    <div class="release">
+                        <i><h3>
+                        <a target="_blank" href="https://github.com/KamensekD/StraTistiX/releases/latest"><font color='green'>Ideas in consideration for development:</a>
+                        </h3>
+                        <div>- HR zone naming and/or different sets of HR zones
+                        <br/>- Best splits 1km, 5km, 10km, 1hour,... for runs
+                        <br/>- Real Elevation/altitude gained - because Strava is doing a very poor job here...
+                        <br/>- aRPEe Score vs time small chart
+                        <br/>- moving Trimp/Trimp per hour
+                        <br/>- add some more links to interesting Strava-related sites
+                        <br/>
+                        </font>
+                        </div></i>
+                    </div>
+
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.1.1">Version 0.6.1.1 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+							- Mapbox map flipper fixed after Strava's mapbox style change<br/>
+                        </div>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.1.0">Version 0.6.1.0 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+							- return of Google Maps - open activities and selected segments in Google Maps view with StreetView<br/>
+							- added a lot of different Mapbox styles including (now customizable) user-defined Mapbox style<br/>
+                        </div>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.0.6">Version 0.6.0.6 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+							- added basic Open Street Map style to MapFlipper<br/>
+							- new style MapFlipper added also to Segments page<br/>
+							- old style MapFlipper added to Create Segments page (no Mapbox style there, still based on Google Maps)<br/>
+                        </div>
+
+                  <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.0.5">Version 0.6.0.5 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+							- rewritten MapFlipper code - working Open Cycle Map, Landscape, Outdoors and Hike Bike map<br/>
+							- added Custom Mapbox style (it replaces Standard Map) it defaults to Papics's style<br/>
+							  &nbsp&nbsp(for now it can only be changed in source code, sorry...)<br/>
+							- minor change in GPSVisualizer colored profile<br/>
+                            - Removed Mesmeride link (site not working anymore)<br/>
+                        </div>
+
+                    <div class="release"">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:unreleased-0.6.0.4">Version 0.6.0.4 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+                            - Leftclick on drop-down menu icon sends You to My Activity Feed, rightclick to Training/My Activities<br/>
+                            - Hide View Flybys when unnecessery<br/>
+                            - Improved readability of extended stats<br/>
+                        </div>
+
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.0.3ok">Version 0.6.0.3 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+                            - Added GPS Visualizer slope/grade colored map and colored profile *
+                            <br/>- fix for heatmap (centering at your current location)
+                            <br/>- fix for activities without speed/move data
+                            <br/>- other minor changes
+                            <br/>  * works best when using barometric altimeter device for tracking
+                            <br/>
+                        </div>
+                    </div>
+
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.0.2">Version 0.6.0.2 <font size=-1>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+                            Minor unimportant changes
+                            <br/>- using own Google Analytics code
+                        </div>
+                    </div>
+
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.6.0...KamensekD:release-0.6.0.1">Version 0.6.0.1 <font size=-1	>StraTistiX fork based on StravistiX 0.6.0</font></a>
+                        </h2>
+                        <div>
+                            Adds a lot of improvements:
+                            <br/> - aRPEe Score
+                            <br/> - Open Cycle Map and Open Street Map flippers
+                            <br/> - display of important data overview directly on Strava activity page (click on it for detailed graphs)
+                            <br/> - analysis works also for other activity types besides rided and runs
+                            <br/> - adds some more remote views - Jonatan o'Keefe's Annual Summary, Multiple Ride Mapper, Memesride,...
+                            <br/> - tooltip hints
+                            <br/> - zone and other settings tunning
+                            <br/> - some more things I forgot to write about...
+                        </div>
+                    </div>
+                <div class="release">
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.5.5...0.6.0">Version 0.6.0</a>
+                        </h2>
+                        <div>
+                            Customized zones for each Xtended data
+                            <br/>Add TRIMP/Hour
+                            <br/>Change extension name from StravPlus to StravistiX
+                            <br/>Bugs fix
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.5.4...0.5.5">Version 0.5.5</a>
+                        </h2>
+                        <div>
+                            New extended data: Grade %
+                            <br/>Running cadence for one or two legs (option)
+                            <br/>Fixed wrong TRIMP calculation. Using 'exp' instead of 'pow'...
+                            <br/>Fixed Rank=NaN% if athlete had no time in segment
+                            <br/>Fixed activity data load on manual activities
+                            <br/>Shop menu is always shown now
+                            <br/>Extended data graph title updated: units in minutes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        <a target="_blank" href="https://github.com/thomaschampagne/stravistix/compare/0.5.3...0.5.4">Version 0.5.4</a>
+                        </h2>
+                        <div>
+                            Runners can view avanced pace data
+                            <br/>Major bugs fixed from 0.5.3
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.5.3
+                        </h2>
+                        <div>
+                            Fix clear cache on extension update/install. This caused extension crash when using old cache with new extension.
+                            <br/> Add export of your activities as TCX.
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.5.2
+                        </h2>
+                        <div>
+                            HotFix for 0.5.1: some dependencies could not be loaded resulting in extension crash.
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.5.1
+                        </h2>
+                        <div>
+                            Add extended stats for running
+                            <br/>Extended stats now includes: Speed, Power, HR and Cadence graph distribution + table result on 15 zones
+                            <br/>New extended stats panel design for running and cycling
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.10
+                        </h2>
+                        <div>
+                            Add share extension links to twitter
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.9
+                        </h2>
+                        <div>
+                            Add Segment Details remote link on segment page
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.8
+                        </h2>
+                        <div>
+                            Add Surface Area of your activities (raceshape EREA)
+                            <br/>Normalized Power (TrainingPeaks trademarked term) removed. Profit to "Weighted Power" data now
+                            <br/>Intensity Factor (TrainingPeaks trademarked term) removed. Profit to "Punch Factor" data now
+                            <br/>Prepare better veloviewer.com integration (waiting for veloviewer.com side now...)
+                            <br/>Bugs fixes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.7
+                        </h2>
+                        <div>
+                            Inform runners about: "Running Extended Data Features (like current cycling features) will be very soon available in version 0.5.x"
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.6
+                        </h2>
+                        <div>
+                            Activity flash code in activities for Strava mobile App
+                            <br/>Fix bug wheere miles displayed even if metrics chosen in activities
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.5
+                        </h2>
+                        <div>
+                            Fast fix from version 0.4.4. Sry for this...
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.4
+                        </h2>
+                        <div>
+                            Fix unable to remove FTP value in options page
+                            <br/>Improving code to save time later... Invisible on your screen :)
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.3
+                        </h2>
+                        <div>
+                            Minor fixes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.2
+                        </h2>
+                        <div>
+                            Minor fixes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.1
+                        </h2>
+                        <div>
+                            Options GUI look better especially on checkboxes
+                            <br/> Minor fixes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.4.0
+                        </h2>
+                        <div>
+                            Heart Rate Reserve zones distribution now customizable
+                            <br/>New options UI made with angularjs and bootstrap
+                            <br/>Fix Unable to fetch athlete bike odo
+                            <br/>Others tiny fixes
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.3.9
+                    </h2>
+                        <div>
+                            Fix kom-map to achievement-map
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                        Version 0.3.8
+                    </h2>
+                        <div>
+                            Fix nearby segment icons away
+                        </div>
+                    </div>
+                    <div class="release">
+                        <h2 style='margin-bottom:0px'>
+                                Version 0.3.7
+                            </h2>
+                        <div>
+                            Add nearby cycling+running segments added on segment page
+                            <br/>Add average pace in cycling activities
+                            <br/>Add lower quartile power, median power and upper quartile power in cycling activities
+                            <br/>Fixed: Unable to see StravistiX icon menu when highlight option is on.
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.3.6
+                            </h2>
+                            <div>
+                                Cadence/Cadence extended data is now computed while moving.
+                                <br/>Fix wrong "Harmonized Power" for riders with power meter.
+                                <br/>Others minor bug fixes
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.3.2 to 0.3.5
+                            </h2>
+                            <div>
+                                Fixed display text glitches on some pages
+                                <br/>StravistiX menu icon orange
+                                <br/>Others minor bug fixes
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.3.1
+                            </h2>
+                            <div>
+                                Big changes in extension core: Ext recoded from scratch in order to fix memory leaks from v0.2.0 and make new evolutions easier
+                                <br/>Bike activities extended data new look. Possibility to get the activity extended data panel hidden on load
+                                <br/>Cache management of bike Odo for bike activities, force refresh possible
+                                <br/>Fixing hide challenges and new routes which broken in new Strava.com update
+                                <br/>New StravistiX design
+                                <br/>Bug fixes
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.2.0
+                            </h2>
+                            <div>
+                                Add TRIMP (TRaining IMPulse) value to cycling activities. The old stress score has been removed, not relevant any more now.
+                                <br/>Add Heart Rate Reserve (%HRR) value to cycling activities.
+                                <br/>Add Octo zones distribution of Heart Rate Reserve (%HRR) in minutes to cycling activities.
+                                <br/>"Motivation score" now become "Toughness Factor" Standard deviation bug fix of possible square root of negative variance..
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.13
+                            </h2>
+                            <div>
+                                Add standard deviation speed data for cycling activities
+                                <br/>Add Cadence data for cycling activities: cadence %, cadence Time and crank revolutions. A cadence meter needed to get that
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.12
+                            </h2>
+                            <div>
+                                Add Lower Quartile, Median and Upper Quartile speed data for cycling activities
+                                <br/>Add helpers when click on added data in cycling activities
+                                <br/>Add cache system to store analysis data in localStorage which may are long to be computed. The cache is reused when you reload an activity which has one.
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.11
+                            </h2>
+                            <div>
+                                More Stable
+                                <br/>Prepare future for big features...
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.10
+                            </h2>
+                            <div>
+                                Add Watts/KG for cycling activities
+                                <br/>Add VeloViewer Challenges Trophy Cabinet to StravistiX menu
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.9
+                            </h2>
+                            <div>
+                                Bike odo on activities back
+                                <br/>Weighted Power calculation adjusted for cycling activities
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.8
+                            </h2>
+                            <div>
+                                Add Estimated Weighted Power for cycling activities
+                                <br/>Add Estimated Variability Index for cycling activities
+                                <br/>Add Estimated Punch Factor for cycling activities
+                                <br/>Bug fixing
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.7
+                            </h2>
+                            <div>
+                                Hide the challenges in dashboard feed
+                                <br/>Hide the created routes in dashboard feed
+                                <br/>Bug fixing
+                                <br/>Switch app name to 'StravistiX Developper Preview'
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.6
+                            </h2>
+                            <div>
+                                Add this about page
+                                <br/>StravistiX placed first in header
+                                <br/>Add icons in StravistiX menu
+                                <br/>Remove StravistiX settings page popup when extension is updated
+                                <br/>Bug fixing
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.5
+                            </h2>
+                            <div>
+                                Segment Rank percentage now working on all leaderboards (Clubs, following, ...)
+                                <br/>Add bike odo display or not as an option
+                                <br/>Come back to Strava Classic color style
+                                <br/>Add StravistiX features highlighted in bright orange as option (new miscellaneous section).
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.4
+                            </h2>
+                            <div>
+                                Display bike odo on activity page
+                                <br/>Bugs fixing
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="release">
+                            <h2 style='margin-bottom:0px'>
+                                Version 0.1.0 to 0.1.3
+                            </h2>
+                            <div>
+                                Add Motivation Score for cycling activities
+                                <br/>Add Stress Score for cycling activities
+                                <br/>Add Move ratio for cycling activities
+                                <br/>Add Segment rank percentage on full leaderboard
+                                <br/>Add default leaderboard filter
+                                <br/>Add Always enable Grade Adjusted Pace for running activities
+                                <br/>Add Always enable heart rate for running activities
+                                <br/>Add Default Google Map type in activity
+                                <br/>Add links to Flyby, Veloviewer, Raceshape in activity page
+                                <br/>Allow free accounts users to hide premium features
+                                <br/>Add StravistiX menu
+                                <br/>Add Settings page link to StravistiX menu
+                                <br/>Add Global Heat Map to StravistiX menu
+                                <br/>Add user veloviewer link to StravistiX menu
+                                <br/>Add Kom Map link to StravistiX menu
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <h1>What's Next?</h1>
+            <a href='https://twitter.com/champagnethomas' target='_blank'><span>Follow @champagnethomas on twitter</span></a>
+        </div>
+    </div>
+</div>

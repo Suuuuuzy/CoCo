@@ -1,0 +1,22 @@
+.ksCurrency-money {
+    font-size: 0.8em;
+    background-color: #eee;
+    padding: 0.1em 1em;
+}
+
+
+
+.ksCurrency-decimal {
+    font-size: 0.6em;
+    vertical-align: text-top;
+    margin-left: 3px;
+}
+
+.ksCurrency-currency {
+    margin-right: 5px;
+}
+
+.ksCurrency-date {
+    font-size: 0.6em;
+    float: right;
+}

@@ -1,0 +1,129 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "27 - 27",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "32 - 32",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "54 - 54",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236d0970>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/get-details\",\n dataType: \"json\",\n headers: {\n 'Authorization': 'Bearer ' + token\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n console.log('error')\n reject(error);\n }\n }",
+                "line": "241 - 255",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236b6d90>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/search-module?key=\" + key,\n dataType: \"json\",\n headers: {\n 'Authorization': 'Bearer ' + token\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n console.log('error')\n reject(error);\n }\n }",
+                "line": "221 - 235",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236b6340>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/recent-module\",\n dataType: \"json\",\n headers: {\n 'Authorization': 'Bearer ' + token\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n reject(error);\n }\n }",
+                "line": "201 - 214",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba2371a8e0>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/module\",\n dataType: \"json\",\n headers: {\n 'Authorization': 'Bearer ' + token\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n reject(error);\n }\n }",
+                "line": "182 - 195",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236fdee0>)",
+                "sink-param1": "{\n type: \"POST\",\n url: API_URL + \"site/login-with-key\",\n dataType: \"json\",\n data: {\n \"extension_key\": key,\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n reject('something');\n }\n }",
+                "line": "162 - 175",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236fd400>)",
+                "sink-param1": "{\n type: \"POST\",\n url: API_URL + \"site/login\",\n dataType: \"json\",\n data: {\n \"username\": username,\n \"password\": password,\n \"organization_branch_id\": organization_id,\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n reject('something');\n }\n }",
+                "line": "140 - 155",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba236e68e0>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/save-login-error?module_user_id=\" + module_user_id,\n dataType: \"json\",\n headers: {\n 'Authorization': 'Bearer ' + authToken\n },\n success: function (msg) {\n resolve(msg);\n },\n error: function (error) {\n reject(error);\n }\n }",
+                "line": "119 - 132",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "17 - 17",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            },
+            "danger8": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fba237e5e20>)",
+                "sink-param1": "{\n type: \"GET\",\n url: API_URL + \"user/module-auth?module_id=\" + moduleId,\n headers: {\n 'Authorization': 'Bearer ' + token\n },\n dataType: \"json\",\n success: function (data) {\n url = data.data.url;\n console.log(data.data)\n window.browser.tabs.create({ url: url }, async tab => {\n injectDataToPage(data.data, tab)\n });\n },\n error: function (error) {\n reject('something');\n }\n }",
+                "line": "32 - 49",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "17 - 17",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

@@ -1,0 +1,1 @@
+Error: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/foikfmnjgoljejophccdlhenbkogiemo error during test graph

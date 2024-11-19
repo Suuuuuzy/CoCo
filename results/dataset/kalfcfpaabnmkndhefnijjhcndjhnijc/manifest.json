@@ -1,0 +1,53 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "myGSTcafe",
+  "manifest_version": 2,
+  "default_locale": "en_US",
+  "offline_enabled": false,
+
+  "description": "This Chrome Extesion is used with myGSTcafe to automate GSTN Portal activities such as Login, Create Challans, etc.  and many more.",
+  "author" : "Satish Bhatia",
+  "version": "0.0.81",
+  "permissions": [
+    "tabs", "https://www.gst.gov.in/*",
+	"https://services.gst.gov.in/*",
+	"https://return.gst.gov.in/*",
+"https://fogstr4.gst.gov.in/*",
+"https://payment.gst.gov.in/*",
+	"http://mygstcafe.com/*",
+"https://mygstcafe.com/*","http://localhost/*","storage"
+    ],
+    "background": {
+      "scripts": [ "background.js" ],
+      "persistent": false
+    },
+    "icons":{
+      "16": "icon16.png",
+      "48": "icon48.png",
+     "128": "icon128.png" 
+    },
+    "content_scripts": [
+      {
+        "js": ["jquery-1.12.2.min.js","content.js"],
+        "matches": ["https://www.gst.gov.in/*",
+	"https://services.gst.gov.in/*",
+	"https://return.gst.gov.in/*",
+"https://fogstr4.gst.gov.in/*",
+"https://payment.gst.gov.in/*",
+	"http://mygstcafe.com/*",
+"https://mygstcafe.com/*","http://localhost/*"],
+
+        "run_at": "document_start"
+      }
+    ], 
+   
+    "browser_action": {
+      "default_title": "myGSTcafe",
+      "default_icon":"icon16.png"
+    },  
+	"web_accessible_resources": [
+    "icon16.png"
+  ]
+
+}

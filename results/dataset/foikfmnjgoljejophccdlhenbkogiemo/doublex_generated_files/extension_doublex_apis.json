@@ -1,0 +1,25 @@
+{
+  "_description": "Suspicious APIs considered by DoubleX for /Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_generated_files",
+  "cs": {
+    "direct_dangers": {
+      "execution": [
+        "eval",
+        "setInterval",
+        "setTimeout"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {}
+  },
+  "bp": {
+    "direct_dangers": {
+      "execution": [
+        "eval",
+        "setInterval",
+        "setTimeout"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {}
+  }
+}

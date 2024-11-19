@@ -1,0 +1,1108 @@
+/* Google SERP text result */
+.em-google-serp-text-member {
+    width: 24px;
+}
+.em-google-serp-text-member:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 4px 4px 0 0;
+}
+.em-google-serp-text-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    width: 24px;
+}
+.em-google-serp-text-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 3px 6px 0 0;
+}
+
+/* Google SERP Adwords */
+.em-google-serp-adwords-member:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 4px 4px 0 0;
+}
+.em-google-serp-adwords-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-adwords-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 3px 6px 0 0;
+}
+
+/* Google PLA single row */
+.em-google-serp-pla-single-row-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-serp-pla-single-row-member-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-single-row-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-serp-pla-single-row-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-single-row-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-serp-pla-single-row-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-pla-single-row-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-serp-pla-single-row-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-serp-pla-single-row-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-serp-pla-single-row-suspect-overlay:hover + .em-google-serp-pla-single-row-suspect {
+    opacity: 1;
+}
+.em-google-serp-pla-single-row-suspect:hover {
+    opacity: 1;
+}
+
+/* Google PLA single-row hovercard */
+.em-google-serp-pla-single-row-hovercard-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-serp-pla-single-row-hovercard-member-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-single-row-hovercard-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-serp-pla-single-row-hovercard-suspect-overlay:hover + .em-google-serp-pla-single-row-hovercard-suspect {
+    opacity: 1;
+}
+.em-google-serp-pla-single-row-hovercard-suspect:hover {
+    opacity: 1;
+}
+
+/** Google SERP PLA multi-row */
+.em-google-serp-pla-multi-row-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-serp-pla-multi-row-member-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-multi-row-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-serp-pla-multi-row-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-multi-row-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-serp-pla-multi-row-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-pla-multi-row-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-serp-pla-multi-row-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-serp-pla-multi-row-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-serp-pla-multi-row-suspect-overlay:hover + .em-google-serp-pla-multi-row-suspect {
+    opacity: 1;
+}
+.em-google-serp-pla-multi-row-suspect:hover {
+    opacity: 1;
+}
+
+/** Google SERP PLA multi-row hovercard */
+.em-google-serp-pla-multi-row-hovercard-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-serp-pla-multi-row-hovercard-member-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect-overlay:hover + .em-google-serp-pla-multi-row-hovercard-suspect {
+    opacity: 1;
+}
+.em-google-serp-pla-multi-row-hovercard-suspect:hover {
+    opacity: 1;
+}
+
+/* Google scrolling carousel */
+.em-google-serp-scrolling-carousel-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 0;
+    z-index: 1;
+}
+.em-google-serp-scrolling-carousel-member-container {
+    background-color: transparent !important;
+}
+.em-google-serp-scrolling-carousel-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-left: 0;
+    z-index: 1;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-serp-scrolling-carousel-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-serp-scrolling-carousel-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-serp-scrolling-carousel-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-serp-scrolling-carousel-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-serp-scrolling-carousel-suspect-overlay:hover + .em-google-serp-scrolling-carousel-suspect {
+    opacity: 1;
+}
+.em-google-serp-scrolling-carousel-suspect:hover {
+    opacity: 1;
+}
+
+/* Google Image SERP results */
+.em-google-image-serp-results-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    background-size: 20px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+}
+.em-google-image-serp-results-member-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-results-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 34px;
+    height: 34px;
+    background-size: 26px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-image-serp-results-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-results-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-image-serp-results-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+.em-google-image-serp-results-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-image-serp-results-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-image-serp-results-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-image-serp-results-suspect-overlay:hover + .em-google-image-serp-results-suspect {
+    opacity: 1;
+}
+.em-google-image-serp-results-suspect:hover {
+    opacity: 1;
+}
+
+/** Google image SERP PLA */
+.em-google-image-serp-pla-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-image-serp-pla-member-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-pla-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-image-serp-pla-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-pla-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-image-serp-pla-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-image-serp-pla-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-image-serp-pla-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-image-serp-pla-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-image-serp-pla-suspect-overlay:hover + .em-google-image-serp-pla-suspect {
+    opacity: 1;
+}
+.em-google-image-serp-pla-suspect:hover {
+    opacity: 1;
+}
+
+/** Google image SERP PLA hovercard */
+.em-google-image-serp-pla-hovercard-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-image-serp-pla-hovercard-member-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-pla-hovercard-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-image-serp-pla-hovercard-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-image-serp-pla-hovercard-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-image-serp-pla-hovercard-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-image-serp-pla-hovercard-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-image-serp-pla-hovercard-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-image-serp-pla-hovercard-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-image-serp-pla-hovercard-suspect-overlay:hover + .em-google-image-serp-pla-hovercard-suspect {
+    opacity: 1;
+}
+.em-google-image-serp-pla-hovercard-suspect:hover {
+    opacity: 1;
+}
+
+/*DELETE ME*/
+/* Google Image SERP sponsored */
+.em-google-image-serp-sponsored-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 19px;
+}
+.em-google-image-serp-sponsored-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 19px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+/* Google Image SERP sponsored 2 */
+.em-google-image-serp-sponsored-2-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 18px;
+    background-position: 0 3px;
+}
+.em-google-image-serp-sponsored-2-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 18px;
+    background-position: 0 3px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* Google Image SERP result title */
+.em-google-image-serp-result-title-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    padding-left: 22px;
+}
+.em-google-image-serp-result-title-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-y: 4px;
+    padding-left: 22px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* Google Image result title */
+.em-google-image-result-title-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-y: 4px;
+    padding-left: 26px;
+}
+.em-google-image-result-title-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-y: 4px;
+    padding-left: 26px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* Google shopping SERP */
+.em-google-shopping-serp-results-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 24px;
+    height: 33px;
+    width: 32px;
+    padding-left: unset;
+}
+.em-google-shopping-serp-results-member-container {
+    background-color: transparent !important;
+}
+.em-google-shopping-serp-results-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 24px;
+    height: 33px;
+    width: 32px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-shopping-serp-results-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-shopping-serp-results-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-shopping-serp-results-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-shopping-serp-results-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-shopping-serp-results-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-shopping-serp-results-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-shopping-serp-results-suspect-overlay:hover + .em-google-shopping-serp-results-suspect {
+    opacity: 1;
+}
+.em-google-shopping-serp-results-suspect:hover {
+    opacity: 1;
+}
+
+/* Google Shopping SERP PLA title */
+.em-google-shopping-serp-pla-unit-name-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-y: 1px;
+    background-position-x: 0;
+    padding-left: 18px;
+}
+.em-google-shopping-serp-pla-unit-name-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-y: 1px;
+    background-position-x: 0;
+    padding-left: 18px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* Google Shopping SERP PLA image */
+.em-google-shopping-serp-pla-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+}
+.em-google-shopping-serp-pla-member-container {
+    background-color: transparent !important;
+}
+.em-google-shopping-serp-pla-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background-position-y: 8px;
+    background-position-x: 8px;
+    background-size: 20px;
+    height: 28px;
+    width: 28px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-google-shopping-serp-pla-suspect-container {
+    background-color: transparent !important;
+}
+.em-google-shopping-serp-pla-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-google-shopping-serp-pla-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-shopping-serp-pla-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-google-shopping-serp-pla-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-google-shopping-serp-pla-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-google-shopping-serp-pla-suspect-overlay:hover + .em-google-shopping-serp-pla-suspect {
+    opacity: 1;
+}
+.em-google-shopping-serp-pla-suspect:hover {
+    opacity: 1;
+}
+
+/* Google Shopping SERP Adwords */
+.em-google-shopping-serp-adwords-member:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 4px 4px 0 0;
+}
+.em-google-shopping-serp-adwords-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+.em-google-shopping-serp-adwords-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 3px 6px 0 0;
+}
+
+/* Google shopping product */
+.em-shopping-product-member {
+    width: 16px;
+    display: inline-block;
+}
+.em-shopping-product-member:before {
+    content: "";
+    display: inline;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin: 0;
+}
+.em-shopping-product-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    width: 16px;
+    display: inline-block;
+}
+.em-shopping-product-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin: 0;
+}
+
+/* Bing SERP text result */
+.em-bing-serp-text-member {
+    width: 20px;
+}
+.em-bing-serp-text-member:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 2px 2px 0 0;
+}
+.em-bing-serp-text-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    width: 20px;
+}
+.em-bing-serp-text-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 2px 2px 0 0;
+}
+
+/* Bing Image SERP results */
+.em-bing-image-serp-results-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    background-size: 20px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+}
+.em-bing-image-serp-results-member-container {
+    background-color: transparent !important;
+}
+.em-bing-image-serp-results-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 34px;
+    height: 34px;
+    background-size: 26px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-bing-image-serp-results-suspect-container {
+    background-color: transparent !important;
+}
+.em-bing-image-serp-results-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-bing-image-serp-results-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+.em-bing-image-serp-results-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-bing-image-serp-results-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-bing-image-serp-results-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-bing-image-serp-results-suspect-overlay:hover + .em-bing-image-serp-results-suspect {
+    opacity: 1;
+}
+.em-bing-image-serp-results-suspect:hover {
+    opacity: 1;
+}
+
+/* Bing Image SERP result title */
+.em-bing-image-serp-result-title-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position-y: 1px;
+    background-size: 14px;
+}
+.em-bing-image-serp-result-title-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position-y: 1px;
+    background-size: 14px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* DuckDuckGo SERP */
+.em-duckduckgo-serp-member {
+    width: 22px;
+    display: inline-block;
+}
+.em-duckduckgo-serp-member:before {
+    content: "";
+    display: inline;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg) no-repeat;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin: 3px 0 0 0;
+}
+.em-duckduckgo-serp-suspect {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    width: 22px;
+    display: inline-block;
+}
+.em-duckduckgo-serp-suspect:before {
+    content: "";
+    display: block;
+    background: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg) no-repeat;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin: 3px 0 0 0;
+}
+
+/* Duckduckgo Image SERP results */
+.em-duckduckgo-image-serp-results-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    background-size: 20px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+}
+.em-duckduckgo-image-serp-results-member-container {
+    background-color: transparent !important;
+}
+.em-duckduckgo-image-serp-results-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 34px;
+    height: 34px;
+    background-size: 26px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    padding-left: unset;
+    text-decoration: line-through !important;
+    opacity: 0.3;
+}
+.em-duckduckgo-image-serp-results-suspect-container {
+    background-color: transparent !important;
+}
+.em-duckduckgo-image-serp-results-suspect-container-parent {
+    opacity: 0.4;
+}
+.em-duckduckgo-image-serp-results-suspect-container-parent a {
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+.em-duckduckgo-image-serp-results-suspect-overlay {
+    background-color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.em-duckduckgo-image-serp-results-suspect-container-parent:hover {
+    opacity: 0.9;
+}
+.em-duckduckgo-image-serp-results-suspect-overlay:hover {
+    opacity: 0;
+}
+.em-duckduckgo-image-serp-results-suspect-overlay:hover + .em-duckduckgo-image-serp-results-suspect {
+    opacity: 1;
+}
+.em-duckduckgo-image-serp-results-suspect:hover {
+    opacity: 1;
+}
+
+/* Duckduckgo Image SERP result title */
+.em-duckduckgo-image-serp-result-title-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 20px;
+}
+.em-duckduckgo-image-serp-result-title-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 20px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+/* Duckduckgo Image result title */
+.em-duckduckgo-image-result-title-member {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-member.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-y: 4px;
+    padding-left: 26px;
+}
+.em-duckduckgo-image-result-title-suspect {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/sikker-shopping-suspect.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-y: 4px;
+    padding-left: 26px;
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+}
+
+
+

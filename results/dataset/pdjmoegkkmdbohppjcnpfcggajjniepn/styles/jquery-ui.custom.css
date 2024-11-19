@@ -1,0 +1,18 @@
+
+.ui-dialog-titlebar {
+    cursor: inherit !important;
+}
+
+.ui-widget-header {
+    border: 1px solid #ffffff !important;
+    background: #ffffff !important;
+}
+
+.ui-button {
+    border: 1px solid #ffffff !important;
+    background: #ffffff !important;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}

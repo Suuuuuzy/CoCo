@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-afsender"
+  },
+  "appDesc": {
+    "message": "Vis din enheds skærm på en hvilken som helst computerskærm når som helst"
+  },
+  "extTitle": {
+    "message": "AirMedia-afsender"
+  },
+  "titleConnectRecv": {
+    "message": "Tilslut til AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Tilstedeværende stationær computer"
+  },
+  "tip_sel_dsk": {
+    "message": "Kun video vil blive sendt"
+  },
+  "hit_pin": {
+    "message": "Indtast pinkode"
+  },
+  "tip_sel_tab": {
+    "message": "Både video og lyd vil blive sendt"
+  },
+  "btn_connect": {
+    "message": "TILSLUT"
+  },
+  "btn_cancel": {
+    "message": "ANNULLER"
+  },
+  "btn_stop": {
+    "message": "STOP"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANNULLER"
+  },
+  "btn_retry_cancel": {
+    "message": "ANNULLER"
+  },
+  "btn_retry": {
+    "message": "PRØV IGEN"
+  },
+  "hit_warn": {
+    "message": "Kan ikke forbinde. Kontrollér dine indstillinger."
+  },
+  "hit_ip": {
+    "message": "IP-adresse eller host-navn"
+  },
+  "tip_sel_tab_title": {
+    "message": "Tilstedeværende aktuel fane"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Forkert pinkode. Prøv igen."
+  }
+}

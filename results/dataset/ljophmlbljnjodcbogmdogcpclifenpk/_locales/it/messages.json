@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Sorgente AirMedia"
+  },
+  "appDesc": {
+    "message": "Effettua il mirroring del dispositivo su qualsiasi computer in qualsiasi momento"
+  },
+  "extTitle": {
+    "message": "Sorgente AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Connetti ad AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Presenta desktop"
+  },
+  "tip_sel_dsk": {
+    "message": "Verrà effettuato solamente il mirroring video"
+  },
+  "hit_pin": {
+    "message": "Inserisci codice PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Verrà effettuato il mirroring audio e video"
+  },
+  "btn_connect": {
+    "message": "CONNETTI"
+  },
+  "btn_cancel": {
+    "message": "ANNULLA"
+  },
+  "btn_stop": {
+    "message": "INTERROMPI"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANNULLA"
+  },
+  "btn_retry_cancel": {
+    "message": "ANNULLA"
+  },
+  "btn_retry": {
+    "message": "RIPROVA"
+  },
+  "hit_warn": {
+    "message": "Impossibile connettersi. Verificare le impostazioni."
+  },
+  "hit_ip": {
+    "message": "Indirizzo IP o nome host"
+  },
+  "tip_sel_tab_title": {
+    "message": "Presenta scheda corrente"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Codice PIN non valido. Riprovare."
+  }
+}

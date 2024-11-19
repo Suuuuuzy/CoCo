@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>GTribe Assistant</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/assistant.css">
+	</head>
+	<body>
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<h1 class="header center red-text text-darken-1">&nbsp;SAMI<span style="font-size:0.5em;vertical-align:text-top;">™</span></h1>
+				<div class="row center">
+					<h5 class="header col s12 light" id="subheader">Your go-to assistant in the world of technology and gaming</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="section">
+				<br><br>
+				<div class="row">
+					<div class="col s12 m4">
+						<div class="icon-block center">
+							<h2 class="red-text text-darken-1"><i class="material-icons">flash_on</i></h2>
+							<h5>Be in Control</h5>
+							<p>Use voice commands to control the social features of GTribe. Search, play music, navigate the site.</p>
+						</div>
+					</div>
+
+					<div class="col s12 m4">
+						<div class="icon-block center">
+							<h2 class="red-text text-darken-1"><i class="material-icons">group</i></h2>
+							<h5>Stay Connected</h5>
+							<p>Call friends, reply to messages and post comments using your voice.</p>
+						</div>
+					</div>
+
+					<div class="col s12 m4">
+						<div class="icon-block center">
+							<h2 class="red-text text-darken-1"><i class="material-icons">settings</i></h2>
+							<h5>Customize</h5>
+							<p>Configure custom commands and macros. Set event reminders and receive alerts. (Coming soon)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container none" id="firstEnableBox">
+			<div class="section">
+				<br><br>
+				<div class="row center">
+					<div class="col s12 center"><a id="audioGrant" class="btn-large waves-effect waves-light red darken-1">Enable SAMI</a></div>
+					<div class="col s12 center"><h6>You will be asked to grant access to your microphone.</h6></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container none" id="settingsBox">
+			<div class="section">
+				<aside id="activation-settings">
+					<br><br>
+					<div class="row center">
+						<h5>How do you want to activate SAMI?</h5>
+					</div>
+					<div class="row center">
+						<div class="col s12 m6">
+							<p>
+								<input name="voiceActivationCommand" type="radio" id="manual" value="manual" />
+								<label for="manual">By clicking the button in the dropdown</label>
+							</p>
+						</div>
+						<div class="col s12 m6">
+							<p>
+								<input name="voiceActivationCommand" type="radio" id="saySAMI" value="saySAMI" checked />
+								<label for="saySAMI">By saying "Hey SAMI"</label>
+							</p>
+						</div>
+					</div>
+				</aside>
+
+				<aside id="sensitivity-settings" class="none">
+					<br><br>
+					<div class="row center">
+						<h5>Configure "Hey SAMI" sensitivity</h5>
+						<p>Increase sensitivity (make Higher) if SAMI doesn't hear when you speak. Decrease sensitivity (make Lower) when SAMI activates more than it should.</p>
+					</div>
+					<div class="row center">
+						<div class="col m3"><h6 class="right">Low</h6></div>
+						<div class="col s12 m6">
+							<p class="range-field">
+								<input type="range" id="sensitivity" min="10" max="40" step="5">
+							</p>
+						</div>
+						<div class="col m3"><h6 class="left">High</h6></div>
+					</div>
+				</aside>
+
+				<aside id="notification-settings">
+					<br><br>
+					<div class="row center">
+						<h5>How do you want SAMI to deliver notifications?</h5>
+					</div>
+					<div class="row center">
+						<div class="col s12 m4 offset-m2">
+							<p>
+								<input name="autoSpeak" type="radio" id="talk" value="talk" />
+								<label for="talk">Talk to me</label>
+							</p>
+						</div>
+						<div class="col s12 m4">
+							<p>
+								<input name="autoSpeak" type="radio" id="notify" value="notify" checked />
+								<label for="notify">Show text notification</label>
+							</p>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+
+		<script src="https://static.gtri.be/extension-settings.js"></script>
+		<script type="text/javascript" src="js/assistant.js"></script>
+	</body>
+</html>

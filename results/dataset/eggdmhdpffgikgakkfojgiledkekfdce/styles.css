@@ -1,0 +1,197 @@
+/*
+Controls Container
+*/
+.dictation-for-gmail-controls {
+  display: flex;
+  flex: 0 0 auto;
+  vertical-align: middle;
+  max-width: 300px;
+  margin-left: 8px;
+  padding-right: 0px;
+  font-size: 0.875rem;
+}
+
+.dictation-for-gmail-controls:after {
+  content: "";
+  margin: 8px 2px 8px 8px;
+  border-right: 1px solid rgba(100,121,143,0.12);
+}
+
+/*
+Button Record
+*/
+.dictation-for-gmail-button .btn-record,
+.dictation-for-gmail-button .layer-front,
+.dictation-for-gmail-button .layer-back {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 2px;
+  border-radius: 32px;
+}
+
+.dictation-for-gmail-button .btn-record .layer-img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 4px;
+  background: url(icon-record-24px.svg) center;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+}
+
+.dictation-for-gmail-button .btn-record {
+  background-color: #fff;
+  box-shadow: 0 1px 1px 1px rgba(60,64,67,0.1), 0 1px 3px 0 rgba(60,64,67,0.20);
+}
+
+.dictation-for-gmail-button .btn-record:hover {
+  background-color: hsla(225, 6%, 13%, 0.06);
+  transition: background-color .15s ease-out;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.dictation-for-gmail-button .btn-record.is-recording {
+  background-color: #C10000;
+}
+
+.dictation-for-gmail-button .btn-record:hover .layer-img {
+  opacity: 0.85;
+  transition: opacity .15s ease-out;
+}
+
+.dictation-for-gmail-button .btn-record.is-recording .layer-img {
+  opacity: 1;
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+.dictation-for-gmail-button .layer-front,
+.dictation-for-gmail-button .layer-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 75ms ease-out;
+}
+
+/* MAKE DYNAMIC */
+.dictation-for-gmail-button .layer-back {
+  transform: scale(0.95);
+}
+
+.dictation-for-gmail-button .btn-record.is-recording .layer-front {
+  display: block;
+  background-color: #E41A1A;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.dictation-for-gmail-button .btn-record.is-recording .layer-back {
+  background-color: hsla(360, 79%, 50%, 0.2);
+}
+
+.dictation-for-gmail-button .btn-record.is-restarting .layer-img {
+  background: url(icon-restart-24px.svg);
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {  -webkit-transform:rotate(360deg);}
+}
+
+/*
+Language Button
+*/
+.dictation-for-gmail-lang-button {
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  height: 20px;
+  min-width: 38px !important;
+  margin: 2px 0 2px 4px;
+  padding: 6px 22px 6px 10px;
+  color: #111;
+  background: transparent url(arrow_drop_down_black_20dp.png) no-repeat 90% 50%;
+  background-size: 18px; 
+  border-radius: 50px;
+  opacity: 0.65;
+  transition: background-color .125s cubic-bezier(0.4,0.0,0.2,1);;
+  cursor: pointer;
+}
+
+.dictation-for-gmail-lang-button:hover {
+  background-color: rgba(32,33,36,0.06);
+}
+
+.dictation-for-gmail-lang-button > * {
+  user-select: none;
+  pointer-events: none;
+}
+
+.dictation-for-gmail-lang-button-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  background: transparent url(icon-lang-options-18px.svg) no-repeat center;
+  background-size: contain;
+}
+
+.dictation-for-gmail-lang-button-label {
+  margin: 2px 0 0 4px;
+  text-transform: uppercase;
+}
+
+/* 
+Language Menu
+*/
+.langMenu {
+  padding-bottom: 0 !important;
+}
+
+.dfg-langmenu-fixed-options {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 0;
+  background-color: #fff;
+  box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+.dfg-langmenu-item {
+  position: relative;
+  
+}
+
+a.dfg-langmenu-item,
+a.dfg-langmenu-item[href],
+a.dfg-langmenu-item:hover,
+a.dfg-langmenu-item:focus {
+  color: #202124;
+  text-decoration: none;
+}
+
+.dfg-langmenu-item:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background: transparent url(icon-menu-shortcuts-20px.svg) no-repeat;
+  opacity: 0.75;
+  transition: opacity .125s ease-out;
+}
+
+.dfg-langmenu-item:hover:after {
+  opacity: 0.9;
+}
+
+.dfg-langmenu-feedback:after {
+  background-image: url(icon-menu-feedback-20px.svg);
+}
+

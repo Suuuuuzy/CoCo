@@ -1,0 +1,215 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set({<pdg_js.node.ValueExpr object at 0x7fd57c198fd0>: {'key': False}})",
+                "sink-param1": {
+                    
+                },
+                "line": "492 - 492",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "59 - 59",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            },
+            "danger2": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tabId, <pdg_js.node.ValueExpr object at 0x7fd57d85d550>)",
+                "sink-param1": "tabId",
+                "sink-param2": "{file: 'js/content.js'}",
+                "line": "53 - 53",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(sender.tab.id, <pdg_js.node.ValueExpr object at 0x7fd57d844310>)",
+                "sink-param1": "sender.tab.id",
+                "sink-param2": "{file: 'js/content.js'}",
+                "line": "67 - 67",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(sender.tab.id, <pdg_js.node.ValueExpr object at 0x7fd577fff160>)",
+                "sink-param1": "sender.tab.id",
+                "sink-param2": "{file: 'js/content.js'}",
+                "line": "80 - 80",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(sender.tab.id, <pdg_js.node.ValueExpr object at 0x7fd577fe3400>)",
+                "sink-param1": "sender.tab.id",
+                "sink-param2": "{file: 'js/content.js'}",
+                "line": "102 - 102",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fd57d5f7070>)",
+                "sink-param1": "{\n\t\t\t\tmusicActiveTab: results[0],\n\t\t\t\tnotificationBlobs: results[1],\n\t\t\t\tavailableTabs: results[2]\n\t\t\t}",
+                "line": "189 - 193",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fd577a50940>, <pdg_js.node.FunctionExpression object at 0x7fd577a509d0>)",
+                "sink-param1": "{\n\t\t\t\tmusicActiveTab: results[0],\n\t\t\t\tnotificationBlobs: results[1],\n\t\t\t\tavailableTabs: results[2]\n\t\t\t}",
+                "sink-param2": "function() {\n\t\t\t\tchrome.runtime.reload();\n\t\t\t}",
+                "line": "200 - 206",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(request.track.artwork_url)",
+                "sink-param1": "request.track.artwork_url",
+                "line": "1094 - 1094",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "59 - 59",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(voiceActivation.key, <pdg_js.node.FunctionExpression object at 0x7fd577879880>)",
+                "sink-param1": "voiceActivation.key",
+                "sink-param2": "function(result) {\n\t\t\t\tresolve(!!result[key]);\n\t\t\t}",
+                "line": "500 - 502",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "59 - 59",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(voiceActivation.key, <pdg_js.node.FunctionExpression object at 0x7fd577879b20>)",
+                "sink-param1": "voiceActivation.key",
+                "sink-param2": "function(result) {\n\t\t\t\tresolve(parseInt(result[key]));\n\t\t\t}",
+                "line": "504 - 506",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "59 - 59",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                        "where": "request"
+                    }
+                }
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fd577999190>, <pdg_js.node.FunctionExpression object at 0x7fd5779990d0>)",
+                "sink-param1": "{availableTabs: []}",
+                "sink-param2": "function(result) {\n\t\t\tavailableTabs = result.availableTabs;\n\t\t\tgetAllTabs().then(function(allTabs) {\n\t\t\t\tvar tabIds = [];\n\n\t\t\t\tallTabs.forEach(function(tab) {\n\t\t\t\t\tif (tab.id >= 0) {\n\t\t\t\t\t\ttabIds.push(tab.id);\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\tavailableTabs = availableTabs.filter(function(tabId) {\n\t\t\t\t\treturn tabIds.includes(tabId);\n\t\t\t\t});\n\n\t\t\t\tresolve(availableTabs);\n\t\t\t});\n\t\t}",
+                "line": "277 - 294",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fd5779466d0>, <pdg_js.node.FunctionExpression object at 0x7fd577946190>)",
+                "sink-param1": "{notificationBlobs: {}}",
+                "sink-param2": "function(result) {\n\t\t\tnotificationBlobs = result.notificationBlobs;\n\t\t\tresolve(notificationBlobs);\n\t\t}",
+                "line": "262 - 265",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(musicActiveTab, <pdg_js.node.FunctionExpression object at 0x7fd57de016a0>)",
+                "sink-param1": "musicActiveTab",
+                "sink-param2": "function(result) {\n\t\t\tmusicActiveTab = null;\n\n\t\t\tvar tabId = result.musicActiveTab;\n\t\t\tif (tabId) {\n\t\t\t\t// Just in case the tab silently died\n\t\t\t\tchrome.tabs.get(tabId, function(tab) {\n\t\t\t\t\tif (tab) {\n\t\t\t\t\t\tmusicActiveTab = tabId;\n\t\t\t\t\t\tresolve(musicActiveTab);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tresolve(null);\n\t\t\t\t\t}\n\t\t\t\t})\n\t\t\t} else {\n\t\t\t\tresolve(null);\n\t\t\t}\n\t\t}",
+                "line": "233 - 250",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(voiceActivation.key, <pdg_js.node.FunctionExpression object at 0x7fd577879880>)",
+                "sink-param1": "voiceActivation.key",
+                "sink-param2": "function(result) {\n\t\t\t\tresolve(!!result[key]);\n\t\t\t}",
+                "line": "500 - 502",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(voiceActivation.key, <pdg_js.node.FunctionExpression object at 0x7fd577879b20>)",
+                "sink-param1": "voiceActivation.key",
+                "sink-param2": "function(result) {\n\t\t\t\tresolve(parseInt(result[key]));\n\t\t\t}",
+                "line": "504 - 506",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fd577999190>, <pdg_js.node.FunctionExpression object at 0x7fd5779990d0>)",
+                "sink-param1": "{availableTabs: []}",
+                "sink-param2": "function(result) {\n\t\t\tavailableTabs = result.availableTabs;\n\t\t\tgetAllTabs().then(function(allTabs) {\n\t\t\t\tvar tabIds = [];\n\n\t\t\t\tallTabs.forEach(function(tab) {\n\t\t\t\t\tif (tab.id >= 0) {\n\t\t\t\t\t\ttabIds.push(tab.id);\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\tavailableTabs = availableTabs.filter(function(tabId) {\n\t\t\t\t\treturn tabIds.includes(tabId);\n\t\t\t\t});\n\n\t\t\t\tresolve(availableTabs);\n\t\t\t});\n\t\t}",
+                "line": "277 - 294",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fd5779466d0>, <pdg_js.node.FunctionExpression object at 0x7fd577946190>)",
+                "sink-param1": "{notificationBlobs: {}}",
+                "sink-param2": "function(result) {\n\t\t\tnotificationBlobs = result.notificationBlobs;\n\t\t\tresolve(notificationBlobs);\n\t\t}",
+                "line": "262 - 265",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(musicActiveTab, <pdg_js.node.FunctionExpression object at 0x7fd57de016a0>)",
+                "sink-param1": "musicActiveTab",
+                "sink-param2": "function(result) {\n\t\t\tmusicActiveTab = null;\n\n\t\t\tvar tabId = result.musicActiveTab;\n\t\t\tif (tabId) {\n\t\t\t\t// Just in case the tab silently died\n\t\t\t\tchrome.tabs.get(tabId, function(tab) {\n\t\t\t\t\tif (tab) {\n\t\t\t\t\t\tmusicActiveTab = tabId;\n\t\t\t\t\t\tresolve(musicActiveTab);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tresolve(null);\n\t\t\t\t\t}\n\t\t\t\t})\n\t\t\t} else {\n\t\t\t\tresolve(null);\n\t\t\t}\n\t\t}",
+                "line": "233 - 250",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

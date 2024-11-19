@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/html/chrome/random-newtab.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" type="image/png" href="/html/skin/icons/128.png">
+    <title>New Tab</title>
+
+    <!-- External Style -->
+    <link rel="stylesheet" type="text/css" href="/html/skin/css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="/html/skin/css/bootstrap.min.css">
+    <!-- Newtab Styles -->
+    <link rel="stylesheet" type="text/css" href="/html/skin/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/html/skin/css/animate.min.css">
+
+    <!-- initialize utils and common -->
+    <script data-source="internal" type="text/javascript" src="/html/chrome/settings.js"></script>
+    <script data-source="internal" type="text/javascript" src="/html/common/prefs-sys.js"></script>
+    <script data-source="internal" type="text/javascript" src="/html/chrome/utils.js"></script>
+    <script data-source="internal" type="text/javascript" src="/html/chrome/fsshare.js?appid=com.battlecreek.offroadoutlaws"></script>
+</head>
+<body>
+
+<!-- background -->
+<div class="background" id="__bg" style="display: none;">
+    <div class="top_gradient"></div>
+    <div class="bottom_gradient"></div>
+</div>
+<script data-source="internal" type="text/javascript" src="/html/search/front-load.js"></script>
+
+<!-- begin main content -->
+<div id="wrapper" style="display: none;">
+
+    <nav>
+        <div class="most_visited">
+            <a id="lnk_topsites">Most Visited</a>
+            <div class="nav_menu" id="topsites_menu">
+                <div>Most Visited Sites</div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="apps">
+            <a id="lnk_tool">Apps</a>
+            <div class="nav_menu" id="tool_menu">
+
+            </div>
+        </div>
+
+        <div class="share">
+            <a id="lnk_share">Share</a>
+            <div class="nav_menu" id="share_menu">
+            </div>
+       </div>
+    </nav>
+
+    <div class="search-box">
+
+        <div id="search-box-wrapper">
+            <div id="search-box">
+                <input id="search-input" dir="auto" type="search" autofocus="autofocus" tabindex="1" placeholder="Search Website"/>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="widght">
+        <div class="toggle" data-toggle="tooltip" data-placement="bottom" title="Click to change your background" style="display:none">
+
+            <span href="#" id="weather" class="clock"><img src="/html/skin/images/clock.png"></span>
+        </div>
+        <div class="time" data-toggle="tooltip" data-placement="bottom" title="Click to change between 24 and 12 hours">
+            <h1 class="hour">
+                12:00
+            </h1>
+            <div class="ampm">AM</div>
+            <div class="date">
+                <p class="day">Saturday</p>
+                <p class="num">31.12.2016</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h1 data-toggle="tooltip" data-placement="bottom" title="Click to change between °F and °C">
+              <span class="val"></span><em class="deg">&deg;</em><span id="weather_widget_unit" class="units">C</span>
+            </h1>
+            <div id="weather_info_display" class="fright" data-toggle="tooltip" data-placement="bottom" title="Click to change city">
+                <div class="condition"></div>
+                <div class="city"></div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="background_selector_widget" class="triangle-top">
+    <div id="tabs">
+        <ul>
+          <li>
+            <a href="#tab-background">
+              <div class="tab-control">Background</div>
+            </a>
+          </li>
+
+          <li>
+              <a href="#tab-setting">
+                  <div class="tab-control">Settings</div>
+              </a>
+          </li>
+        </ul>
+        <div class="main">
+            <div id="tab-background">
+                <ul id="images_selector">
+                    <!--<li><img data-src="bg-01.jpg" src="/html/skin/images/bg-01.jpg"></li>-->
+                </ul>
+            </div>
+
+            <div id="tab-setting">
+                <div class="t-r-a-s">
+                    <ul>
+                        <li>
+                          <label>
+                            <span>Background Animation</span>
+                            <label>
+                              <select id="bg_animations" data-toggle="tooltip" data-placement="top" title="Choose a background animation">
+                              </select>
+                            </label>
+                          </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="bottom" title="Auto hide all elements in newtab page after 10 seconds">
+                                <span>Auto Hide (after 10 seconds)</span>
+                                <label for="enable_autohide" class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_autohide" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Display / Hide &quot;Sticky Notes&quot; in newtab page">
+                              <span>Sticky Notes</span>
+                              <label for="enable_stickynote" class="switch normal" title="on/off">
+                                  <input type="checkbox" id="enable_stickynote" />
+                                  <span class="slider round"></span>
+                                  <span class="on">ON</span>
+                                  <span class="off">OFF</span>
+                              </label>
+                          </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Display / Hide &quot;Todo&quot; in newtab page">
+                                <span>Todo / Tasks</span>
+                                <label for="enable_todo" class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_todo" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Display / Hide &quot;Most Visited&quot; in newtab page">
+                                <span>Most Visited</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_most_visited" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Display / Hide &quot;Apps&quot; in newtab page">
+                                <span>Apps</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_apps" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Display / Hide &quot;Share&quot; in newtab page">
+                                <span>Share</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_share" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Auto change the background in an amount of time">
+                                <span>Slideshow</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_slideshow" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label id="selectTimer">
+                                <span>
+                                    <i class="icon timer_ic"></i>
+                                    Slideshow: Change picture every
+                                </span>
+                                <label>
+                                    <select>
+                                        <option value="5">5 seconds</option>
+                                        <option value="10">10 seconds</option>
+                                        <option value="30">30 seconds</option>
+                                        <option value="60">1 minute</option>
+                                        <option value="600">10 minutes</option>
+                                        <option value="1800">30 minutes</option>
+                                        <option value="3600">1 hour</option>
+                                    </select>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Create a countdown timer to a specific date">
+                                <span>Countdown</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_countdown" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Countdown Position</span>
+                                <select id="countdown_setPosition" data-toggle="tooltip" data-placement="top" title="Change position of Countdown text">
+                                    <option>Bottom Center</option>
+                                    <option>Center</option>
+                                    <option>Top Right</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Countdown To Time</span>
+                                <input type="datetime-local" id="countdown_setTime" data-toggle="tooltip" data-placement="top" title="Change target date-time of Countdown timer">
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Countdown Text</span>
+                                <input type="text" id="countdown_setText" data-toggle="tooltip" data-placement="top" title="Enter &quot;Countdown To...&quot; text. E.g.: My Birthday">
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Text Color</span>
+                                <input type="color" id="countdown_text_color" >
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Countdown Shade</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="countdown_background" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label data-toggle="tooltip" data-placement="top" title="Display snow animation in newtab page">
+                                <span>Snow / Animations</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="enable_snow" />
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li class="sub-li">
+                            <label>
+                                <span>Choose An Animation</span>
+                                <label>
+                                    <select id="snow_type" data-toggle="tooltip" data-placement="top" title="Choose a falling effect">
+                                        <option value="flake">Snow flake</option>
+                                        <option value="ball">Snow ball</option>
+                                        <option value="rain">Rain</option>
+                                        <option value="leaves">Leaves</option>
+                                        <option value="fireworks">Fireworks</option>
+                                    </select>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Set Time Automatically</span>
+                                <label class="switch normal" title="on/off">
+                                    <input type="checkbox" id="setTimeAutomatically">
+                                    <span class="slider round"></span>
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Time Format</span>
+                                <label>
+                                    <select id="time_format">
+                                        <option value="12h">12 Hours</option>
+                                        <option value="24h">24 Hours</option>
+                                    </select>
+                                </label>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Date Format</span>
+                                <label>
+                                    <select id="date_format">
+                                        <option value="{{d}}.{{m}}.{{y}}">Day.Month.Year</option>
+                                        <option value="{{m}}.{{d}}.{{y}}">Month.Day.Year</option>
+                                        <option value="{{y}}.{{m}}.{{d}}">Year.Month.Day</option>
+                                    </select>
+                                </label>
+                            </label>
+                        </li>
+                        <li style="display: none;">
+                            <label>
+                                <span>Temperature Unit</span>
+                                <label>
+                                    <select id="units_weather">
+                                        <option value="imperial">°F</option>
+                                        <option value="metric">°C</option>
+                                    </select>
+                                </label>
+                            </label>
+                        </li>
+						 <li>
+                            <a href="https://coolthemestores.com?utm_campaign=referral&utm_medium=settingbox&utm_source=offroad" target="_blank"> More Themes </a>
+                        </li>
+
+
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgFooter">
+	<a id="extlinks" href="https://coolthemestores.com?utm_campaign=referral&utm_medium=changebackground&utm_source=offroad" style="background-color:#27ae60; font-size:14px; color:#ffffff; border-radius:7px; width:250px; padding:10px 30px 10px 30px; text-decoration:none; font-family:arial" target="_blank" id="extlinks"> More Themes </a>
+
+        <div class="bg-f-r" style="margin-top:10px">
+            <div class="bg-f-c">
+                <label class="checkbox tiny" data-toggle="tooltip" data-placement="top" title="Shuffle all images of current newtab">
+                    <input type="checkbox" id="shuffle_background" />
+                    <span class="checkmark"></span>Shuffle All Images
+                </label>
+            </div>
+            <div class="bg-f-c">
+                <label class="checkbox tiny" data-toggle="tooltip" data-placement="top" title="Shuffle images you mark favorites by clicking &#9825;" >
+                    <input type="checkbox" id="shuffle_favorites" />
+                    <span class="checkmark"></span>Shuffle Favorite Images
+                </label>
+            </div>
+            <div class="bg-f-c">
+                <label class="checkbox tiny" data-toggle="tooltip" data-placement="top" title="Random all images of newtabs you installed and set enabled">
+                    <input type="checkbox" id="random_all_newtab" />
+                    <span class="checkmark"></span>Random All NewTabs
+                </label>
+            </div>
+        </div>
+
+        <div class="bg-f-r">
+            <div class="bg-f-c">
+                <label class="checkbox tiny" data-toggle="tooltip" data-placement="top" title="Mark all images as favorites and then you can quickly dislike a few">
+                    <input type="checkbox" id="favor_all_images" />
+                    <span class="checkmark"></span>Favor All Images
+                </label>
+            </div>
+            <div class="bg-f-c">
+                <label class="checkbox tiny" data-toggle="tooltip" data-placement="top" title="New images are added in minor updates. Automatically mark them as favorites.">
+                    <input type="checkbox" id="favor_new_images" />
+                    <span class="checkmark"></span>Auto Favor New Images
+                </label>
+            </div>
+            <div class="bg-f-c">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+    <div class="undo-box undo-box-hide">
+        <div class="_row">
+            <span id="msg"></span>
+            <span class="undo-btn"  id="undobtn" >Undo</span>
+            <span class="close" id="close-undo-box-btn"></span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="to-do">
+            <a id="lnk_todo">Todo</a>
+            <div class="todo-panel">
+                <div class="blur">
+                    <div class="todo-controller">
+                        <i id="hide_todoPanel">
+                        </i>
+                    </div>
+                    <div class="todo_list">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="newTodo_box">
+                        <input type="text" class="newToDo" placeholder="New Todo" autofocus id="newToDo">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="quotes">
+              <div id="quote" class="quote"></div>
+        </div>
+        <div class="bg-name">
+            <div id="bg_name">
+
+            </div>
+        </div>
+
+      <a href="https://coolthemestores.com?utm_campaign=referral&utm_medium=newtab&utm_source=offroad" style=" font-size:14px; width:150px; text-decoration:none; font-family:arial" target="_blank" id="extlinks2"> More Themes </a>
+		 <span id="background_selector_menu" style="width:300px; text-align:center">Change Background</span>
+        <div class="support">
+
+            <a id="lnk_support">Support</a>
+            <div class="nav_menu" id="support_menu">
+                <div><a class="lnk_eula" href="/ext/eula.html" target="_blank">EULA</a></div>
+                <div><a class="lnk_privacy" href="/ext/privacy.html" target="_blank">Privacy Policy</a></div>
+                <hr>
+                <div><a class="uninstallSelf">Uninstall</a></div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="countDown">
+    <ul id="countdown" style="display: none;">
+      <div class="title" id="countdownTitle">
+
+      </div>
+      <li id="days">
+        <div class="number">00</div>
+        <div class="label">Days</div>
+      </li>
+      <li class="colon">
+          :
+      </li>
+      <li id="hours">
+        <div class="number">00</div>
+        <div class="label">Hours</div>
+      </li>
+      <li class="colon">
+          :
+      </li>
+      <li id="minutes">
+        <div class="number">00</div>
+        <div class="label">Minutes</div>
+      </li>
+      <li class="colon">
+          :
+      </li>
+      <li id="seconds">
+        <div class="number">00</div>
+        <div class="label">Seconds</div>
+      </li>
+    </ul>
+</div>
+<div id="shareModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Share</h4>
+        <button type="button" class="close" data-dismiss="modal"></button>
+
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="carousel row mb-2" id="shareCarousel" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-2 float-left btn" id="btnEmbed" data-dismiss="modal" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Embed">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/embed.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnFacebook" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Facebook">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/facebook.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnTwitter" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Twitter">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/twitter.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnWhatsapp" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Whatsapp">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/whatsapp.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnEmail" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Email">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/email.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-2 float-left btn" id="btnPinterest" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Pinterest">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/pinterest.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnFlipboard" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Flipboard">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/flipboard.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnLinkedIn" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="LinkedIn">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/linkedin.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnMessenger" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Messenger">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/messenger.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnReddit" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Reddit">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/reddit.png" />
+
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-2 float-left btn" id="btnTelegram" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Telegram">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/telegram.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnBlogger" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Blogger">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/blogger.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnWechat" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Wechat">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/wechat.png" />
+                  </div>
+                </div>
+                <div class="col-2 float-left btn" id="btnTumblr" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Tumblr">
+                  <div>
+                    <img class="img-fluid rounded-circle mx-auto d-block sicon" src="https://atlasox.s3.amazonaws.com/demo/tumblr.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a style="margin:0;" id="carousel-control-prev" class="carousel-control-prev" href="#shareCarousel" role="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a style="margin:0;"  id="carousel-control-next" class="carousel-control-next" href="#shareCarousel" role="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="row" style="background-color:#e9ecef">
+            <div class="d-flex flex-fill">
+              <div class="flex-fill"><input id="shareurl" class="form-control" readonly value="" /></div>
+              <div class="my-auto ml-auto btn btn-link" id="lnkCopyText" data-toggle="popover" data-trigger="hover" data-content='Copy to clipboard'>COPY
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="embedModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex flex-fill flex-row flex-column flex-sm-row flex-sm-fill">
+            <div class="d-flex mx-auto" style="max-width:300px;" id="embedPreview"></div>
+            <div class="p-2 flex-fill d-flex flex-column" style="background-color:#e9ecef;">
+                <div><button type="button" class="close" data-dismiss="modal"></button></div>
+                <div><h4 class="modal-title">Embed</h4></div>
+                <div style="flex:1;"><textarea id="embedCode" class="form-control" style="height:100%" readonly value=""> </textarea></div>
+                <div class="d-flex">
+                  <div class="my-auto btn btn-link" id="lnkCopyThumbnail" data-toggle="popover" data-trigger="hover" data-content="Copy to clipboard">Thumbnail</div>
+                  <div class="my-auto ml-auto btn btn-link" id="lnkCopyCode" data-toggle="popover" data-trigger="hover" data-content="Copy to clipboard">COPY</div>
+                  <input type="text" style='position:fixed;left:-1000px' value="" id="dlimg">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- libraries -->
+<script type="text/javascript" src="/html/external/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/html/external/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/html/external/sweetalert.min.js"></script>
+<script type="text/javascript" src="/html/external/tooltip.js"></script>
+<script type="text/javascript" src="/html/external/jquery.pause.js"></script>
+<script type="text/javascript" src="/html/external/popper.min.js"></script>
+<script type="text/javascript" src="/html/external/bootstrap.min.js"></script>
+<!-- newtab features -->
+<script data-source="internal" type="text/javascript" src="/html/search/newtab-base.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/AutoSuggest.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/search-form.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/todo_script.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/countdown.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/effect.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/setTime.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/chrome/assist.js"></script>
+<script data-source="internal" type="text/javascript" src="/html/search/stickynote.js"></script>
+
+</body>
+</html>

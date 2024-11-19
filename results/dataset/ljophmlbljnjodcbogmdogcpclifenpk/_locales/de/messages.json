@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-Sender"
+  },
+  "appDesc": {
+    "message": "Übertragen Sie die Anzeige Ihres Geräts jederzeit auf einen beliebigen Computerbildschirm"
+  },
+  "extTitle": {
+    "message": "AirMedia-Sender"
+  },
+  "titleConnectRecv": {
+    "message": "Mit AirMedia verbinden"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Desktop präsentieren"
+  },
+  "tip_sel_dsk": {
+    "message": "Nur Video wird übertragen"
+  },
+  "hit_pin": {
+    "message": "PIN-Code eingeben"
+  },
+  "tip_sel_tab": {
+    "message": "Sowohl Video als auch Audio werden übertragen"
+  },
+  "btn_connect": {
+    "message": "VERBINDEN"
+  },
+  "btn_cancel": {
+    "message": "ABBRECHEN"
+  },
+  "btn_stop": {
+    "message": "STOPP"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ABBRECHEN"
+  },
+  "btn_retry_cancel": {
+    "message": "ABBRECHEN"
+  },
+  "btn_retry": {
+    "message": "ERNEUT VERSUCHEN"
+  },
+  "hit_warn": {
+    "message": "Verbindung nicht möglich. Bitte überprüfen Sie die Einstellungen."
+  },
+  "hit_ip": {
+    "message": "IP-Adresse oder Hostname"
+  },
+  "tip_sel_tab_title": {
+    "message": "Aktuelle Registerkarte präsentieren"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Ungültiger PIN-Code. Versuchen Sie es bitte erneut."
+  }
+}

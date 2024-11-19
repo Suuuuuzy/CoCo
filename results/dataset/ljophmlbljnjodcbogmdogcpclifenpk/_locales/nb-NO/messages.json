@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-sender"
+  },
+  "appDesc": {
+    "message": "Speil enheten din til en hvilken som helst dataskjerm når som helst"
+  },
+  "extTitle": {
+    "message": "AirMedia-sender"
+  },
+  "titleConnectRecv": {
+    "message": "Koble til AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Tilgjengelig skrivebord"
+  },
+  "tip_sel_dsk": {
+    "message": "Kun video vil bli speilet"
+  },
+  "hit_pin": {
+    "message": "Angi PIN-kode"
+  },
+  "tip_sel_tab": {
+    "message": "Både video og lyd vil bli speilet"
+  },
+  "btn_connect": {
+    "message": "KOBLE TIL"
+  },
+  "btn_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_stop": {
+    "message": "STOPP"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_retry_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_retry": {
+    "message": "PRØV PÅ NYTT"
+  },
+  "hit_warn": {
+    "message": "Kan ikke koble til. Kontroller innstillingene dine."
+  },
+  "hit_ip": {
+    "message": "IP-adresse eller vertsnavn"
+  },
+  "tip_sel_tab_title": {
+    "message": "Tilgjengelig nåværende fane"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Feil PIN-kode. Vennligst prøv igjen."
+  }
+}

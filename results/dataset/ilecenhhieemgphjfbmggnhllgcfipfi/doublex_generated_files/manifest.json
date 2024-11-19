@@ -1,0 +1,27 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 2,
+    "name": "Lync",
+    "description": "Single system to connect all online services for Lync users",
+    "version": "1.0.12",
+    "icons": { "128": "icon_128.png" },
+    "browser_action": {
+        "default_icon": "icon_128.png"
+    },
+    "background": {
+        "scripts": ["js/jquery.min.js", "js/background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "content_scripts": [{
+        "matches": ["https://*/*", "http://*/*"],
+        "run_at": "document_end",
+        "js": ["js/content_scripts.js"]
+    }],
+    "externally_connectable": {
+        "matches": ["http://localhost:4200/*", "https://launcher.letslync.com/*", "https://app.letslync.com/*","https://sso.haatch.in/*"]
+    }
+}

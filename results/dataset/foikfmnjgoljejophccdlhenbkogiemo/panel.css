@@ -1,0 +1,106 @@
+.progress {
+	margin-bottom:3px;
+	background-color:#83aed3;
+	position: relative;
+}
+
+.progress span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	font-weight:bold;
+}
+
+.progress.warning {
+	background-color:#f6ce95;
+}
+.progress.danger {
+	background-color:#e89895;
+}
+.progress.success {
+	background-color:#9dd49d;
+}
+
+
+.vkheroimg
+{
+	float: left;
+	overflow: hidden;
+	position:relative;
+	border-radius:4px;
+	margin: 2px 4px;
+}
+
+.vkheroimg span {
+	position	: absolute;
+	bottom			: 0px;
+	right		: 0px;
+	text-align:right;
+	background: #000;
+	opacity: 0.7;
+	color: yellow;
+	font-weight:bold;
+	padding: 0px 4px;
+	border-radius: 8px 0 0 8px;
+	font-size:13px;
+}
+
+.vkheroimg.fragmentHero span, .vkheroimg.consumable span, .vkheroimg.coin span, .vkheroimg.pseudo span {
+	bottom		: 8px;
+	right		: 7px;
+}
+
+
+.war_not, .war_yes, .war_play, .war_good {
+ content: url('images/icon_war.png');
+}
+
+
+.war_play {
+ margin: 0px -20px -20px 0px;
+}
+.war_yes {
+ margin: 0px 0px -20px -20px;
+}
+.war_not {
+ margin: -20px -20px 0px 0px;
+}
+.war_good {
+ margin: -20px 0px 0px -20px;
+}
+
+.text_p {
+	font-weight:bold;
+	display:inline-block;
+	margin:0px;
+}
+
+.text_p.success {
+	color:#5cb85c;
+}
+.text_p.danger {
+	color:#d9534f;
+}
+.text_p.warning {
+	color:#f0ad4e;
+}
+
+.alert {
+    padding: 7px;
+    margin-bottom: 2px;
+
+}
+
+/* new style */
+.pl_div_btngroup a {
+    font-size:14px;
+}
+
+#setresloot .row .col-md-1, #setresloot .row .col-md-2, #setresloot .row .col-md-3, #setresbloot .row .col-md-1, #setresbloot .row .col-md-2, #setresbloot .row .col-md-3, #setresbloot .row .col-md-4 {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#setresloot .row button, #setresbloot .row button {
+	font-size:16px;
+	padding: .5rem .3rem;
+}

@@ -1,0 +1,42 @@
+.widget-dtime {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.widget-dtime .widget-dtime-item {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    margin: 2px 5px;
+}
+
+.widget-dtime .icon-box img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem !important;
+}
+
+.widget-dtime .title {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.widget-dtime .dtime_container {
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.widget-dtime .time_day_week font {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.widget-dtime .dtime-form .control-label {
+    font-size: 1rem;
+}
+
+.widget-dtime .dtime-form select {
+    width: auto;
+}

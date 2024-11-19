@@ -1,0 +1,66 @@
+(['21000', '21168', '21883'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with chrome_storage_local_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1293		setParams[request.key] = !!request.value;
+	request.value
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1325			var newActivationCommand = parseInt(request.value) || ACTIVATE_SAMI;
+	parseInt(request.value)
+
+(['21000', '21168', '21172'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with chrome_storage_local_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1293		setParams[request.key] = !!request.value;
+	request.value
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1293		setParams[request.key] = !!request.value;
+	setParams[request.key] = !!request.value
+
+(['21000', '21168', '21965'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with chrome_storage_local_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1293		setParams[request.key] = !!request.value;
+	request.value
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1332			var newDetectionSensitivity = parseInt(request.value) || 30;
+	parseInt(request.value)
+
+(['23933', '24067'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with sendResponseExternal_sink
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 686	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1353					resolve(!!result[key]);
+	resolve(!!result[key])
+
+(['24134', '24256'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with sendResponseExternal_sink
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 686	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1357					resolve(parseInt(result[key]));
+	parseInt(result[key])
+
+(['21000', '24475', '24487'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck with fetch_resource_sink
+from bg_chrome_runtime_MessageExternal to fetch_resource_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 937				if (typeof request.track.artist !== 'undefined') {
+	request.track
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/doublex_empoweb_api_result/detected/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 943				getImageBlob(request.track.artwork_url)
+	request.track.artwork_url
+

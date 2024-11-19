@@ -1,0 +1,76 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "get",
+                "value": "$.get(Noneu/id, <pdg_js.node.FunctionExpression object at 0x7f932a5086d0>)",
+                "sink-param1": "Noneu/id",
+                "sink-param2": "aseLink, (content) => {\n let at = /GM_ACTION_TOKEN=\"([^\"]*)\"/.exec(content || '');\n if (!at || at.length === 0) {\n at = /at=([^\"&]*)&/.exec(content || '');\n }\n\n if (at && at[1]) {\n this.token = at[1];\n }\n ",
+                "line": "1126 - 1135",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f932a534520>)",
+                "sink-param1": "t $.ajax({\n type: 'GET',\n dataType: 'xml',\n url: this.getFeedUrl(),\n //timeout: 1000,\n error: (xhr, textStatus, errorThrown) => {\n this.connect = false;\n },\n success: (data, textStatus, xhr) => {\n this.connect = true;\n let regex = /Inbox for (.+?)$/.exec($('feed', data).children('title').text());\n if (regex) {\n this.account = regex[1];\n }\n\n let unreadCount = $('fullcount', data).text();\n // this.setUnreadCount(unreadCount);\n this.unreadCount = parseInt(unreadCount);\n this.mails = [];\n $('entry', data).each((i, entry) => {\n this.setMail($(entry));\n });\n }\n",
+                "line": "1157 - 1180",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "fetch",
+                "value": "fetch(https://abcdpdf.com/api/shortcut/insert?uid=JSON.parse(account).user_id&_t=Date().getTime(), <pdg_js.node.ValueExpr object at 0x7f9329f8c6d0>)",
+                "sink-param1": "https://abcdpdf.com/api/shortcut/insert?uid=JSON.parse(account).user_id&_t=Date().getTime()",
+                "sink-param2": "{\n method: 'post', \n body: JSON.stringify(_shortcut),\n // mode: 'cors'\n headers: {\n 'Authorization': 'Bearer ' + account.token,\n 'Content-Type': 'application/json'\n }\n }",
+                "line": "198 - 206",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax({'success': 'params.success', 'error': 'params.error'})",
+                "sink-param1": {
+                    "success": "params.success",
+                    "error": "params.error"
+                },
+                "line": "1023 - 1023",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "get",
+                "value": "$.get(gmail.detailUrlmail.msg_id, <pdg_js.node.FunctionExpression object at 0x7f932a355af0>)",
+                "sink-param1": "gmail.detailUrlmail.msg_id",
+                "sink-param2": "g_id, (html) => {\n let dom = new DOMParser().parseFromString(html, \"text/html\");\n let tables = Array.from(dom.querySelectorAll(\".maincontent .message\"));\n tables.forEach(messageNode => {\n let message = {};\n message.to = [];\n message.cc = [];\n message.bcc = [];\n\n const fromNode = messageNode.querySelector(\"tr\").querySelector(\"td\");\n if (fromNode) {\n message.from = addressparser(fromNode.textContent)[0];\n } else {\n message.from = '';\n }\n\n const divs = messageNode.querySelectorAll(\"tr\")[1].querySelectorAll(\"td div\");\n divs.forEach((emailNode, i) => {\n if (i == 0 && divs.length >= 2 && divs[1].textContent.toLowerCase().indexOf(\"cc:\") == -1) {\n return;\n }\n let emails = emailNode.textContent;\n emails = emails.replace(/.*:/, \"\");\n if (emailNode.textContent.toLowerCase().indexOf(\"bcc:\") != -1) {\n message.bcc = addressparser(emails);\n }\n else if (emailNode.textContent.toLowerCase().indexOf(\"to:\") != -1) {\n message.to = addressparser(emails);\n }\n else if (emailNode.textContent.toLowerCase().indexOf(\"cc:\") != -1) {\n message.cc = addressparser(emails);\n }\n else {\n message.to = addressparser(emails);\n }\n });\n\n const tds = messageNode.querySelector(\"tr\").querySelectorAll(\"td\");\n if (tds.length) {\n message.date = tds[tds.length - 1].textContent.trim();\n }\n\n const content = messageNode.querySelector(\"tbody > tr:last-child table td\");\n if (content) {\n content.querySelector(\"div\").removeAttribute(\"style\");\n content.querySelector(\"font\").removeAttribute(\"size\");\n Gmail.fixRelativeLinks(content, gmail.baseLink);\n\n message.content = content.innerHTML;\n message.textContent = content.innerText;\n let quotedTextHiddenArray = [\"Quoted text hidden\", \"Texte des messages pr\u00e9c\u00e9dents masqu\u00e9\"];\n for (let a = 0; a < quotedTextHiddenArray.length; a++) {\n let idx = message.textContent.indexOf(\"[\" + quotedTextHiddenArray[a] + \"]\");\n if (idx != -1) {\n message.textContent = message.textContent.substring(0, idx);\n break;\n }\n }\n }\n mail.messages.push(message);\n ",
+                "line": "1031 - 1092",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "history.search",
+                "value": "chrome.history.search(<pdg_js.node.ValueExpr object at 0x7f932a08af10>, <pdg_js.node.FunctionExpression object at 0x7f932a08af40>)",
+                "sink-param1": "{ text: query, maxResults: 10 }",
+                "sink-param2": "(res) => {\n resolve(res);\n }",
+                "line": "419 - 421",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

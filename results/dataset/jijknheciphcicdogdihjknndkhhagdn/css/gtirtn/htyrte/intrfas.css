@@ -1,0 +1,17 @@
+.btn {
+  margin-top: 20px;
+  background: #010101;
+  color: #69C9D0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn span {
+  color: #EE1D52;
+}
+.btn:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HWGame Settings</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link href="bootstrap4-toggle.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="panel.css">
+	<link rel="stylesheet" href="hwimage.css">
+	<link rel="icon" href="images/icon_20.png">
+	<style>
+	.tbl-link-start a {
+		color:#fff;
+		text-decoration:none;
+		padding:5px 8px;
+	}
+	.tbl-link-start a:hover {
+		text-decoration:none;
+		opacity: 0.8;
+	}	
+	.tbl-link-start tr td {
+		padding: 15px 5px;
+	}	
+	#sp_set_version {
+		font-size:14px;
+	}
+	.prov_style {
+		color:#fff;
+		text-decoration:none;
+		padding:5px 8px;
+	}
+	
+	</style>
+	<script src="ga.js"></script>
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">HWGame <span id="sp_set_version">(0.0.0)</span></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav mr-auto" id="myTab" role="tablist">
+		  <li class="nav-item">
+			<a class="nav-link active" id="tblhome-tab" href="#" aria-controls="tblhome" pl-lang="PL_MENU_GENSETTINGS">Основные настройки</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" id="tblserver-tab" href="#" aria-controls="tblserver" pl-lang="PL_BUTTON_SET_SUBMISSET">Настройки отправки данных</a>
+		  </li>
+			<li class="nav-item">
+				<a class="nav-link" id="tbllootbox-tab" href="#" aria-controls="tbllootbox" pl-lang="PL_MENU_LOOTBOXES">Лутбоксы</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="tblbattles-tab" href="#" aria-controls="tblbattles" pl-lang="PL_MENU_BATTLES">Бои</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="tblnewyear-tab" href="#" aria-controls="tblnewyear" pl-lang="PL_MENU_NEWYEAR">Новый год</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="tblhelp-tab" href="#" aria-controls="tblhelp" pl-lang="PL_MENU_HELP">Справка</a>
+			</li>
+		</ul>
+	  </div>
+	</nav>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="tblhome">
+			<div class="container">
+				<div class="starter-template">
+				<h2 class="text-center" pl-lang="PL_LABEL_SETTINGS"></h2>
+				<div id="setres" style="max-width:650px;margin:0 auto;display:none;">
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_TOTEM"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_spirit"></div>
+				  </div>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_ARENA"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_arena"></div>
+				  </div>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_ADVENT"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_advent"></div>
+				  </div>
+				  <div class="row" id="div_set_adventAll" style="display:none;">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_ADVENTALL"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_adventAll"></div>
+				  </div>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_STARMONEY"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_starmoney"></div>
+				  </div>
+				  <hr>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_VERSION"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_version"></div>
+				  </div>
+				  <div class="row">
+					<div class="col-9"><label pl-lang="PL_LABEL_SET_LANGUAGE">Язык</label></div>
+					<div class="col-3"><select class="form-control form-control-sm" id="s_set_lang"><option value="ru">Русский</option><option value="uk">Украинский</option><option value="en">English</option></select></div>
+				  </div>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_SOCNETLAUNCH"></label></div>
+					  <div class="col-3"><select class="form-control form-control-sm" id="s_set_defprov"></select></div>
+				  </div>
+				  <div class="row">
+					  <div class="col-9"><label pl-lang="PL_LABEL_SET_GIFTSGROUP"></label></div>
+					  <div class="col-3 text-right"><input type="checkbox" id="t_set_getgifts"></div>
+				  </div>
+				  <div class="alert alert-primary" role="alert" id="div_set_giftsgroup_info" style="display:none;" pl-lang="PL_LABEL_INFO_GIFTSGROUP"></div>
+				  <hr>
+				  <div class="row">
+					  <div class="col-6" id="div_btn_get_gift_list"><button class="btn btn-success" type="button" id="btn_get_gift_list" pl-lang="PL_BUTTON_SET_GIFTLIST" disabled></button></div>
+					  <div class="col-6 text-right"><a class="btn btn-primary" id="downloadbutton" href="#" pl-lang="PL_BUTTON_SET_DOWNDATA"></a></div>
+				  </div>
+				  <hr id="hraftergifts" style="display:none;">
+				  <div id="divgifts"></div>
+				  <hr>
+				  <h4 class="text-center" pl-lang="PL_LABEL_LAUNCHGAME"></h4>
+				  <div id="divlinkstart"></div>
+				</div>
+				</div>
+			</div><!-- /.container -->
+		</div>
+		<div class="tab-pane fade" id="tblserver">
+			<div class="container">
+				<div class="starter-template">
+					<h2 class="text-center" pl-lang="PL_BUTTON_SET_SUBMISSET"></h2>
+					<div id="setresserv" style="max-width:650px;margin:0 auto;display:none;">
+						<div class="alert alert-primary" role="alert" id="div_sub_info" style="display:none;" pl-lang="PL_SERV_SUB_INFO"></div>
+						<div role="alert" id="div_serv_info"></div>
+						<div class="row justify-content-center">
+							<div class="col-7"><button class="btn btn-block btn-success btn-lg mt-2 mb-2" type="button" id="btn_auth_plugin" style="display:none;" pl-lang="PL_SERV_GET_AUTH"></button></div>
+						</div>
+						<div class="row" style="display:none;">
+							<div class="col-9"><label>Уведомление об обновлениях плагина</label> <small>(в разработке)</small></div>
+							<div class="col-3 text-right"><input type="checkbox" id="t_set_update"></div>
+						</div>
+						<div class="row">
+							<div class="col-9"><label pl-lang="PL_LABEL_SET_SERVER"></label></div>
+							<div class="col-3 text-right"><input type="checkbox" id="t_set_server"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="tbllootbox">
+			<div class="container">
+				<div class="starter-template">
+					<h2 class="text-center" pl-lang="PL_MENU_LOOTBOXES"></h2>
+					<div id="setresbloot" style="margin:0 auto;display:none;"></div>
+					<div id="setresloot" style="margin:0 auto;display:none;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="tblbattles">
+			<div class="flex-container px-5" style="max-width:1350px;margin:0 auto;">
+				<div class="starter-template">
+					<h2 class="text-center" pl-lang="PL_MENU_BATTLES"></h2>
+					<div id="setresBattles" style="margin:0 auto;display:none;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="tblnewyear">
+			<div class="container">
+				<div class="starter-template">
+					<h2 class="text-center" pl-lang="PL_MENU_NEWYEAR"></h2>
+					<div id="setres" style="max-width:750px;margin:0 auto;">
+					  <div class="row">
+						  <div class="col-6 text-right"><label pl-lang="PL_NY_GIFTSSENT"></label>: <span id="panelnygiftssent"></span></div>
+						  <div class="col-6"><label pl-lang="PL_NY_GIFTSRECEIVED"></label>: <span id="panelnygiftsreceived"></span></div>
+					  </div>
+					</div>
+					<div class="alert alert-warning mt-2 mb-3" pl-lang="PL_NY_GIFT_WARN"></div>
+					<div class="alert alert-primary mt-2 mb-3" style="display:none;" id="divnyhelpsite"></div>
+					<textarea id="setresnewyearj" rows="6" class="form-control"></textarea>
+					<div id="setres" style="max-width:750px;margin:0 auto;">
+					  <div class="row">
+						  <div class="col-5"></div>
+						  <div class="col-2"><button class="btn btn-primary" style="margin:0 auto;" id="btnCopyNyGift" pl-lang="PL_NY_COPY">Скопировать</button></div>
+						  <div class="col-5"></div>
+					  </div>
+					  <div class="row">
+						  <div class="col-12 mt-2 mb-2"><h3 class="text-center" pl-lang="PL_NY_SUMRESGIFTS"></h3></div>
+					  </div>
+					  <div class="row">
+						  <div class="col-12" id="sumresnewyeargift"></div>
+					  </div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="tblhelp">
+			<div class="container">
+				<div class="starter-template">
+					<h2 class="text-center" pl-lang="PL_MENU_HELP"></h2>
+					<div id="setreshelptab" style="margin:0 auto;display:none;"></div>
+					<div id="setres4" style="margin:0 auto;display:none;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="bootstrap4-toggle.min.js"></script>
+	<script src="func.js"></script>
+	<script src="settings.js"></script>
+	<script src="hwimage.js"></script>
+  </body>
+</html>

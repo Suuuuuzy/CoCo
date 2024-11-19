@@ -1,0 +1,1041 @@
+(['20045', '20077', '20078'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['20329', '20361', '20362'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['20600', '20632', '20633'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['20871', '20903', '20904'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['21142', '21174', '21175'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['21413', '21445', '21446'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['18041', '38861', '38876'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18163', '38863', '38876'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['20045', '20071', '21513', '38876'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['43384', '43416', '43417'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['43384', '43416', '43822'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['43384', '43416', '43895'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['43384', '43410', '43895'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['44177', '44209', '44210'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['44448', '44480', '44481'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['44448', '44480', '44886'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['44448', '44480', '44958'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['44448', '44474', '44958'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['45240', '45272', '45273'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['45511', '45543', '45544'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['45511', '45543', '45949'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['45511', '45543', '46021'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['45511', '45537', '46021'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['46303', '46335', '46336'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['46574', '46606', '46607'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['46574', '46606', '47012'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['46574', '46606', '47084'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['46574', '46600', '47084'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['47366', '47398', '47399'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['47637', '47669', '47670'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['19658', '19668', '19814', '38975', '47738', '47912'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with fetch_options_sink
+from cs_window_eventListener_message to fetch_options_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1205	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1207	    if(event.data.type === 'search') {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1211	            openEngine(event.data.wd,false)
+	event.data.wd
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1069	            let queryStr = encodeURIComponent(selectionText);
+	encodeURIComponent(selectionText)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1069	            let queryStr = encodeURIComponent(selectionText);
+	encodeURIComponent(selectionText)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 992	            body: 'token='+options.token+'&wd='+request.wd
+	
+
+(['47637', '47669', '48075'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['47637', '47669', '48147'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['47637', '47663', '48147'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['18041', '38861', '56205'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18163', '38863', '56205'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['43384', '43410', '48258', '56205'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18041', '38861', '64213'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18163', '38863', '64213'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['43384', '43410', '48258', '64213'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18041', '38861', '72221'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18163', '38863', '72221'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['43384', '43410', '48258', '72221'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18041', '38861', '80229'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['18163', '38863', '80229'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 472	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['43384', '43410', '48258', '80229'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with XMLHttpRequest_url_sink
+from storage_sync_get_source to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1158	                xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token);
+	xmlHttp.open("post",options.web_host+"/api/log?token="+ response.token)
+
+(['88294', '88326', '88327'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['88294', '88326', '88732'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['88294', '88326', '88804'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['88294', '88320', '88804'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['89086', '89118', '89119'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['89357', '89389', '89390'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['89357', '89389', '89795'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['89357', '89389', '89867'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['89357', '89383', '89867'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['90149', '90181', '90182'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['90420', '90452', '90453'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['90420', '90452', '90858'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['90420', '90452', '90930'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['90420', '90446', '90930'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['91212', '91244', '91245'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['91483', '91515', '91516'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['91483', '91515', '91921'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['91483', '91515', '91993'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['91483', '91509', '91993'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['92275', '92307', '92308'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['92546', '92578', '92579'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['19658', '19668', '19814', '80328', '92646', '92821'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with fetch_options_sink
+from cs_window_eventListener_message to fetch_options_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1205	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1207	    if(event.data.type === 'search') {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1211	            openEngine(event.data.wd,false)
+	event.data.wd
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1069	            let queryStr = encodeURIComponent(selectionText);
+	encodeURIComponent(selectionText)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/cs_0.js
+Line 1069	            let queryStr = encodeURIComponent(selectionText);
+	encodeURIComponent(selectionText)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 992	            body: 'token='+options.token+'&wd='+request.wd
+	
+
+(['92546', '92578', '92984'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 999	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+
+(['92546', '92578', '93056'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['92546', '92572', '93056'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 978	            if(options.token == ''){
+	options.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 1001	                chrome.tabs.create({ url: options.web_host+'/verify_me?token='+options.token+'&t='+(new Date()).valueOf()})
+	
+
+(['93338', '93370', '93371'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj with chrome_tabs_create_sink
+from storage_sync_get_source to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 679	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	options.web_host
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/opgen_generated_files/bg.js
+Line 979	                chrome.tabs.create({ url: options.web_host+'/login' })
+	
+

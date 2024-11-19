@@ -1,0 +1,230 @@
+(['60369'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+
+(['60366', '60470', '60499'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 984	                    ? items.caught_pokemon.push(data.pokemon)
+	items.caught_pokemon.push(data.pokemon)
+
+(['60366', '60470'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+
+(['60366', '60470', '60472'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon.indexOf(data.pokemon)
+
+(['60366'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+
+(['59958', '60070', '60095', '60851', '60863', '60867'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_sync_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 664	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 955	                        JSON.stringify({
+                            userid: result.key,
+                        })
+	JSON.stringify({                            userid: result.key,                        })
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 955	                        JSON.stringify({
+                            userid: result.key,
+                        })
+	JSON.stringify({                            userid: result.key,                        })
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+
+(['60183', '60302', '60327', '60933', '60945', '60949'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_local_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 972	                sendResponse(JSON.stringify(items))
+	JSON.stringify(items)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 972	                sendResponse(JSON.stringify(items))
+	JSON.stringify(items)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+
+(['60180', '60302', '60327', '60933', '60945', '60949'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_local_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 972	                sendResponse(JSON.stringify(items))
+	JSON.stringify(items)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 972	                sendResponse(JSON.stringify(items))
+	JSON.stringify(items)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+
+(['60366', '60470', '60499', '60525', '60550', '60974', '60986', '60990'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_local_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 984	                    ? items.caught_pokemon.push(data.pokemon)
+	items.caught_pokemon.push(data.pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+
+(['60366', '60470', '60525', '60550', '60974', '60986', '60990'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_local_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+
+(['60366', '60470', '60472', '60525', '60550', '60974', '60986', '60990'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with window_postMessage_sink
+from storage_local_get_source to window_postMessage_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon.indexOf(data.pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 987	                sendResponse(JSON.stringify(items.caught_pokemon))
+	JSON.stringify(items.caught_pokemon)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7260							const result = JSON.parse(response)
+	JSON.parse(response)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7263								pokemons: result.caught_pokemon
+	result.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/cs_0.js
+Line 7261							window.postMessage( JSON.stringify({
+							type: "FROM_EXTENSION",
+							pokemons: result.caught_pokemon
+						}), "*")
+	JSON.stringify({       type: "FROM_EXTENSION",       pokemons: result.caught_pokemon      })
+

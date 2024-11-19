@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+  </head>
+  <body>
+
+    <h1 id="randomnumber" class="title" style="display: flex; justify-content: center; font-size: 4em;">
+
+    </h1>
+
+    <div id="canvas-container" style="    display: flex;
+    justify-content: center;"></div>
+
+    <div class="btn-container" style=" display: flex;justify-content: center; ">
+      <div class="btn" id="mint-btn"> Add to Collection </div>
+    </div>
+
+
+  </body>
+
+  <style>
+    .btn {
+      border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+    border-radius: 40px;
+    background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    }
+
+    .btn:hover {
+      box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+    }
+
+    .btn:after {
+      content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+  </style>
+
+
+  <script src="home.js"></script>
+</html>

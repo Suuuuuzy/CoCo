@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-lähetin"
+  },
+  "appDesc": {
+    "message": "Peilaa laitteesi mihin tahansa tietokonenäyttöön milloin vain"
+  },
+  "extTitle": {
+    "message": "AirMedia-lähetin"
+  },
+  "titleConnectRecv": {
+    "message": "Yhdistä AirMediaan"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Esitä työpöytä"
+  },
+  "tip_sel_dsk": {
+    "message": "Vain video peilataan"
+  },
+  "hit_pin": {
+    "message": "Anna PIN-koodi"
+  },
+  "tip_sel_tab": {
+    "message": "Sekä video että ääni peilataan"
+  },
+  "btn_connect": {
+    "message": "YHDISTÄ"
+  },
+  "btn_cancel": {
+    "message": "PERUUTA"
+  },
+  "btn_stop": {
+    "message": "PYSÄYTÄ"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "PERUUTA"
+  },
+  "btn_retry_cancel": {
+    "message": "PERUUTA"
+  },
+  "btn_retry": {
+    "message": "YRITÄ UUDELLEEN"
+  },
+  "hit_warn": {
+    "message": "Yhdistäminen epäonnistui. Tarkista asetuksesi."
+  },
+  "hit_ip": {
+    "message": "IP-osoite tai isäntänimi"
+  },
+  "tip_sel_tab_title": {
+    "message": "Esitä nykyinen välilehti"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Väärä PIN-koodi. Yritä uudelleen."
+  }
+}

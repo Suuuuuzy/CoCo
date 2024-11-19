@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia 傳送者"
+  },
+  "appDesc": {
+    "message": "隨時將您的裝置鏡像到任何電腦螢幕上"
+  },
+  "extTitle": {
+    "message": "AirMedia 傳送者"
+  },
+  "titleConnectRecv": {
+    "message": "連線至 AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "展示桌面"
+  },
+  "tip_sel_dsk": {
+    "message": "僅鏡像影片"
+  },
+  "hit_pin": {
+    "message": "輸入 PIN 碼"
+  },
+  "tip_sel_tab": {
+    "message": "鏡像影片和音訊"
+  },
+  "btn_connect": {
+    "message": "連線"
+  },
+  "btn_cancel": {
+    "message": "取消"
+  },
+  "btn_stop": {
+    "message": "停止"
+  },
+  "btn_ok": {
+    "message": "確定"
+  },
+  "btn_auth_cancel": {
+    "message": "取消"
+  },
+  "btn_retry_cancel": {
+    "message": "取消"
+  },
+  "btn_retry": {
+    "message": "重試"
+  },
+  "hit_warn": {
+    "message": "無法連線。請檢查您的設定。"
+  },
+  "hit_ip": {
+    "message": "IP 位址或主機名稱"
+  },
+  "tip_sel_tab_title": {
+    "message": "展示目前索引標籤"
+  },
+  "inp_pincode_helper_text": {
+    "message": "PIN 碼不正確。請再試一次。"
+  }
+}

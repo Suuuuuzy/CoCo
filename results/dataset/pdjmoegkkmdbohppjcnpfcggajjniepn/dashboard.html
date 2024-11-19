@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<!-- <title>Offline books nubereader</title> -->
+	<title>Lector Biblioteca País</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="styles/roboto.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-dark.css">
+    <link rel="stylesheet" href="styles/switch.css">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/jquery-ui.custom.css">
+
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+	<script src="scripts/date.format.js"></script>
+    <script src="dashboard.js"></script>
+</head>
+<body>
+	<div class="panel">
+        <div class="header">
+            <div class="title-icon pull-left"></div>
+            <div class="title pull-left"></div>
+            <div class="line pull-left"></div>
+            <div class="pull-right" style="line-height: 32px;">
+                <div class="switch">
+                    <div class="switch-bar"></div>
+                    <div class="switch-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="text-alert"><span class="alert-cache-message"></span></div>
+        <div class="text-alert"><span class="alert-online-message"></span></div>
+        <div class="content" id="bookmarks"></div>
+        <div class="empty-section">
+            <img class="img_light" src="media/img_empty_section_light.svg" />
+            <img class="img_dark" src="media/img_empty_section_dark.svg" />
+            <div class="text-badge"></div>
+        </div>
+    </div>
+
+    <div id="dialog"><p></p></div>
+</body>
+</html>

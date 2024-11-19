@@ -1,0 +1,16 @@
+(['184035'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/lonpjbllihccdolpahofjieaklpckdmc with sendResponseExternal_sink
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/lonpjbllihccdolpahofjieaklpckdmc/opgen_generated_files/bg.js
+Line 656	    var storage_sync_get_source = {'key':'value'};
+	
+
+(['184032'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/lonpjbllihccdolpahofjieaklpckdmc with sendResponseExternal_sink
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/lonpjbllihccdolpahofjieaklpckdmc/opgen_generated_files/bg.js
+Line 656	    var storage_sync_get_source = {'key':'value'};
+	
+

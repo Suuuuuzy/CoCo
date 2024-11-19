@@ -1,0 +1,23 @@
+{
+  "name": "randomc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ChannelJuanNews <jruel006@ucr.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "freezeframe": "^5.0.2",
+    "gifler": "^0.1.0",
+    "image-data-uri": "^2.0.1",
+    "mini-svg-data-uri": "^1.2.3",
+    "morgan": "^1.10.0",
+    "recaptcha-v3": "^1.10.0",
+    "rverify": "^0.1.3",
+    "socket.io": "^4.0.1",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^8.3.2"
+  }
+}

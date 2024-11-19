@@ -1,0 +1,120 @@
+(['35785', '35955'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+
+(['36055'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+
+(['35785', '35955', '36207'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with chrome_storage_local_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1045	      data[request.key] = JSON.parse(request.data);
+	JSON.parse(request.data)
+
+(['35785', '35955', '36207'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink
+from bg_chrome_runtime_MessageExternal to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1045	      data[request.key] = JSON.parse(request.data);
+	JSON.parse(request.data)
+
+(['35785', '35955'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+
+(['35785', '35955', '36302'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1055	      request.data.Source = 'FUTAlert';
+	request.data.Source
+
+(['35785', '35955', '36311'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1056	      request.data.Version = manifest && manifest.version ? manifest.version : '1.0.9';
+	request.data.Version
+
+(['35785', '35955', '36027'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1037	      chrome.storage.local.get(request.data.key, function (res) {
+	request.data.key
+
+(['35785', '35955'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+
+(['35785', '35955', '36302'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1055	      request.data.Source = 'FUTAlert';
+	request.data.Source
+
+(['35785', '35955', '36311'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1056	      request.data.Version = manifest && manifest.version ? manifest.version : '1.0.9';
+	request.data.Version
+
+(['35785', '35955', '36027'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh with jQuery_ajax_settings_data_sink
+from bg_chrome_runtime_MessageExternal to jQuery_ajax_settings_data_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1014	        data: request.data,
+	request.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 1037	      chrome.storage.local.get(request.data.key, function (res) {
+	request.data.key
+

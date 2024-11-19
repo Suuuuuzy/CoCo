@@ -1,0 +1,44 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/eggdmhdpffgikgakkfojgiledkekfdce/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7faff27aef40>)",
+                "sink-param1": "{\n GMDE_options: e.detail.data\n }",
+                "line": "85 - 87",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/eggdmhdpffgikgakkfojgiledkekfdce/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(chrome.extension.getURL(templates/lang_menu.html))",
+                "sink-param1": "chrome.extension.getURL(templates/lang_menu.html)",
+                "line": "21 - 21",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/eggdmhdpffgikgakkfojgiledkekfdce/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(GMDE_options, <pdg_js.node.FunctionExpression object at 0x7faff27ae310>)",
+                "sink-param1": "GMDE_options",
+                "sink-param2": "function (opts) {\n const options = opts.GMDE_options || {};\n\n document.dispatchEvent(\n new CustomEvent(replyEventName, {\n detail: {\n data: options\n }\n })\n );\n }",
+                "line": "66 - 76",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/eggdmhdpffgikgakkfojgiledkekfdce/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

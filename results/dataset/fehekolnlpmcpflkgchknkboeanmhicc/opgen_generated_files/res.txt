@@ -1,0 +1,46 @@
+(['15934', '15947', '15989', '16279', '16280', '16292'], 'document_eventListener_gtkAskAddonShowInGame')
+~~~tainted detected!~~~in extension: /Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 491	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 492	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 492	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordX
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordX)
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+
+(['15934', '15947', '15989', '16286', '16287', '16292'], 'document_eventListener_gtkAskAddonShowInGame')
+~~~tainted detected!~~~in extension: /Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 491	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 492	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 492	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordY
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordY)
+$FilePath$/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 939	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+

@@ -1,0 +1,35 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/phgddhgfnjjaobkeekohieahfingldac/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fd8f386bee0>)",
+                "sink-param1": "t({ [key]: value",
+                "line": "44 - 44",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/phgddhgfnjjaobkeekohieahfingldac/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(fdWebExtension.userId, <pdg_js.node.FunctionExpression object at 0x7fd8f2603e80>)",
+                "sink-param1": "fdWebExtension.userId",
+                "sink-param2": ", items => {\n if (chrome.runtime.lastError) {\n console.error(chrome.runtime.lastError.message);\n reject(chrome.runtime.lastError.message);\n } else {\n //console.debug(\"getFromStorage: \" + key + \" => \" + items[key]);\n resolve(items[key]);\n }\n ",
+                "line": "7 - 15",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/phgddhgfnjjaobkeekohieahfingldac/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

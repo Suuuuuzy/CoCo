@@ -1,0 +1,8 @@
+(['14177', '14213'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/foahoboefnlidmejppiibgnifpbjeknh with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/foahoboefnlidmejppiibgnifpbjeknh/opgen_generated_files/bg.js
+Line 864	            cookie.value = request.cookie;
+	request.cookie
+

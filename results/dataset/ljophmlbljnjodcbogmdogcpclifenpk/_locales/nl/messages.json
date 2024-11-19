@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-afzender"
+  },
+  "appDesc": {
+    "message": "Spiegel uw apparaat op elk computerscherm wanneer u maar wilt"
+  },
+  "extTitle": {
+    "message": "AirMedia-afzender"
+  },
+  "titleConnectRecv": {
+    "message": "Verbinden met AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Huidig bureaublad"
+  },
+  "tip_sel_dsk": {
+    "message": "Alleen video wordt gespiegeld"
+  },
+  "hit_pin": {
+    "message": "Voer pincode in"
+  },
+  "tip_sel_tab": {
+    "message": "Zowel video als audio worden gespiegeld"
+  },
+  "btn_connect": {
+    "message": "VERBINDEN"
+  },
+  "btn_cancel": {
+    "message": "ANNULEREN"
+  },
+  "btn_stop": {
+    "message": "STOPPEN"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANNULEREN"
+  },
+  "btn_retry_cancel": {
+    "message": "ANNULEREN"
+  },
+  "btn_retry": {
+    "message": "OPNIEUW PROBEREN"
+  },
+  "hit_warn": {
+    "message": "Kon geen verbinding maken. Controleer uw instellingen."
+  },
+  "hit_ip": {
+    "message": "IP-adres of hostnaam"
+  },
+  "tip_sel_tab_title": {
+    "message": "Toon huidig tabblad"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Onjuiste pincode. Probeer het nog een keer."
+  }
+}

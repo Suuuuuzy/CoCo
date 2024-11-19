@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "モバイルバージョンのTikTokをChromeブラウザで直接使用します。 TikTokから動画をアップロードおよびダウンロードできます。"
+   },
+   "name": {
+      "message": "TikTok Mobile View"
+   }
+}

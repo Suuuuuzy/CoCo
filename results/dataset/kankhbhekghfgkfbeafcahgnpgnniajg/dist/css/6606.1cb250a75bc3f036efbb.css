@@ -1,0 +1,15 @@
+.from-span {
+    background: #3bb2d0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 12px !important;
+    border: none;
+}
+
+.to-span {
+    background: #8a8acb;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 12px !important;
+    border: none;
+}

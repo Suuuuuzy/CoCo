@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/popup.css">
+	</head>
+	<body>
+		<div id="booleanGroup">
+			<div class="setting"><span class="setting-label">Global Media Hotkeys</span>
+				<div class="setting-contol">
+					<input id="global-keys" class="toggle" type="checkbox" checked>
+					<label for="global-keys" data-on="Yes" data-off="No"></label>
+				</div>
+			</div>
+
+			<div class="setting"><span class="setting-label">Music Notifications</span>
+				<div class="setting-contol z-depth-3">
+					<input id="music-notifications" class="toggle" type="checkbox" checked>
+					<label for="music-notifications" data-on="Yes" data-off="No"></label>
+				</div>
+			</div>
+		</div>
+
+		<div id="advancedSettings"><a href="#" id="askSAMI">Ask SAMI</a> <a href="assistant.html" target="_blank">SAMI Settings</a></div>
+
+		<div id="pendingMessages"><span id="playMessages">Play New Messages</span> <span id="dismissMessages">Dismiss</span></div>
+
+		<script type="text/javascript" src="js/popup.js"></script>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Remetente AirMedia"
+  },
+  "appDesc": {
+    "message": "Reflita seu dispositivo em qualquer tela de computador a qualquer tempo"
+  },
+  "extTitle": {
+    "message": "Remetente AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Conectar a AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Apresentar desktop"
+  },
+  "tip_sel_dsk": {
+    "message": "Apenas será refletido o vídeo"
+  },
+  "hit_pin": {
+    "message": "Insira o código PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Tanto o vídeo quanto o áudio serão refletidos"
+  },
+  "btn_connect": {
+    "message": "CONECTAR-SE"
+  },
+  "btn_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_stop": {
+    "message": "PARAR"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry": {
+    "message": "TENTAR NOVAMENTE"
+  },
+  "hit_warn": {
+    "message": "Não é possível se conectar. Verifique as configurações."
+  },
+  "hit_ip": {
+    "message": "Endereço IP ou Hostname"
+  },
+  "tip_sel_tab_title": {
+    "message": "Apresentar guia atual"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Código PIN errado. Tente novamente."
+  }
+}

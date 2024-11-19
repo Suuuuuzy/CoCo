@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Συσκευή αποστολής AirMedia"
+  },
+  "appDesc": {
+    "message": "Προβάλετε τη συσκευή σας σε οποιαδήποτε οθόνη υπολογιστή ανά πάσα στιγμή"
+  },
+  "extTitle": {
+    "message": "Συσκευή αποστολής AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Σύνδεση στο AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Τρέχουσα καρτέλα"
+  },
+  "tip_sel_dsk": {
+    "message": "Θα προβληθεί μόνο βίντεο"
+  },
+  "hit_pin": {
+    "message": "Εισαγάγετε τον κωδικό PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Θα προβληθεί βίντεο και ήχος"
+  },
+  "btn_connect": {
+    "message": "ΣΥΝΔΕΣΗ"
+  },
+  "btn_cancel": {
+    "message": "ΑΚΥΡΩΣΗ"
+  },
+  "btn_stop": {
+    "message": "ΔΙΑΚΟΠΗ"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ΑΚΥΡΩΣΗ"
+  },
+  "btn_retry_cancel": {
+    "message": "ΑΚΥΡΩΣΗ"
+  },
+  "btn_retry": {
+    "message": "ΔΟΚΙΜΑΣΤΕ ΞΑΝΑ"
+  },
+  "hit_warn": {
+    "message": " Δεν είναι δυνατή η σύνδεση. Ελέγξτε τις ρυθμίσεις σας."
+  },
+  "hit_ip": {
+    "message": "Διεύθυνση IP ή Όνομα κεντρικού υπολογιστή"
+  },
+  "tip_sel_tab_title": {
+    "message": "Τρέχουσα καρτέλα"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Λάθος PIN. Δοκιμάστε ξανά."
+  }
+}

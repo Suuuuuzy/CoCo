@@ -1,0 +1,79 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f60ad728e80>)",
+                "sink-param1": "{\n url: element.sendo_api_product,\n success: function(result) {\n var itemid = result.id;\n var shopid = result.shopid;\n var cprice = result.price;\n\n var sendochart_params = {\n 'itemid': itemid,\n 'shopid': shopid,\n 'cprice': cprice,\n 'version': '0.1.4'\n }\n\n var url_param = jQuery.param(sendochart_params);\n var iframe_url = soigiaapi_link + 'sendochart?' + url_param;\n\n $(\"#\" + element.pricechart_id).html('<iframe ' + element.iframe_code + ' src=\"' + iframe_url + '\"></iframe>');\n\n }\n }",
+                "line": "479 - 499",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "279 - 279",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            },
+            "danger2": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f60ad8258b0>)",
+                "sink-param1": "{\n url: element.sendo_api_product,\n success: function(result) {\n var admin_id = result.admin_id;\n var itemid = result.id;\n var final_price = result.final_price;\n\n var sendochart_params = {\n 'admin_id': admin_id,\n 'itemid': itemid,\n 'final_price': final_price,\n 'version': '0.1.4'\n }\n\n var url_param = jQuery.param(sendochart_params);\n var iframe_url = soigiaapi_link + 'sendochart?' + url_param;\n\n $(\"#\" + element.pricechart_id).html('<iframe ' + element.iframe_code + ' src=\"' + iframe_url + '\"></iframe>');\n\n }\n }",
+                "line": "431 - 451",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "279 - 279",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            },
+            "danger3": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f60ad80f2e0>)",
+                "sink-param1": "{\n url: element.shopee_api_product,\n success: function(result) {\n var itemid = result.itemid;\n var shopid = result.shopid;\n var cprice = result.price;\n\n var shopeechart_params = {\n 'itemid': itemid,\n 'shopid': shopid,\n 'cprice': cprice,\n 'version': '0.1.4'\n }\n\n var url_param = jQuery.param(shopeechart_params);\n var iframe_url = soigiaapi_link + 'shopeechart?' + url_param;\n\n $(\"#\" + element.pricechart_id).html('<iframe ' + element.iframe_code + ' src=\"' + iframe_url + '\"></iframe>');\n\n }\n }",
+                "line": "383 - 403",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "279 - 279",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f60a7535e80>)",
+                "sink-param1": "{\n url: element.tiki_api_product,\n success: function(result) {\n\n var spid = result.current_seller.product_id;\n var main_id = result.id;\n var product_name = result.name;\n var spurl = \"https://tiki.vn/\" + result.url_path;\n var thumbnail_url = result.thumbnail_url;\n var cprice = result.current_seller.price;\n\n if (result.configurable_products) {\n for (let i = 0; i < result.configurable_products.length; i++) {\n const element = result.configurable_products[i];\n if (element.id == spid) {\n thumbnail_url = element.thumbnail_url;\n break;\n }\n }\n }\n\n var tikichart_params = {\n 'spid': spid,\n 'main_id': main_id,\n 'product_name': product_name,\n 'spurl': spurl,\n 'thumbnail_url': thumbnail_url,\n 'cprice': cprice,\n 'version': '0.1.4'\n }\n\n var url_param = jQuery.param(tikichart_params);\n var iframe_url = soigiaapi_link + 'tikichart?' + url_param;\n\n $(\"#\" + element.pricechart_id).html('<iframe ' + element.iframe_code + ' src=\"' + iframe_url + '\"></iframe>');\n\n }\n }",
+                "line": "318 - 355",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "279 - 279",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

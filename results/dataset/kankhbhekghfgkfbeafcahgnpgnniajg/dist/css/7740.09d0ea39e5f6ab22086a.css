@@ -1,0 +1,65 @@
+.setting-popup {
+    padding: 0;
+}
+
+.setting-popup select {
+    width: auto;
+}
+
+.setting-main {
+    height: 100%;
+}
+
+.setting-left {
+    border-right: 1px solid #313131;
+    padding-right: 0;
+}
+
+.setting-left li {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.setting-popup .active, .setting-left li:hover {
+    background-color: #363636;
+}
+
+.setting-right {
+    padding: 20px 40px 20px 20px;
+}
+.switch-box {
+    height: 20px;
+    line-height: 20px;
+    background: #6bde5d;
+    width: 55px;
+    border-radius: 20px;
+    border: 1px solid rgb(76, 217, 100);
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pointer {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    background: #fff;
+    display: block;
+    margin-left: 34px;
+    transition: margin-left 0.3s
+}
+
+.switch-box label {
+    height: 20px;
+    line-height: 20px;
+    width: 35px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,215 @@
+(['59360', '59373', '59375'], 'document_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_set_sink
+from document_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 545	document.addEventListener("message", function (event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 546	    chrome.storage.local.set({ logindata: event.detail.data });
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 546	    chrome.storage.local.set({ logindata: event.detail.data });
+	event.detail.data
+
+(['59360', '59373', '59375'], 'document_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_set_sink
+from document_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 545	document.addEventListener("message", function (event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 546	    chrome.storage.local.set({ logindata: event.detail.data });
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc/opgen_generated_files/cs_0.js
+Line 546	    chrome.storage.local.set({ logindata: event.detail.data });
+	event.detail.data
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kalfcfpaabnmkndhefnijjhcndjhnijc with chrome_storage_local_clear_sink

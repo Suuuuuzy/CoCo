@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Federation Express</title>
+<style type="text/css">
+body {margin:0 !important;padding:0;font:normal 12px Arial,Tahoma;}
+#auth {width:270px; min-height:250px; background:url('images/logoBtm.png') right bottom no-repeat;}
+h1{border-bottom:1px dashed #333; padding:10px 10px 5px 0;font:normal 20px Arial,Tahome;color:#007c92; margin:15px 0 0 5px;}
+.inputBgImg{background:url('images/inputBg.png') no-repeat; width:259px; height:29px; border:none;padding:0 0 0 5px; margin:0 0 10px 0; color:#ababab;}
+.frmFlds{margin:20px 0 0 5px; padding:0;}
+.btns{margin:10px 0 0 2px;}
+.btns button {margin:0 10px 0 0;background:url('images/btn.png') no-repeat;width:98px;height:33px; border:none; cursor:pointer;font-weight:bold;float:left;}
+.btns button:hover {font-decoration:underline;}
+#err{font:bold 13px Arial;color:#ff0000;clear:both; margin:0 0 0 5px;padding-top:10px;}
+#enduser {width:270px; min-height:250px;height:auto;overflow:auto;position:relative;float:left;}
+
+.appList,.appList2,.appList3,.appList4{margin:0px 5px 0 7px;float:left; width:250px;}
+.appList a,.appList2 a,.appList3 a,.appList4 a {padding:8px 0 0 17px;border-bottom:2px dotted #333;display:block;color:#000; text-decoration:none;font-weight:bold; background:url('images/bullet.png') left no-repeat;height:20px;}
+
+.appList2 {margin-bottom:5px;}
+#lgT{display:block; position:absolute;right:60px;bottom:25px;z-index:1000;}
+#lgT a {display:inline-block;width:45px;height:15px;}
+#lhPd{display:block; position:absolute;left:40px;bottom:25px;z-index:1000;}
+#lhPd a {display:inline-block;width:70px;height:15px;}
+.cls{border:1px solid red;}
+.btmBg,.btmBg1{padding:0;background:url('images/logoBtm.png') right bottom no-repeat;width:270px;height:65px;float:left;}
+</style>
+<script>
+function simple()
+{
+}
+
+
+</script>
+<script src="jquery.js"></script>
+<script src="popup.js"></script>
+</head>
+<body>
+
+
+<div id="auth" style="display:none">
+<div id="fx">
+<img id="fxplogo" src="images/feLogo.png" style="float:right; clear:both;margin:0 10px 0 0;" />
+<h1 id="signIn">Sign In</h1>
+</div>
+<div class=frmFlds>
+<input type="text" id="username" name="username" class="inputBgImg" placeholder="User Name"  /> 
+<input type="password" id="password" name="password" placeholder="Passw0rd" class="inputBgImg" />
+
+<div class="btns"><button>Submit</button><div id="canbut"><button id="cancel">Cancel</button></div>
+<!--<input type="submit" name="submit" id="submit" value="submit" onClick="simple()">-->
+</div><div id="err"></div>
+</div>
+
+
+<div id="admin" style="display:none">
+<a href="#" >Add this Application </a>
+</div>
+</div>
+<div id="enduser" style="display:none">
+<img id="fxplogo" src="images/feLogo.png" style="float:right; clear:both;margin:10px 10px 0 0;" />
+<h1>My Apps </h1>
+<p id="lhPd"></p><p id="lgT"></p>
+</div>
+</body>
+</html>

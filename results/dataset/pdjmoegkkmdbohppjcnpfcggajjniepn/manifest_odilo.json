@@ -1,0 +1,55 @@
+{
+	"version": "1.2.7",
+	"manifest_version": 2,
+    "name": "__MSG_extensionNameOdilo__",
+    "description": "__MSG_extensionDescriptionOdilo__",
+
+	"icons": {
+		"16" : "media/odilo/ico_16.png",
+		"24" : "media/odilo/ico_24.png",
+		"48" : "media/odilo/ico_48.png",
+		"96" : "media/odilo/ico_96.png",
+		"112": "media/odilo/ico_112.png",
+		"128": "media/odilo/ico_128.png"
+	},
+
+	"browser_action": {
+		"default_icon": "media/odilo/ico_19.png",
+		"default_title": "__MSG_browserTitleOdilo__"
+	},
+
+	"permissions": [
+        "bookmarks", 
+        "tabs"
+    ],
+    
+	"background": {
+		"scripts": [
+            "background.js", 
+            "events.js",
+            "config/odilo/global.js"
+        ]
+    },
+
+    "externally_connectable": {
+        "matches": [
+            "*://*.nubereader.es/*",
+            "*://*.nubereader.odilotk.es/*",
+            "*://*.bibliotecadigital.ceibal.edu.uy/*",
+            "*://*.odilotk.es/*",
+            "*://*.odilo.us/*",
+            "*://*.odilo.es/*",
+            "*://*.server-nubereader.odilotk.es/*",
+            "*://*.nubereader.odilo.us/*",
+            "*://*.educarex.es/*",
+            "*://*.eduteca.biblioescolaib.cat/*",
+            "*://*.educa.jcyl.es/*"
+        ]
+    },
+	
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    
+    "default_locale": "es",
+
+    "minimum_chrome_version": "50.0"
+}

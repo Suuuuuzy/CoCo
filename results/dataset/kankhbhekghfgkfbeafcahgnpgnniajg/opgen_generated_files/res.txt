@@ -1,0 +1,268 @@
+(['36697'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 798	    this.url = 'http://www.example.com';
+	this.url = 'http://www.example.com'
+
+(['36671'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 793	    this.id='id for the node';
+	this.id='id for the node'
+
+(['36725'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 791	    this.dataAdded= 10;
+	this.dataAdded= 10
+
+(['36715'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 815	    var child = new BookmarkTreeNode();
+	new BookmarkTreeNode()
+
+(['36669'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 792	    this.dateGroupModified=1;
+	this.dateGroupModified=1
+
+(['36685'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 796	    this.title = 'title of the node';
+	this.title = 'title of the node'
+
+(['36735'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 794	    this.index=2;
+	this.index=2
+
+(['36718'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 790	    this.children = [];
+	[]
+
+(['36657'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 814	    var node = new BookmarkTreeNode();
+	new BookmarkTreeNode()
+
+(['36743'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 796	    this.title = 'title of the node';
+	this.title = 'title of the node'
+
+(['36755'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 798	    this.url = 'http://www.example.com';
+	this.url = 'http://www.example.com'
+
+(['36691'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 797	    this.unmodifiable = 'managed';
+	this.unmodifiable = 'managed'
+
+(['36760'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 816	    node.children = [child];
+	[child]
+
+(['36729'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 793	    this.id='id for the node';
+	this.id='id for the node'
+
+(['36749'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 797	    this.unmodifiable = 'managed';
+	this.unmodifiable = 'managed'
+
+(['36679'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 795	    this.parentId='id for the parent';
+	this.parentId='id for the parent'
+
+(['36667'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 791	    this.dataAdded= 10;
+	this.dataAdded= 10
+
+(['36727'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 792	    this.dateGroupModified=1;
+	this.dateGroupModified=1
+
+(['36766'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 817	    var BookmarkTreeNode_source = [node];
+	[node]
+
+(['36737'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 795	    this.parentId='id for the parent';
+	this.parentId='id for the parent'
+
+(['36677'], 'BookmarkTreeNode_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from BookmarkTreeNode_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 794	    this.index=2;
+	this.index=2
+
+(['36524', '36570'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with BookmarkSearchQuery_sink
+from bg_chrome_runtime_MessageExternal to BookmarkSearchQuery_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1277	            searchBookmarks(request.query).then(res => {
+	request.query
+
+(['36911'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36897'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36894'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36919'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36913'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36905'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36903'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 734	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['36923'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 735	    var HistoryItem_source = [HistoryItem];
+	[HistoryItem]
+
+(['36524', '37080', '37082'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1305	            if (request.status && request.account) {
+	request.account
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1306	                localStorage.setItem('account', JSON.stringify(request.account));
+	JSON.stringify(request.account)
+
+(['37132', '37142', '37209', '37394'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg with BookmarkSearchQuery_sink
+from cs_window_eventListener_message to BookmarkSearchQuery_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 571	window.addEventListener('message', function (e) {
+	e
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 572	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 572	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/Users/jianjia/Documents/COCO_results/all/1k_9k/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1277	            searchBookmarks(request.query).then(res => {
+	request.query
+

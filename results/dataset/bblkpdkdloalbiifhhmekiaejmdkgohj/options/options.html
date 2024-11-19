@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" style="min-width:300px;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="/css/popup.css">
+
+    <link rel="stylesheet" href="options.css">
+
+    <title>设置选项</title>
+  </head>
+
+<body class="bg-light">
+
+<div class="container" style="margin-top: 20px">
+
+    <div class="mb-5 text-center page_mod fade">
+        <h4 class="text-muted">搜题设置</h4>
+    </div>
+
+</div>
+
+<div id="pageapp" class="container">
+
+    <div class="page_mod fade">
+        <p class="text-muted">悬浮搜索图标</p>
+        <div class="card">
+            <div class="card-body">
+                <div class="custom-control custom-switch">
+                    <p class="mb-4">
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="show_float_icon" v-model="show_float_icon">
+                        <label class="custom-control-label" for="show_float_icon">划词后自动出现搜题图标</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_mod fade">
+        <p class="text-muted mt-3">右键菜单</p>
+        <div class="card">
+            <div class="card-body">
+                <div class="custom-control custom-switch">
+                    <p>
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="in_the_menu" v-model="in_the_menu">
+                        <label class="custom-control-label" for="in_the_menu">添加搜题到右键菜单</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page_mod fade">
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <ul class="list-inline">
+                <li class="list-inline-item">官网 www.zaixiantiku.com</li>
+            </ul>
+        </footer>
+    </div>
+
+</div> <!-- pageapp -->
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- 注意，由于扩展内限制普通 vue 是用不了的，这里用的是 csp 版 -->
+    <script src="/js/vue-1.0.28-csp.min.js"></script>
+    <script src="defaultConfig.js"></script>
+    <script src="common.js"></script>
+    <script src="setting.js"></script>
+  </body>
+</html>

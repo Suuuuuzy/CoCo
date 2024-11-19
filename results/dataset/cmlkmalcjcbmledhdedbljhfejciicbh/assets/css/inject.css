@@ -1,0 +1,397 @@
+.bottom-toolbar {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #31383f;
+  color: #fff;
+  font-family: "UltimateTeamCondensed", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.bottom-toolbar.absolute-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom-toolbar .loading-container {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  display: none;
+  z-index: 1001;
+}
+
+.bottom-toolbar .loading-container.active {
+  display: block;
+}
+
+.bottom-toolbar .loading-container span {
+  position: relative;
+}
+
+.bottom-toolbar .loading-container span::before {
+  color: #fff;
+  font-family: UltimateTeam-Icons, sans-serif;
+  position: absolute;
+  width: 1.1em;
+  left: -22px;
+  content: "\E05C";
+  animation: rotation 2s infinite linear reverse;
+}
+
+.bottom-toolbar .toolbar-right {
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+  right: 15px;
+  border-radius: 1px;
+  padding: 0px 8px;
+}
+
+.bottom-toolbar .toolbar-right .import-bubble {
+  background: rgb(242, 242, 242);
+  border-radius: 1px;
+  color: #000;
+  padding: 0px 8px;
+  position: relative;
+  display: none;
+}
+
+.bottom-toolbar .toolbar-right .import-bubble.finished {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.bottom-toolbar .toolbar-right .import-bubble.fut-active {
+  display: inline-block !important;
+}
+
+.bottom-toolbar .toolbar-right .import-bubble .import-arrow {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 20px;
+  background: #f2f2f2;
+  z-index: 10001;
+  top: -5px;
+  transform: rotate(45deg);
+  z-index: 1000;
+}
+
+.bottom-toolbar .toolbar-right .import-bubble .import-arrow.no-arrow {
+  display: none;
+}
+
+.bottom-toolbar .call-to-action,
+.bottom-toolbar .cancel-button {
+  height: 24px !important;
+  line-height: 24px !important;
+  margin-left: 10px;
+  border-radius: 1px;
+  display: inline-block;
+  position: relative;
+}
+
+.bottom-toolbar .call-to-action.loading {
+  padding-left: calc(1rem + 1.1em + 5px);
+}
+
+.bottom-toolbar .call-to-action.loading::before {
+  color: #fff;
+  font-family: UltimateTeam-Icons, sans-serif;
+  position: absolute;
+  width: 1.1em;
+  left: 1rem;
+  content: "\E05B";
+  animation: rotation 2s infinite linear reverse;
+}
+
+.futalert-badge {
+  font-size: 14px;
+  display: flex !important;
+  align-items: center;
+  width: 72px !important;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  padding-right: 10px;
+}
+
+.futalert-badge img {
+  width: 24px;
+  margin: 0 5px 0 0 !important;
+}
+
+.futalert-badge a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.futalert-detail-container {
+  margin-bottom: 20px;
+}
+
+.futalert-detail-container .profit {
+  font-size: 16px;
+  text-align: right;
+  text-align: right;
+  padding-right: 10px;
+  display: block;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.futalert-detail-container .price-top {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.futalert-detail-container .price-top .platform {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.futalert-detail-container .price-top .last-updated {
+  font-size: 12px;
+  margin-top: -3px;
+  display: block;
+}
+
+.futalert-detail-container .price-bottom {
+  text-align: right;
+  float: right;
+  width: 40%;
+}
+
+.futalert-detail-container .time-to-buy {
+  text-align: right;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.16);
+  width: initial !important;
+  float: right;
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+
+.futalert-detail-container .time-to-buy .color-4 {
+  color: #ff4c4c;
+  font-weight: bold;
+}
+
+.futalert-detail-container .time-to-buy .color-3 {
+  color: orange;
+  font-weight: bold;
+}
+
+.futalert-detail-container .time-to-buy .color-2 {
+  color: yellow;
+  font-weight: bold;
+}
+
+.futalert-detail-container .time-to-buy .color-1 {
+  color: #1ac71a;
+  font-weight: bold;
+}
+
+.futalert-detail-container .price-bottom .futalert-price {
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.16);
+  padding: 3px 8px;
+  border-radius: 5px;
+  text-align: center;
+  width: initial;
+}
+
+.ad-badge {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "UltimateTeamCondensed", sans-serif;
+  top: 8px;
+  margin: auto;
+  margin-right: auto;
+  height: 32px;
+  font-size: 20px;
+  align-items: center;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 15px;
+  display: flex !important;
+  position: absolute;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+  line-height: 32px;
+}
+
+.ad-badge img {
+  width: 32px;
+  margin: 0px 10px 0px 0px !important;
+}
+
+.ad-badge a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.prices-loading {
+  position: absolute;
+  right: 0;
+  top: -36px;
+  font-size: 16px;
+  height: 28px;
+  border-radius: 20px;
+  color: #fff;
+  width: initial !important;
+  padding: 0 10px;
+  line-height: 28px;
+  padding-left: calc(1.1em + 12px);
+  background: rgba(0, 0, 0, 0.66);
+}
+
+.prices-loading::before {
+  color: #fff;
+  font-family: UltimateTeam-Icons, sans-serif;
+  position: absolute;
+  width: 1.1em;
+  left: 0.5rem;
+  content: "\E05B";
+  animation: rotation 2s infinite linear reverse;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+#futalert-toolbar {
+  position: absolute;
+  top: 58px;
+  left: calc(100% - 620px);
+  z-index: 9;
+  border: 1px solid #5d5d5d;
+}
+
+#futalert-toolbar .toolbar-header {
+  width: 300px;
+  height: 40px;
+  cursor: move;
+  color: rgb(255, 255, 255);
+  font-family: "UltimateTeamCondensed", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+  background: #52585e;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#futalert-toolbar .toolbar-header .toolbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-logo img {
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 28px;
+}
+#futalert-toolbar .toolbar-header .toolbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .expand-button {
+  color: inherit;
+  cursor: pointer;
+  font-family: "UltimateTeam-Icons", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  vertical-align: top;
+  font-size: 20px;
+  z-index: 1;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .toolbar-badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .toolbar-badge.success {
+  background: #76ff03;
+  animation: anim-glow-success 2s ease-in-out infinite;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .toolbar-badge.warning {
+  background: #ffff00;
+  animation: anim-glow-warning 2s ease-in-out infinite;
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .expand-button::before {
+  transition: 0.3s ease all;
+  display: block;
+  content: "\E001";
+}
+
+#futalert-toolbar .toolbar-header .toolbar-actions .expand-button.active::before {
+  transform: rotate(180deg);
+}
+
+#futalert-toolbar .toolbar-content {
+  background: #f2f2f2;
+  padding: 10px 16px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+@-webkit-keyframes anim-glow-success {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 10px #76ff03;
+  }
+  99% {
+    box-shadow: none;
+  }
+}
+
+@-webkit-keyframes anim-glow-warning {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 10px #ffff00;
+  }
+  99% {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tab.id, <pdg_js.node.ValueExpr object at 0x7feec607f7f0>)",
+                "sink-param1": "tab.id",
+                "sink-param2": "{\n code: `\n (function(){\n if(document.getElementById(\"infomax_ifrm_super\")){\n document.getElementById(\"infomax_ifrm_super\").remove()\n }\n })()\n `\n }",
+                "line": "41 - 49",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(id, <pdg_js.node.ValueExpr object at 0x7feec6098e20>)",
+                "sink-param1": "id",
+                "sink-param2": " ",
+                "line": "88 - 88",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k-/detected/adhfophjkhfbceaeljogehoikdnaalgn/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

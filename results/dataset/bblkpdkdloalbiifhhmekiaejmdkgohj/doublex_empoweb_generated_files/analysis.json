@@ -1,0 +1,185 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(post, options.web_host/api/log?token=responseData.token)",
+                "sink-param1": "post",
+                "sink-param2": "options.web_host/api/log?token=responseData.token",
+                "line": "611 - 611",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f994e568580>, <pdg_js.node.FunctionExpression object at 0x7f994d367100>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n document.addEventListener('mouseup', mouseUp);\n}",
+                "line": "29 - 32",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f994e568580>, <pdg_js.node.FunctionExpression object at 0x7f994d367b50>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n }",
+                "line": "35 - 37",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set({'items': {}, 'api_host': 'responseData.api_host', 'web_host': 'responseData.web_host', 'paths': 'responseData.paths'}, <pdg_js.node.FunctionExpression object at 0x7f995623fee0>)",
+                "sink-param1": {
+                    "items": {},
+                    "api_host": "responseData.api_host",
+                    "web_host": "responseData.web_host",
+                    "paths": "responseData.paths"
+                },
+                "sink-param2": "function() {\n console.log('');\n }",
+                "line": "33 - 35",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set({'items': {}, 'token': 'cookie.value'}, <pdg_js.node.FunctionExpression object at 0x7f993bd29670>)",
+                "sink-param1": {
+                    "items": {},
+                    "token": "cookie.value"
+                },
+                "sink-param2": "function() {\n console.log('');\n }",
+                "line": "88 - 90",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set({'items': {}, 'token': 'cookie.value'}, <pdg_js.node.FunctionExpression object at 0x7f99562f2160>)",
+                "sink-param1": {
+                    "items": {},
+                    "token": "cookie.value"
+                },
+                "sink-param2": "function() {\n console.log('');\n }",
+                "line": "99 - 101",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f994511e880>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n if (items.in_the_menu === false)\n return false;\n chrome.contextMenus.create({\n 'title': '',\n 'id': '1',\n 'contexts': ['selection']\n });\n chrome.contextMenus.onClicked.addListener(menusCallback);\n }",
+                "line": "44 - 53",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f995623f160>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n}",
+                "line": "22 - 24",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "fetch",
+                "value": "fetch(https://huacisouti.oss-cn-hangzhou.aliyuncs.com/conf)",
+                "sink-param1": "https://huacisouti.oss-cn-hangzhou.aliyuncs.com/conf",
+                "line": "25 - 25",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f993d0aee20>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n if(info.cookie.domain == getHostname(options.web_host)){\n options.token = info.cookie.value\n chrome.storage.sync.set(options, function() {\n console.log('');\n });\n }\n }",
+                "line": "84 - 92",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f99562f2a30>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n if(options.token == ''){\n chrome.tabs.create({ url: options.web_host+'/login' })\n }else {\n sendResponse({token: options.token})\n }\n }",
+                "line": "108 - 115",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "fetch",
+                "value": "fetch(None/api/searchApi, <pdg_js.node.ValueExpr object at 0x7f99482587c0>)",
+                "sink-param1": "None/api/searchApi",
+                "sink-param2": "{\n method: 'post',\n headers: {\n \"Content-type\": \"application/x-www-form-urlencoded; charset=UTF-8\"\n },\n body: 'token='+options.token+'&wd='+request.wd\n }",
+                "line": "119 - 125",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f994511e880>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n if (items.in_the_menu === false)\n return false;\n chrome.contextMenus.create({\n 'title': '',\n 'id': '1',\n 'contexts': ['selection']\n });\n chrome.contextMenus.onClicked.addListener(menusCallback);\n }",
+                "line": "44 - 53",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f995623f160>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n}",
+                "line": "22 - 24",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f993d0aee20>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n if(info.cookie.domain == getHostname(options.web_host)){\n options.token = info.cookie.value\n chrome.storage.sync.set(options, function() {\n console.log('');\n });\n }\n }",
+                "line": "84 - 92",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f9938e780a0>, <pdg_js.node.FunctionExpression object at 0x7f99562f2a30>)",
+                "sink-param1": "{\n in_the_menu: true,\n show_float_icon: true,\n show_contextmenu_icon: true,\n auto_close: true,\n fixed_modal: true,\n custom_style_on: true,\n custom_style: '',\n token:'',\n paths:[],\n api_host:'http://www.zaixiantiku.com',\n web_host:'http://www.zaixiantiku.com'\n}",
+                "sink-param2": "function (items) {\n options = items;\n if(options.token == ''){\n chrome.tabs.create({ url: options.web_host+'/login' })\n }else {\n sendResponse({token: options.token})\n }\n }",
+                "line": "108 - 115",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

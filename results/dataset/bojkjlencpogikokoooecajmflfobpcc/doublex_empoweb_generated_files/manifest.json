@@ -1,0 +1,60 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "Random Captcha",
+  "description": "Guess right and earn points",
+  "version": "0.0.0.6",
+  "author": "Juan G. Ruelas Jr.",
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "jquery-3.3.1.js",
+        "longbow.slidercaptcha.js",
+        "RVerify.js",
+        "socket.io.js",
+        "content.js",
+        "home.js"
+      ],
+      "css": ["RVerify.css"]
+    }
+  ],
+
+  "externally_connectable": {
+    "matches": [
+      "http://localhost:4000/*",
+      "https://localhost:4000/*",
+      "https://gosurfer.io/*",
+      "http://gosurfer.io/*"
+    ]
+  },
+  "permissions": ["storage", "declarativeContent"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/get_started16.png"
+    }
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*", "home.html"],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": true
+    }
+  ],
+
+  "host_permissions": [
+    "http://localhost/*",
+    "http://*/*",
+    "http://127.0.0.1/*",
+    "https://azlabs.tech/*",
+    "https://gosurfer.io/*/*",
+    "http://gosurfer.io/*/*"
+  ]
+}

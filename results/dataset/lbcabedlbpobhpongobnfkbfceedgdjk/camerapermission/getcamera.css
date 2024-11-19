@@ -1,0 +1,25 @@
+.outklip-square-aspect-ratio-video{
+    overflow: hidden;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 0.2rem;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+.outklip-natural-aspect-ratio-video{
+    overflow: hidden;
+    --width: 100vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.5625);
+    border-radius: 0.2rem;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+body {
+    margin: 0px;
+}

@@ -1,0 +1,14 @@
+(['15010', '15021', '15176'], 'document_eventListener_DictationForGmail')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/eggdmhdpffgikgakkfojgiledkekfdce with chrome_storage_sync_set_sink
+from document_eventListener_DictationForGmail to chrome_storage_sync_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/eggdmhdpffgikgakkfojgiledkekfdce/opgen_generated_files/cs_0.js
+Line 587	document.addEventListener("DictationForGmail", function(e) {
+	e
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/eggdmhdpffgikgakkfojgiledkekfdce/opgen_generated_files/cs_0.js
+Line 589	  if(typeof e.detail === 'undefined') {
+	e.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/eggdmhdpffgikgakkfojgiledkekfdce/opgen_generated_files/cs_0.js
+Line 620	    if(typeof e.detail.data === 'undefined') {
+	e.detail.data
+

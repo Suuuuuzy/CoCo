@@ -1,0 +1,14 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/jnhcnpjjlgnklonkjpdamjghjbpiicao/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

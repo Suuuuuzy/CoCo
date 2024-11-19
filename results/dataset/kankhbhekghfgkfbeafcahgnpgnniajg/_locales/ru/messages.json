@@ -1,0 +1,56 @@
+{
+    "extName": {
+        "message": "Abcd PDF - Новая вкладка для Chrome"
+    },
+    "description": {
+        "message": "На 100% бесплатно и позволяет конвертировать и создавать файлы различных типов (например, Word DOC, Excel XLS и PowerPoint PPT)."
+    },
+    "menu_collect_page": {
+        "message": "Добавить текущий веб-сайт к \"Abcd PDF - Новая вкладка для Chrome\""
+    },
+    "menu_search": {
+        "message": "Busca por: \"%s\""
+    },
+    "menu_search_privacy": {
+        "message": "Поиск в режиме инкогнито: \"%s\""
+    },
+    "menu_link_privacy": {
+        "message": "Открытая ссылка в режиме инкогнито"
+    },
+    "merge_pdf": {
+        "message": "Объединить PDF"
+    },
+    "split_pdf": {
+        "message": "Разделить PDF"
+    },
+    "pdf_to_word": {
+        "message": "PDF в Word"
+    },
+    "pdf_to_excel": {
+        "message": "PDF в Excel"
+    },
+    "pdf_to_ppt": {
+        "message": "PDF в PPT"
+    },
+    "pdf_to_jpg": {
+        "message": "PDF в JPG"
+    },
+    "pdf_to_png": {
+        "message": "PDF в PNG"
+    },
+    "word_to_pdf": {
+        "message": "Word в PDF"
+    },
+    "excel_to_pdf": {
+        "message": "Excel в PDF"
+    },
+    "ppt_to_pdf": {
+        "message": "PPT в PDF"
+    },
+    "jpg_to_pdf": {
+        "message": "JPG в PDF"
+    },
+    "png_to_pdf": {
+        "message": "PNG в PDF"
+    }
+}

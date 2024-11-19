@@ -1,0 +1,51 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Search Commands",
+  "description": "Provides a Swiss-knife style commands tool inside your browser’s address bar to enhance your search experience.",
+  "version": "3.2.0",
+  "background": {
+    "page": "bg/background.html",
+    "persistent": true
+  },
+  "homepage_url": "https://www.privatebrowsing-search.com/wim/ds/gotohub?s=bcpr",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "encoding": "UTF-8",
+      "favicon_url": "https://www.privatebrowsing-search.com/favicon.ico",
+      "is_default": true,
+      "name": "Commands",
+      "keyword": "Search Commands",
+      "search_url": "https://www.privatebrowsing-search.com/search/?category=web&s=bcpr&vert=private&q={searchTerms}",
+      "suggest_url": "https://sug.privatebrowsing-search.com/v1/sug/?yid=bcpr&ssv=2&vert=private&q={searchTerms}"
+    }
+  },
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.privatebrowsing-search.com/*"
+      ],
+      "js": [
+        "content_script/contentScript.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "cookies",
+    "*://*.privatebrowsing-search.com/"
+  ],
+  "browser_action": {
+    "default_title": "Search Commands"
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "img/*"
+  ]
+}

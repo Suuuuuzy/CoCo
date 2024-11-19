@@ -1,0 +1,8 @@
+(['12974', '13140'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/opgen_generated_files/bg.js
+Line 873	            localStorage.setItem('API_KEY', request.token);
+	request.token
+

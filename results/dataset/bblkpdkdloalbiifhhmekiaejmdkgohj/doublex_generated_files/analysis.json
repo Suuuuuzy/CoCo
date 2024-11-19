@@ -1,0 +1,72 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(post, options.web_host/api/log?token=responseData.token)",
+                "sink-param1": "post",
+                "sink-param2": "options.web_host/api/log?token=responseData.token",
+                "line": "611 - 611",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f3836a203d0>, 500)",
+                "sink-param1": "function () {\n if (temp.classList.contains(elemId + '-show') === false && temp.parentElement) {\n document.body.removeChild(temp);\n }\n }",
+                "sink-param2": 500,
+                "line": "578 - 582",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f3835f510d0>, 10)",
+                "sink-param1": "function () {\n elem.classList.add(elemId + '-show');\n }",
+                "sink-param2": 10,
+                "line": "155 - 157",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f384e2af280>, 1)",
+                "sink-param1": "function () {\n mouseUpCallback(e);\n }",
+                "sink-param2": 1,
+                "line": "65 - 67",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(https://huacisouti.oss-cn-hangzhou.aliyuncs.com/conf)",
+                "sink-param1": "https://huacisouti.oss-cn-hangzhou.aliyuncs.com/conf",
+                "line": "25 - 25",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "fetch",
+                "value": "fetch(None/api/searchApi, <pdg_js.node.ValueExpr object at 0x7f38369dc5e0>)",
+                "sink-param1": "None/api/searchApi",
+                "sink-param2": "{\n method: 'post',\n headers: {\n \"Content-type\": \"application/x-www-form-urlencoded; charset=UTF-8\"\n },\n body: 'token='+options.token+'&wd='+request.wd\n }",
+                "line": "119 - 125",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bblkpdkdloalbiifhhmekiaejmdkgohj/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

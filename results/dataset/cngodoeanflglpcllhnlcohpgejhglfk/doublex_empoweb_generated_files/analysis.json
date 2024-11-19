@@ -1,0 +1,430 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f8db27fd0>, <pdg_js.node.FunctionExpression object at 0x7f6f8db27280>)",
+                "sink-param1": "{'js': valToOpen1.value}",
+                "sink-param2": "function() {}",
+                "line": "25 - 25",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f900f49d0>, <pdg_js.node.FunctionExpression object at 0x7f6f900f4a00>)",
+                "sink-param1": "{'sxpssoxml': sxpXmlStart}",
+                "sink-param2": "function() {}",
+                "line": "328 - 328",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f8b66d040>, <pdg_js.node.FunctionExpression object at 0x7f6f8b66d070>)",
+                "sink-param1": "{'sxpssojs': sxpjs}",
+                "sink-param2": "function() {}",
+                "line": "441 - 441",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6fa1179310>, <pdg_js.node.FunctionExpression object at 0x7f6fa1179340>)",
+                "sink-param1": "{'sxpssoxml': sxpXmlStart}",
+                "sink-param2": "function() {}",
+                "line": "650 - 650",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6fa3a1c970>, <pdg_js.node.FunctionExpression object at 0x7f6fa3a1c9a0>)",
+                "sink-param1": "{'sxpssojs': sxpjs}",
+                "sink-param2": "function() {}",
+                "line": "756 - 756",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f8b764640>, <pdg_js.node.FunctionExpression object at 0x7f6f8b764670>)",
+                "sink-param1": "{'chkBoxChkd': \"false\"}",
+                "sink-param2": "function() {}",
+                "line": "372 - 372",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f8b764ee0>, <pdg_js.node.FunctionExpression object at 0x7f6f8b764f10>)",
+                "sink-param1": "{'sxpssoxml':\"\"}",
+                "sink-param2": "function() {}",
+                "line": "388 - 388",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6f8b73a1f0>, <pdg_js.node.FunctionExpression object at 0x7f6f8b73a220>)",
+                "sink-param1": "{'sxpssojs':\"\"}",
+                "sink-param2": "function() {}",
+                "line": "389 - 389",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/setAppData, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/setAppData",
+                "sink-param3": true,
+                "line": "304 - 304",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, https://sso.infinitiretail.com/MiddlewareRestServices/extension/getAppCredsBasedOnSearch, True)",
+                "sink-param1": "POST",
+                "sink-param2": "https://sso.infinitiretail.com/MiddlewareRestServices/extension/getAppCredsBasedOnSearch",
+                "sink-param3": true,
+                "line": "164 - 164",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f6fa2d944f0>, <pdg_js.node.FunctionExpression object at 0x7f6fa2d94520>)",
+                "sink-param1": "{'js':\"NoData\"}",
+                "sink-param2": "function() {}",
+                "line": "434 - 434",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/sxpMultiFactorValue, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/sxpMultiFactorValue",
+                "sink-param3": true,
+                "line": "492 - 492",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/invalidate, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/invalidate",
+                "sink-param3": true,
+                "line": "534 - 534",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/invalidate, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/invalidate",
+                "sink-param3": true,
+                "line": "549 - 549",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "617 - 617",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/getSxpTokenValue, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/getSxpTokenValue",
+                "sink-param3": true,
+                "line": "650 - 650",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "663 - 663",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "692 - 692",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(sxpssoxml, <pdg_js.node.FunctionExpression object at 0x7f6fa313fc70>)",
+                "sink-param1": "sxpssoxml",
+                "sink-param2": "function (result) {\n\n\t\tsxpssoxmldata = result.sxpssoxml + \"</sso>\";\n\n\t\tchrome.storage.local.get('sxpssojs', function (result){\n\n\t\tsxpssojs = result.sxpssojs + \"]]></JS>\" ;\n\n\n\t\tappXml = \"<appxmldata>\" + sxpssoxmldata + sxpssojs + \"</appxmldata>\";\n\t\tif(appXml.indexOf(\"document\") == -1)\n\t\t{\n\t\t$(\"#err2\").show();\n\t\t$('#err2').css({'color':'red'});\n\n\t\t$('#FinishedCapturing').css({'background-color':'red'});\n\t\t}\n\t\telse\n\t\t{\n\t\t$(\"#err1\").show();\n\t\t$('#err1').css({'color':'green'});\n\t\t$('#FinishedCapturing').css({'background-color':'darkgrey'});\n\t\tdocument.getElementById('sxptoggleExtnUsage').checked=false;\n\t\tchrome.storage.local.set({'chkBoxChkd': \"false\"}, function() {});\n\n\t\t}\n\n $.ajax({\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n });\n\n chrome.storage.local.set({'sxpssoxml':\"\"}, function() {});\n chrome.storage.local.set({'sxpssojs':\"\"}, function() {});\n });\n\n\n }",
+                "line": "349 - 393",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(sxpssojs, <pdg_js.node.FunctionExpression object at 0x7f6fa3129100>)",
+                "sink-param1": "sxpssojs",
+                "sink-param2": "function (result){\n\n\t\tsxpssojs = result.sxpssojs + \"]]></JS>\" ;\n\n\n\t\tappXml = \"<appxmldata>\" + sxpssoxmldata + sxpssojs + \"</appxmldata>\";\n\t\tif(appXml.indexOf(\"document\") == -1)\n\t\t{\n\t\t$(\"#err2\").show();\n\t\t$('#err2').css({'color':'red'});\n\n\t\t$('#FinishedCapturing').css({'background-color':'red'});\n\t\t}\n\t\telse\n\t\t{\n\t\t$(\"#err1\").show();\n\t\t$('#err1').css({'color':'green'});\n\t\t$('#FinishedCapturing').css({'background-color':'darkgrey'});\n\t\tdocument.getElementById('sxptoggleExtnUsage').checked=false;\n\t\tchrome.storage.local.set({'chkBoxChkd': \"false\"}, function() {});\n\n\t\t}\n\n $.ajax({\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n });\n\n chrome.storage.local.set({'sxpssoxml':\"\"}, function() {});\n chrome.storage.local.set({'sxpssojs':\"\"}, function() {});\n }",
+                "line": "353 - 390",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6f8b764820>)",
+                "sink-param1": "{\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n }",
+                "line": "376 - 386",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa313f2b0>)",
+                "sink-param1": "{\n\n\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\ttype:'POST',\n\t\tdata:{},\n\t\tasync: false,\n\t\tsuccess:function(response)\n\t\t{\n\t\t\tresponseToken=response;\n\t\t},\n\t\terror:function(response)\n\t\t{\n\t\t}\n\t}",
+                "line": "326 - 339",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa2528df0>)",
+                "sink-param1": "{\n url:mainurl+\"/extension/getExtensionApps\",\n type: 'POST',\n data: {appurl:tabURL},\n async: false,\n success: function(data) {\n\t\t\tdata1 = data;\n\t\t\t\n\t\t\t\tif(!flag) {\n\t\t\t\t\n\t\t\t\t\tif (extensionAppData != JSON.stringify(data)) {\n\t\t\t\t\t\textensionAppData = JSON.stringify(data);\n\t\t\t var xhr = new XMLHttpRequest();\n\t\t\t xhr.open(\"POST\", cbsUrl + \"/setAppData\", true);\n\t\t\t xhr.setRequestHeader(\"Content-Type\", \"application/x-www-form-urlencoded; charset=UTF-8\");\n\t\t\t xhr.send(JSON.stringify(data));\n\t\t\t\t\n\t\t\t xhr.onload = function() {\n\t\t\t };\n\n\t\t\t xhr.onerror = function() {\n\t\t\t };\n\t\t\t }\n\t\t\t\t}\n\t\t\t}\n }",
+                "line": "291 - 316",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa2528340>)",
+                "sink-param1": "{\n\t url:mainurl+\"/extension/checkuserlogin\",\n\t type: 'POST',\n\t data: {},\n\t async: false,\n\t success: function(data) {\n\t\t\t\tif(isJson(data)==false){\n\t\t\t\t\n\t\t\t\tdata1 = data;\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t\t{\n\t \t\tshowUiAM();\n\t\t\t\t\t}\n\t\t\t\t},\n\t error:function(data){\n\t \t\tshowUiAM();\n\t }\n\t }",
+                "line": "265 - 283",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa2d1d970>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\t\tif(result.chkBoxChkd == \"true\")\n\t\t{\n\t\twindow.console.log(\"result.chkBoxChkd on Tab created=\"+result.chkBoxChkd);\n\t\t task[tab.id] = \"AppOnboard\";\n\t\t}\n\t\telse if(result.chkBoxChkd == \"true\")\n\t\t{\n\t\twindow.console.log(\"result.chkBoxChkd on Tab created=\"+result.chkBoxChkd);\n\t\t task[tab.id] = \"init\";\n\t\t}\n\n }",
+                "line": "18 - 30",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(js, <pdg_js.node.FunctionExpression object at 0x7f6fa246e340>)",
+                "sink-param1": "js",
+                "sink-param2": "function (result) {\n\tif(result.js!=\"NoData\")\n\t\t{\n\t\t\tconsole.log(\"inside data js \" );\nchrome.tabs.sendMessage(tabid, {msg: \"sso1\",js:result.js},function(response){});\n\t\t}\n}",
+                "line": "54 - 60",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa246ecd0>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n if(tab.status==\"complete\"&&result.chkBoxChkd==\"true\"&&turl.indexOf(\"addApplication?signonoptions\")==-1)\n\t {\n chrome.tabs.sendMessage(tabid, {msg: \"sso\"},function(response){});\n }}",
+                "line": "66 - 71",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa2b0d8b0>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t try{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t if(result.chkBoxChkd==\"undefined\"||result.chkBoxChkd==undefined)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t result.chkBoxChkd=\"false\";\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }catch(e){}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t try{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t if(tab.status==\"complete\"&&result.chkBoxChkd==\"false\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n chrome.tabs.sendMessage(tabid, {msg: \"doSSO\",js:CredsAndJsJSON,masking:flag,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t invalidLoginDetection:flagInvalidLoginDetection,delay:delay},function(response){});\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }\n\t\t\t\t\t\t\t\t\t }catch(e){}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }",
+                "line": "186 - 207",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa251b130>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n if(tab.status==\"complete\"&&result.chkBoxChkd==\"true\"&&turl.indexOf(\"addApplication?signonoptions\")==-1)\n\t {\n\n chrome.tabs.sendMessage(tabid, {msg: \"sso\"},function(response){});\n }}",
+                "line": "232 - 238",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa2d94850>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/sxpauth',\n\t\t\ttype:'POST',\n\t\t\tdata:request.sxpToken,\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "438 - 449",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa2d94f10>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\t\ttype:'POST',\n\t\t\tdata:{},\n\t\t\tsuccess:function(response)\n\t\t\t{\n\n\t\t\t\t$.ajax({\n\n\t\t\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\t\t\ttype:'get',\n\t\t\t\t\tdata:{},\n\t\t\t\t\tsuccess:function(response1)\n\t\t\t\t\t{\n\t\t\t\t\ttry{\n\n\t\t\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValue\",tokenValue:response,multiValue:response1},function(response){});\n\t\t\t\t\t\t})\n\n\t\t\t\t\t}catch(e){}\n\t\t\t\t\t}\n\t\t\t\t});\n\n\n\n\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "455 - 487",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger14": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa2d64400>)",
+                "sink-param1": "{\n\n\t\t\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\t\t\ttype:'get',\n\t\t\t\t\tdata:{},\n\t\t\t\t\tsuccess:function(response1)\n\t\t\t\t\t{\n\t\t\t\t\ttry{\n\n\t\t\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValue\",tokenValue:response,multiValue:response1},function(response){});\n\t\t\t\t\t\t})\n\n\t\t\t\t\t}catch(e){}\n\t\t\t\t\t}\n\t\t\t\t}",
+                "line": "463 - 478",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger15": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa061c2e0>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\t\ttype:'POST',\n\t\t\tdata:{},\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\ttry{\n\n\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValueStatus\",tokenValue:response},function(response){});\n\t\t\t\t})\n\n\t\t\t}catch(e){}\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "510 - 528",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger16": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa3053fd0>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\ttype:'get',\n\t\t\tdata:{},\n\t\t\tasync:false,\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\tif(response==\"true\"){\n\t\t\t$.ajax({\n\n\t\t\t\turl:mainurl+'/IwaSkipMFA',\n\t\t\t\ttype:'POST',\n\t\t\t\tasync:false,\n\t\t\t\tdata:{},\n\t\t\t\tsuccess:function(response)\n\t\t\t\t{\n\n\t\t\t\t\tresponse=JSON.parse(response);\n\t\t\t\t\tif(response.url){\n\t\t\t\t\t\ttry {\n chrome.tabs.query({active:true, windowType:\"normal\", currentWindow: true}, function(d){\n console.debug(d[0].id);\n chrome.tabs.sendMessage(d[0].id, {responsskipiwa: \"iwaSkip\",iwaRedirectUrl:response.url}, function(response){});\n });\n } catch(e) {}\n\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t\t}\n\n\t\t\t}\n\t\t}",
+                "line": "568 - 601",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger17": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f6fa3ac6670>)",
+                "sink-param1": "{\n\n\t\t\t\turl:mainurl+'/IwaSkipMFA',\n\t\t\t\ttype:'POST',\n\t\t\t\tasync:false,\n\t\t\t\tdata:{},\n\t\t\t\tsuccess:function(response)\n\t\t\t\t{\n\n\t\t\t\t\tresponse=JSON.parse(response);\n\t\t\t\t\tif(response.url){\n\t\t\t\t\t\ttry {\n chrome.tabs.query({active:true, windowType:\"normal\", currentWindow: true}, function(d){\n console.debug(d[0].id);\n chrome.tabs.sendMessage(d[0].id, {responsskipiwa: \"iwaSkip\",iwaRedirectUrl:response.url}, function(response){});\n });\n } catch(e) {}\n\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}",
+                "line": "577 - 597",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(sxpssoxml, <pdg_js.node.FunctionExpression object at 0x7f6fa313fc70>)",
+                "sink-param1": "sxpssoxml",
+                "sink-param2": "function (result) {\n\n\t\tsxpssoxmldata = result.sxpssoxml + \"</sso>\";\n\n\t\tchrome.storage.local.get('sxpssojs', function (result){\n\n\t\tsxpssojs = result.sxpssojs + \"]]></JS>\" ;\n\n\n\t\tappXml = \"<appxmldata>\" + sxpssoxmldata + sxpssojs + \"</appxmldata>\";\n\t\tif(appXml.indexOf(\"document\") == -1)\n\t\t{\n\t\t$(\"#err2\").show();\n\t\t$('#err2').css({'color':'red'});\n\n\t\t$('#FinishedCapturing').css({'background-color':'red'});\n\t\t}\n\t\telse\n\t\t{\n\t\t$(\"#err1\").show();\n\t\t$('#err1').css({'color':'green'});\n\t\t$('#FinishedCapturing').css({'background-color':'darkgrey'});\n\t\tdocument.getElementById('sxptoggleExtnUsage').checked=false;\n\t\tchrome.storage.local.set({'chkBoxChkd': \"false\"}, function() {});\n\n\t\t}\n\n $.ajax({\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n });\n\n chrome.storage.local.set({'sxpssoxml':\"\"}, function() {});\n chrome.storage.local.set({'sxpssojs':\"\"}, function() {});\n });\n\n\n }",
+                "line": "349 - 393",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(sxpssojs, <pdg_js.node.FunctionExpression object at 0x7f6fa3129100>)",
+                "sink-param1": "sxpssojs",
+                "sink-param2": "function (result){\n\n\t\tsxpssojs = result.sxpssojs + \"]]></JS>\" ;\n\n\n\t\tappXml = \"<appxmldata>\" + sxpssoxmldata + sxpssojs + \"</appxmldata>\";\n\t\tif(appXml.indexOf(\"document\") == -1)\n\t\t{\n\t\t$(\"#err2\").show();\n\t\t$('#err2').css({'color':'red'});\n\n\t\t$('#FinishedCapturing').css({'background-color':'red'});\n\t\t}\n\t\telse\n\t\t{\n\t\t$(\"#err1\").show();\n\t\t$('#err1').css({'color':'green'});\n\t\t$('#FinishedCapturing').css({'background-color':'darkgrey'});\n\t\tdocument.getElementById('sxptoggleExtnUsage').checked=false;\n\t\tchrome.storage.local.set({'chkBoxChkd': \"false\"}, function() {});\n\n\t\t}\n\n $.ajax({\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n });\n\n chrome.storage.local.set({'sxpssoxml':\"\"}, function() {});\n chrome.storage.local.set({'sxpssojs':\"\"}, function() {});\n }",
+                "line": "353 - 390",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa2d1d970>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\t\tif(result.chkBoxChkd == \"true\")\n\t\t{\n\t\twindow.console.log(\"result.chkBoxChkd on Tab created=\"+result.chkBoxChkd);\n\t\t task[tab.id] = \"AppOnboard\";\n\t\t}\n\t\telse if(result.chkBoxChkd == \"true\")\n\t\t{\n\t\twindow.console.log(\"result.chkBoxChkd on Tab created=\"+result.chkBoxChkd);\n\t\t task[tab.id] = \"init\";\n\t\t}\n\n }",
+                "line": "18 - 30",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(js, <pdg_js.node.FunctionExpression object at 0x7f6fa246e340>)",
+                "sink-param1": "js",
+                "sink-param2": "function (result) {\n\tif(result.js!=\"NoData\")\n\t\t{\n\t\t\tconsole.log(\"inside data js \" );\nchrome.tabs.sendMessage(tabid, {msg: \"sso1\",js:result.js},function(response){});\n\t\t}\n}",
+                "line": "54 - 60",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa246ecd0>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n if(tab.status==\"complete\"&&result.chkBoxChkd==\"true\"&&turl.indexOf(\"addApplication?signonoptions\")==-1)\n\t {\n chrome.tabs.sendMessage(tabid, {msg: \"sso\"},function(response){});\n }}",
+                "line": "66 - 71",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa2b0d8b0>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t try{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t if(result.chkBoxChkd==\"undefined\"||result.chkBoxChkd==undefined)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t result.chkBoxChkd=\"false\";\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }catch(e){}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t try{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t if(tab.status==\"complete\"&&result.chkBoxChkd==\"false\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n chrome.tabs.sendMessage(tabid, {msg: \"doSSO\",js:CredsAndJsJSON,masking:flag,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t invalidLoginDetection:flagInvalidLoginDetection,delay:delay},function(response){});\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }\n\t\t\t\t\t\t\t\t\t }catch(e){}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t }",
+                "line": "186 - 207",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger7": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(chkBoxChkd, <pdg_js.node.FunctionExpression object at 0x7f6fa251b130>)",
+                "sink-param1": "chkBoxChkd",
+                "sink-param2": "function (result) {\n\n if(tab.status==\"complete\"&&result.chkBoxChkd==\"true\"&&turl.indexOf(\"addApplication?signonoptions\")==-1)\n\t {\n\n chrome.tabs.sendMessage(tabid, {msg: \"sso\"},function(response){});\n }}",
+                "line": "232 - 238",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

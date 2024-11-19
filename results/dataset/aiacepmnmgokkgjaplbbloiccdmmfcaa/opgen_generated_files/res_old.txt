@@ -1,0 +1,188 @@
+(['20387', '20399', '20401', '20403'], 'document_eventListener_RequestWindow')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestWindow to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 551	document.addEventListener('RequestWindow', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 552	    var pid = evt.detail.pid;
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 552	    var pid = evt.detail.pid;
+	evt.detail.pid
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 553	    var urlPost = window.location.protocol + '//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=' + pid;
+	urlPost = window.location.protocol + '//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=' + pid
+
+(['23209', '23229', '24284', '24430', '24435'], 'document_eventListener_OpenView')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with chrome_tabs_create_sink
+from document_eventListener_OpenView to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 867	document.addEventListener('OpenView', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 867	        var spinView = request.Name;
+	request.Name
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 868	        var url = spinView.substring(0, spinView.indexOf(";"));
+	spinView.indexOf(";")
+
+(['23209', '23229', '24284', '24430'], 'document_eventListener_OpenView')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with chrome_tabs_create_sink
+from document_eventListener_OpenView to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 867	document.addEventListener('OpenView', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 867	        var spinView = request.Name;
+	request.Name
+
+(['23209', '23229', '24284', '24430', '24433'], 'document_eventListener_OpenView')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with chrome_tabs_create_sink
+from document_eventListener_OpenView to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 867	document.addEventListener('OpenView', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 867	        var spinView = request.Name;
+	request.Name
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 868	        var url = spinView.substring(0, spinView.indexOf(";"));
+	spinView.substring(0, spinView.indexOf(";"))
+
+(['23209', '23229', '24284', '24430', '24463', '24488'], 'document_eventListener_OpenView')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with chrome_tabs_create_sink
+from document_eventListener_OpenView to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 867	document.addEventListener('OpenView', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 867	        var spinView = request.Name;
+	request.Name
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 868	        var url = spinView.substring(0, spinView.indexOf(";"));
+	spinView.indexOf(";")
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 868	        var url = spinView.substring(0, spinView.indexOf(";"));
+	spinView.substring(0, spinView.indexOf(";"))
+
+(['23209', '23229', '24284', '24430', '24488'], 'document_eventListener_OpenView')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with chrome_tabs_create_sink
+from document_eventListener_OpenView to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 867	document.addEventListener('OpenView', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 868	    chrome.runtime.sendMessage({ type: "OpenView", obj: evt.detail });
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 867	        var spinView = request.Name;
+	request.Name
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 868	        var url = spinView.substring(0, spinView.indexOf(";"));
+	spinView.substring(0, spinView.indexOf(";"))
+
+(['23357', '23367', '23394', '26581'], 'document_eventListener_RequestLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 875	document.addEventListener('RequestLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 876	    if (evt.detail != null) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 886	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 886	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+
+(['23357', '23367', '23394', '26581', '26743'], 'document_eventListener_RequestLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 875	document.addEventListener('RequestLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 876	    if (evt.detail != null) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 886	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 886	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 910	        if (linkUrl.localeCompare(spinUrlRequest) == 0) {
+	linkUrl.localeCompare(spinUrlRequest)
+
+(['23483', '23529', '26882', '27033'], 'document_eventListener_AjaxLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_AjaxLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 937	document.addEventListener('AjaxLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 939	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 939	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 980	        var linkUrl = request.obj.url;
+	request.obj.url
+
+(['23483', '23529', '26882', '27036'], 'document_eventListener_AjaxLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_post_sink
+from document_eventListener_AjaxLink to XMLHttpRequest_post_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 937	document.addEventListener('AjaxLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 939	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 939	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 981	        var datajson = request.obj.data;
+	request.obj.data
+

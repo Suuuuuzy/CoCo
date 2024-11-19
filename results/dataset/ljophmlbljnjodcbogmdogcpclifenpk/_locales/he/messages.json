@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "שולח AirMedia"
+  },
+  "appDesc": {
+    "message": "שקף את צג המכשיר על כל צג מחשב בכל עת"
+  },
+  "extTitle": {
+    "message": "שולח AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "התחבר ל-AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "הצג את שולחן העבודה"
+  },
+  "tip_sel_dsk": {
+    "message": "רק ‎הווידאו ישוקף"
+  },
+  "hit_pin": {
+    "message": "הזן קוד PIN"
+  },
+  "tip_sel_tab": {
+    "message": "גם ‎הווידאו וגם האודיו ישוקפו"
+  },
+  "btn_connect": {
+    "message": "התחבר"
+  },
+  "btn_cancel": {
+    "message": "ביטול"
+  },
+  "btn_stop": {
+    "message": "עצור"
+  },
+  "btn_ok": {
+    "message": "אישור"
+  },
+  "btn_auth_cancel": {
+    "message": "ביטול"
+  },
+  "btn_retry_cancel": {
+    "message": "ביטול"
+  },
+  "btn_retry": {
+    "message": "נסה שנית"
+  },
+  "hit_warn": {
+    "message": "לא ניתן להתחבר. אנא בדוק את ההגדרות שלך."
+  },
+  "hit_ip": {
+    "message": "כתובת IP‏ או שם מארח"
+  },
+  "tip_sel_tab_title": {
+    "message": "הצג את הכרטיסיה הנוכחית"
+  },
+  "inp_pincode_helper_text": {
+    "message": "קוד PIN‏ שגוי. אנא נסה שוב."
+  }
+}

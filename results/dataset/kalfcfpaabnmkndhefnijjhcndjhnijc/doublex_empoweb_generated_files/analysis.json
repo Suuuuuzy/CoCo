@@ -1,0 +1,92 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f7fdfcfe640>)",
+                "sink-param1": "{ logindata: event.detail.data }",
+                "line": "4 - 4",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f7fdfcfe5e0>)",
+                "sink-param1": "{ dataAfterLogin: event.detail.data }",
+                "line": "5 - 5",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f7fedb5ff70>)",
+                "sink-param1": "{\n type: \"POST\",\n url: url,\n data: JSON.stringify(parameter),\n contentType: \"application/json; charset=utf-8\",\n dataType: \"json\",\n success: function (response) {\n console.log(response);\n chrome.storage.local.clear();\n }\n }",
+                "line": "4840 - 4850",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7f7fdfcf1b80>, <pdg_js.node.FunctionExpression object at 0x7f7fdfcf1af0>)",
+                "sink-param1": "['logindata']",
+                "sink-param2": "function (result) {\n try {\n UPT = result.logindata;\n UPT = atob(UPT).toString();\n UPT = UPT.toString().split(',');\n if (UPT[2] !== undefined) {\n if (UPT[2] === 'login') {\n DoLogin();\n }\n else {\n window.open(\"https://services.gst.gov.in/services/login\", \"_self\");\n }\n }\n } catch (err) {\n // alert(\"Error 1\");\n }\n }",
+                "line": "11 - 27",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7f7fead3eeb0>, <pdg_js.node.FunctionExpression object at 0x7f7fead3eee0>)",
+                "sink-param1": "['logindata']",
+                "sink-param2": "function (result) {\n if (result.logindata === undefined) {\n return;\n }\n try {\n UPT = result.logindata;\n UPT = atob(UPT).toString();\n UPT = UPT.toString().split(',');\n login();\n chrome.storage.local.remove([\"logindata\"]);\n }\n catch (err) {\n // alert(\"Error 2\");\n }\n }",
+                "line": "43 - 57",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7f7feada9b50>, <pdg_js.node.FunctionExpression object at 0x7f7feada9b80>)",
+                "sink-param1": "['dataAfterLogin']",
+                "sink-param2": "function (result) {\n if (result.dataAfterLogin === undefined) {\n return;\n }\n try {\n UPT = result.dataAfterLogin;\n UPT = atob(UPT).toString();\n UPT = UPT.toString().split(',');\n ExecuteFurther();\n } catch (e) {\n //alert(\"Error 3\");\n }\n }",
+                "line": "99 - 111",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f7fcf759d90>)",
+                "sink-param1": "{ logindata: msg }",
+                "line": "8 - 8",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f7fd2183c70>)",
+                "sink-param1": "{ dataAfterLogin: msg }",
+                "line": "9 - 9",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/kalfcfpaabnmkndhefnijjhcndjhnijc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

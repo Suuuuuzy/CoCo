@@ -1,0 +1,378 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn with chrome_downloads_download_sink
+[(['20631', '20641', '20672', '20704', '20736', '20768', '20800', '20855', '20879', '20916', '20944', '21368', '21399', '21429', '21431', '21434', '21436', '21438', '21440'], 'cs_window_eventListener_click')]
+from cs_window_eventListener_click to chrome_downloads_download_sink
+['12569', '12582', '12642', '12642', '12642', '12642', '12642', '12732', '12732', '12731', '12731', '12659', '12712', '12642', '12642', '12642', '12642', '12642', '12732']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 554	window.addEventListener('click', function(yerVerTox) {
+	yerVerTox
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 555	  let dixo = laxci(yerVerTox.target);
+	yerVerTox.target
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase().includes("tiktok.com")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 570	  gadFart.preventDefault();
+	gadFart.preventDefault()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 581	  lvexFnix.stopPropagation();
+	lvexFnix.stopPropagation()
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 566	  return aHasRat.tagName;
+	aHasRat.tagName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn/opgen_generated_files/cs_1.js
+Line 585	  return fvArt.hostname.toLowerCase().includes("tiktok.com")
+	fvArt.hostname.toLowerCase()
+

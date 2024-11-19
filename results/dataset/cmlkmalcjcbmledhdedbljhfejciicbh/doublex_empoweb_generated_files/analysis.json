@@ -1,0 +1,272 @@
+{
+    "extension": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdb86f10>, <pdg_js.node.FunctionExpression object at 0x7fb9bdb86f40>)",
+                "sink-param1": "{ showPlayerDetail: true }",
+                "sink-param2": "function () { }",
+                "line": "22 - 22",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdba04c0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdba04f0>)",
+                "sink-param1": "{ importActive: false }",
+                "sink-param2": "function () { }",
+                "line": "25 - 25",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdba0a30>, <pdg_js.node.FunctionExpression object at 0x7fb9bdba0a60>)",
+                "sink-param1": "{ importReplace: true }",
+                "sink-param2": "function () { }",
+                "line": "28 - 28",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdba0fa0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdba0fd0>)",
+                "sink-param1": "{ includeTransfer: true }",
+                "sink-param2": "function () { }",
+                "line": "31 - 31",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdbb9550>, <pdg_js.node.FunctionExpression object at 0x7fb9bdbb9580>)",
+                "sink-param1": "{ includeUnassigned: true }",
+                "sink-param2": "function () { }",
+                "line": "34 - 34",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdbb9ac0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdbb9af0>)",
+                "sink-param1": "{ includeClub: true }",
+                "sink-param2": "function () { }",
+                "line": "37 - 37",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdd0f070>, <pdg_js.node.FunctionExpression object at 0x7fb9bdd0f0a0>)",
+                "sink-param1": "{ includeWon: true }",
+                "sink-param2": "function () { }",
+                "line": "40 - 40",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdd0f490>, <pdg_js.node.FunctionExpression object at 0x7fb9bdd0f4c0>)",
+                "sink-param1": "{ importTransfer: null }",
+                "sink-param2": "function () { }",
+                "line": "43 - 43",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdd0f8b0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdd0f8e0>)",
+                "sink-param1": "{ importUnassigned: null }",
+                "sink-param2": "function () { }",
+                "line": "46 - 46",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdd0fcd0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdd0fd00>)",
+                "sink-param1": "{ importClub: null }",
+                "sink-param2": "function () { }",
+                "line": "49 - 49",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fb9bdd28130>, <pdg_js.node.FunctionExpression object at 0x7fb9bdd28160>)",
+                "sink-param1": "{ importWon: null }",
+                "sink-param2": "function () { }",
+                "line": "52 - 52",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set({'request': {'key': 'JSON.parse(request.data)'}}, <pdg_js.node.FunctionExpression object at 0x7fb9bddaff10>)",
+                "sink-param1": {
+                    "request": {
+                        "key": "JSON.parse(request.data)"
+                    }
+                },
+                "sink-param2": "function (res) {\n if (!chrome.runtime.error) {\n sendResponse(data);\n return true;\n }\n }",
+                "line": "193 - 198",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fb9bdb865b0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdb865e0>)",
+                "sink-param1": "[\n 'showPlayerDetail', 'importActive', 'importReplace', 'importTransfer', 'importUnassigned', 'importClub', 'importWon',\n 'includeTransfer', 'includeUnassigned', 'includeClub', 'includeWon'\n ]",
+                "sink-param2": "function (res) {\n if (!chrome.runtime.error) {\n if (!(res.showPlayerDetail === true || res.showPlayerDetail === false)) {\n chrome.storage.local.set({ showPlayerDetail: true }, function () { });\n }\n if (!(res.importActive === true || res.importActive === false)) {\n chrome.storage.local.set({ importActive: false }, function () { });\n }\n if (!(res.importReplace === true || res.importReplace === false)) {\n chrome.storage.local.set({ importReplace: true }, function () { });\n }\n if (!(res.includeTransfer === true || res.includeTransfer === false)) {\n chrome.storage.local.set({ includeTransfer: true }, function () { });\n }\n if (!(res.includeUnassigned === true || res.includeUnassigned === false)) {\n chrome.storage.local.set({ includeUnassigned: true }, function () { });\n }\n if (!(res.includeClub === true || res.includeClub === false)) {\n chrome.storage.local.set({ includeClub: true }, function () { });\n }\n if (!(res.includeWon === true || res.includeWon === false)) {\n chrome.storage.local.set({ includeWon: true }, function () { });\n }\n if (res.importTransfer === undefined) {\n chrome.storage.local.set({ importTransfer: null }, function () { });\n }\n if (res.importUnassigned === undefined) {\n chrome.storage.local.set({ importUnassigned: null }, function () { });\n }\n if (res.importClub === undefined) {\n chrome.storage.local.set({ importClub: null }, function () { });\n }\n if (res.importWon === undefined) {\n chrome.storage.local.set({ importWon: null }, function () { });\n }\n }\n }",
+                "line": "16 - 55",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bdd28760>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (res) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: res\n });\n }\n sendResponse({ success: true, res: res });\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n }\n }",
+                "line": "71 - 94",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bdd42940>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: { SessionId: request.data.SessionId },\n success: function (sessionRes) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: sessionRes\n });\n }\n if (sessionRes.Status.StatusType === 'Ok') {\n url = 'https://apisf.futalert.co.uk/api/User/ImportMyClub';\n $.ajax({\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (importRes) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: importRes\n });\n }\n sendResponse({ success: true, res: importRes });\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n }\n });\n } else {\n sendResponse({ success: true, res: sessionRes });\n }\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n }\n }",
+                "line": "98 - 149",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bdd5e580>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (importRes) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: importRes\n });\n }\n sendResponse({ success: true, res: importRes });\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n }\n }",
+                "line": "112 - 135",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bdd95100>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (res) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: res\n });\n }\n sendResponse({ success: true, res: res });\n return true;\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n return true;\n }\n }",
+                "line": "157 - 182",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "154 - 154",
+                        "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                        "where": "request",
+                        "sent_to_wa_1": {
+                            "wa": "res.request.data.key",
+                            "line": "186 - 186",
+                            "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                            "where": "request"
+                        }
+                    }
+                }
+            },
+            "danger6": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(request.data.key, <pdg_js.node.FunctionExpression object at 0x7fb9bddaf430>)",
+                "sink-param1": "request.data.key",
+                "sink-param2": "function (res) {\n if (!chrome.runtime.error) {\n sendResponse(res[request.data.key]);\n return true;\n }\n }",
+                "line": "184 - 189",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "154 - 154",
+                        "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                        "where": "request",
+                        "sent_to_wa_1": {
+                            "wa": "res.request.data.key",
+                            "line": "186 - 186",
+                            "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                            "where": "request"
+                        }
+                    }
+                }
+            },
+            "danger7": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bddcabe0>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (res) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: res\n });\n }\n sendResponse({ success: true, res: res });\n return true;\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n return true;\n }\n }",
+                "line": "204 - 229",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7fb9bddffac0>)",
+                "sink-param1": "{\n url: url,\n method: 'POST',\n type: 'json',\n data: request.data,\n success: function (res) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: res\n });\n }\n sendResponse({ success: true, res: res });\n return true;\n },\n error: function (error) {\n if (DEBUG_MODE === true) {\n console.log({\n request,\n response: error\n });\n }\n sendResponse({ success: false });\n return true;\n }\n }",
+                "line": "243 - 268",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "request",
+                        "line": "154 - 154",
+                        "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                        "where": "request",
+                        "sent_to_wa_1": {
+                            "wa": "res.request.data.key",
+                            "line": "186 - 186",
+                            "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                            "where": "request"
+                        }
+                    }
+                }
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fb9bdb865b0>, <pdg_js.node.FunctionExpression object at 0x7fb9bdb865e0>)",
+                "sink-param1": "[\n 'showPlayerDetail', 'importActive', 'importReplace', 'importTransfer', 'importUnassigned', 'importClub', 'importWon',\n 'includeTransfer', 'includeUnassigned', 'includeClub', 'includeWon'\n ]",
+                "sink-param2": "function (res) {\n if (!chrome.runtime.error) {\n if (!(res.showPlayerDetail === true || res.showPlayerDetail === false)) {\n chrome.storage.local.set({ showPlayerDetail: true }, function () { });\n }\n if (!(res.importActive === true || res.importActive === false)) {\n chrome.storage.local.set({ importActive: false }, function () { });\n }\n if (!(res.importReplace === true || res.importReplace === false)) {\n chrome.storage.local.set({ importReplace: true }, function () { });\n }\n if (!(res.includeTransfer === true || res.includeTransfer === false)) {\n chrome.storage.local.set({ includeTransfer: true }, function () { });\n }\n if (!(res.includeUnassigned === true || res.includeUnassigned === false)) {\n chrome.storage.local.set({ includeUnassigned: true }, function () { });\n }\n if (!(res.includeClub === true || res.includeClub === false)) {\n chrome.storage.local.set({ includeClub: true }, function () { });\n }\n if (!(res.includeWon === true || res.includeWon === false)) {\n chrome.storage.local.set({ includeWon: true }, function () { });\n }\n if (res.importTransfer === undefined) {\n chrome.storage.local.set({ importTransfer: null }, function () { });\n }\n if (res.importUnassigned === undefined) {\n chrome.storage.local.set({ importUnassigned: null }, function () { });\n }\n if (res.importClub === undefined) {\n chrome.storage.local.set({ importClub: null }, function () { });\n }\n if (res.importWon === undefined) {\n chrome.storage.local.set({ importWon: null }, function () { });\n }\n }\n }",
+                "line": "16 - 55",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(request.data.key, <pdg_js.node.FunctionExpression object at 0x7fb9bddaf430>)",
+                "sink-param1": "request.data.key",
+                "sink-param2": "function (res) {\n if (!chrome.runtime.error) {\n sendResponse(res[request.data.key]);\n return true;\n }\n }",
+                "line": "184 - 189",
+                "filename": "/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/cmlkmalcjcbmledhdedbljhfejciicbh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

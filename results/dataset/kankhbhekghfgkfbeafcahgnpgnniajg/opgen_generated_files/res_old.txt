@@ -1,0 +1,208 @@
+(['23868'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23860'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23862'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23854'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23876'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23851'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23880'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 704	    var HistoryItem_source = [HistoryItem];
+	[HistoryItem]
+
+(['23870'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with sendResponseExternal_sink
+from HistoryItem_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['23598', '23932'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with chrome_tabs_create_sink
+from bg_chrome_runtime_MessageExternal to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1230	                url: request.url
+	request.url
+
+(['23598', '24037', '24039'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1247	            if (request.status && request.account) {
+	request.account
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1248	                localStorage.setItem('account', JSON.stringify(request.account));
+	JSON.stringify(request.account)
+
+(['36560', '36570', '36637', '37108'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with chrome_tabs_create_sink
+from cs_window_eventListener_message to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 558	window.addEventListener('message', function (e) {
+	e
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 559	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 559	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1230	                url: request.url
+	request.url
+
+(['36560', '36570', '36637', '37202', '37205'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 558	window.addEventListener('message', function (e) {
+	e
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 559	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/cs_0.js
+Line 559	    if (!e.data.from || e.data.from != '__newtab') {
+	e.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1247	            if (request.status && request.account) {
+	request.account
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 1248	                localStorage.setItem('account', JSON.stringify(request.account));
+	JSON.stringify(request.account)
+
+(['37038', '51062'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37021', '51052'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37032', '51054'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37046', '51060'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37050', '51050'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 704	    var HistoryItem_source = [HistoryItem];
+	[HistoryItem]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 704	    var HistoryItem_source = [HistoryItem];
+	[HistoryItem]
+
+(['37030', '51058'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37024', '51064'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+
+(['37040', '51056'], 'HistoryItem_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg with window_postMessage_sink
+from HistoryItem_source to window_postMessage_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kankhbhekghfgkfbeafcahgnpgnniajg/opgen_generated_files/bg.js
+Line 703	    var HistoryItem = {id:'id for history item' ,lastVisitTime:1000 ,title:'title of history page' , typedCount:3, url:'https://example.com' , visitCount:2   };
+	
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="css/materialize.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/outklip.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar-fixed">
+            <nav class="nav-background">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="https://outklip.com">
+                        <img class="logo" style="width:233px" src="../images/v11/logo.png" />
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="section">
+            <div class="row">
+                <div class="col m8 offset-m2 s12">
+                    <h5>Settings</h5>
+                    <span class="grey-text medium-font" id="chromeextensionversion" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Video resolution</h6>
+                    <span class="grey-text"> Sets the resolution of the recorded video: </span>
+                    <span id="resolutionconfig"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Video frame rate</h6>
+                    <span class="grey-text"> Sets the fps of the recorded video: </span>
+                    <span id="fpsconfig"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Video codec </h6>
+                    <span class="grey-text"> Sets the video coding format: </span>
+                    <span id="codecconfig"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Cloud video storage </h6>
+                    <span class="grey-text"> Enables upload of videos to the cloud, for signed in users. If disabled, videos are stored in the browser: </span>
+                    <span id="recordingmodeconfig" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Inline video playback </h6>
+                    <span class="grey-text"> Enables inline playback of videos on specific websites, when an outklip.com video link is present: </span>
+                    <span id="inlinevideoplaybackconfig" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Highlight mouse cursor </h6>
+                    <span class="grey-text"> Adds a color highlight to the mouse cursor to make it more visible: </span>
+                    <span id="highlightmousecursorconfig" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Slow internet connection upload mode </h6>
+                    <span class="grey-text"> Enables video upload on slow internet connection without timing out: </span>
+                    <span id="zerotimeoutforpoorinternetconnectionconfig" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m8 offset-m2 s12 medium-font">
+                    <h6> Permission dialog for camera on tab</h6>
+                    <span class="grey-text"> Show permission dialog to allow the camera to remain visible even as you change browser tabs: </span>
+                    <span id="allurlsconfig"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="center grey-text tiny-text">© 2021 Outklip</footer>
+    <script src="build/vue.min.js"> </script>
+    <script src="build/materialize.min.js"> </script>
+    <script src="build/settings.min.js"> </script>
+</body>

@@ -1,0 +1,70 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "short_name": "__MSG_extName__",
+    "version": "1.5.27.6",
+    "description": "__MSG_description__",
+    "default_locale": "en",
+    "homepage_url": "https://abcdpdf.com",
+    "author": "abcdpdf.com",
+    "browser_action": {
+        "default_icon": "images/icon/icon48.png",
+        "default_title": "__MSG_extName__",
+        "default_popup": "/popup/index.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "/dist/index.html"
+    },
+    "icons": {
+        "16": "images/icon/icon16.png",
+        "32": "images/icon/icon32.png",
+        "48": "images/icon/icon48.png",
+        "128": "images/icon/icon128.png"
+    },
+    "background": {
+        "scripts": [
+            "js/misc.js",
+            "js/background.js",
+            "popup/gmail/js/jquery.min.js",
+            "popup/gmail/js/config.js",
+            "popup/gmail/js/addressparser.js",
+            "popup/gmail/js/gmail.js",
+            "popup/gmail/js/account.js",
+            "popup/gmail/js/background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "all_frames": false,
+            "js": [
+                "popup/gmail/tabletView.js",
+                "js/content_script.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "bookmarks",
+        "history",
+        "contextMenus",
+        "tabs",
+        "https://*.abcdpdf.com/",
+        "https://www.yahoo.com/",
+        "https://mail.google.com/",
+        "notifications"
+    ],
+    "web_accessible_resources": [
+        "popup/gmail/gmail.html",
+        "popup/gmail/tabletView.css"
+    ],
+    "offline_enabled": true,
+    "externally_connectable": {
+        "matches": ["*://abcdpdf.com/*"]
+    }
+}

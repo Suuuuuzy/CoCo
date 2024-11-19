@@ -1,0 +1,80 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(e, t)",
+                "sink-param1": "e",
+                "sink-param2": "t",
+                "line": "324 - 324",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(GET, t.URL, True)",
+                "sink-param1": "GET",
+                "sink-param2": "t.URL",
+                "sink-param3": true,
+                "line": "1014 - 1014",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "management.setEnabled",
+                "value": "chrome.management.setEnabled(t.appSetEnabled.id, t.appSetEnabled.enabled, <pdg_js.node.FunctionExpression object at 0x7f9d6d268400>)",
+                "sink-param1": "t.appSetEnabled.id",
+                "sink-param2": "t.appSetEnabled.enabled",
+                "sink-param3": "function() {\n if (typeof o === \"function\") o(\"ok\")\n }",
+                "line": "1056 - 1058",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "management.getAll",
+                "value": "chrome.management.getAll(<pdg_js.node.FunctionExpression object at 0x7f9d6d3ec550>)",
+                "sink-param1": "function(o) {\n var n = [];\n for (var a = 0; a < e.length; a++) {\n var l = e[a];\n for (var r = 0; r < o.length; r++) {\n var i = o[r];\n if (l.id === i.id) {\n n.push(i)\n }\n }\n }\n t(n)\n }",
+                "line": "262 - 274",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "management.getAll",
+                "value": "chrome.management.getAll(<pdg_js.node.FunctionExpression object at 0x7f9d8102a4c0>)",
+                "sink-param1": "function(o) {\n var n = [];\n for (var a = 0; a < e.length; a++) {\n var l = e[a];\n for (var r = 0; r < o.length; r++) {\n var i = o[r];\n if (i.enabled && l.id === i.id) {\n n.push(i)\n }\n }\n }\n t(n)\n }",
+                "line": "277 - 289",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "topSites.get",
+                "value": "chrome.topSites.get(<pdg_js.node.FunctionExpression object at 0x7f9d6d27a520>)",
+                "sink-param1": "function(e) {\n o(e)\n }",
+                "line": "1041 - 1043",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "management.getAll",
+                "value": "chrome.management.getAll(<pdg_js.node.FunctionExpression object at 0x7f9d6d27a910>)",
+                "sink-param1": "function(e) {\n o(e)\n }",
+                "line": "1046 - 1048",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkofckdfjcapgbdlkifdlbkbbdpbgmfl/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

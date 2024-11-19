@@ -1,0 +1,56 @@
+{
+    "extName": {
+        "message": "Abcd PDF - New Tab For Chrome"
+    },
+    "description": {
+        "message": "100% free and will convert and create various types of files (such as Word DOC, Excel XLS, and PowerPoint PPT)."
+    },
+    "menu_collect_page": {
+        "message": "Add current website to \"Abcd PDF - New Tab For Chrome\""
+    },
+    "menu_search": {
+        "message": "Search by: \"%s\""
+    },
+    "menu_search_privacy": {
+        "message": "Search by incognito mode: \"%s\""
+    },
+    "menu_link_privacy": {
+        "message": "Open link in incognito mode"
+    },
+    "merge_pdf": {
+        "message": "Merge PDF"
+    },
+    "split_pdf": {
+        "message": "Split PDF"
+    },
+    "pdf_to_word": {
+        "message": "PDF to Word"
+    },
+    "pdf_to_excel": {
+        "message": "PDF to Excel"
+    },
+    "pdf_to_ppt": {
+        "message": "PDF to PPT"
+    },
+    "pdf_to_jpg": {
+        "message": "PDF to JPG"
+    },
+    "pdf_to_png": {
+        "message": "PDF to PNG"
+    },
+    "word_to_pdf": {
+        "message": "Word to PDF"
+    },
+    "excel_to_pdf": {
+        "message": "Excel to PDF"
+    },
+    "ppt_to_pdf": {
+        "message": "PPT to PDF"
+    },
+    "jpg_to_pdf": {
+        "message": "JPG to PDF"
+    },
+    "png_to_pdf": {
+        "message": "PNG to PDF"
+    }
+}

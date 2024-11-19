@@ -1,0 +1,74 @@
+(['62916', '62929', '63134', '63184', '63256'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 552	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 954	chrome.runtime.onConnect.addListener(function(a){a.onMessage.addListener(function(c){"crestron.airmedia.query.request"==c.type?a.postMessage({type:"crestron.airmedia.query.response",version:clientversion}):"crestron.airmedia.connect.request"==c.type&&c.endpoint&&((captureDesktopFromWeb=c.connect?!0:!1)?(cancelCaptureDesktop(),window.connectState!=ConnectState.CSConnected&&window.connectState!=ConnectState.CSConnecting||messageHandler.stop(),messageHandler.shareTo({code:c.endpoint},null)):storageSet(s_idx_ip,
+	c.endpoint
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 950	cancelCaptureDesktop();resetExtStatus()},shareTo:function(a,c){window.connectState=ConnectState.CSConnecting;var d=a.code.split("?????");setPars(d[1]);storageSet(s_idx_ip,a.code);singal_server_addr=d[0].replace(/\?(.*)/,"");d=/w(s|ss):(.+)/;d.test(singal_server_addr)||(singal_server_addr=singal_server_addr.replace(/^(ws:\/\/|wss:\/\/|:\/\/|\/\/|\/)/,"ws://"));d.test(singal_server_addr)||(singal_server_addr="ws://"+singal_server_addr);d=/w(s|ss):\/\/[^:]+:[0-9]+/;d.test(singal_server_addr)||(singal_server_addr=
+	a.code.split("?????")
+
+(['62916', '62929', '63134', '63184'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 552	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 954	chrome.runtime.onConnect.addListener(function(a){a.onMessage.addListener(function(c){"crestron.airmedia.query.request"==c.type?a.postMessage({type:"crestron.airmedia.query.response",version:clientversion}):"crestron.airmedia.connect.request"==c.type&&c.endpoint&&((captureDesktopFromWeb=c.connect?!0:!1)?(cancelCaptureDesktop(),window.connectState!=ConnectState.CSConnected&&window.connectState!=ConnectState.CSConnecting||messageHandler.stop(),messageHandler.shareTo({code:c.endpoint},null)):storageSet(s_idx_ip,
+	c.endpoint
+
+(['62916', '62929', '63134', '63184', '63256'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk with chrome_storage_local_set_sink
+from cs_window_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 552	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 954	chrome.runtime.onConnect.addListener(function(a){a.onMessage.addListener(function(c){"crestron.airmedia.query.request"==c.type?a.postMessage({type:"crestron.airmedia.query.response",version:clientversion}):"crestron.airmedia.connect.request"==c.type&&c.endpoint&&((captureDesktopFromWeb=c.connect?!0:!1)?(cancelCaptureDesktop(),window.connectState!=ConnectState.CSConnected&&window.connectState!=ConnectState.CSConnecting||messageHandler.stop(),messageHandler.shareTo({code:c.endpoint},null)):storageSet(s_idx_ip,
+	c.endpoint
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 950	cancelCaptureDesktop();resetExtStatus()},shareTo:function(a,c){window.connectState=ConnectState.CSConnecting;var d=a.code.split("?????");setPars(d[1]);storageSet(s_idx_ip,a.code);singal_server_addr=d[0].replace(/\?(.*)/,"");d=/w(s|ss):(.+)/;d.test(singal_server_addr)||(singal_server_addr=singal_server_addr.replace(/^(ws:\/\/|wss:\/\/|:\/\/|\/\/|\/)/,"ws://"));d.test(singal_server_addr)||(singal_server_addr="ws://"+singal_server_addr);d=/w(s|ss):\/\/[^:]+:[0-9]+/;d.test(singal_server_addr)||(singal_server_addr=
+	a.code.split("?????")
+
+(['62916', '62929', '63134', '63184'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk with chrome_storage_local_set_sink
+from cs_window_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 552	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/cs_0.js
+Line 556	    if (event.data.type && (event.data.type == "crestron.airmedia.query.request" || event.data.type == "crestron.airmedia.connect.request")) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ljophmlbljnjodcbogmdogcpclifenpk/opgen_generated_files/bg.js
+Line 954	chrome.runtime.onConnect.addListener(function(a){a.onMessage.addListener(function(c){"crestron.airmedia.query.request"==c.type?a.postMessage({type:"crestron.airmedia.query.response",version:clientversion}):"crestron.airmedia.connect.request"==c.type&&c.endpoint&&((captureDesktopFromWeb=c.connect?!0:!1)?(cancelCaptureDesktop(),window.connectState!=ConnectState.CSConnected&&window.connectState!=ConnectState.CSConnecting||messageHandler.stop(),messageHandler.shareTo({code:c.endpoint},null)):storageSet(s_idx_ip,
+	c.endpoint
+

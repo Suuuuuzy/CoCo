@@ -1,0 +1,180 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7f1bec28f1c0>, 100)",
+                "sink-param1": "() => {\n time += 100\n\n if (pause || clicked) {\n clearInterval()\n return\n }\n\n if (time >= random_time_to_click) {\n clearInterval(interval)\n stop()\n }\n }",
+                "sink-param2": 100,
+                "line": "7059 - 7071",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bec2da6d0>, data.random_time_to_captcha)",
+                "sink-param1": "() => {\n alert('No NFT for you!')\n $('.rv-root').remove()\n stop()\n }",
+                "sink-param2": "data.random_time_to_captcha",
+                "line": "7018 - 7022",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bec35bc40>, 250)",
+                "sink-param1": "() => {\n window.requestAnimationFrame(step)\n }",
+                "sink-param2": 250,
+                "line": "6894 - 6896",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bec3767f0>, data.random_time_to_captcha)",
+                "sink-param1": "() => {\n if (clicked) return\n\n alert('No NFT for you!')\n $('.rv-root').remove()\n remove = true\n stop()\n // here we open a new tab\n }",
+                "sink-param2": "data.random_time_to_captcha",
+                "line": "6918 - 6926",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bec30fc40>, data.random_time_to_click)",
+                "sink-param1": "() => {\n if (remove) {\n stop()\n } else if (captchad) {\n // do nothing\n clearInterval(timeout)\n } else {\n remove = true\n stop()\n }\n }",
+                "sink-param2": "data.random_time_to_click",
+                "line": "6953 - 6963",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1be6f3ed00>, 1000)",
+                "sink-param1": "function () {\n that.text.innerHTML = that.options.failedText;\n that.reset();\n }",
+                "sink-param2": 1000,
+                "line": "298 - 301",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger7": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bdd7abe50>, Settings.duration)",
+                "sink-param1": "function () {\n result = 1;\n root.parentNode.remove();\n callback(result);\n }",
+                "sink-param2": "Settings.duration",
+                "line": "552 - 556",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger8": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1be4720a90>, 500)",
+                "sink-param1": "function () {\n img.src = getRandomImg(Settings.album);\n maskImg.style.cssText = \"\";\n maskError.style.cssText = \"\";\n slider.classList.remove(\"rv-slider-error\");\n control.style.animation = \"\";\n slider.style.left = 0;\n img.style.transform =\n \"rotate(\" + RandomAngle(Settings.tolerance) + \"deg)\";\n currentAngle = getImgAngle();\n slider.style.transition =\n \"background .2s ease-in-out,border-color .2s ease-in-out,box-shadow .2s ease-in-out,left .5s ease-in-out\";\n img.style.transition = \"transform .5s ease-in-out\";\n slider.style[\"pointer-events\"] = \"\";\n }",
+                "sink-param2": 500,
+                "line": "563 - 577",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger9": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bdc659a30>, v)",
+                "sink-param1": "function () {\n debug(\"connect attempt timed out after %d\", timeout);\n openSubDestroy();\n socket.close();\n socket.emit(\"error\", new Error(\"timeout\"));\n }",
+                "sink-param2": "v",
+                "line": "1092 - 1097",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger10": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1be37d3c70>, this.backoff.duration())",
+                "sink-param1": "function () {\n if (self.skipReconnect) return;\n debug(\"attempting reconnect\");\n\n _this3.emitReserved(\"reconnect_attempt\", self.backoff.attempts); // check again for the case socket closed in above events\n\n\n if (self.skipReconnect) return;\n self.open(function (err) {\n if (err) {\n debug(\"reconnect attempt error\");\n self._reconnecting = false;\n self.reconnect();\n\n _this3.emitReserved(\"reconnect_error\", err);\n } else {\n debug(\"reconnect success\");\n self.onreconnect();\n }\n });\n }",
+                "sink-param2": "this.backoff.duration()",
+                "line": "1340 - 1360",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger11": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bed9bcd90>, 0)",
+                "sink-param1": "function () {\n self.emit(\"error\", \"No transports available\");\n }",
+                "sink-param2": 0,
+                "line": "3309 - 3311",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger12": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bed8d5fa0>, data.pingIntervaldata.pingTimeout)",
+                "sink-param1": "function () {\n _this2.onClose(\"ping timeout\");\n }",
+                "sink-param2": "data.pingIntervaldata.pingTimeout",
+                "line": "3575 - 3577",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger13": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bed385190>, 100)",
+                "sink-param1": "function () {\n var iframe = document.createElement(\"iframe\");\n document.body.appendChild(iframe);\n document.body.removeChild(iframe);\n }",
+                "sink-param2": 100,
+                "line": "4220 - 4224",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger14": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bed167670>, 0)",
+                "sink-param1": "function () {\n self.onError(typeof xhr.status === \"number\" ? xhr.status : 0);\n }",
+                "sink-param2": 0,
+                "line": "4581 - 4583",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger15": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1bed167d60>, 0)",
+                "sink-param1": "function () {\n self.onError(e);\n }",
+                "sink-param2": 0,
+                "line": "4594 - 4596",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger16": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f1becd5f0a0>, 0)",
+                "sink-param1": "function () {\n self.writable = true;\n self.emit(\"drain\");\n }",
+                "sink-param2": 0,
+                "line": "5227 - 5230",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(https://azlabs.tech/login?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f1be714d250>), <pdg_js.node.ValueExpr object at 0x7f1be714d220>)",
+                "sink-param1": "https://azlabs.tech/login?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f1be714d250>)",
+                "sink-param2": "{\n method: 'GET',\n }",
+                "line": "24 - 32",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "fetch",
+                "value": "fetch(http://azlabs.tech/pokemon?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f1bd76a6100>), <pdg_js.node.ValueExpr object at 0x7f1bd76a60d0>)",
+                "sink-param1": "http://azlabs.tech/pokemon?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f1bd76a6100>)",
+                "sink-param2": "{\n method: 'GET',\n }",
+                "line": "138 - 147",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

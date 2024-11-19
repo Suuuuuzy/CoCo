@@ -1,0 +1,287 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d6dffafd0>, 500)",
+                "sink-param1": "function(){\n\tchrome.runtime.sendMessage({statMsg: \"checkSxpTokenValueStatus\"}, function(response) {});\n\t}",
+                "sink-param2": 500,
+                "line": "6 - 8",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d7b5b5a90>, 3000)",
+                "sink-param1": "function(){\n\t\t\t \t\tdocument.getElementById(\"cbsError1\").style.display =\"none\";\n\t \t\t }",
+                "sink-param2": 3000,
+                "line": "127 - 129",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d7a1be6d0>, None)",
+                "sink-param1": "function(){\n if(document.querySelector(\"input[type='password']\")!=null||document.querySelector(\"input[type='text']\")!=null||document.querySelector(\"input[type='pass']\")!=null||document.querySelector(\"input[type='textbox']\")!=null)\n {\n var nf=new Function(jscode);\n nf();\n }\n \tchrome.runtime.sendMessage({statMsg: \"Masking\"}, function(response) {});\n\t}",
+                "sink-param2": null,
+                "line": "835 - 842",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d7951ca30>, None)",
+                "sink-param1": "function(){\n\t\tif(document.querySelector(\"input[type='password']\")!=null||document.querySelector(\"input[type='text']\")!=null||document.querySelector(\"input[type='pass']\")!=null||document.querySelector(\"input[type='textbox']\")!=null)\n {\n var nf=new Function(jscode);\n nf();\n }\n \tchrome.runtime.sendMessage({statMsg: \"Masking\"}, function(response) {});\n\t}",
+                "sink-param2": null,
+                "line": "865 - 872",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d6e13e700>, None)",
+                "sink-param1": "function(){\n\t\tif(document.querySelector(\"input[type='password']\")!=null||document.querySelector(\"input[type='text']\")!=null||document.querySelector(\"input[type='pass']\")!=null||document.querySelector(\"input[type='textbox']\")!=null)\n {\n\n var nf=new Function(jscode);\n nf();\n }\n chrome.runtime.sendMessage({statMsg:\"doMaskingAndInvalidLogin\"}, function(response) {});\n }",
+                "sink-param2": null,
+                "line": "902 - 910",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d72ceb970>, None)",
+                "sink-param1": "function(){\n\t\tif(document.querySelector(\"input[type='password']\")!=null||document.querySelector(\"input[type='text']\")!=null||document.querySelector(\"input[type='pass']\")!=null||document.querySelector(\"input[type='textbox']\")!=null)\n {\n var nf=new Function(jscode);\n nf();\n\n }\n chrome.runtime.sendMessage({statMsg:\"doMaskingAndInvalidLogin\"}, function(response) {});\n }",
+                "sink-param2": null,
+                "line": "938 - 946",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/setAppData, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/setAppData",
+                "sink-param3": true,
+                "line": "304 - 304",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, https://sso.infinitiretail.com/MiddlewareRestServices/extension/getAppCredsBasedOnSearch, True)",
+                "sink-param1": "POST",
+                "sink-param2": "https://sso.infinitiretail.com/MiddlewareRestServices/extension/getAppCredsBasedOnSearch",
+                "sink-param3": true,
+                "line": "164 - 164",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d78d58c10>, 2000)",
+                "sink-param1": "function()\n{\n\tchrome.tabs.sendMessage(tabid, {msg: \"ShowInvalidBar\",url:mainurl,msg2:\"removemasking\"},function(response){});\n\n\n}",
+                "sink-param2": 2000,
+                "line": "245 - 250",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d79bd1310>, 4000)",
+                "sink-param1": "function()\n\t\t\t {\n\t \tchrome.tabs.sendMessage(tabid, {msg1:\"removemasking\"},function(response){});}",
+                "sink-param2": 4000,
+                "line": "412 - 414",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f2d79bd1e50>, 4000)",
+                "sink-param1": "function()\n\t {\n\t \tchrome.tabs.sendMessage(tabid, {msg: \"ShowInvalidBar\",url:mainurl,msg2:\"removemasking\"},function(response){});\n\n\n\t }",
+                "sink-param2": 4000,
+                "line": "424 - 429",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger6": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/sxpMultiFactorValue, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/sxpMultiFactorValue",
+                "sink-param3": true,
+                "line": "492 - 492",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/invalidate, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/invalidate",
+                "sink-param3": true,
+                "line": "534 - 534",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/invalidate, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/invalidate",
+                "sink-param3": true,
+                "line": "549 - 549",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "617 - 617",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/getSxpTokenValue, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/getSxpTokenValue",
+                "sink-param3": true,
+                "line": "650 - 650",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "663 - 663",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(POST, http://127.0.0.1:7070/launchBookmark, True)",
+                "sink-param1": "POST",
+                "sink-param2": "http://127.0.0.1:7070/launchBookmark",
+                "sink-param3": true,
+                "line": "692 - 692",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d1611a970>)",
+                "sink-param1": "{\n url:mainurl+'/admin/sendAppXmlAndJs',\n type: 'POST',\n data: {appXmlData:appXml} ,\n // expected format for response\n contentType: \"application/x-www-form-urlencoded; charset=UTF-8\",\n success: function (response) {\n },\n error: function () {\n }\n }",
+                "line": "376 - 386",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d79b8a400>)",
+                "sink-param1": "{\n\n\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\ttype:'POST',\n\t\tdata:{},\n\t\tasync: false,\n\t\tsuccess:function(response)\n\t\t{\n\t\t\tresponseToken=response;\n\t\t},\n\t\terror:function(response)\n\t\t{\n\t\t}\n\t}",
+                "line": "326 - 339",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d78d26f40>)",
+                "sink-param1": "{\n url:mainurl+\"/extension/getExtensionApps\",\n type: 'POST',\n data: {appurl:tabURL},\n async: false,\n success: function(data) {\n\t\t\tdata1 = data;\n\t\t\t\n\t\t\t\tif(!flag) {\n\t\t\t\t\n\t\t\t\t\tif (extensionAppData != JSON.stringify(data)) {\n\t\t\t\t\t\textensionAppData = JSON.stringify(data);\n\t\t\t var xhr = new XMLHttpRequest();\n\t\t\t xhr.open(\"POST\", cbsUrl + \"/setAppData\", true);\n\t\t\t xhr.setRequestHeader(\"Content-Type\", \"application/x-www-form-urlencoded; charset=UTF-8\");\n\t\t\t xhr.send(JSON.stringify(data));\n\t\t\t\t\n\t\t\t xhr.onload = function() {\n\t\t\t };\n\n\t\t\t xhr.onerror = function() {\n\t\t\t };\n\t\t\t }\n\t\t\t\t}\n\t\t\t}\n }",
+                "line": "291 - 316",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d78d26490>)",
+                "sink-param1": "{\n\t url:mainurl+\"/extension/checkuserlogin\",\n\t type: 'POST',\n\t data: {},\n\t async: false,\n\t success: function(data) {\n\t\t\t\tif(isJson(data)==false){\n\t\t\t\t\n\t\t\t\tdata1 = data;\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t\t{\n\t \t\tshowUiAM();\n\t\t\t\t\t}\n\t\t\t\t},\n\t error:function(data){\n\t \t\tshowUiAM();\n\t }\n\t }",
+                "line": "265 - 283",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d79bd59a0>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/sxpauth',\n\t\t\ttype:'POST',\n\t\t\tdata:request.sxpToken,\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "438 - 449",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d785420a0>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\t\ttype:'POST',\n\t\t\tdata:{},\n\t\t\tsuccess:function(response)\n\t\t\t{\n\n\t\t\t\t$.ajax({\n\n\t\t\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\t\t\ttype:'get',\n\t\t\t\t\tdata:{},\n\t\t\t\t\tsuccess:function(response1)\n\t\t\t\t\t{\n\t\t\t\t\ttry{\n\n\t\t\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValue\",tokenValue:response,multiValue:response1},function(response){});\n\t\t\t\t\t\t})\n\n\t\t\t\t\t}catch(e){}\n\t\t\t\t\t}\n\t\t\t\t});\n\n\n\n\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "455 - 487",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d78542550>)",
+                "sink-param1": "{\n\n\t\t\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\t\t\ttype:'get',\n\t\t\t\t\tdata:{},\n\t\t\t\t\tsuccess:function(response1)\n\t\t\t\t\t{\n\t\t\t\t\ttry{\n\n\t\t\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValue\",tokenValue:response,multiValue:response1},function(response){});\n\t\t\t\t\t\t})\n\n\t\t\t\t\t}catch(e){}\n\t\t\t\t\t}\n\t\t\t\t}",
+                "line": "463 - 478",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2ceb907430>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getSxpTokenValue',\n\t\t\ttype:'POST',\n\t\t\tdata:{},\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\ttry{\n\n\t\t\t\tchrome.tabs.query({active:true,windowType:\"normal\", currentWindow: true},function(d){console.debug(d[0].id);\n\t\t\t\tchrome.tabs.sendMessage(d[0].id, {msg: \"getTokenValueStatus\",tokenValue:response},function(response){});\n\t\t\t\t})\n\n\t\t\t}catch(e){}\n\t\t\t},\n\t\t\terror:function(response)\n\t\t\t{\n\t\t\t}\n\t\t}",
+                "line": "510 - 528",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d79b4a160>)",
+                "sink-param1": "{\n\n\t\t\turl:cbsUrl+'/getMultifactorValue',\n\t\t\ttype:'get',\n\t\t\tdata:{},\n\t\t\tasync:false,\n\t\t\tsuccess:function(response)\n\t\t\t{\n\t\t\tif(response==\"true\"){\n\t\t\t$.ajax({\n\n\t\t\t\turl:mainurl+'/IwaSkipMFA',\n\t\t\t\ttype:'POST',\n\t\t\t\tasync:false,\n\t\t\t\tdata:{},\n\t\t\t\tsuccess:function(response)\n\t\t\t\t{\n\n\t\t\t\t\tresponse=JSON.parse(response);\n\t\t\t\t\tif(response.url){\n\t\t\t\t\t\ttry {\n chrome.tabs.query({active:true, windowType:\"normal\", currentWindow: true}, function(d){\n console.debug(d[0].id);\n chrome.tabs.sendMessage(d[0].id, {responsskipiwa: \"iwaSkip\",iwaRedirectUrl:response.url}, function(response){});\n });\n } catch(e) {}\n\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t\t}\n\n\t\t\t}\n\t\t}",
+                "line": "568 - 601",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f2d79b4a7c0>)",
+                "sink-param1": "{\n\n\t\t\t\turl:mainurl+'/IwaSkipMFA',\n\t\t\t\ttype:'POST',\n\t\t\t\tasync:false,\n\t\t\t\tdata:{},\n\t\t\t\tsuccess:function(response)\n\t\t\t\t{\n\n\t\t\t\t\tresponse=JSON.parse(response);\n\t\t\t\t\tif(response.url){\n\t\t\t\t\t\ttry {\n chrome.tabs.query({active:true, windowType:\"normal\", currentWindow: true}, function(d){\n console.debug(d[0].id);\n chrome.tabs.sendMessage(d[0].id, {responsskipiwa: \"iwaSkip\",iwaRedirectUrl:response.url}, function(response){});\n });\n } catch(e) {}\n\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}",
+                "line": "577 - 597",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cngodoeanflglpcllhnlcohpgejhglfk/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    }
+}

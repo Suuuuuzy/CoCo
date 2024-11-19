@@ -1,0 +1,46 @@
+(['16138', '16151', '16193', '16483', '16484', '16496'], 'document_eventListener_gtkAskAddonShowInGame')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 545	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 546	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 546	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordX
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordX)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+
+(['16138', '16151', '16193', '16490', '16491', '16496'], 'document_eventListener_gtkAskAddonShowInGame')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 545	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 546	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 546	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordY
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordY)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 852	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+

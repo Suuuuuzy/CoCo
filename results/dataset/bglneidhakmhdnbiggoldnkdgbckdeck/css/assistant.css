@@ -1,0 +1,25 @@
+html, body {
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.none {
+	display: none;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#now-active,
+#use-hint {
+	opacity: 0;
+	transition: opacity 500ms ease-in;
+}
+
+#now-active.show,
+#use-hint.show {
+	opacity: 1;
+}

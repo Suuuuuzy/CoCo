@@ -1,0 +1,59 @@
+body.dark {
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.dark .header .line {
+    border-bottom: 1px solid #5B5B5B;
+}
+
+.dark .title-icon {
+    background-color: #616161;
+    border: 1px solid #616161;
+}
+
+.dark .b-odilo .title-icon {
+    background-image: url('../media/odilo/ico_24_white.png');
+}
+
+.dark .b-ceibal .title-icon {
+    background-image: url('../media/ceibal/ico_24_white.png');
+}
+
+.dark .book .book-info {
+    background-color: #616161;
+}
+
+.dark .book .title {
+    color: #FFFFFF;
+}
+
+.dark .book .text {
+    color: #B7B7B7;
+}
+
+.dark .remove-loan {
+    background-color: #616161;
+}
+
+.dark .empty-book {
+    border: 2px dashed #5B5B5B;
+}
+
+.dark .text-badge {
+    background-color: rgb(205,220,57);
+    color: #000000;
+}
+
+.dark .img_light {
+    display: none;
+}
+
+.dark .img_dark {
+    display: inline-block;
+}
+
+.dark .alert-online-message {
+    background-color: rgb(205,220,57);
+    color: #000000;
+}

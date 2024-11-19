@@ -1,0 +1,1158 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70874981c0>)",
+                "sink-param1": "{countdownTimerValueInSeconds:t.toString()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087846490>)",
+                "sink-param1": "{webcamFilterIndex:o}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087767790>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087701f70>)",
+                "sink-param1": "{avatarinplaceofcamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087734580>)",
+                "sink-param1": "{cameraSize:\"Medium\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087734f70>)",
+                "sink-param1": "{cameraSize:\"Small\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70876cf9a0>)",
+                "sink-param1": "{cameraSize:\"Large\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70876e9670>)",
+                "sink-param1": "{cameraSize:\"Medium\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087683220>)",
+                "sink-param1": "{cameraSize:\"Small\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087683d90>)",
+                "sink-param1": "{cameraSize:\"Large\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087815ca0>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70877e2190>)",
+                "sink-param1": "{enableEmbeddedCamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70877e2820>)",
+                "sink-param1": "{cameraSize:\"Large\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger14": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087385160>)",
+                "sink-param1": "{camera:$(\"#cameradeviceselect\",e).val()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger15": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70873854c0>)",
+                "sink-param1": "{cameralabel:$(\"#cameradeviceselect option:selected\",e).text()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger16": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70875ef3d0>)",
+                "sink-param1": "{isRecordingPausedOrNotStarted:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger17": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087653c10>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger18": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70876b7850>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger19": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70875d48e0>)",
+                "sink-param1": "{isRecordingPausedOrNotStarted:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger20": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087860880>)",
+                "sink-param1": "{webcamFilterIndex:o}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger21": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087986af0>)",
+                "sink-param1": "{enableEmbeddedCamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger22": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70879bbac0>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger23": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087061970>)",
+                "sink-param1": "{enableScreen:\"true\",enableCamera:\"false\",enableTabCaptureAPI:\"false\",recordingmode:\"desktop\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger24": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087061f40>)",
+                "sink-param1": "{enableScreen:\"true\",enableCamera:\"false\",enableTabCaptureAPI:\"true\",recordingmode:\"tab\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger25": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708707ac70>)",
+                "sink-param1": "{enableScreen:\"false\",enableCamera:\"true\",enableTabCaptureAPI:\"false\",recordingmode:\"camera\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger26": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708702a400>)",
+                "sink-param1": "{enableEmbeddedCamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger27": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708702a700>)",
+                "sink-param1": "{cameraSize:\"Large\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger28": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7086ffbca0>)",
+                "sink-param1": "{enableEmbeddedCamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger29": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7086fafc70>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger30": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70871da190>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger31": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087309460>)",
+                "sink-param1": "{isMenuMinimized:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger32": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70873218e0>)",
+                "sink-param1": "{isMenuMinimized:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger33": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70873eab50>)",
+                "sink-param1": "{microphone:$(\"#micdeviceselect\",e).val()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger34": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087401eb0>)",
+                "sink-param1": "{avatarinplaceofcamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger35": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708741c5e0>)",
+                "sink-param1": "{avatarinplaceofcamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger36": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70874b31f0>)",
+                "sink-param1": "{countdownTimerValueInSeconds:t.toString()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger37": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70875a3ca0>)",
+                "sink-param1": "{isRecordingPausedOrNotStarted:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger38": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708755a790>)",
+                "sink-param1": "{enableTabCaptureAPI:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger39": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087354640>)",
+                "sink-param1": "{isMenuMinimized:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger40": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708736e280>)",
+                "sink-param1": "{isMenuMinimized:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger41": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70873ea310>)",
+                "sink-param1": "{useIframeForEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger42": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f70873ea760>)",
+                "sink-param1": "{useIframeForEmbeddedCamera:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger43": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708744e280>)",
+                "sink-param1": "{controlpanel:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger44": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708744e8e0>)",
+                "sink-param1": "{controlpanel:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger45": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087620970>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger46": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708769fdf0>, <pdg_js.node.FunctionExpression object at 0x7f708769fe20>)",
+                "sink-param1": "{enableSpeakers:\"false\"}",
+                "sink-param2": "function(){chrome.extension.lastError&&alert(\"An error occurred: \"+chrome.extension.lastError.message),e.postMessage({setupForRecording:!0})}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger47": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708787a490>)",
+                "sink-param1": "{enableTabAudio:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger48": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708787a8e0>)",
+                "sink-param1": "{enableTabAudio:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger49": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087892700>)",
+                "sink-param1": "{enableMicrophone:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger50": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7085619ca0>)",
+                "sink-param1": "{enableEmbeddedCamera:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger51": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7085cc7ee0>)",
+                "sink-param1": "{enableEmbeddedCamera:e.data.cameraIsOn.toString()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger52": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708d646a90>)",
+                "sink-param1": "{askUserForAllUrlsPermission:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger53": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708d646250>)",
+                "sink-param1": "{enableMicrophone:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger54": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708e6664f0>)",
+                "sink-param1": "{enableMicrophone:\"true\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger55": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708c616640>)",
+                "sink-param1": "{contentScriptState:\"signup\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger56": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708ccf4d30>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger57": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cc8f400>)",
+                "sink-param1": "{contentScriptState:\"config\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger58": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cc5e4c0>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger59": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cc5eb50>)",
+                "sink-param1": "{isRecordingPausedOrNotStarted:\"false\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger60": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cc77f10>)",
+                "sink-param1": "{countdownTimerValueInSeconds:\"3\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger61": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cbc8eb0>)",
+                "sink-param1": "{countdownTimerValueInSeconds:\"3\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger62": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cb80880>)",
+                "sink-param1": "{contentScriptState:\"countdown\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger63": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708caef5e0>)",
+                "sink-param1": "{contentScriptState:\"recording\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger64": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708caa3160>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger65": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708cabe7c0>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger66": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708ca26160>)",
+                "sink-param1": "{contentScriptState:\"uploadinprogress\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger67": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f708ca26f10>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger68": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087ab7f40>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger69": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f7087a50d00>)",
+                "sink-param1": "{contentScriptState:\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(webcamFilterIndex, <pdg_js.node.FunctionExpression object at 0x7f70878ab610>)",
+                "sink-param1": "webcamFilterIndex",
+                "sink-param2": "function(n){e.getElementById(\"outklip-webcam-player\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").classList.remove(...t);var o=parseInt(n.webcamFilterIndex);e.getElementById(\"outklip-webcam-player\").classList.add(t[o]),e.getElementById(\"outklip-profile-photo\").classList.add(t[o]),chrome.storage.sync.set({webcamFilterIndex:o})}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(isRecordingPausedOrNotStarted, <pdg_js.node.FunctionExpression object at 0x7f70871f6b50>)",
+                "sink-param1": "isRecordingPausedOrNotStarted",
+                "sink-param2": "function(t){\"true\"==t.isRecordingPausedOrNotStarted?(e.getElementById(\"outklip-pause-resume-recording\").classList.remove([\"fa-pause\"]),e.getElementById(\"outklip-pause-resume-recording\").classList.add([\"fa-play\"]),e.getElementById(\"outklip-pause-resume-recording\").title=\"Resume recording\"):(e.getElementById(\"outklip-pause-resume-recording\").classList.remove([\"fa-play\"]),e.getElementById(\"outklip-pause-resume-recording\").classList.add([\"fa-pause\"]),e.getElementById(\"outklip-pause-resume-recording\").title=\"Pause recording\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f7087190fa0>, <pdg_js.node.FunctionExpression object at 0x7f7087190fd0>)",
+                "sink-param1": "[\"isMenuMinimized\",\"controlpanel\"]",
+                "sink-param2": "function(t){\"false\"==t.controlpanel?e.getElementById(\"outklip-control-container\").style.display=\"none\":\"true\"==t.isMenuMinimized?(e.getElementById(\"outklip-toggle-menu\").title=\"Expand control panel\",e.getElementById(\"toggle-menu\").style.display=\"block\",e.getElementById(\"toggle-pause-resume\").style.display=\"none\",e.getElementById(\"cancel-recording\").style.display=\"none\",e.getElementById(\"finish-recording\").style.display=\"none\",e.getElementById(\"recording-blinker\").style.display=\"none\",e.getElementById(\"recording-time-indicator\").style.display=\"none\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-one-control\"):(e.getElementById(\"outklip-toggle-menu\").title=\"Minimize control panel\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-five-controls\",e.getElementById(\"toggle-menu\").style.display=\"block\",e.getElementById(\"finish-recording\").style.display=\"block\",e.getElementById(\"cancel-recording\").style.display=\"block\",e.getElementById(\"toggle-pause-resume\").style.display=\"block\",e.getElementById(\"recording-blinker\").style.display=\"none\",e.getElementById(\"recording-time-indicator-string\").innerHTML=de(0),e.getElementById(\"recording-time-indicator\").style.display=\"block\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70877672b0>, <pdg_js.node.FunctionExpression object at 0x7f70877672e0>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"avatarinplaceofcamera\"]",
+                "sink-param2": "function(n){\"true\"==n.enableEmbeddedCamera?(chrome.storage.sync.set({enableEmbeddedCamera:\"false\"}),e.getElementById(\"outklip-webcam-player\").style.display=\"none\",$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!1),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!1),e.getElementById(\"outklip-webcam-controls\").classList.add(\"disable-hover\"),\"true\"==n.useIframeForEmbeddedCamera&&t?t.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\"):(e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\",v())):\"true\"==n.avatarinplaceofcamera&&(e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.add(\"disable-hover\"),chrome.storage.sync.set({avatarinplaceofcamera:\"false\"}),$(\"#profilephotoswitch\",e)&&$(\"#profilephotoswitch\",e).prop(\"checked\",!1))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708771a7f0>, <pdg_js.node.FunctionExpression object at 0x7f708771a820>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"cameraSize\",\"avatarinplaceofcamera\"]",
+                "sink-param2": "function(n){\"true\"==n.enableEmbeddedCamera?n.useIframeForEmbeddedCamera&&(\"Large\"==n.cameraSize?(t&&(t.contentWindow.postMessage({type:\"CHANGE_SIZE\",width:\"190px\",height:\"190px\"},\"*\"),t.style.width=\"190px\",t.style.height=\"190px\"),chrome.storage.sync.set({cameraSize:\"Medium\"})):\"Medium\"==n.cameraSize?(t&&(t.contentWindow.postMessage({type:\"CHANGE_SIZE\",width:\"140px\",height:\"140px\"},\"*\"),t.style.width=\"140px\",t.style.height=\"140px\"),chrome.storage.sync.set({cameraSize:\"Small\"})):\"Small\"==n.cameraSize&&(t&&(t.contentWindow.postMessage({type:\"CHANGE_SIZE\",width:\"250px\",height:\"250px\"},\"*\"),t.style.width=\"250px\",t.style.height=\"250px\"),chrome.storage.sync.set({cameraSize:\"Large\"}))):\"true\"==n.avatarinplaceofcamera&&(\"Large\"==n.cameraSize?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"190px\",e.getElementById(\"outklip-profile-photo\").style.height=\"190px\",e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",chrome.storage.sync.set({cameraSize:\"Medium\"})):\"Medium\"==n.cameraSize?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"140px\",e.getElementById(\"outklip-profile-photo\").style.height=\"140px\",e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",chrome.storage.sync.set({cameraSize:\"Small\"})):\"Small\"==n.cameraSize&&(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"250px\",e.getElementById(\"outklip-profile-photo\").style.height=\"250px\",e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",chrome.storage.sync.set({cameraSize:\"Large\"})))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70878150a0>, <pdg_js.node.FunctionExpression object at 0x7f70878150d0>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"cameraSize\",\"avatarinplaceofcamera\",\"camera\",\"cameralabel\"]",
+                "sink-param2": "function(n){var i=\"250px\",l=\"250px\";\"Medium\"==n.cameraSize?(i=\"190px\",l=\"190px\"):\"Small\"==n.cameraSize&&(i=\"140px\",l=\"140px\"),\"true\"==n.enableEmbeddedCamera?(chrome.storage.sync.set({enableEmbeddedCamera:\"false\"}),e.getElementById(\"outklip-webcam-player\").style.display=\"none\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"none\",$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!1),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!1),t&&t.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\"),v(),\"true\"==n.avatarinplaceofcamera?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=i,e.getElementById(\"outklip-profile-photo\").style.height=l,e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",ge(e.getElementById(\"outklip-webcam-video-container\"),\"outklip-profile-photo\"),e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\"):(e.getElementById(\"outklip-webcam-controls\").classList.add(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\")):(chrome.storage.sync.set({enableEmbeddedCamera:\"true\"}),\"true\"==n.useIframeForEmbeddedCamera?(e.getElementById(\"outklip-profile-photo\").style.display=\"none\",n.cameraSize||chrome.storage.sync.set({cameraSize:\"Large\"}),$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!0),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!0),t?(t.contentWindow.postMessage({type:\"ENABLE_CAMERA\",requesttype:\"user\",width:i,height:l,cameradeviceid:n.camera,squareaspectratio:!0},\"*\"),t.style.width=i,t.style.height=l,e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\"):I(y),e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"none\",v()):(v(),navigator.mediaDevices.enumerateDevices().then(function(t){for(var i=null,l=0;l<t.length;l++)\"videoinput\"===t[l].kind&&t[l].label==n.cameralabel&&(i=t[l].deviceId);var a={video:{aspectRatio:1}};i&&(a.video.deviceId=i),navigator.mediaDevices.getUserMedia(a).then(function(t){o=t,e.getElementById(\"outklip-live-video-viewer-for-pip\").srcObject=t,f(),e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"none\",e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"none\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"inline-block\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\"}).catch(function(e){console.log(e)})})))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(recordingmode, <pdg_js.node.FunctionExpression object at 0x7f7086f6a190>)",
+                "sink-param1": "recordingmode",
+                "sink-param2": "function(t){\"camera\"==t.recordingmode?e.getElementById(\"cameramode-button\").click():\"tab\"==t.recordingmode?e.getElementById(\"tab-button\").click():e.getElementById(\"desktop-button\").click()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(isRecordingPausedOrNotStarted, <pdg_js.node.FunctionExpression object at 0x7f708763ae50>)",
+                "sink-param1": "isRecordingPausedOrNotStarted",
+                "sink-param2": "function(t){\"true\"==t.isRecordingPausedOrNotStarted?(F(),e.postMessage({resumeRecording:!0})):(P(),e.postMessage({pauseRecording:!0}))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(webcamFilterIndex, <pdg_js.node.FunctionExpression object at 0x7f7087846880>)",
+                "sink-param1": "webcamFilterIndex",
+                "sink-param2": "function(n){e.getElementById(\"outklip-webcam-player\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").classList.remove(...t);var o=parseInt(n.webcamFilterIndex);o=++o%t.length,e.getElementById(\"outklip-webcam-player\").classList.add(t[o]),e.getElementById(\"outklip-profile-photo\").classList.add(t[o]),chrome.storage.sync.set({webcamFilterIndex:o})}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f7087a22dc0>, <pdg_js.node.FunctionExpression object at 0x7f7087a22df0>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"cameraSize\",\"avatarinplaceofcamera\",\"camera\",\"cameralabel\"]",
+                "sink-param2": "function(i){var l=\"250px\",r=\"250px\";\"Medium\"==i.cameraSize?(l=\"190px\",r=\"190px\"):\"Small\"==i.cameraSize&&(l=\"140px\",r=\"140px\"),\"true\"==i.enableEmbeddedCamera?\"true\"==i.useIframeForEmbeddedCamera?(e.getElementById(\"outklip-profile-photo\").style.display=\"none\",n?(n.contentWindow.postMessage({type:\"ENABLE_CAMERA\",requesttype:\"auto\",width:l,height:r,cameradeviceid:i.camera,squareaspectratio:!0},\"*\"),n.style.width=l,n.style.height=r,e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\"):I(y),e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"none\",v()):(v(),navigator.mediaDevices.enumerateDevices().then(function(n){for(var l=null,a=0;a<n.length;a++)\"videoinput\"===n[a].kind&&n[a].label==i.cameralabel&&(l=n[a].deviceId);var r={video:{aspectRatio:1}};l&&(r.video.deviceId=l),navigator.mediaDevices.getUserMedia(r).then(function(n){o=n,e.getElementById(\"outklip-live-video-viewer-for-pip\").srcObject=n,chrome.storage.sync.set({enableEmbeddedCamera:\"true\"}),$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!0),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!0),f(),e.getElementById(\"outklip-webcam-player\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"none\",e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"none\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"inline-block\"}).catch(function(t){console.log(t),chrome.storage.sync.set({enableEmbeddedCamera:\"false\"}),e.getElementById(\"outklip-webcam-player\").style.display=\"none\",$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!1),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!1)})})):(n&&n.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\"),e.getElementById(\"outklip-webcam-player\").style.display=\"none\",$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!1),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!1),\"true\"==i.avatarinplaceofcamera?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=l,e.getElementById(\"outklip-profile-photo\").style.height=r,e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",ge(e.getElementById(\"outklip-webcam-video-container\"),\"outklip-profile-photo\"),e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\"):(e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.add(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\"))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(enableTabAudio, <pdg_js.node.FunctionExpression object at 0x7f708707a3a0>)",
+                "sink-param1": "enableTabAudio",
+                "sink-param2": "function(e){\"true\"==e.enableTabAudio?$(\"#tabaudioswitch\",n).prop(\"checked\",!0):$(\"#tabaudioswitch\",n).prop(\"checked\",!1)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70870144c0>, <pdg_js.node.FunctionExpression object at 0x7f70870144f0>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"cameraSize\",\"camera\",\"cameralabel\"]",
+                "sink-param2": "function(i){if(\"false\"==i.enableEmbeddedCamera)if(\"true\"==i.useIframeForEmbeddedCamera){var l=\"250px\",a=\"250px\";\"Medium\"==i.cameraSize?(l=\"190px\",a=\"190px\"):\"Small\"==i.cameraSize&&(l=\"140px\",a=\"140px\"),e.getElementById(\"outklip-profile-photo\").style.display=\"none\",chrome.storage.sync.set({enableEmbeddedCamera:\"true\"}),i.cameraSize||chrome.storage.sync.set({cameraSize:\"Large\"}),$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!0),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!0),n?(n.contentWindow.postMessage({type:\"ENABLE_CAMERA\",requesttype:\"user\",width:l,height:a,cameradeviceid:i.camera,squareaspectratio:!0},\"*\"),n.style.width=l,n.style.height=a,e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\"):I(y),e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"none\",v()}else v(),navigator.mediaDevices.enumerateDevices().then(function(n){for(var l=null,a=0;a<n.length;a++)\"videoinput\"===n[a].kind&&n[a].label==i.cameralabel&&(l=n[a].deviceId);var r={video:{aspectRatio:1}};l&&(r.video.deviceId=l),navigator.mediaDevices.getUserMedia(r).then(function(n){o=n,e.getElementById(\"outklip-live-video-viewer-for-pip\").srcObject=n,chrome.storage.sync.set({enableEmbeddedCamera:\"true\"}),$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!0),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!0),f(),e.getElementById(\"outklip-webcam-player\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"none\",e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"none\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"inline-block\"}).catch(function(t){console.log(t),chrome.storage.sync.set({enableEmbeddedCamera:\"false\"}),e.getElementById(\"outklip-webcam-player\").style.display=\"none\",$(\"#cameraswitch\",e)&&$(\"#cameraswitch\",e).prop(\"checked\",!1),$(\"#tabcameraswitch\",e)&&$(\"#tabcameraswitch\",e).prop(\"checked\",!1)})})}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708728b9a0>, <pdg_js.node.FunctionExpression object at 0x7f708728b9d0>)",
+                "sink-param1": "[\"enableEmbeddedCamera\",\"useIframeForEmbeddedCamera\",\"cameraSize\",\"avatarinplaceofcamera\",\"enableCamera\",\"camera\",\"cameralabel\"]",
+                "sink-param2": "function(n){if(\"true\"==n.enableCamera)e.getElementById(\"outklip-camera-modal-content\").style.display=\"block\",v(),(i=e.getElementById(\"getcameramodeiframe\"))?i.contentWindow.postMessage({type:\"ENABLE_CAMERA\",requesttype:\"auto\",cameradeviceid:n.camera,squareaspectratio:!1},\"*\"):function(e){var t=u();t&&chrome.storage.sync.get([\"camera\"],function(n){var o=\"chrome-extension://\"+chrome.runtime.id;if(!location.ancestorOrigins.contains(o)){var i=document.createElement(\"iframe\");i.id=\"getcameramodeiframe\",i.src=chrome.runtime.getURL(\"camerapermission/getcamera.html\")+\"?cameradeviceid=\"+n.camera+\"&squareaspectratio=false\",i.style=\"display:block;border:none;vertical-align:middle;width:100%;height:100%;\",i.scrolling=\"no\",i.onload=e,i.allow=[\"camera\"],t.getElementById(\"outklip-camera-modal-content\").appendChild(i)}})}(y);else if(\"true\"==n.enableEmbeddedCamera)if(e.getElementById(\"outklip-webcam-video-container\").style.display=\"block\",e.getElementById(\"outklip-profile-photo\").style.display=\"none\",\"true\"==n.useIframeForEmbeddedCamera){var i,l=\"250px\",r=\"250px\";\"Medium\"==n.cameraSize?(l=\"190px\",r=\"190px\"):\"Small\"==n.cameraSize&&(l=\"140px\",r=\"140px\"),(i=e.getElementById(\"getcameraiframe\"))?(i.contentWindow.postMessage({type:\"ENABLE_CAMERA\",requesttype:\"auto\",width:l,height:r,cameradeviceid:n.camera,squareaspectratio:!0},\"*\"),i.style.width=l,i.style.height=r,e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\")):I(y),e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"inline-block\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"none\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"none\",v()}else v(),navigator.mediaDevices.enumerateDevices().then(function(i){for(var l=null,a=0;a<i.length;a++)\"videoinput\"===i[a].kind&&i[a].label==n.cameralabel&&(l=i[a].deviceId);var r={video:{aspectRatio:1}};l&&(r.video.deviceId=l),navigator.mediaDevices.getUserMedia(r).then(function(n){o=n,e.getElementById(\"outklip-live-video-viewer-for-pip\").srcObject=n,f(),e.getElementById(\"outklip-webcam-player\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").classList.remove(...t),e.getElementById(\"outklip-profile-photo\").style.display=\"none\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-webcam-resize-icon\").style.display=\"none\",e.getElementById(\"outklip-change-avatar-icon\").style.display=\"none\",e.getElementById(\"outklip-webcam-change-filter\").style.display=\"none\",e.getElementById(\"outklip-open-picture-in-picture\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\",e.getElementById(\"outklip-live-video-viewer-for-pip\").style.display=\"inline-block\"}).catch(function(t){console.log(t),chrome.storage.sync.set({enableEmbeddedCamera:\"false\"}),e.getElementById(\"outklip-webcam-player\").style.display=\"none\"})});else e.getElementById(\"outklip-webcam-player\").style.display=\"none\",\"true\"==n.avatarinplaceofcamera?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=l,e.getElementById(\"outklip-profile-photo\").style.height=r,e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\"),e.getElementById(\"outklip-webcam-video-container\").style.display=\"block\"):e.getElementById(\"outklip-profile-photo\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger14": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70872a4a30>, <pdg_js.node.FunctionExpression object at 0x7f70872a4a60>)",
+                "sink-param1": "[\"camera\"]",
+                "sink-param2": "function(n){var o=\"chrome-extension://\"+chrome.runtime.id;if(!location.ancestorOrigins.contains(o)){var i=document.createElement(\"iframe\");i.id=\"getcameramodeiframe\",i.src=chrome.runtime.getURL(\"camerapermission/getcamera.html\")+\"?cameradeviceid=\"+n.camera+\"&squareaspectratio=false\",i.style=\"display:block;border:none;vertical-align:middle;width:100%;height:100%;\",i.scrolling=\"no\",i.onload=e,i.allow=[\"camera\"],t.getElementById(\"outklip-camera-modal-content\").appendChild(i)}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger15": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(isMenuMinimized, <pdg_js.node.FunctionExpression object at 0x7f7087309040>)",
+                "sink-param1": "isMenuMinimized",
+                "sink-param2": "function(t){\"true\"==t.isMenuMinimized?(chrome.storage.sync.set({isMenuMinimized:\"false\"}),e.getElementById(\"outklip-toggle-menu\").title=\"Expand control panel\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-five-controls\",e.getElementById(\"finish-recording\").style.display=\"block\",e.getElementById(\"cancel-recording\").style.display=\"block\",e.getElementById(\"toggle-pause-resume\").style.display=\"block\",e.getElementById(\"recording-blinker\").style.display=\"none\",e.getElementById(\"recording-time-indicator-string\").innerHTML=de(0),e.getElementById(\"recording-time-indicator\").style.display=\"block\"):(chrome.storage.sync.set({isMenuMinimized:\"true\"}),e.getElementById(\"outklip-toggle-menu\").title=\"Minimize control panel\",e.getElementById(\"toggle-pause-resume\").style.display=\"none\",e.getElementById(\"cancel-recording\").style.display=\"none\",e.getElementById(\"finish-recording\").style.display=\"none\",e.getElementById(\"recording-time-indicator\").style.display=\"none\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-one-control\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger16": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f7087385a60>, <pdg_js.node.FunctionExpression object at 0x7f7087385a90>)",
+                "sink-param1": "[\"isMenuMinimized\",\"controlpanel\"]",
+                "sink-param2": "function(t){\"false\"==t.controlpanel?e.getElementById(\"outklip-control-container\").style.display=\"none\":(e.getElementById(\"toggle-menu\").removeEventListener(\"click\",ne),e.getElementById(\"toggle-menu\").addEventListener(\"click\",te),e.getElementById(\"recording-time-indicator\").style.display=\"none\",e.getElementById(\"finish-recording\").style.display=\"none\",\"true\"==t.isMenuMinimized?(e.getElementById(\"toggle-pause-resume\").style.display=\"none\",e.getElementById(\"cancel-recording\").style.display=\"none\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-one-control\",e.getElementById(\"outklip-toggle-menu\").title=\"Expand control panel\"):(e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-three-controls\",e.getElementById(\"toggle-menu\").style.display=\"block\",e.getElementById(\"toggle-pause-resume\").style.display=\"block\",e.getElementById(\"cancel-recording\").style.display=\"block\",e.getElementById(\"outklip-toggle-menu\").title=\"Minimize control panel\"))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger17": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70874017f0>, <pdg_js.node.FunctionExpression object at 0x7f7087401820>)",
+                "sink-param1": "[\"avatarinplaceofcamera\",\"cameraSize\",\"enableEmbeddedCamera\"]",
+                "sink-param2": "function(t){if(\"true\"==t.avatarinplaceofcamera)$(\"#profilephotoswitch\",e).prop(\"checked\",!1),chrome.storage.sync.set({avatarinplaceofcamera:\"false\"}),e.getElementById(\"outklip-profile-photo\").style.display=\"none\";else{if($(\"#profilephotoswitch\",e).prop(\"checked\",!0),chrome.storage.sync.set({avatarinplaceofcamera:\"true\"}),\"true\"==t.enableEmbeddedCamera)return;\"Small\"==t.cameraSize?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"140px\",e.getElementById(\"outklip-profile-photo\").style.height=\"140px\"):\"Medium\"==t.cameraSize?(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"190px\",e.getElementById(\"outklip-profile-photo\").style.height=\"190px\"):\"Large\"==t.cameraSize&&(e.getElementById(\"outklip-profile-photo\").src=a,e.getElementById(\"outklip-profile-photo\").style.width=\"250px\",e.getElementById(\"outklip-profile-photo\").style.height=\"250px\"),e.getElementById(\"outklip-profile-photo\").style.display=\"inline-block\",e.getElementById(\"outklip-webcam-controls\").classList.remove(\"disable-hover\")}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger18": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708752d880>, <pdg_js.node.FunctionExpression object at 0x7f708752d8b0>)",
+                "sink-param1": "[\"controlpanel\",\"avatarinplaceofcamera\",\"countdownTimerValueInSeconds\",\"useIframeForEmbeddedCamera\"]",
+                "sink-param2": "function(t){\"true\"==t.controlpanel?$(\"#controlpanelswitch\",e).prop(\"checked\",!0):$(\"#controlpanelswitch\",e).prop(\"checked\",!1),\"true\"==t.avatarinplaceofcamera?$(\"#profilephotoswitch\",e).prop(\"checked\",!0):$(\"#profilephotoswitch\",e).prop(\"checked\",!1),t.countdownTimerValueInSeconds.length<2?$(\"#countdownwhitespaceprefix\",e).html(\"&nbsp;\"):$(\"#countdownwhitespaceprefix\",e).html(\"\"),$(\"#countdownvalue\",e).html(t.countdownTimerValueInSeconds),\"true\"==t.useIframeForEmbeddedCamera?$(\"#pictureinpictureswitch\",e).prop(\"checked\",!1):$(\"#pictureinpictureswitch\",e).prop(\"checked\",!0)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger19": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(isMenuMinimized, <pdg_js.node.FunctionExpression object at 0x7f7087354220>)",
+                "sink-param1": "isMenuMinimized",
+                "sink-param2": "function(t){\"true\"==t.isMenuMinimized?(chrome.storage.sync.set({isMenuMinimized:\"false\"}),e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-three-controls\",e.getElementById(\"toggle-pause-resume\").style.display=\"block\",e.getElementById(\"cancel-recording\").style.display=\"block\",e.getElementById(\"outklip-toggle-menu\").title=\"Minimize control panel\"):(chrome.storage.sync.set({isMenuMinimized:\"true\"}),e.getElementById(\"toggle-pause-resume\").style.display=\"none\",e.getElementById(\"cancel-recording\").style.display=\"none\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-one-control\",e.getElementById(\"outklip-toggle-menu\").title=\"Expand control panel\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger20": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70873d1c10>, <pdg_js.node.FunctionExpression object at 0x7f70873d1c40>)",
+                "sink-param1": "[\"useIframeForEmbeddedCamera\"]",
+                "sink-param2": "function(t){\"true\"===t.useIframeForEmbeddedCamera?($(\"#pictureinpictureswitch\",e).prop(\"checked\",!0),chrome.storage.sync.set({useIframeForEmbeddedCamera:\"false\"})):($(\"#pictureinpictureswitch\",e).prop(\"checked\",!1),chrome.storage.sync.set({useIframeForEmbeddedCamera:\"true\"})),h()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger21": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70874b3bb0>, <pdg_js.node.FunctionExpression object at 0x7f70874b3be0>)",
+                "sink-param1": "[\"controlpanel\",\"isMenuMinimized\"]",
+                "sink-param2": "function(t){\"true\"===t.controlpanel?($(\"#controlpanelswitch\",e).prop(\"checked\",!1),chrome.storage.sync.set({controlpanel:\"false\"}),e.getElementById(\"outklip-control-container\").style.display=\"none\"):($(\"#controlpanelswitch\",e).prop(\"checked\",!0),chrome.storage.sync.set({controlpanel:\"true\"}),e.getElementById(\"recording-time-indicator\").style.display=\"none\",e.getElementById(\"finish-recording\").style.display=\"none\",\"true\"==t.isMenuMinimized?(e.getElementById(\"toggle-pause-resume\").style.display=\"none\",e.getElementById(\"cancel-recording\").style.display=\"none\",e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-one-control\",e.getElementById(\"outklip-toggle-menu\").title=\"Expand control panel\"):(e.getElementById(\"outklip-control-container\").style.display=\"grid\",e.getElementById(\"outklip-control-container\").className=\"grid-of-three-controls\",e.getElementById(\"toggle-menu\").style.display=\"block\",e.getElementById(\"toggle-pause-resume\").style.display=\"block\",e.getElementById(\"cancel-recording\").style.display=\"block\",e.getElementById(\"outklip-toggle-menu\").title=\"Minimize control panel\"))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger22": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(enableTabAudio, <pdg_js.node.FunctionExpression object at 0x7f708787a070>)",
+                "sink-param1": "enableTabAudio",
+                "sink-param2": "function(t){\"true\"==t.enableTabAudio?(chrome.storage.sync.set({enableTabAudio:\"false\"}),$(\"#tabaudioswitch\",e).prop(\"checked\",!1)):(chrome.storage.sync.set({enableTabAudio:\"true\"}),$(\"#tabaudioswitch\",e).prop(\"checked\",!0))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger23": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(enableMicrophone, <pdg_js.node.FunctionExpression object at 0x7f70878922e0>)",
+                "sink-param1": "enableMicrophone",
+                "sink-param2": "function(t){if(\"true\"==t.enableMicrophone)chrome.storage.sync.set({enableMicrophone:\"false\"}),$(\"#audioswitch\",e).prop(\"checked\",!1),$(\"#tabmicswitch\",e).prop(\"checked\",!1),$(\"#cameramicswitch\",e).prop(\"checked\",!1);else{var n=e.getElementById(\"getmiciframe\");n?n.contentWindow.postMessage({type:\"ENABLE_MICROPHONE\",requesttype:\"user\"},\"*\"):k()}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger24": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(enableMicrophone, <pdg_js.node.FunctionExpression object at 0x7f708790d940>)",
+                "sink-param1": "enableMicrophone",
+                "sink-param2": "function(t){\"true\"==t.enableMicrophone?($(\"#audioswitch\",e).prop(\"checked\",!0),$(\"#tabmicswitch\",e).prop(\"checked\",!0),$(\"#cameramicswitch\",e).prop(\"checked\",!0)):($(\"#audioswitch\",e).prop(\"checked\",!1),$(\"#tabmicswitch\",e).prop(\"checked\",!1),$(\"#cameramicswitch\",e).prop(\"checked\",!1))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger25": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f70878c49d0>, <pdg_js.node.FunctionExpression object at 0x7f70878c4a00>)",
+                "sink-param1": "[\"camera\"]",
+                "sink-param2": "function(n){var o=\"chrome-extension://\"+chrome.runtime.id;if(!location.ancestorOrigins.contains(o)){var i=document.createElement(\"iframe\");i.id=\"getcameraiframe\",i.src=chrome.runtime.getURL(\"camerapermission/getcamera.html\")+\"?cameradeviceid=\"+n.camera+\"&squareaspectratio=true\",i.style=\"display:block;border:none;vertical-align:middle;\",i.scrolling=\"no\",e&&(i.onload=e),i.allow=[\"camera\"],t.getElementById(\"outklip-webcam-player\").appendChild(i),t.getElementById(\"outklip-profile-photo\").style.display=\"none\",t.getElementById(\"outklip-webcam-player\").style.display=\"inline-block\",ge(t.getElementById(\"outklip-webcam-video-container\"),\"outklip-webcam-player\")}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger26": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f7085cc7130>, <pdg_js.node.FunctionExpression object at 0x7f7085a5fa30>)",
+                "sink-param1": "[\"cameraSize\"]",
+                "sink-param2": "function(e){var t=n.getElementById(\"getcameraiframe\");if(t){var o=\"250px\",i=\"250px\";\"Medium\"==e.cameraSize?(o=\"190px\",i=\"190px\"):\"Small\"==e.cameraSize&&(o=\"140px\",i=\"140px\"),t.contentWindow.postMessage({type:\"CHANGE_SIZE\",width:o,height:i},\"*\"),t.style.width=o,t.style.height=i}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger27": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708d6462b0>, <pdg_js.node.FunctionExpression object at 0x7f708d646220>)",
+                "sink-param1": "[\"askUserForAllUrlsPermission\",\"hasAllUrlsPermission\"]",
+                "sink-param2": "function(e){\"true\"==e.askUserForAllUrlsPermission&&\"false\"==e.hasAllUrlsPermission&&(n.getElementById(\"outklip-allurls-rationale-container\").style.display=\"block\",chrome.storage.sync.set({askUserForAllUrlsPermission:\"false\"}))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger28": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708e6db3d0>, <pdg_js.node.FunctionExpression object at 0x7f708e6db850>)",
+                "sink-param1": "[\"camera\"]",
+                "sink-param2": "function(t){for(var o=0;o<e.data.listOfCameraInputDevices.length;o++)$(\"#cameradeviceselect\",n).append(`<option value=\"${e.data.listOfCameraInputDevices[o].id}\">${e.data.listOfCameraInputDevices[o].label}</option>`),t.camera==e.data.listOfCameraInputDevices[o].id&&($(\"#cameradeviceselect\",n).val(e.data.listOfCameraInputDevices[o].id),a=!0);a||(0==e.data.listOfCameraInputDevices.length?$(\"#cameradeviceselect\",n).append('<option value=\"none\">None</option>').val(\"none\"):$(\"#cameradeviceselect\",n).val(e.data.listOfCameraInputDevices[0].id))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger29": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f708dbe9940>, <pdg_js.node.FunctionExpression object at 0x7f708dbe97c0>)",
+                "sink-param1": "[\"microphone\"]",
+                "sink-param2": "function(t){for(var o=0;o<e.data.listOfMicDevices.length;o++)$(\"#micdeviceselect\",n).append(`<option value=\"${e.data.listOfMicDevices[o].id}\">${e.data.listOfMicDevices[o].label}</option>`),t.microphone==e.data.listOfMicDevices[o].id&&($(\"#micdeviceselect\",n).val(e.data.listOfMicDevices[o].id),r=!0);r||(0==e.data.listOfMicDevices.length?$(\"#micdeviceselect\",n).append('<option value=\"none\">None</option>').val(\"none\"):$(\"#micdeviceselect\",n).val(e.data.listOfMicDevices[0].id))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger30": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708cd3fbe0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-config-modal\").style.display=\"none\",t.getElementById(\"outklip-signup-modal\").style.display=\"block\",t.getElementById(\"outklip-modal-id\").style.display=\"block\",t.getElementById(\"outklip-sandbox\").addEventListener(\"click\",R),t.getElementById(\"outklip-close-signup\").onclick=T,t.getElementById(\"outklip-signup-logo\").src=chrome.extension.getURL(\"images/v11/logo.png\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger31": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708ccf44c0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-signup-modal\").style.display=\"none\",t.getElementById(\"outklip-modal-id\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger32": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708cca9880>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),ye();var n=u();n.getElementById(\"outklip-signup-modal\").style.display=\"none\",n.getElementById(\"outklip-config-modal\").style.display=\"block\",n.getElementById(\"outklip-modal-id\").style.display=\"block\",n.getElementById(\"outklip-webcam-video-container\").style.display=\"block\",h(),E(),V(),ee(),se(t.customerType,t.daysLeftInTrial,t.numCredits),n.getElementById(\"outklip-settings-link\").href=\"chrome-extension://\"+chrome.runtime.id+\"/settings.html\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger33": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708cc5e070>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),D()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger34": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(countdownTimerValueInSeconds, <pdg_js.node.FunctionExpression object at 0x7f708cc5efd0>)",
+                "sink-param1": "countdownTimerValueInSeconds",
+                "sink-param2": "function(t){if(t.countdownTimerValueInSeconds){if(0===parseInt(t.countdownTimerValueInSeconds))return s.getElementById(\"outklip-countdown-container\").style.display=\"none\",clearTimeout(r),r=null,void e.postMessage({startRecording:!0});c=Math.round(1e3*parseInt(t.countdownTimerValueInSeconds,10)/300)+1}else c=d,chrome.storage.sync.set({countdownTimerValueInSeconds:\"3\"});s.getElementById(\"outklip-countdown-timer\").innerHTML=oe().toString(),s.getElementById(\"outklip-countdown-pause-resume-button\").addEventListener(\"click\",le),le(),ce()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger35": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708cbae9a0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(t){g(t);var n=u();ae(),re(),chrome.storage.sync.get(\"countdownTimerValueInSeconds\",function(t){if(t.countdownTimerValueInSeconds){if(0===parseInt(t.countdownTimerValueInSeconds))return n.getElementById(\"outklip-countdown-container\").style.display=\"none\",clearTimeout(r),r=null,void e.postMessage({startRecording:!0});c=Math.round(1e3*parseInt(t.countdownTimerValueInSeconds,10)/300)+1}else c=d,chrome.storage.sync.set({countdownTimerValueInSeconds:\"3\"});n.getElementById(\"outklip-countdown-timer\").innerHTML=oe().toString(),n.getElementById(\"outklip-countdown-pause-resume-button\").addEventListener(\"click\",le),le(),ce()}),n.getElementById(\"outklip-cancel-recording-during-countdown\").addEventListener(\"click\",O),n.getElementById(\"toggle-menu\").removeEventListener(\"click\",te),n.getElementById(\"toggle-menu\").addEventListener(\"click\",ne),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",A),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",H),n.getElementById(\"toggle-pause-resume\").addEventListener(\"click\",le),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",T),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",N),n.getElementById(\"cancel-recording\").addEventListener(\"click\",O),n.getElementById(\"outklip-sandbox\").removeEventListener(\"click\",R)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger36": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(countdownTimerValueInSeconds, <pdg_js.node.FunctionExpression object at 0x7f708cbaef70>)",
+                "sink-param1": "countdownTimerValueInSeconds",
+                "sink-param2": "function(t){if(t.countdownTimerValueInSeconds){if(0===parseInt(t.countdownTimerValueInSeconds))return n.getElementById(\"outklip-countdown-container\").style.display=\"none\",clearTimeout(r),r=null,void e.postMessage({startRecording:!0});c=Math.round(1e3*parseInt(t.countdownTimerValueInSeconds,10)/300)+1}else c=d,chrome.storage.sync.set({countdownTimerValueInSeconds:\"3\"});n.getElementById(\"outklip-countdown-timer\").innerHTML=oe().toString(),n.getElementById(\"outklip-countdown-pause-resume-button\").addEventListener(\"click\",le),le(),ce()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger37": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708cb38910>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u();t.switchactivetab&&ae(),re(),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",A),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",le),n.getElementById(\"toggle-pause-resume\").addEventListener(\"click\",H),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",T),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",O),n.getElementById(\"cancel-recording\").addEventListener(\"click\",N),n.getElementById(\"outklip-webcam-resize-icon\").addEventListener(\"click\",x),n.getElementById(\"outklip-webcam-change-filter\").addEventListener(\"click\",w),n.getElementById(\"outklip-open-picture-in-picture\").addEventListener(\"click\",L),n.getElementById(\"outklip-webcam-container-close-icon\").addEventListener(\"click\",C),n.getElementById(\"toggle-menu\").removeEventListener(\"click\",te),n.getElementById(\"toggle-menu\").addEventListener(\"click\",ne)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger38": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(highlightMouseCursor, <pdg_js.node.FunctionExpression object at 0x7f708caef850>)",
+                "sink-param1": "highlightMouseCursor",
+                "sink-param2": "function(e){if(\"true\"==e.highlightMouseCursor)for(var t=document.getElementsByTagName(\"body\"),n=chrome.runtime.getURL(\"content/assets/outklip_highlight_mouse.cur\"),o=0;o<t.length;o++)t[o].style.cursor=`url(\"${n}\") 25 20, default`,t[o].style.zIndex=\"100000\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger39": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708caa3a00>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u(),o=n.getElementById(\"getcameraiframe\");o&&o.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\");var i=n.getElementById(\"getcameramodeiframe\");i&&i.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\"),t.switchactivetab||chrome.storage.sync.set({contentScriptState:\"none\"}),n.getElementById(\"outklip-webcam-video-container\").style.display=\"none\",n.getElementById(\"outklip-control-container\").style.display=\"none\",n.getElementById(\"outklip-camera-modal-content\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger40": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(highlightMouseCursor, <pdg_js.node.FunctionExpression object at 0x7f708ca5a040>)",
+                "sink-param1": "highlightMouseCursor",
+                "sink-param2": "function(e){if(\"true\"==e.highlightMouseCursor)for(var t=document.getElementsByTagName(\"body\"),n=0;n<t.length;n++)t[n].style.cursor=\"default\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger41": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708ca720a0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u();n.getElementById(\"recording-time-indicator-string\").innerHTML=de(t.timeinseconds),n.getElementById(\"recording-blinker\").style.display=\"inline-block\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger42": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708ca0d4c0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-close-loader\").onclick=z,t.getElementById(\"outklip-motivational-message\").innerHTML=m[Math.floor(Math.random()*m.length)],t.getElementById(\"outklip-loader-container\").style.display=\"block\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger43": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708ca268e0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-container\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger44": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708ca41700>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-percentage-complete\").innerHTML=\"Uploading... \"+t.percentageUploadComplete+\"% complete\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger45": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708c9d94f0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-profile-photo\").src=a}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger46": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708c9d9d00>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),P()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger47": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708c9f5400>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),F()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger48": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f708c9f5b50>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),U()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger49": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f7087a9da30>, <pdg_js.node.FunctionExpression object at 0x7f7087a9da60>)",
+                "sink-param1": "[\"inlineVideoPlayback\"]",
+                "sink-param2": "function(e){e&&e.inlineVideoPlayback&&\"false\"!=e.inlineVideoPlayback&&(window.onload=Ee,window.onhashchange=Ee,History.Adapter.bind(window,\"statechange\",Ee))}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger50": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(contentScriptState, <pdg_js.node.FunctionExpression object at 0x7f7087ab75e0>)",
+                "sink-param1": "contentScriptState",
+                "sink-param2": "function(e){if(\"config\"===e.contentScriptState)(t=u())?D():$.get(chrome.runtime.getURL(\"content/content.html\"),function(e){g(e),D()}),chrome.storage.sync.set({contentScriptState:\"none\"});else if(\"uploadinprogress\"===e.contentScriptState){var t;(t=u())?t.getElementById(\"outklip-loader-container\").style.display=\"none\":$.get(chrome.runtime.getURL(\"content/content.html\"),function(e){g(e),u().getElementById(\"outklip-loader-container\").style.display=\"none\"}),chrome.storage.sync.set({contentScriptState:\"none\"})}}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger51": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f7087ab7bb0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),D()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger52": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7f7087a50790>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-container\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

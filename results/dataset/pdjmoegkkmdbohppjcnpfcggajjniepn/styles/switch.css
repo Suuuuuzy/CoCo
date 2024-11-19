@@ -1,0 +1,34 @@
+.switch, .swidth div {
+    position: relative;
+    display: inline-block;               
+}
+.switch {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.switch-bar {
+    display: block;
+    width: 36px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #C6C5C5;
+}
+.switch-circle {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: all 0.2s ease-in-out;
+}
+.active .switch-bar {
+    background-color: #959970;
+}
+.active .switch-circle {
+    left: 16px;
+    background-color: #E6ED9C;
+}

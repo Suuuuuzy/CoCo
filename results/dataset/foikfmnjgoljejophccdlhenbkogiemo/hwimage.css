@@ -1,0 +1,173 @@
+	.hwimage {
+		position: relative;
+		display: inline-block;
+		margin: 2px;
+	}
+	.hwimage .br {
+		position: absolute;
+		left: 0;
+	}
+	.hwimage .cic {
+		border-radius: 5px;
+		margin-top: 6px;
+		margin-left: 6px;
+		max-width:72px;
+	}
+	.hwimage .hcic {
+		border-radius: 7px;
+		margin-top: 7px;
+		margin-left: 7px;
+		max-width:80px;
+		background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_white.png) no-repeat;
+		background-size: 80px 80px;
+	}	
+	.hwimage .hcic.green {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_green.png) no-repeat;}	
+	.hwimage .hcic.blue {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_blue.png) no-repeat;}	
+	.hwimage .hcic.purple {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_purple.png) no-repeat;}	
+	.hwimage .hcic.orange {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_orange.png) no-repeat;}	
+	.hwimage .hcic.red {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_hero_red.png) no-repeat;}		
+	.hwimage.sm .hcic {
+		border-radius: 5px;
+		margin-top: 6px;
+		margin-left: 6px;
+		max-width:54px;
+		background-size: 54px 54px;
+	}	
+
+
+	.hwimage .pcic {
+		margin-top: 7px;
+		margin-left: 7px;
+		max-width:80px;
+		background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_white.png) no-repeat;
+		background-size: 80px 80px;
+	}	
+	.hwimage .pcic.green {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_green.png) no-repeat;}	
+	.hwimage .pcic.blue {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_blue.png) no-repeat;}	
+	.hwimage .pcic.purple {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_purple.png) no-repeat;}	
+	.hwimage .pcic.orange {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_orange.png) no-repeat;}	
+	.hwimage .pcic.red {background: url(https://cdn.hwgame.top/assets/images/dialog_basic/bg_pet_red.png) no-repeat;}	
+	.hwimage.sm .pcic {
+		margin-top: 6px;
+		margin-left: 6px;
+		max-width:54px;
+		background-size: 54px 54px;
+	}	
+
+	.hwimage .hsr {
+		width: 100%;
+		height: 20px;
+		position: absolute;
+		left: 40px;
+		bottom: -1px;
+	}
+	.hwimage.sm .hsr {
+		width: 100%;
+		height: 15px;
+		position: absolute;
+		left: 26px;
+		bottom: 4px;
+	}
+	.hwimage .hsr img {margin: 0px -1px;}
+	.hwimage.sm .hsr img {height: 15px;}
+	.hwimage .hsr2 {left: 30px;}
+	.hwimage.sm .hsr2 {left: 20px;}
+	.hwimage .hsr3 {left: 21px;}
+	.hwimage.sm .hsr3 {left: 14px;}
+	.hwimage .hsr4 {left: 13px;}
+	.hwimage.sm .hsr4 {left: 7px;}
+	.hwimage .hsr5 {left: 10px;}
+	.hwimage .hsr5 img {width: 18px;}
+	.hwimage.sm .hsr5 {left: 6px;}
+	.hwimage.sm .hsr5 img {width: 13px;height: 13px;}
+	.hwimage .hsr6 {height:26px; left: 20px;}
+	.hwimage.sm .hsr6 {height:19px; left: 15px;}
+	.hwimage.sm .hsr6 img {height:22px;}
+	
+	
+	.hwimage .hlvl {
+	    position: absolute;
+		top: 1px;
+		left: 28px;
+	}
+
+	.hwimage.sm .hlvl {
+	    position: absolute;
+		top: -2px;
+		left: 18px;
+	}
+	.hwimage.sm .hlvl img {width:30px;}
+	
+	.hwimage .hlvl span {
+	    position: absolute;
+		top: 1px;
+		left: 6px;
+		color:#fff;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		font-size:16px;
+		text-align:center;
+		width:27px;
+	}
+	.hwimage.sm .hlvl span {
+		top: 3px;
+		left: 4px;
+		font-weight: 700;
+		font-size:12px;
+		width:20px;
+	}	
+	.hwimage .cir {
+		border-radius: 30px;
+		margin-top: 5px;
+		margin-left: 5px;
+		max-width: 66px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.cr0 {
+		width:76px;
+	}
+	.cr1 {
+		margin-left: -6px;
+		margin-top: -6px;
+		width:88px;
+	}
+	.cr2 {
+		margin-left: -8px;
+		margin-top: -8px;
+		width:88px;
+	}
+	.cr3 {
+		margin-left: -3px;
+		margin-top: -6px;
+		width:82px;
+	}
+	.cr4 {
+		margin-left: -5px;
+		margin-top: -5px;
+		width:84px;
+	}
+	.cr5 {
+		margin-left: -8px;
+		margin-top: -8px;
+		width:92px;
+	}
+	.hwimage .cicv, .hwimage .citv {
+		bottom: 5px;
+		right: 4px;
+		position: absolute;
+		text-align: right;
+		background: #000;
+		opacity: 0.7;
+		color: yellow;
+		font-weight: bold;
+		padding: 0px 4px;
+		border-radius: 8px 0 0 8px;		
+		font-size:12px;
+	}
+	.hwimage .citv {
+		bottom: 10px;
+	}
+	.hwimage .zi10 {
+		z-index:10;
+	}

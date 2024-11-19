@@ -1,0 +1,60 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f41ebca3bb0>, 1000)",
+                "sink-param1": "function () {\n\t\t\t\tCITIZEN_STATUS_CODE.value = 'C';\n\n\t\t\t\tif (\"createEvent\" in document) {\n\t\t\t\t\tlet evt = document.createEvent(\"HTMLEvents\");\n\t\t\t\t\tevt.initEvent(\"change\", false, true);\n\t\t\t\t\tCITIZEN_STATUS_CODE.dispatchEvent(evt);\n\t\t\t\t} else {\n\t\t\t\t\tCITIZEN_STATUS_CODE.fireEvent(\"onchange\");\n\t\t\t\t}\n\n\t\t\t\tif (CITIZEN_COUNTRY_CODE.value.trim() == '') {\n\t\t\t\t\tCITIZEN_COUNTRY_CODE.value = \"US\";\n\t\t\t\t}\n\t\t\t}",
+                "sink-param2": 1000,
+                "line": "953 - 967",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(r, 2000)",
+                "sink-param1": "r",
+                "sink-param2": 2000,
+                "line": "988 - 988",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f424d20ba90>, 1000)",
+                "sink-param1": "function () {\n\t\t\treadData('page', function (page) {\n\t\t\t\tlet menuContainer = document.querySelector('#EXPAND-INNERDIV');\n\t\t\t\tlet menuBarItems = menuContainer !== null ? menuContainer.querySelectorAll('.menuItem') : null;\n\t\t\t\tif (menuBarItems !== null && menuBarItems.length > 0) {\n\n\t\t\t\t\tif (page === 'enics') {\n\t\t\t\t\t\tlet submitRequest = menuBarItems.length >= 4 ? menuBarItems[3] : null;\n\t\t\t\t\t\tif (submitRequest !== null) {\n\t\t\t\t\t\t\tsubmitRequest.children[1].click();\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\tif (page === 'enics_status') {\n\t\t\t\t\t\tlet checkStatus = menuBarItems.length >= 1 ? menuBarItems[0] : null;\n\t\t\t\t\t\tif (checkStatus !== null) {\n\t\t\t\t\t\t\tcheckStatus.children[1].click();\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}",
+                "sink-param2": 1000,
+                "line": "395 - 415",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f424dd15b80>, 1000)",
+                "sink-param1": "function () {\n\t\t\tlet terminateSession = document.getElementById('div_terminate');\n\t\t\tif (terminateSession !== null) {\n\t\t\t\tlet terminateButton = terminateSession.children[0];\n\t\t\t\tif (terminateButton !== null) {\n\t\t\t\t\tterminateButton.click();\n\t\t\t\t}\n\t\t\t}\n\t\t}",
+                "sink-param2": 1000,
+                "line": "488 - 496",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "setTimeout",
+                "value": "setTimeout(<pdg_js.node.FunctionExpression object at 0x7f424d0fc610>, 1000)",
+                "sink-param1": "function () {\n\n\t\t\treadData('enics', autoFillLeepDataHook);\n\n\t\t\treadData('should_store_data', function (should_store_data) {\n\t\t\t\tconsole.log('Should Store ' + should_store_data);\n\t\t\t\tif (should_store_data == true) {\n\t\t\t\t\treadMultiples(['stored_username', 'stored_password'], function (fields) {\n\t\t\t\t\t\tchrome.runtime.sendMessage({\n\t\t\t\t\t\t\tfrom: 'content',\n\t\t\t\t\t\t\tsubject: 'save_login',\n\t\t\t\t\t\t\tdata: fields\n\t\t\t\t\t\t}, function (response) {\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t});\n\n\t\t\t//Page\n\t\t\t//https://www.cjis.gov/nics/PRServletSSO/UHko3oflAhsa1kUS6YCor2Phv4EAVa66*/!STANDARD?\n\t\t\t//iFrame\n\t\t\t///nics/PRServletSSO/UHko3oflAhsa1kUS6YCor2Phv4EAVa66*/!TABTHREAD0?pyActivity=%40baseclass.doUIAction&action=display&className=Data-Portal&harnessName=ExternalDashboard&pzHarnessID=HIDC8E958362ACDEF38019C576A04158CB1\n\t\t\t//ExternalDashboardTermsAndConditions_pyDisplayHarness_10\n\t\t\t//ExternalDashboardTermsAndConditions_pyDisplayHarness_10\n\t\t\tlet possible_accept_tos = document.getElementsByName('ExternalDashboardTermsAndConditions_pyDisplayHarness_10');\n\t\t\tlet accept_tos = possible_accept_tos.length > 0 ? possible_accept_tos[0] : null;\n\t\t\tif (accept_tos !== null) {\n\t\t\t\t// accept_tos.click();\n\t\t\t\treturn;\n\t\t\t}\n\n\n\t\t\tlet home_tab = document.getElementById('INNERDIV-SubSectionExternalWATabB');\n\t\t\tlet homeTabIsVisible = home_tab !== null ? home_tab.style.display : null;\n\t\t\tif (homeTabIsVisible === 'block') {\n\t\t\t\tchrome.runtime.sendMessage({from: 'content', subject: 'process_submit'}, function (response) {\n\t\t\t\t});\n\t\t\t}\n\n\t\t}",
+                "sink-param2": 1000,
+                "line": "504 - 543",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

@@ -1,0 +1,9 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid with chrome_storage_sync_set_sink
+[(['16042', '16452'], "['bg_chrome_runtime_MessageExternal', '16019']")]
+from ['bg_chrome_runtime_MessageExternal', '16019'] to chrome_storage_sync_set_sink
+['4787']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/opgen_generated_files/bg.js
+Line 784			storeData('should_store_data', request.data);
+	request.data
+

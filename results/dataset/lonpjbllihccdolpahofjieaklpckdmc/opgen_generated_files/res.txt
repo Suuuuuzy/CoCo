@@ -1,0 +1,16 @@
+(['226094'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/lonpjbllihccdolpahofjieaklpckdmc with sendResponseExternal_sink
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/lonpjbllihccdolpahofjieaklpckdmc/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+
+(['226097'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/lonpjbllihccdolpahofjieaklpckdmc with sendResponseExternal_sink
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/lonpjbllihccdolpahofjieaklpckdmc/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+

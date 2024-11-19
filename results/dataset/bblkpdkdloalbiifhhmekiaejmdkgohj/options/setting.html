@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" style="min-width:300px;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="/css/popup.css">
+
+    <link rel="stylesheet" href="options.css">
+
+    <title>设置选项</title>
+  </head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/options/setting.html"><img src="/images/icon32.png" alt="" width="32" height="32"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/options/setting.html">划词小窗搜题</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+    <div class="mb-5 text-center page_mod fade">
+        <h4 class="text-muted">常规设置</h4>
+    </div>
+
+</div>
+
+<div id="pageapp" class="container">
+
+    <div class="page_mod fade">
+        <p class="text-muted">悬浮搜索图标</p>
+        <div class="card">
+            <div class="card-body">
+                <div class="custom-control custom-switch">
+                    <p class="mb-4">
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="show_float_icon" v-model="show_float_icon">
+                        <label class="custom-control-label" for="show_float_icon">划词自动出现搜题图标</label>
+                        <span class="form-text text-muted small">
+                        划词后自动在鼠标右上角显示搜题图标
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_mod fade">
+        <p class="text-muted mt-3">右键菜单</p>
+        <div class="card">
+            <div class="card-body">
+                <div class="custom-control custom-switch">
+                    <p>
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="in_the_menu" v-model="in_the_menu">
+                        <label class="custom-control-label" for="in_the_menu">添加搜题到右键菜单</label>
+                        <span class="form-text text-muted">
+                            将搜题添加到划词右键菜单
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_mod fade">
+        <p class="text-muted mt-3">搜索窗口</p>
+        <div class="card">
+            <div class="card-body">
+                <div class="custom-control custom-switch">
+                    <p>
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="fixed_modal" v-model="fixed_modal">
+                        <label class="custom-control-label" for="fixed_modal">基于浏览器窗口定位</label>
+                        <span class="form-text text-muted">
+                            打开后搜索窗口可固定在浏览器窗口特定位置，不受页面滚动影响
+                        </span>
+                    </p>
+                </div>
+
+                <div class="custom-control custom-switch">
+                    <p>
+                        <input type="checkbox" class="custom-control-input form-control-lg" id="auto_close" v-model="auto_close">
+                        <label class="custom-control-label" for="auto_close">自动关闭搜索窗口</label>
+                        <span class="form-text text-muted">
+                            打开后点击网页任意位置窗口就会自动关闭，否则只有手动点击关闭才会关闭
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page_mod fade">
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="setting.html">常规设置</a></li>
+                <li class="list-inline-item"><a href="https://www.zaixiantiku.com">使用帮助</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</div> <!-- pageapp -->
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- 注意，由于扩展内限制普通 vue 是用不了的，这里用的是 csp 版 -->
+    <script src="/js/vue-1.0.28-csp.min.js"></script>
+    <script src="defaultConfig.js"></script>
+    <script src="common.js"></script>
+    <script src="setting.js"></script>
+  </body>
+</html>

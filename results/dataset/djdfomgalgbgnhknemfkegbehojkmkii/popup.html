@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+          padding: 0;
+          margin: 0;
+      }
+
+      #block {
+        width: 200px;
+        height: auto;
+      }
+
+      #logo {
+          width: 80%;
+          margin: 10px auto;
+          display: block;
+      }
+
+      #form {
+        width: 100%;
+        height: auto;
+      }
+
+      #form fieldset {
+        padding: 10px;
+        border: none;
+      }
+
+      #form fieldset input {
+        width: 100%;
+        height: 30px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+        box-sizing: border-box;
+        font-size: 11px;
+      }
+
+      #form fieldset #btn {
+        padding: 0;
+        background-color: #FF8C01;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+      }
+
+      #form fieldset #btn-sync {
+        width: 100%;
+        height: 30px;
+        background-color: #FF8C01;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 30px;
+        font-size: 11px;
+      }
+
+      #form fieldset #msg {
+        width: 100%;
+        font-size: 10px;
+        color: red;
+        display: none;
+      }
+
+      #form fieldset a {
+          display: block;
+          color: #FF8C01;
+          text-decoration: none;
+          margin-bottom: 10px;
+      }
+
+      #logged {
+        padding: 10px;
+        text-align: center;
+      }
+
+      #logged .btn {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        background-color: #FF8C01;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="block"></div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

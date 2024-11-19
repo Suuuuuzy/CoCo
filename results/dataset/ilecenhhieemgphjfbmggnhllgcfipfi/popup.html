@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Traversy Media Quick Launcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+
+
+
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+
+
+
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper ">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <!-- <h2 class="title">Single Sign-on System</h2> -->
+                    <div id="login_area" class="p-t-100">
+
+                        <form autocomplete="off">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label for="organization_id" class="label">Organization ID <span id="question_organizationId" class="ico-question"></span><span id="request_id" class="request-id bg-black">Request ID</span></label>
+                                        <input required type="text" name="organization_id" id="organization_id" class="input--style-4">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label for="login_username" class="label">Username</label>
+                                        <input required type="text" name="username" id="login_username" class="input--style-4">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label for="login_password" class="label">Password</label>
+                                        <input required type="password" name="password" id="login_password" class="input--style-4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-t-15">
+                                <p id="login_error"></p>
+                                <button type="button" id="login_button" class="btn btn--radius-2 btn--blue btn--fullwidth">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <a href="#" id="login_with_key" class="m-t-20 bg-black">Alternative login</a>
+                    </div>
+                    <div id="extension_key_login" class="key-login">
+                        <form autocomplete="off">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label for="login_key" class="label">Extension Key <span id="question_extention_key" class="ico-question"></span></label>
+                                        <input required type="text" name="key" id="login_key" class="input--style-4 font-robo">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <p id="login_key_error"></p>
+                                    <button type="button" id="key_login_button" class="btn btn--radius-2 btn--blue btn--fullwidth">LOGIN</button>
+                                    <a href="#" id="login_with_username" class="m-t-20 bg-black">Alternative login</a>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div id="logged_area">
+                        <div id="search_area">
+                            <input type="text" class="input--search" placeholder="Search Applications" id="input_search">
+                            <span class=" search-icon" aria-hidden="true"></span>
+                        </div>
+                        <div id="recent_area" class="full-width">
+                            <!-- <h5>Recent</h5> -->
+                            <div class="" id="recent_link_area"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="full-width">
+                            <!-- <h5>Recent</h5> -->
+                            <div class="" id="link_area"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="p-t-15">
+                            <div id="launcher_button" class="btn btn--radius-2 btn--gray btn--fullwidth button-div"> <i class="ico-rocket"></i> <span class="open-launcher">Open Launcher</span></div>
+                        </div>
+                        <div class="row row-space p-t-15 m-t-20 full-width">
+                            <div class="col-2">
+                                <span class="profile-image"></span>
+                                <div class="profile-details" id="profile_details">
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="row row-space p-t-30 full-width">
+                            <div class="col-2 m-t-20 ">
+                                <div class="organization-details" id="organization_details">
+                                </div>
+                                <div class="logout-link">
+                                    <a href="" id="logout_link"><i class="ico-logout" aria-hidden="true"> </i>Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="info_page" class="info-page">
+                    <div class="close-info">
+                        <span id="close_button">CLOSE</span>
+                    </div>
+                    <div id="extention_key_info" class="m-b-100">
+                        <h5><b>What is the extension key and where can I find it?</b></h5>
+                        <br>
+                        <p>
+                            Extension key is a one time unique code that was used to authenticate plugin for the first time. Your account will be automatically validated and added to the plugin using this key.
+                        </p>
+                        <br>
+                        <p>
+                            You will get the key from the lync launcher. your institution should have communicated with you regarding accessing the launcher.
+                        </p>
+                        <br>
+                        <p>
+                            If you need help, contact your institution administration or IT department or send an email to help@letslync.com with your details (name,any school id or email, institution name, location).
+                        </p>
+                    </div>
+                    <div id="organization_id_info" class="m-b-100">
+                        <h5><b>What is Organization ID and how can I get this?</b></h5>
+                        <br>
+                        <p>
+                            Organization ID is a unique code that was used to identify your institution.
+                        </p>
+                        <br>
+                        <p>
+                            You will get the Organization ID from the your institution. Your institution should have communicated with you regarding accessing this plugin.
+                        </p>
+                        <br>
+                        <p>
+                            If you need help, contact your institution administration or IT department or send an email to help@letslync.com with your details (name,any school id or email, institution name, location).
+                        </p>
+                    </div>
+                    <div class="row row-space  m-t-20">
+                        <div class="col-12 credittxt">
+                            <span class="lync-icon"></span>
+                            <span class="version"> Version 0.1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-space force-bottom">
+                    <div class="col-12 credittxt">
+                        <span class="lync-icon"></span>
+                        <span class="version"> Version 0.1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!-- datepicler.js -->
+    <script src="vendor/datepicker/datepicker.js"></script>
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+
+</body>
+
+</html>

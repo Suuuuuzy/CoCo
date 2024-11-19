@@ -1,0 +1,204 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "brs.storage.local.set({'users.current.hwg': 'info'})",
+                "sink-param1": {
+                    "users.current.hwg": "info"
+                },
+                "line": "394 - 394",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec7629d1c0>)",
+                "sink-param1": "\tlet uinfo = (global",
+                "line": "369 - 369",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec7626a7c0>)",
+                "sink-param1": "response.response.ex",
+                "line": "354 - 354",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "XMLHttpRequest.open",
+                "value": "{'XMLHttpRequest()': {}, 'withCredentials': True, 'responseType': 'json', 'onload': <pdg_js.node.FunctionExpression object at 0x7fec7624f3d0>}.open(GET, https://hwgame.top/plugin/reload_authkey?ver=encodeURIComponent(chrome.runtime.getManifest().version)&ua=encodeURIComponent(navigator.userAgent)&exp=False.expire&key=False.key)",
+                "sink-param1": "GET",
+                "sink-param2": "https://hwgame.top/plugin/reload_authkey?ver=encodeURIComponent(chrome.runtime.getManifest().version)&ua=encodeURIComponent(navigator.userAgent)&exp=False.expire&key=False.key",
+                "line": "336 - 336",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "XMLHttpRequest.open",
+                "value": "{'XMLHttpRequest()': {}, 'withCredentials': True, 'responseType': 'json'}.open(POST, https://hwgame.top/plugin/send)",
+                "sink-param1": "POST",
+                "sink-param2": "https://hwgame.top/plugin/send",
+                "line": "326 - 326",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "XMLHttpRequest.open",
+                "value": "{'XMLHttpRequest()': {}, 'withCredentials': True, 'responseType': 'json', 'onload': <pdg_js.node.FunctionExpression object at 0x7fec762002e0>}.open(GET, https://static.hwgame.top/assets/lootbx.json)",
+                "sink-param1": "GET",
+                "sink-param2": "https://static.hwgame.top/assets/lootbx.json",
+                "line": "305 - 305",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec76218130>)",
+                "sink-param1": " != 200 || xhr.response['i",
+                "line": "313 - 313",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec76157460>)",
+                "sink-param1": "ion(val) {\n\t\tvar",
+                "line": "243 - 243",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec75fa4910>)",
+                "sink-param1": "th-Player-Id'] != us",
+                "line": "76 - 76",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec75fbd610>)",
+                "sink-param1": " = {data:dts,headers",
+                "line": "85 - 85",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec75ff0520>)",
+                "sink-param1": "r usrinfo = dt.respo",
+                "line": "105 - 105",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec75ff0e80>)",
+                "sink-param1": ".set({'hwg_users': u",
+                "line": "111 - 111",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec76124490>)",
+                "sink-param1": " delete dtcurrent.battles.",
+                "line": "221 - 221",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger14": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec75f1f5b0>)",
+                "sink-param1": "ength != Object.keys(res.h",
+                "line": "21 - 21",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger15": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec76197fd0>)",
+                "sink-param1": "ta.cookie.match(new RegExp(\"(",
+                "line": "269 - 269",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger16": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fec761ccc70>)",
+                "sink-param1": "nt.prov][dtcurrent.id] =",
+                "line": "286 - 286",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "brs.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fec75f568e0>, <pdg_js.node.FunctionExpression object at 0x7fec75f56910>)",
+                "sink-param1": "urrent.gifts).forEa",
+                "sink-param2": "(function(key) {\n\t\tif(Math.round((new Date()).getTime()/1000)-3600*24*21 > dtcurrent.gifts[key]) delete dtcurrent.gifts[key];\n\t});\n}\n\nfunction change_user(resend=true) {\n\tbrs.storage.local.get([users.current.hwg], function(res) {\n\t\tif(typeof res[users.current.hwg] === \"undefined\") set_default_current();\n\t\telse dtcurrent = res[users.current.hwg];\n\t\t\n\t\tif(dtcurrent['UseLootBox'] == undefined) dtcurrent['UseLootBox'] = [];\n\t\tif(dtcurrent['LootBoxBuy'] == undefined) dtcurrent['LootBoxBuy'] = [];\n\t\tif(dtcurrent['ScratchOpen'] == undefined) dtcurrent['ScratchOpen'] = [];\n\t\tif(dtcurrent['current_scratch'] == undefined) dtcurrent['current_scratch'] = 0;\n\t\tif(dtcurrent['newYearGift'] == undefined) dtcurrent['newYear",
+                "line": "50 - 62",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fec75f055b0>, <pdg_js.node.FunctionExpression object at 0x7fec75f055e0>)",
+                "sink-param1": "\u0430\u043a\u0442\u043e\u0432 \u0422\u0438\u0442\u0430\u043d\u043e\u0432\",\"en\":\"Ancient Titan Artifact Chest\",",
+                "sink-param2": "ol\":4},{\"id\":\"scratch\",\"ru\":\"\u041a\u0438\u0431\u0435\u0440-\u044f\u0447\u0435\u0439\u043a\u0438\",\"en\":\"Cyber cells\",\"col\":2}];\nvar manifest = brs.runtime.getManifest();\nbrs.storage.local.get(['hwg_settings','hwg_auth','hwg_users','hwg_current','hwg_data'], function(res) {\n\tif(typeof res.hwg_settings === \"undefined\") settings = defset;\n\telse if(Object.keys(defset).length != Object.keys(res.hwg_settings).length) {\n\t\tObject.keys(defset).forEach(function(key) { settings[key] = (res.hwg_settings[key] === undefined) ? defset[key] : res.hwg_settings[key]});\n\t\tbrs.storage.local.set({'hwg_settings': settings});\n\t} else settings = res.hwg_settings;\n\n\tif(typeof res.hwg_auth === \"undefined\") a2uinf = false;\n\telse a2uinf = res.hwg_auth;\n\n\tif(typeof res.hwg_data !== \"undefined\") globaldata = res.hwg_data;\n\n\tif(typeof res.hwg_current === \"undefined\") dt_set_default();\n\tels",
+                "line": "17 - 37",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "brs.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fec75f568e0>, <pdg_js.node.FunctionExpression object at 0x7fec75f56910>)",
+                "sink-param1": "urrent.gifts).forEa",
+                "sink-param2": "(function(key) {\n\t\tif(Math.round((new Date()).getTime()/1000)-3600*24*21 > dtcurrent.gifts[key]) delete dtcurrent.gifts[key];\n\t});\n}\n\nfunction change_user(resend=true) {\n\tbrs.storage.local.get([users.current.hwg], function(res) {\n\t\tif(typeof res[users.current.hwg] === \"undefined\") set_default_current();\n\t\telse dtcurrent = res[users.current.hwg];\n\t\t\n\t\tif(dtcurrent['UseLootBox'] == undefined) dtcurrent['UseLootBox'] = [];\n\t\tif(dtcurrent['LootBoxBuy'] == undefined) dtcurrent['LootBoxBuy'] = [];\n\t\tif(dtcurrent['ScratchOpen'] == undefined) dtcurrent['ScratchOpen'] = [];\n\t\tif(dtcurrent['current_scratch'] == undefined) dtcurrent['current_scratch'] = 0;\n\t\tif(dtcurrent['newYearGift'] == undefined) dtcurrent['newYear",
+                "line": "50 - 62",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7fec75f055b0>, <pdg_js.node.FunctionExpression object at 0x7fec75f055e0>)",
+                "sink-param1": "\u0430\u043a\u0442\u043e\u0432 \u0422\u0438\u0442\u0430\u043d\u043e\u0432\",\"en\":\"Ancient Titan Artifact Chest\",",
+                "sink-param2": "ol\":4},{\"id\":\"scratch\",\"ru\":\"\u041a\u0438\u0431\u0435\u0440-\u044f\u0447\u0435\u0439\u043a\u0438\",\"en\":\"Cyber cells\",\"col\":2}];\nvar manifest = brs.runtime.getManifest();\nbrs.storage.local.get(['hwg_settings','hwg_auth','hwg_users','hwg_current','hwg_data'], function(res) {\n\tif(typeof res.hwg_settings === \"undefined\") settings = defset;\n\telse if(Object.keys(defset).length != Object.keys(res.hwg_settings).length) {\n\t\tObject.keys(defset).forEach(function(key) { settings[key] = (res.hwg_settings[key] === undefined) ? defset[key] : res.hwg_settings[key]});\n\t\tbrs.storage.local.set({'hwg_settings': settings});\n\t} else settings = res.hwg_settings;\n\n\tif(typeof res.hwg_auth === \"undefined\") a2uinf = false;\n\telse a2uinf = res.hwg_auth;\n\n\tif(typeof res.hwg_data !== \"undefined\") globaldata = res.hwg_data;\n\n\tif(typeof res.hwg_current === \"undefined\") dt_set_default();\n\tels",
+                "line": "17 - 37",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k_9k/cdapnbiifmnajacjlfiikicefmidkbdl/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7ffcc170cfa0>, <pdg_js.node.FunctionExpression object at 0x7ffcc170cf70>)",
+                "sink-param1": "{ [name]: value }",
+                "sink-param2": "() => {\n }",
+                "line": "4 - 5",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/cdapnbiifmnajacjlfiikicefmidkbdl/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7ffcc1730250>, <pdg_js.node.FunctionExpression object at 0x7ffcc1730220>)",
+                "sink-param1": "[name]",
+                "sink-param2": "(result) => {\n if (chrome.runtime.lastError) {\n return reject(chrome.runtime.lastError);\n }\n resolve(result[name]);\n }",
+                "line": "10 - 15",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/cdapnbiifmnajacjlfiikicefmidkbdl/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

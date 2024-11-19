@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>Xpress Sign-On</title>
+<style type="text/css">
+ #main_wrapper{width:275px;}
+	#main_wrapper1{width:275px;}
+body {margin:0 !important;padding:0;font:normal 12px Arial,Tahoma;background:#fff; height: 440px;}
+h1{padding:3px 0px 3px 3px;font:normal 1.5em Arial,Tahoma;color:#1fe90d; margin:5px 7px 0 5px;border-radius:3px; background:#0e577f;}
+div,p{margin:0; padding:0;}
+#auth {width:270px; min-height:235px;height:235px; border:1px solid #fff;}
+
+#noAppsFound, #noAppsFoundAdmin {
+  padding-top: 20px;
+  color: green;
+  text-align: center;
+}
+
+#endUserMyApps{padding: 0px 100px 12px 3px;
+font: normal 1.5em Arial,Tahoma;
+color: #1fe90d;
+margin: 5px 1px -13px 5px;
+border-radius: 3px;
+background: #0e577f;
+}
+#adminMyApps{padding: 0px 100px 12px 3px;
+font: normal 1.5em Arial,Tahoma;
+color: #1fe90d;
+margin: 5px 1px -13px 5px;
+border-radius: 3px;
+background: #0e577f;
+}
+h3{color:#0e577f;margin:0;padding:5px 5px 5px 0;float:right;background:url('images/sxpLogo.png') no-repeat ;text-indent:-999px;width:93px;height:40px;}
+.inputBgImg{width:259px; height:29px; border:none;padding:0 0 0 5px; margin:0 0 10px 0; color:#000; background:transparent; border-radius:3px; border:2px solid #e4e4e4;}
+.frmFlds{margin:20px 0 0 5px; padding:0;}
+.btns{margin:70px 0 0 0;}
+.btns button {margin:0 10px 0 0;padding:0;background:url('images/btn.png') no-repeat;width:75px;height:30px; border:none; cursor:pointer;font-weight:bold;float:left; color:#e2e1e1;}
+.btns button:hover {font-decoration:underline;}
+#err, #searchCountEndUser, #searchCount {font:bold 1em Arial;color:#ff0000;margin:0 0 0 5px;background:transparent;padding:0px;width:250px;padding:2px 2px 0;}
+#enduser1{width:270px; min-height:250px;height:auto;overflow:auto;position:relative;float:left;}
+#enduser{width:270px; min-height:250px;height:auto;overflow:auto;position:relative;float:left;}
+
+
+.appList,.appList2,.appList3,.appList4{margin:14px 5px 0 7px;float:left; width:250px;}
+.appList a,.appList2 a,.appList3 a,.appList4 a {padding:8px 0 0 17px;border-bottom:2px dotted #7a7a7a;display:block;color:#000; text-decoration:none;font-weight:bold; background:url('images/bullet.png') left no-repeat;height:20px;}
+
+<!--.appList2 {margin-bottom:5px;min-height:90px;}-->
+#lgT{/*display:block; position:absolute;right:60px;bottom:2px;z-index:1000;*/}
+#lgT a {display:inline-block;width:45px;height:15px;font-weight:bold;text-decoration:none;color:#171616;}
+#lgT a:hover{text-decoration:underline;}
+#lgT a:visited{color:#171616;}
+#lhPd{/*display:block; position:absolute;left:40px;bottom:2px;z-index:1000;*/}
+#lhPd a {display:inline-block;font-weight:bold;text-decoration:none;color:#171616;}
+#lhPd a:hover{text-decoration:underline;}
+#lhPd a:visited{color:#171616;}
+
+
+
+.cls{border:1px solid red;}
+.btmBg,.btmBg1{padding:0;/*background:url('images/logoBtm.png') right bottom no-repeat;*/width:270px;float:left;}
+#prntCnt{height:255px;margin-top: 11px; overflow-y:auto;overflow-x:hidden;}
+#adminprntCnt{height: 230px; overflow-y:auto;overflow-x:hidden;margin-top: 15px;}
+.ftrLnks{padding:3px 3px 3px 48px;background:#D1D1D1;color:#000;float:left;clear:both;width:100%;bottom: 0;position:absolute;}
+.ftrLnks #lhPd a{display:inline-block;float:left;}
+.ftrLnks #lhPd,.ftrLnks #lgT {float:left;margin-right:15px;}
+a#lpad{background:url('images/home.png')no-repeat;padding:3px 0 0 24px;height:18px;}
+a#logout{background:url('images/user.png')no-repeat;padding:3px 0 0 24px;height:18px;}
+
+
+.togglebox input{ display:none; }
+			.togglebox{ display:inline-block; border:1px solid #BBB; width:90px; height:30px; position:relative; border-radius:20px; color:#FFF; font-weight:bold; overflow:hidden; box-shadow:0 1px 0 #CCC;float: right;margin-right: 5px; }
+			.togglebox label{ width:200%; height:100%; line-height:30px; border-radius:0.4em; position:absolute; top:0; left:0; z-index:1; font-size:1.1em; cursor:pointer; -webkit-transition:height 0.12s; -moz-transition:height 0.12s; transition:height 0.12s; }
+			.togglebox span{ position:absolute; right:-100px; }
+
+			.togglebox label::before{ content:'OFF'; width:62px; float:left; margin-right:-16px; padding-right:13px; text-align:center; background:#E70A25; text-shadow:0 -1px 0px #093B5C; box-shadow:0 4px 5px -2px rgba(0,0,0,0.3) inset; }
+
+			.togglebox label b{ display:block; height:100%; width:30px; float:left; position:relative; z-index:1; border:1px solid #AAA; background:#F6F6F6; box-shadow:0 4px 0 -2px #F1F1F1 inset, 0 2em 2em -2em #AAA inset, 0 0 2px rgba(0,0,0,.5); border-radius:20px; }
+			.togglebox label:hover b{ background:#E5E5E5; }
+				.togglebox label::after{ content:'ON'; width:62px; float:left; margin-left:-15px; padding-left:13px; text-align:center; background:#13E27F; box-shadow:0 4px 5px -2px rgba(0,0,0,0.3) inset; }
+			.togglebox input:checked ~ label{ left:-60px; }
+.active{
+    background-color: #1FE90D;
+}
+.de-active{
+    background-color: #FF0000;
+}
+    .hidden{display: none;}
+
+.on_board_style{
+	padding: 5px;
+}
+
+.off_board_style{
+   padding: 18px 0 0 33px;
+}
+
+.finishCapture{
+	width: 150px;margin: 30px 35px;
+}
+#capsalert {
+    border: 1px solid #FF6;
+    background-color: #FFC;
+    margin-left: 10px;
+    padding: 3px;
+    display: none;
+}
+.loader{
+background-image: url("images/content-loader.GIF");
+background-position: center center;
+background-repeat: no-repeat;
+width:35px;
+height:30px;
+position: absolute;
+  top: 160px;
+  left: 115px;
+}
+</style>
+<script src="jquery.js"></script>
+<script src="background.js"/>
+<script src="popup.js"></script>
+
+</head>
+<body>
+<div class="loader">
+</div>
+<div id="main_wrapper">
+<!--<input type="button" id="fbook" value="Add App" /> <br />-->
+<div style="padding:5px 3px;margin-bottom:5px;width:98%;float:left;height:35px;"><h3 id="fxplogo" style="float:left;">Sign On Express</h3><select  id="select1"  style="margin-left:20%;width:110px;"></select></div>
+
+<div id="user_name" class="hidden" style="margin-bottom: 5px;width: 65%;float: right;font-size: 16px;font-weight: 700;"><span style="font-size: 14px;float:left;margin-top: 8px;">Welcome: </span><div id="LoggedInUserName" style="margin-top: 8px;"></div>
+    </div>
+<div id="Enduser_name" class="hidden" style="margin-bottom: 5px;width: 65%;float: right;font-size: 16px;font-weight: 700;"><span style="font-size: 14px;float:left;margin-top: 8px;">Welcome: </span><div id="EnUserLoggedInUserName" style="margin-top: 8px;"></div>
+    </div>
+
+
+<div id="check1" style="display:none;" ><b style="float: left;padding: 8px 10px;font-size: 15px;display: inline;">On-Boarding Mode:</b></div>
+  <div id="check" class='togglebox' style="display:none;">
+
+        <input type='checkbox' id='sxptoggleExtnUsage'>
+        <label for='sxptoggleExtnUsage'><b></b></label>
+      </div>
+
+
+<div style="clear:both;"></div>
+<!--<div id="on_board_panel" class="hidden" style="margin-left: 8px;margin-bottom: 20px;min-height:50px;">
+  <p style="font-size: 15px;color: #3399cc;">On Board Setting</p>
+  <div style="width: 40%;margin-top: 5px;margin-right: 25px;">
+    <div id="enable_board" class="de-active" style="float:left;cursor:pointer;padding: 8px;width: 35%;text-align: center;color: #fff;">On</div>
+    <div id="disable_board" class="active" style="float:right;cursor:pointer;padding: 8px;color: #fff;width: 33%;text-align: center;">Off</div>
+  </div>
+
+</div>-->
+
+
+<div id="auth" style="display:none;clear:both;">
+<div id="fx" style="border:1px solid #fff;">
+
+
+<h1 id="signIn">Sign In</h1>
+</div>
+<div class=frmFlds>
+<input type="text" id="username" name="username" class="inputBgImg" placeholder="Username" />
+<input type="password" id="password" name="password" placeholder="Password" class="inputBgImg"/>
+<span  style="position:relative;top:0px;width:250px;display: none;" id="capsalert"></span>
+<div id="Multi_domain"><select  id="multi_domain" style="margin-left:0%;width:260px;padding:1px">
+<option id="sd">Select Domain</option>
+</select></div>
+
+
+<div id="err" style="display:none;">The username or password you entered is incorrect.</div>
+<div class="btns"><button id="button" disabled>Submit</button><div id="canbut"><button id="cancel">Cancel</button></div>
+<!--<input type="submit" name="submit" id="submit" value="submit" onClick="simple()">-->
+</div>
+</div>
+
+
+<div id="admin" style="display:none">
+<a href="#" >Add this Application </a>
+</div>
+</div>
+ <!--  <div id="on_board_style1" class="on_board_style"><a id="on_board_app1"  style="margin-left: -30px;font-weight: bold;font-size: 17px;display: none;">App Onboarding mode is ON</a></div>-->
+ <div  id="on_board_style2" class="on_board_style"><a id="on_board_app"  style="margin-left: -30px;font-weight: bold;font-size: 17px;display: none;">Add Connector</a></div>
+ <div id="finishCapture">
+   <a id="FinishedCapturing"   style="margin-top: -315;cursor:pointer; color:#050500;padding:11px; text-decoration: none; margin-left: -30px; font-weight: bold; display:none; background-color:#d1d1d1;">Finish capturing</a>
+   <div id="err1" style="display:none;margin-top: 30px;width: 225px;font-family: helvetica;font-weight: bold;margin-left: -30px;">You have Finished element capturing</div>
+<div id="err2"  style="display:none;margin-top: 30px;
+width: 225px;font-family: helvetica;
+font-weight: bold;margin-left: -30px;">You have not Finished element capturing</div>
+</div>
+<div>
+<div id="enduser" style="display:none;">
+<!-- h3 id="fxplogo" style="padding:5px 5px 5px 0;float:left;margin-top:0px">Sign On Express</h3-->
+<input id="searchBoxEndUser" style="width:97%; margin-left: 5px;" tabindex="1" type="text" placeholder="Search..." />
+<div id="searchCountEndUser" style="display:none;">No Applications Found</div>
+<b id="endUserMyApps" style="
+    display: block;
+">My Apps</b>
+<div id="noAppsFound" style="display: none;">No applications are activated</div>
+<div id="prntCnt"></div>
+</div>
+<div id="enduser1" style="display:none;">
+<input id="searchBox" style="width:97%; margin-left: 5px;" tabindex="1" type="text" placeholder="Search..." />
+<div id="searchCount" style="display:none;">No Applications Found</div>
+
+<!-- h3 id="fxplogo" style="padding:5px 5px 5px 0;float:left;margin-top:0px">Sign On Express</h3-->
+<b id="adminMyApps">My Apps </b>
+<div id="noAppsFoundAdmin" style="display: none;">No applications are activated</div>
+<div id="adminprntCnt"></div>
+</div>
+<div  class="ftrLnks"><p id="lhPd"></p><p id="lgT"></p></div></div>
+    </div>
+     <div id="AMUI"></div>
+</body>
+</html>

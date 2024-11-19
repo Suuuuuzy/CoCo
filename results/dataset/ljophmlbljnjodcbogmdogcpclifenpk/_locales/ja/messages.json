@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia 送信者"
+  },
+  "appDesc": {
+    "message": "お使いのデバイスをいつでもお好きなコンピューター画面にミラーリング"
+  },
+  "extTitle": {
+    "message": "AirMedia 送信者"
+  },
+  "titleConnectRecv": {
+    "message": "AirMedia に接続"
+  },
+  "tip_sel_dsk_title": {
+    "message": "存在するデスクトップ"
+  },
+  "tip_sel_dsk": {
+    "message": "ビデオのみのミラーリング"
+  },
+  "hit_pin": {
+    "message": "PIN コードの入力"
+  },
+  "tip_sel_tab": {
+    "message": "ビデオとオーディオ両方のミラーリング"
+  },
+  "btn_connect": {
+    "message": "接続"
+  },
+  "btn_cancel": {
+    "message": "キャンセル"
+  },
+  "btn_stop": {
+    "message": "停止"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "キャンセル"
+  },
+  "btn_retry_cancel": {
+    "message": "キャンセル"
+  },
+  "btn_retry": {
+    "message": "再試行"
+  },
+  "hit_warn": {
+    "message": "接続できません。設定を確認してください。"
+  },
+  "hit_ip": {
+    "message": "IP アドレスまたはホスト名"
+  },
+  "tip_sel_tab_title": {
+    "message": "存在する現在のタブ"
+  },
+  "inp_pincode_helper_text": {
+    "message": "PIN コードが間違っています。後ほどやり直してください。"
+  }
+}

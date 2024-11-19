@@ -1,0 +1,55 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "downloads.download",
+                "value": "chrome.downloads.download(<pdg_js.node.ValueExpr object at 0x7fe335369bb0>)",
+                "sink-param1": "{\n\t\turl: tyNkot,\n\t\tfilename: nbaTyb,\n\t}",
+                "line": "85 - 88",
+                "filename": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7fe335384dc0>, <pdg_js.node.FunctionExpression object at 0x7fe335384df0>)",
+                "sink-param1": "{tyrTo: (!ytEer.tyrTo ? 1 : ytEer.tyrTo++)}",
+                "sink-param2": "() => {}",
+                "line": "110 - 110",
+                "filename": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7fe335384ac0>, <pdg_js.node.FunctionExpression object at 0x7fe335384af0>)",
+                "sink-param1": "['tyrTo']",
+                "sink-param2": "(ytEer) => {\n chrome.storage.sync.set({tyrTo: (!ytEer.tyrTo ? 1 : ytEer.tyrTo++)}, () => {});\n }",
+                "line": "109 - 111",
+                "filename": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7fe335384ac0>, <pdg_js.node.FunctionExpression object at 0x7fe335384af0>)",
+                "sink-param1": "['tyrTo']",
+                "sink-param2": "(ytEer) => {\n chrome.storage.sync.set({tyrTo: (!ytEer.tyrTo ? 1 : ytEer.tyrTo++)}, () => {});\n }",
+                "line": "109 - 111",
+                "filename": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

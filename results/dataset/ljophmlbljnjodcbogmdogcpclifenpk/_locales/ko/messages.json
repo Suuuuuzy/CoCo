@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia 발송인"
+  },
+  "appDesc": {
+    "message": "귀하의 장치를 언제든지 컴퓨터 화면으로 미러링"
+  },
+  "extTitle": {
+    "message": "AirMedia 발송인"
+  },
+  "titleConnectRecv": {
+    "message": "AirMedia 연결"
+  },
+  "tip_sel_dsk_title": {
+    "message": "데스크톱 표시"
+  },
+  "tip_sel_dsk": {
+    "message": "비디오만 미러링됩니다"
+  },
+  "hit_pin": {
+    "message": "PIN 코드 입력"
+  },
+  "tip_sel_tab": {
+    "message": "비디오와 오디오가 미러링됩니다"
+  },
+  "btn_connect": {
+    "message": "연결"
+  },
+  "btn_cancel": {
+    "message": "취소"
+  },
+  "btn_stop": {
+    "message": "중지"
+  },
+  "btn_ok": {
+    "message": "확인"
+  },
+  "btn_auth_cancel": {
+    "message": "취소"
+  },
+  "btn_retry_cancel": {
+    "message": "취소"
+  },
+  "btn_retry": {
+    "message": "재시도"
+  },
+  "hit_warn": {
+    "message": "연결 불가. 설정을 확인하십시오."
+  },
+  "hit_ip": {
+    "message": "IP 주소 또는 호스트 이름"
+  },
+  "tip_sel_tab_title": {
+    "message": "현재 탭 표시"
+  },
+  "inp_pincode_helper_text": {
+    "message": "PIN 코드가 올바르지 않습니다. 다시 시도해 주십시오."
+  }
+}

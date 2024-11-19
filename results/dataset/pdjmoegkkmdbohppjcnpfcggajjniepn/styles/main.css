@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #212121;
+}
+
+.panel {
+    max-width: 824px;
+    padding: 32px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 16px;
+    overflow: auto;
+}
+
+.header .title {
+    line-height: 34px;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 24px;
+}
+
+.header .line {
+    border-bottom: 1px solid #D7D7D7;
+    width: calc(100% - 232px);
+    height: 18px;
+}
+
+.title-icon {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    border: 1px solid #D7D7D7;
+    padding: 1px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.b-odilo .title-icon {
+    background-image: url('../media/odilo/ico_24.png');
+}
+
+.b-ceibal .title-icon {
+    background-image: url('../media/ceibal/ico_24.png');
+}
+
+.content-book {
+    width: 170px;
+    height: 328px;
+    float: left;
+    margin: 16px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.book {
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+.book .cover{
+    height: 240px;
+    width: 170px;
+
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.book .book-info{
+    padding: 14px 16px 0 16px;
+    min-height: 74px;
+    background-color: #FFFFFF;
+    margin-top: -3px;
+
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.book .title{
+    font-size: 16px;
+    height: 38px;
+    overflow: hidden;
+    color: #212121;
+    margin-bottom: 8px;
+}
+
+.book .text{
+    font-size: 14px;
+    color: #757575;
+}
+
+.expire-loan {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0;
+    position: absolute;
+    margin-top: -134px;
+    width: 170px;
+}
+
+.remove-loan {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 146px;
+    margin-top: -10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.remove-loan img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.empty-book {
+    border: 2px dashed #E3E3E3;
+}
+
+.empty-section {
+    position: absolute;
+    width: 824px;
+    text-align: center;
+    top: 222px;
+}
+
+.text-badge {
+    display: inline-block;
+    background-color: #616161;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 5px 20px;
+    margin: 30px 0;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.img_light {
+    display: inline-block;
+}
+
+.img_dark {
+    display: none;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.text-alert {
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 16px 10px 16px;
+}
+
+.alert-online-message {
+    display: none;
+
+    border-radius: 4px;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    padding: 4px 8px;
+}
+
+.online .alert-online-message {
+    display: block;
+}
+
+.online .cover,
+.online .book-info {
+    opacity: 0.4;
+    cursor: auto;
+}

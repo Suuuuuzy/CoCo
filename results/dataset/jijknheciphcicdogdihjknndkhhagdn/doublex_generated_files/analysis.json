@@ -1,0 +1,24 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(resolve, 100)",
+                "sink-param1": "resolve",
+                "sink-param2": 100,
+                "line": "74 - 74",
+                "filename": "/Users/jianjia/Documents/COCO_results/new_sus/detected/jijknheciphcicdogdihjknndkhhagdn/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

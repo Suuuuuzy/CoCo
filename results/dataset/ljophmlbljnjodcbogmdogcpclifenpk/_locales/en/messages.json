@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia Sender"
+  },
+  "appDesc": {
+    "message": "Mirror your device to any computer screen any time"
+  },
+  "extTitle": {
+    "message": "AirMedia Sender"
+  },
+  "titleConnectRecv": {
+    "message": "Connect to AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Present desktop"
+  },
+  "tip_sel_dsk": {
+    "message": "Only video will be mirrored"
+  },
+  "hit_pin": {
+    "message": "Enter PIN code"
+  },
+  "tip_sel_tab": {
+    "message": "Both video and audio will be mirrored"
+  },
+  "btn_connect": {
+    "message": "CONNECT"
+  },
+  "btn_cancel": {
+    "message": "CANCEL"
+  },
+  "btn_stop": {
+    "message": "STOP"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "CANCEL"
+  },
+  "btn_retry_cancel": {
+    "message": "CANCEL"
+  },
+  "btn_retry": {
+    "message": "RETRY"
+  },
+  "hit_warn": {
+    "message": "Unable to connect. Please check your settings."
+  },
+  "hit_ip": {
+    "message": "IP Address or Hostname"
+  },
+  "tip_sel_tab_title": {
+    "message": "Present current tab"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Incorrect pin code. Please try again."
+  }
+}

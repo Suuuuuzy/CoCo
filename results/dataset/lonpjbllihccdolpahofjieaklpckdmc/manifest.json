@@ -1,0 +1,58 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name": "__MSG_extName__",
+    "version": "1.0.21",
+    "default_locale": "da",
+    "description": "__MSG_extDescription__",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_popup": "html/popup.html",
+        "default_icon": "images/emaerket-shield-grey.png",
+        "default_title": "__MSG_iconDefaultTitle__"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "icons": {
+        "48": "images/sikker-shopping-logo-48.png",
+        "128": "images/sikker-shopping-logo-128.png"
+    },
+    "externally_connectable": {
+        "matches": [
+            "*://*.emaerket.dk/sikkershopping/*"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "css": [
+                "css/injection-styles.css"
+            ],
+            "js": [
+                "js/content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "manifest_version": 2,
+    "web_accessible_resources": [
+        "images/*.png",
+        "images/*.svg",
+        "fonts/Roboto-Regular.ttf",
+        "css/styles.css",
+        "js/statistics.js"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "options_ui": {
+        "page": "html/options.html",
+        "open_in_tab": false
+    }
+}

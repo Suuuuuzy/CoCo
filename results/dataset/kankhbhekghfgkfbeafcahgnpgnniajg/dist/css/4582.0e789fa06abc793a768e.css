@@ -1,0 +1,86 @@
+.widget-modalbox, .widget-modalbox-transparent {
+    overflow: visible;
+}
+
+.widget-modalbox-transparent {
+    backdrop-filter: none;
+}
+
+.widget-modalbox-transparent .modalbox-content {
+    overflow: visible !important;
+}
+
+.widget-modalbox-transparent {
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+.widget-modalbox-transparent:hover {
+    background-color: rgb(230, 230, 230, 0.1);
+}
+
+.widget-modalbox-transparent .modalbox-header {
+    background-color: transparent;
+    border: none;
+}
+
+.widget-modalbox-transparent .modalbox-content {
+    background-color: transparent;
+}
+
+.widget-setting-btn {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.widget-setting-btn:hover {
+    /* background-color: rgba(109, 109, 109, 0.8); */
+    background-color: rgba(140, 140, 140, 0.8);
+}
+
+.modalbox:hover .widget-setting-btn {
+    display: inline-block;
+}
+
+
+.modalbox .move {
+    position: relative;
+}
+
+.modalbox .move-to {
+    position: absolute;
+    right: -10rem;
+    width: 10rem;
+    top: -0.5rem;
+    background-color:#424242;
+    padding: .5rem 0;
+    /* border: 1px solid #e6e4e4; */
+    display: none;
+}
+
+.modalbox .move:hover .move-to  {
+    display: block;
+}
+
+.modalbox .move .move-to div  {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: .25rem .5rem;
+}
+
+.modalbox .move .move-to div:hover  {
+    background-color: #636363;
+}
+
+.modalbox .dropdown-menu {
+    font-size: 13px;
+}
+
+.widget-list-main td img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .25rem;
+}

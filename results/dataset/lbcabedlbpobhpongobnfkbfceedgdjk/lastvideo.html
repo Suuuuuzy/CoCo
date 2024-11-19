@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="css/materialize.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/outklip.css" rel="stylesheet" />
+    <link type="text/css" href="css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar-fixed">
+            <nav class="nav-background">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="https://outklip.com">
+                        <img class="logo" style="width:233px" src="images/v11/logo.png" />
+                    </a>
+                    <a class="sidenav-trigger" data-target="slide-out">
+                        <i class="material-icons"> Menu </i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li id="myklips-menu-link">
+                            <a href="https://outklip.com/myklips" target="_blank"> My Klips </a>
+                        </li>
+                        <li>
+                            <a href="https://outklip.com/help" target="_blank"> Help </a>
+                        </li>
+                    </ul>
+                    <ul class="sidenav" id="slide-out">
+                        <li id="myklips-menu-link-sidenav" class="sidenav-close">
+                            <a href="https://outklip.com/myklips" target="_blank"> My Klips </a>
+                        </li>
+                        <li class="sidenav-close">
+                            <a href="https://outklip.com/help" target="_blank"> Help </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="section">
+            <div id="limitedmodecta" class="row center">
+                <p class="alert-info">You are using the limited version. <a class="underline" href="https://outklip.com/signup" target="_blank"> Sign up</a> to record longer and use our excellent video trimmer.</p>
+            </div>
+            <div class="row">
+                <div class="col m6 offset-m3 s12">
+                    <div id="videocontainer" style="display:none;">
+                        <p class="center" id="reload-webpage" style="display:none;"> <b>Tip:</b> Refresh webpage for better video playback.</p>
+                        <video class="responsive-video" id="lastvideo" controls src="" type="video/webm"> </video>
+                        <p class="grey-text" id="savedvideoon"></p>
+                        <p class="grey-text" id="videofilesize"></p>
+                        <div>
+                            <a class="btn btn-small btn-flat" id="deletevideobutton"><i class="fas fa-trash whitetext" style="color: white;"></i>&nbsp;Delete</a>
+                            <a class="btn btn-small btn-flat" id="downloadlink"><i class="fas fa-download whitetext" style="color: white;"></i>&nbsp;Save</a>
+                            <a class="btn btn-small btn-flat" id="uploadvideo"><i class="fas fa-upload whitetext" style="color: white;"></i>&nbsp;Upload to outklip.com</a>
+                            <p class="grey-text">Tip: Use Chrome or Edge to open the saved .webm file. </p>
+                        </div>
+                        <p id="cloudvideostoragedisabled" tyle="display:none;"> Cloud video storage is disabled. You can enable it&nbsp;
+                            <a class="underline" id="settingslink">here</a>.
+                        </p>
+                    </div>
+                    <h6 id="novideosaved">
+                        There is no saved video.
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="row">
+                <div class="col m6 offset-m3 s12">
+                    <div id="uploaderror" style="display:none;">
+                        <h6>Upload Error</h6>
+                        <p>There was an error uploading the video to OutKlip.</p>
+                        <p class="alert alert-danger" id="uploaderrormessage"></p>
+                        <p id="uploaderrorfix"></p>
+                    </div>
+                    <button id="togglelogbutton">Show Log</button>
+                    <div id="progresslogcontainer" style="display:none;">
+                        <p><b>Progress Log</b></p>
+                        <span style="background-color: beige" id="lastvideoprogresslog"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="uploadmodal" class="modal">
+            <div class="modal-content center">
+                <h4 id="upload_progress_in_percent">0% complete</h4>
+                <h6> Uploading video... </h6>
+            </div>
+        </div>
+        <div id="deletevideomodal" class="modal">
+            <div class="modal-content center">
+                <h6> Are you sure you want to delete the video permanently? </h6>
+                <div>
+                    <a class="modal-close waves-effect waves-green btn-flat">No</a>
+                    <a class="btn btn-small btn-flat" id="confirmvideodeletion">Yes</a>
+                </div>
+            </div>
+        </div>
+        <div id="videodeletioninprogressmodal" class="modal">
+            <div class="modal-content center">
+                <h6> Deleting video... </h6>
+            </div>
+        </div>
+    </div>
+    <footer class="center grey-text tiny-text">© 2021 OutKlip</footer>
+    <script src="content/jquery-3.2.1.min.js"> </script>
+    <script src="build/materialize.min.js"> </script>
+    <script src="build/moment.min.js"> </script>
+    <script src="build/EBML.js"> </script>
+    <script src="build/lastvideo.min.js"> </script>
+</body>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New Tab</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="renderer" content="webkit"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="keywords" content=""><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="icon" href="/dist/favicon.ico"><script defer src="/dist/js/7860.3c26e2825cc70df48ad1.js"></script><script defer src="/dist/js/3587.19fb5f7e45be0a581277.js"></script><script defer src="/dist/js/355.c90d3ffccf55fd521376.js"></script><script defer src="/dist/js/forgot.0507a1e13fffc69ce01b.js"></script><link href="/dist/css/7860.3c26e2825cc70df48ad1.css" rel="stylesheet"><link href="/dist/css/forgot.0507a1e13fffc69ce01b.css" rel="stylesheet"></head>
+
+<body>
+    <div id="main-box" class="container-fluid main-box p-0 m-0 ">
+        <div class="login-box row">
+            <div class="logo">
+                <a href="/dist/"><img src="/dist/images/logo.png" /></a>
+            </div>
+            <div class="login-left col d-none d-lg-block">
+                <div class="features">
+                    <h1 class="forgot-left-h1">Lost password?</h1>
+                    <p class="forgot-left-desc">No worries. Let's get you a new one quickly!</p>
+                </div>
+            </div>
+            <div class="login-right col forgot-password">
+                <div class="col-md-9">
+                    <div class="home-link"><a href="/dist/">Home</a></div>
+                    <h1 class="h1-title">Forgot your password</h1>
+                    <p class="forgot-right-desc">Enter your email and check your inbox for instructions. Please also check your spam folder.</p>
+                    <div id="alert-msg" class="alert alert-success d-none">
+                        <span class="alert-msg-content"></span>
+                    </div>
+                    <form id="forgot-form" method="post">
+                        <div class="form-group">
+                            <input type="text" id="email" name="email" class="form-control" autofocus
+                                placeholder="Email" required />
+                        </div>
+                        <div>
+                            <input type="submit" class="send-btn btn btn-primary mt-3 rounded-pill col-sm-8"
+                                value="Send">
+                        </div>
+                    </form>
+                    <form id="forgot-code-form" method="post" class="d-none">
+                        <div class="form-group">
+                            <input type="text" id="code" name="code" class="form-control" autofocus
+                                placeholder="Code" required />
+                        </div>
+                        <div>
+                            <input type="submit" class="submit-btn btn btn-primary mt-3 rounded-pill col-sm-8"
+                                value="Submit">
+                        </div>
+                    </form>
+                    <form id="reset-pass-form" method="post" class="d-none">
+                        <div class="form-group">
+                            <input type="password" id="new-password" name="new-password" class="form-control" autofocus
+                                placeholder="New password" required />
+                        </div>
+                        <div>
+                            <input type="submit" class="submit-btn btn btn-primary mt-3 rounded-pill col-sm-8"
+                                value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

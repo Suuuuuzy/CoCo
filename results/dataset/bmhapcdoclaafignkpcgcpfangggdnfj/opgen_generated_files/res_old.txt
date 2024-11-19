@@ -1,0 +1,1060 @@
+(['60094', '60469', '60471', '60484'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_storage_local_set_sink
+from cs_window_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 575	  	window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 579			    let mKey = event.data.params.key;
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 579			    let mKey = event.data.params.key;
+	event.data.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 584				        msgData[mKey] = event.data.params.value;
+	event.data.params.value
+
+(['69594', '69716', '69727'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_storage_local_set_sink
+from cookies_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+
+(['69594', '69716', '69727', '69805'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_tabs_create_sink
+from cookies_source to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7499	                    url: config["successurl"]
+	config["successurl"]
+
+(['69594', '69716', '69727', '69805'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_tabs_update_sink
+from cookies_source to chrome_tabs_update_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7499	                    url: config["successurl"]
+	config["successurl"]
+
+(['69594', '69716', '69727', '69805'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_tabs_create_sink
+from cookies_source to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7499	                    url: config["successurl"]
+	config["successurl"]
+
+(['69594', '69716', '69727', '69805'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_tabs_update_sink
+from cookies_source to chrome_tabs_update_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7499	                    url: config["successurl"]
+	config["successurl"]
+
+(['69594', '69716', '69727', '69805'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_tabs_create_sink
+from cookies_source to chrome_tabs_create_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 633	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	decodeURIComponent(cookie.value)
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7481	                    let config = JSON.parse(decodeURIComponent(cookie.value));
+	JSON.parse(decodeURIComponent(cookie.value))
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 7499	                    url: config["successurl"]
+	config["successurl"]
+
+(['54635', '79047'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '79047'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '79288'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '79288'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '79582'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '79582'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '80534'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '80686'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '81517'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '81517'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '82182'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '82182'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '82848'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '82848'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '82968'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '83514'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '83514'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '83634'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '84275'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '84275'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '84782'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '84934'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '85797'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '85797'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '86092'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '86092'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '86756'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '86756'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '86875'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '87422'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '87422'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '87541'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '88265'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '88265'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '88758'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '88910'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '89726'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '89924'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '89924'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '90220'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '90220'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '90967'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '90967'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '91087'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '91633'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '91633'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '91753'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '92872'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '92872'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '94104'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '94602'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '96271'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '96472'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '96472'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '97138'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '97138'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '97804'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '97804'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '98305'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '98484'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '98484'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '99010'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '107411'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '107411'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '107978'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '107978'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '108698'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '108698'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '109364'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '109364'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '109484'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '110030'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '110030'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '110150'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '121017'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '121017'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '121745'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '121745'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '122414'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '122414'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '122901'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '123433'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '123433'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '123570'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '145112'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '145112'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '145313'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '145313'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '145979'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '145979'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '146645'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '146645'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '147132'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '147311'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '147311'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '147812'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '192013'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '192013'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '193032'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '193032'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '193729'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '193729'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '194193'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '194437'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '194437'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '194924'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '286048'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '286048'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '286249'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '286249'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '287273'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '287273'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '287679'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '287679'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '288166'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '288698'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54633', '288698'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+
+(['54635', '288835'], 'cookies_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/bg.js
+Line 2361	      localStorage.setItem('gsSettings', JSON.stringify(settings));
+	JSON.stringify(settings)
+

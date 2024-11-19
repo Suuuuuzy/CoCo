@@ -1,0 +1,15 @@
+input[type="text"].validate-error,
+input[type="password"].validate-error {
+    /* border: 1px solid #e5322d; */
+    border-color: #e5322d;
+    color: #e5322d !important;
+}
+
+input[type="text"].validate-error:focus,
+input[type="password"].validate-error:focus {
+    outline: none;
+}
+
+label.validate-error {
+    color: #e5322d;
+}

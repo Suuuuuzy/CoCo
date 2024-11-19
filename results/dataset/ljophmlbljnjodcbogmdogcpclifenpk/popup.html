@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="shortcut icon" href="image/favicon.png">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title class="need_l18n_title" id="id_title">AirMedia Sender</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/material-components-web.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/crestron-airmedia.css" type="text/css" media="all">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js" defer></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" defer></script>
+    <script type="text/javascript" src="js/material-components-web.min.js" defer></script>
+    <script type="text/javascript" src="js/crestron-airmedia.js" defer></script>
+<script type="text/javascript" src="js/spt1.js"></script>
+
+    <style type="text/css">
+        ::-webkit-scrollbar {
+            width:12px
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background: rgba(236,233,233,0.8);
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        }
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: rgba(236,233,233,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div id="main_page" class="main_page" style="display: block;">
+        <div class="page_content" id="page_header">
+            <div id="main_header" class="main_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="200.000" height="44" viewBox="0 0 202.002 44"><defs><clipPath id="a"><path d="M42.333,27.215H30.367l2.377-6.022H40.5L34.39,7.133l-12.3,30.293H14.98L30.156,1.594a22.007,22.007,0,1,0,13.12,25.627Z" fill="none"/></clipPath><linearGradient id="b" x1="0.231" y1="0.935" x2="0.595" y2="0.164" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#0094d9"/><stop offset="1" stop-color="#004a80"/></linearGradient></defs><g transform="translate(45.876 5.918)"><path d="M160.415,23.525a3.322,3.322,0,1,1-3.332-3.351A3.3,3.3,0,0,1,160.415,23.525Zm-.7,25.654H154.51V29.849h5.207Z" transform="translate(-153.772 -20.174)" fill="#1f3e73"/><path d="M199.078,51.808l-.778,5.167a8.453,8.453,0,0,0-3.152-.618c-2.414,0-4.069,1.476-4.069,4.349V71.238h-5.207V51.908h5.047v2.115a6.1,6.1,0,0,1,5.446-2.633A7.9,7.9,0,0,1,199.078,51.808Z" transform="translate(-176.456 -42.233)" fill="#1f3e73"/><path d="M269.843,51.774h-2.434V26.619L256.757,48.463h-2.573L243.531,26.738V51.774H241.1V23.846h3.67L255.48,45.61l10.692-21.764h3.671Z" transform="translate(-215.482 -22.769)" fill="#1f3e73"/><path d="M370.594,63.617c0,.339-.02.658-.04.937H354.814a7.015,7.015,0,0,0,7.261,6.882,8.752,8.752,0,0,0,6.344-2.673l1.217,1.556a10.117,10.117,0,0,1-7.7,3.092c-5.486,0-9.436-3.95-9.436-9.675,0-5.665,4.009-9.7,9.3-9.7C366.8,54.042,370.534,58.012,370.594,63.617ZM354.854,62.6h13.426c-.339-3.89-2.992-6.543-6.523-6.543C357.946,56.057,355.293,58.79,354.854,62.6Z" transform="translate(-294.208 -44.108)" fill="#1f3e73"/><path d="M437.395,34.691V21.126h2.254V49.852h-2.254V46.241a8.479,8.479,0,0,1-7.441,3.91,9.325,9.325,0,0,1-9.376-9.675,9.342,9.342,0,0,1,9.376-9.7A8.523,8.523,0,0,1,437.395,34.691Zm-14.5,5.785a7.315,7.315,0,1,0,14.622,0,7.315,7.315,0,1,0-14.622,0Z" transform="translate(-342.317 -20.847)" fill="#1f3e73"/><path d="M503.743,28.086a1.6,1.6,0,0,1-1.636,1.616,1.585,1.585,0,0,1-1.616-1.616,1.618,1.618,0,0,1,1.616-1.656A1.635,1.635,0,0,1,503.743,28.086Zm-.5,25.514H500.97V34.829h2.274Z" transform="translate(-398.789 -24.595)" fill="#1f3e73"/><path d="M540.374,73.113H538.12V69.5a8.479,8.479,0,0,1-7.441,3.91,9.325,9.325,0,0,1-9.376-9.675,9.342,9.342,0,0,1,9.376-9.7,8.523,8.523,0,0,1,7.441,3.91V54.341h2.254Zm-16.757-9.376a7.315,7.315,0,1,0,7.321-7.56A7.254,7.254,0,0,0,523.617,63.737Z" transform="translate(-413.496 -44.108)" fill="#1f3e73"/><path d="M624.408,27.434a9.419,9.419,0,0,1,8.319-4.608c5.605,0,8.738,3.71,8.738,8.458,0,3.431-1.9,5.965-3.77,7.92l-9.136,9.615h13.924v2.234h-17.4V49.218L635.9,37.847c1.8-1.875,3.112-3.95,3.112-6.563a5.924,5.924,0,0,0-6.344-6.224,7.456,7.456,0,0,0-6.563,3.75Z" transform="translate(-486.358 -22.048)" fill="#58595b"/><g transform="translate(128.16 9.601)"><path d="M594.019,54.593a1.665,1.665,0,1,1-1.655-1.688A1.67,1.67,0,0,1,594.019,54.593Zm-.31,0a1.355,1.355,0,1,0-1.345,1.387A1.367,1.367,0,0,0,593.709,54.593Zm-1.248-.832c.379,0,.61.189.61.5,0,.277-.2.462-.532.49l.541.647h-.305l-.513-.647h-.236V55.4h-.254V53.76Zm-.435.231v.546h.43c.217,0,.361-.1.361-.277s-.143-.268-.361-.268Z" transform="translate(-590.69 -52.905)" fill="#1f3e73"/></g></g><path d="M8.7,34.794l14.136-33.3a21.771,21.771,0,0,0-2.478.66L7.453,32.565A21.9,21.9,0,0,0,8.7,34.794Z" transform="translate(-5.267 -1.054)" fill="#000014"/><path d="M29.325.256q-1.024.08-2.02.252L12.9,34.454q.573.844,1.221,1.631Z" transform="translate(-9.113 -0.181)" fill="#000014"/><path d="M55.769,27.215H43.8l2.377-6.022H53.94L47.827,7.133l-12.3,30.293H28.416L43.592,1.594c-.405-.164-.818-.311-1.235-.451L26.99,37.426H25.279L40.837.691Q40.36.568,39.875.468L24.221,37.426H22.795L38.55.229C38.127.168,37.7.122,37.268.085L21.453,37.426H20.312L36.155.019C35.9.01,35.646,0,35.388,0c-.289,0-.576.011-.862.022L19.014,36.647a21.929,21.929,0,0,0,37.7-9.427Z" transform="translate(-13.437)" fill="#000014"/><path d="M14.763,4.127A21.951,21.951,0,0,0,2.038,34.105Z" transform="translate(0 -2.916)" fill="#000014"/><path d="M42.333,27.215H30.367l2.377-6.022H40.5L34.39,7.133l-12.3,30.293H14.98L30.156,1.594a22.007,22.007,0,1,0,13.12,25.627Z" fill="#1f3e73"/><g clip-path="url(#a)"><path d="M8.413-41.019,7.175-31.055l7.272.907L-1.886,8.415l.121.051h.142L14.718-30.115l2.088.26L.575,8.466h.571l16.2-38.253,1.817.227L3.059,8.466h.856L19.977-29.458l1.546.193L5.542,8.466H6.683l15.924-37.6,1.275.159L8.026,8.466H9.452L25.237-28.8l1,.125L10.509,8.466h1.712L27.867-28.474l12.284,1.532,1.237-9.963Z" transform="translate(1.333 28.96)" fill="url(#b)"/></g></svg>
+            </div>
+        </div>
+        <div class="div_line"></div>
+        <div class="page_content crestron-page-connect" id="page_connect">
+            <div class="crestron-connect-container">
+                <div class="div_connect_title">
+                    <label class="control-label need_l18n" id="titleConnectRecv">Connect to AirMedia</label>
+                </div>
+                <div class="crestron-form-group crestron-endpoint-text-field-group">
+                    <div class="mdc-text-field mdc-text-field--outlined crestron-endpoint-text-field max-control-width">
+                        <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                                <label class="mdc-floating-label need_l18n" for="inp_connect" id="hit_ip">IP Address or Hostname</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing">
+                                <span class="input-group-addon" id="inp_ao_process">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="crestron-circular-progress" viewBox="25 25 50 50">
+                                        <circle class="crestron-circular-progress__path" cx="50" cy="50" r="20" fill="none"></circle>
+                                    </svg>
+                                </span>
+                                <span class="input-group-addon" id="inp_ao_suss">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="crestron-circular-checkmark" viewBox="0 0 52 52">
+                                        <circle class="crestron-circular-checkmark__circle" cx="26" cy="26" r="25" fill="none"></circle>
+                                        <path class="crestron-circular-checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path>
+                                        </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <input type="text" class="mdc-text-field__input crestron-endpoint-text-field__input" id="inp_connect" name="endpoint" autofocus>
+                    </div>
+                </div>
+                <div class="crestron-form-group" id="btn_main">
+                    <div style="width:100%; text-align:right">
+                        <button type="submit" class="mdc-button mdc-button--unelevated connect-button need_l18n" id="btn_connect">CONNECT</button>
+                        <button type="submit" class="mdc-button mdc-button--unelevated cancel-button need_l18n" id="btn_cancel">CANCEL</button>
+                        <button type="submit" class="mdc-button mdc-button--unelevated stop-button need_l18n" id="btn_stop">STOP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="div_line"></div>
+            <div class="crestron-form-group" id="div_mir_sel">
+                <div class="mdc-form-field">
+                    <div class="mdc-radio">
+                        <input class="mdc-radio__native-control" type="radio" id="mir_sel_tab" name="rd_mir_sel" value="2">
+                        <div class="mdc-radio__background">
+                            <div class="mdc-radio__outer-circle"></div>
+                            <div class="mdc-radio__inner-circle"></div>
+                        </div>
+                    </div>
+                    <div class="source-selection-grid-label">
+                        <label class="div_sel_title need_l18n" for="mir_sel_tab" id="tip_sel_tab_title">Present current tab</label>
+                        <label class="div_sel_tip need_l18n" for="mir_sel_tab" id="tip_sel_tab">Both video and audio will be mirrored</label>
+                    </div>
+                </div>
+                <div class="div_line" id="div_line_sel"></div>
+                <div class="mdc-form-field">
+                    <div class="mdc-radio">
+                        <input class="mdc-radio__native-control" type="radio" id="mir_sel_dsk" name="rd_mir_sel" value="1">
+                        <div class="mdc-radio__background">
+                            <div class="mdc-radio__outer-circle"></div>
+                            <div class="mdc-radio__inner-circle"></div>
+                        </div>
+                    </div>
+                    <div class="source-selection-grid-label">
+                        <span><label class="div_sel_title need_l18n" for="mir_sel_dsk" id="tip_sel_dsk_title">Present desktop</label></span>
+                        <span><label class="div_sel_tip need_l18n" for="mir_sel_dsk" id="tip_sel_dsk">Only video will be mirrored</label></span>
+                    </div>
+                </div>
+            </div>
+            <div class="div_line"></div>
+            <div class="div_connect_tail"></div>
+        </div>
+        <div class="page_content crestron-page-auth" id="page_auth">
+            <div class="crestron-auth-container">
+                <div class="crestron-form-group crestron-endpoint-text-field-group">
+                    <div class="mdc-text-field mdc-text-field--outlined pincode max-control-width">
+                        <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                                <label class="mdc-floating-label need_l18n" for="inp_pincode" id="hit_pin">Enter PIN code</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                        <input type="text" class="mdc-text-field__input" id="inp_pincode" name="pincode" autofocus>
+                    </div>
+                    <div class="mdc-text-field-helper-line">
+                        <div id="inp_pincode_helper_text" class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg need_l18n">
+                            The pin code is incorrect, please try again
+                        </div>
+                    </div>
+                </div>
+                <div class="auth_btns">
+                    <div><button class="mdc-button mdc-button--unelevated button-style auth-ok-button need_l18n" id="btn_ok" type="submit">OK</button></div>
+                    <div><button class="mdc-button mdc-button--outlined button-style auth-cancel-button need_l18n" id="btn_auth_cancel" type="cancel">CANCEL</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="page_content crestron-page-error" id="page_error">
+            <div class="div_warn">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon_warn" viewBox="0 0 24 24">
+                        <path d="M13,14H11V10H13M13,18H11V16H13M1,21H23L12,2L1,21Z"></path>
+                    </svg>
+                </div>
+                <p class="p_warn need_l18n" id="hit_warn">
+                    Unable to connect. Please check your settings.
+                </p>
+                <div class="error_buttons">
+                    <div><button class="mdc-button mdc-button--unelevated button-style error-retry-button need_l18n" id="btn_retry" type="submit">RETRY</button></div>
+                    <div><button class="mdc-button mdc-button--outlined button-style error-cancel-button need_l18n" id="btn_retry_cancel" type="cancel">CANCEL</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

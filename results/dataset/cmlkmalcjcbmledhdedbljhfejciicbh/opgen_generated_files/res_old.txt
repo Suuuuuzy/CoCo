@@ -1,0 +1,75 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh with chrome_storage_local_set_sink
+[(['33361', '35377', '35420', '35475', '35477', '35521', '35522'], "['bg_chrome_runtime_MessageExternal', '33338']")]
+from ['bg_chrome_runtime_MessageExternal', '33338'] to chrome_storage_local_set_sink
+['14394', '14530', '14566', '14565', '14606', '14601']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 831	        data: request.data,
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 854	      chrome.storage.local.get(request.data.key, function (res) {
+	request.data.key
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 856	          sendResponse(res[request.data.key]);
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 856	          sendResponse(res[request.data.key]);
+	request.data.key
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 862	      data[request.key] = JSON.parse(request.data);
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 862	      data[request.key] = JSON.parse(request.data);
+	JSON.parse(request.data)
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink out
+[(['33361', '35377', '35420', '35475', '35477', '35521', '35522'], "['bg_chrome_runtime_MessageExternal', '33338']")]
+from ['bg_chrome_runtime_MessageExternal', '33338'] to sendResponseExternal_sink out
+['14394', '14530', '14566', '14565', '14606', '14601']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 831	        data: request.data,
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 854	      chrome.storage.local.get(request.data.key, function (res) {
+	request.data.key
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 856	          sendResponse(res[request.data.key]);
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 856	          sendResponse(res[request.data.key]);
+	request.data.key
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 862	      data[request.key] = JSON.parse(request.data);
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 862	      data[request.key] = JSON.parse(request.data);
+	JSON.parse(request.data)
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink out
+[(['35742'], 'jQuery_ajax_result_source')]
+from jQuery_ajax_result_source to sendResponseExternal_sink out
+['555']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 117	        var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink out
+[(['35494'], 'jQuery_ajax_result_source')]
+from jQuery_ajax_result_source to sendResponseExternal_sink out
+['555']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 117	        var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh with sendResponseExternal_sink out
+[(['35915'], 'jQuery_ajax_result_source')]
+from jQuery_ajax_result_source to sendResponseExternal_sink out
+['555']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmlkmalcjcbmledhdedbljhfejciicbh/opgen_generated_files/bg.js
+Line 117	        var jQuery_ajax_result_source = 'data_form_jq_ajax';
+	jQuery_ajax_result_source = 'data_form_jq_ajax'
+

@@ -1,0 +1,45 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/kmjgbjddieihpeglpobkhcnbejiooilh/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7fdea4e51c40>)",
+                "sink-param1": "{ accessToken: evt.detail }",
+                "line": "109 - 109",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/kmjgbjddieihpeglpobkhcnbejiooilh/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(accessToken, <pdg_js.node.FunctionExpression object at 0x7fdeadb76190>)",
+                "sink-param1": "accessToken",
+                "sink-param2": "function (_a) {\n var accessToken = _a.accessToken;\n chrome.tabs.query({\n lastFocusedWindow: true,\n active: true,\n }, function () {\n hasAccessToken = !!accessToken;\n });\n chrome.tabs.get(tabId, function () {\n if (hasAccessToken) {\n chrome.browserAction.setIcon({\n path: \"assets/icon.png\",\n tabId: tabId,\n });\n return;\n }\n else {\n chrome.browserAction.setIcon({\n path: \"assets/disabled.png\",\n tabId: tabId,\n });\n return;\n }\n });\n }",
+                "line": "102 - 126",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/kmjgbjddieihpeglpobkhcnbejiooilh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(accessToken, <pdg_js.node.FunctionExpression object at 0x7fdeadb76190>)",
+                "sink-param1": "accessToken",
+                "sink-param2": "function (_a) {\n var accessToken = _a.accessToken;\n chrome.tabs.query({\n lastFocusedWindow: true,\n active: true,\n }, function () {\n hasAccessToken = !!accessToken;\n });\n chrome.tabs.get(tabId, function () {\n if (hasAccessToken) {\n chrome.browserAction.setIcon({\n path: \"assets/icon.png\",\n tabId: tabId,\n });\n return;\n }\n else {\n chrome.browserAction.setIcon({\n path: \"assets/disabled.png\",\n tabId: tabId,\n });\n return;\n }\n });\n }",
+                "line": "102 - 126",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/kmjgbjddieihpeglpobkhcnbejiooilh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

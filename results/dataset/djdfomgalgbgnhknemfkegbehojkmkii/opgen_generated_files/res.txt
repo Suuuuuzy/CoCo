@@ -1,0 +1,12 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii with chrome_storage_sync_set_sink
+[(['14201', '14350', '14352'], "['bg_chrome_runtime_MessageExternal', '14178']")]
+from ['bg_chrome_runtime_MessageExternal', '14178'] to chrome_storage_sync_set_sink
+['4802', '4801']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/opgen_generated_files/bg.js
+Line 796	    chrome.storage.sync.set({'access_token': request.data.access_token}, function() {
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/opgen_generated_files/bg.js
+Line 796	    chrome.storage.sync.set({'access_token': request.data.access_token}, function() {
+	request.data.access_token
+

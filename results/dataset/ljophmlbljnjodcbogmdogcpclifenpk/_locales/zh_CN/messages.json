@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia 发送者"
+  },
+  "appDesc": {
+    "message": "随时将您的设备镜像到任何计算机屏幕上"
+  },
+  "extTitle": {
+    "message": "AirMedia 发送者"
+  },
+  "titleConnectRecv": {
+    "message": "连接到 AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "显示桌面"
+  },
+  "tip_sel_dsk": {
+    "message": "仅镜像视频"
+  },
+  "hit_pin": {
+    "message": "输入 PIN 码"
+  },
+  "tip_sel_tab": {
+    "message": "镜像视频和音频"
+  },
+  "btn_connect": {
+    "message": "连接"
+  },
+  "btn_cancel": {
+    "message": "取消"
+  },
+  "btn_stop": {
+    "message": "停止"
+  },
+  "btn_ok": {
+    "message": "确定"
+  },
+  "btn_auth_cancel": {
+    "message": "取消"
+  },
+  "btn_retry_cancel": {
+    "message": "取消"
+  },
+  "btn_retry": {
+    "message": "重试"
+  },
+  "hit_warn": {
+    "message": "无法连接。请检查您的设置。"
+  },
+  "hit_ip": {
+    "message": "IP 地址或主机名"
+  },
+  "tip_sel_tab_title": {
+    "message": "显示当前选项卡"
+  },
+  "inp_pincode_helper_text": {
+    "message": "PIN 码不正确。请重试。"
+  }
+}

@@ -1,0 +1,34 @@
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: 600
+call_limit: 3
+entry_func: None
+list: ./tmp_env/tmp_split_list/4
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: None
+chrome_extension: True
+run_with_pq: True
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: /media/data2/jianjia/extension_data/unzipped_extensions/
+autostop: False
+no_merge: False
+thread_stmt: False
+/media/data2/jianjia/extension_data/unzipped_extensions/jijknheciphcicdogdihjknndkhhagdn timeout after 600 seconds with 53.38827838827839% stmt covered####
+

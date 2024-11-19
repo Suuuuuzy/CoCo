@@ -1,0 +1,975 @@
+<div id="outklip-root" />
+<template id="outklip-template">
+    <style>
+        #outklip-sandbox {
+            all: initial;
+            font-family: 'Avenir', sans-serif;
+            --ok-transparent: hsla(0, 0%, 0%, 0);
+            --ok-primary-color: hsla(3, 69%, 47%, 1);
+            --ok-primary-color-light: hsla(3, 69%, 56%, 1);
+            --ok-gray-highlight: hsla(0, 8%, 89%, 1);
+            --ok-teal-accent: hsla(176, 86%, 27%, 1);
+            --ok-light-grey: hsla(0, 0%, 98%, 1);
+            --ok-blue-accent: hsla(209, 92%, 80%, 1);
+            --ok-light-blue-accent: hsla(209, 92%, 95%, 1);
+            --ok-dark-brown: hsla(3, 69%, 18%, 1);
+            --ok-medium-grey: hsla(0, 0%, 67%, 1);
+            --ok-border-grey: hsla(0, 0%, 53%, 1);
+            --ok-text-grey: hsla(0, 0%, 23%, 1);
+        }
+
+        #outklip-camera-modal-content {
+            display: none;
+            margin: 0 auto 0 auto;
+            position: fixed;
+            z-index: 2147483647; /* Sit on top */
+            left: 15vw;
+            top: 15vh;
+            --width: 70vw;
+            width: var(--width);
+            height: calc(var(--width) * 0.5625);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            background: black;
+        }
+
+        /* The Modal (background) */
+        .outklip-fixed-modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 2147483647; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .outklip-config-content {
+            margin: 1% 1% auto auto; /* 1% from top and right */
+            border: 1px solid var(--ok-border-grey);
+            width: 20%; /* Could be more or less, depending on screen size */
+            text-align: center;
+            border-radius: 7.5px;
+            position: relative;
+            padding:20px;
+            background: var(--ok-light-grey);
+        }
+
+        /* Modal Content/Box */
+        #outklip-loader-content, #outklip-allurls-rationale-content {
+            background-color: var(--ok-light-grey);
+            margin: 15% auto; /* 15% from the top and centered */
+            border: 1px solid var(--ok-border-grey);
+            width: 30%; /* Could be more or less, depending on screen size */
+            text-align: center;
+            border-radius: 7.5px;
+            position: relative;
+            padding:20px;
+            background: -webkit-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* Chrome 10+, Saf5.1+ */
+            background: -moz-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* FF3.6+ */
+            background: linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* W3C */
+        }
+
+        .outklip-countdown-content {
+            margin: 15% auto;
+            width: 50%; /* Could be more or less, depending on screen size */
+            text-align: center;
+            color: white;
+            position: relative;
+            padding:20px;
+        }
+
+        #outklip-countdown-timer {
+            font-size: 5rem;
+            text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+            display: block;
+            padding: 10px;
+            font-weight: 700;
+        }
+
+        .outklip-countdown-label {
+            font-size: 3rem;
+            text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+            display: block;
+            padding: 10px;
+            font-weight: 700;
+        }
+
+        #outklip-countdown-paused-label {
+            font-size: 1rem;
+            text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+            display: block;
+            padding: 10px;
+            display: block;
+        }
+
+        #outklip-countdown-container {
+            display: none;
+        }
+
+        .outklip-h2,
+        .outklip-h3,
+        .outklip-block,
+        #outklip-start-recording-cta-text,
+        #outklip-audio-status-text {
+            margin: 0 auto; /* 0 from the top and centered */
+            color: var(--ok-text-grey);
+        }
+
+        .outklip-h2 {
+            font-size: 2rem;
+        }
+
+        .outklip-h3 {
+            font-size: 1.5rem;
+        }
+
+        .outklip-h4 {
+            font-size: 1rem;
+        }
+
+        .outklip-small {
+            font-size: 0.9em !important;
+        }
+
+        .gray {
+            color: #a1a1a1;
+        }
+
+        #outklip-loader {
+            border: 6px solid var(--ok-primary-color);
+            border-top: 6px solid #ffffff;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto;
+        }
+
+        #outklip-loader-container, #outklip-allurls-rationale-container {
+            display: none;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #outklip-close-config, #outklip-close-signup, #outklip-close-loader, #outklip-close-allurls-rationale-modal {
+            color: var(--ok-medium-grey);
+            position: absolute;
+            right: 5px;
+            top: 0;
+            font-size: 2em;
+            cursor: pointer;
+        }
+
+        #outklip-settings-icon {
+            color: var(--ok-medium-grey);
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            font-size: 1.5em;
+        }
+
+        #outklip-audio-status-text, #outklip-start-recording-cta-text {
+            color: var(--ok-primary-color);
+        }
+
+        #outklip-audio-status, #outklip-cancel-allurls-rationale {
+            text-decoration: none;
+        }
+
+        #outklip-start-recording-cta-text  {
+            display: block;
+        }
+
+        #outklip-recordaudiosetting,
+        #outklip-recordtabmicsetting,
+        #outklip-recordcameramicsetting,
+        #outklip-recordcamerasetting,
+        #outklip-recordtabaudiosetting,
+        #outklip-recordtabcamerasetting,
+        #outklip-active-mic-device-icon,
+        #outklip-active-camera-device-icon,
+        #outklip-show-control-panel-icon,
+        #outklip-show-profile-photo-icon,
+        #outklip-show-picture-in-picture-icon,
+        #outklip-countdown-before-recording-icon,
+        #outklip-recordaudiosettinglabel,
+        #outklip-recordtabmicsettinglabel,
+        #outklip-recordcameramicsettinglabel,
+        #outklip-recordcamerasettinglabel,
+        #outklip-recordtabaudiosettinglabel,
+        #outklip-recordtabcamerasettinglabel,
+        #outklip-active-mic-device-label,
+        #outklip-active-camera-device-label,
+        #outklip-show-control-panel-label,
+        #outklip-show-profile-photo-label,
+        #outklip-show-picture-in-picture-label,
+        #outklip-countdown-before-recording-label
+         {
+            text-decoration: none;
+            color: var(--ok-text-grey);
+            text-align: left;
+        }
+
+        .placeholder-icon {
+            height: 35px !important;
+            width: 35px !important;
+            display: inline;
+            vertical-align: middle;
+        }
+
+        #cameraswitch, #audioswitch, #tabcameraswitch, #tabaudioswitch, #tabmicswitch {
+            vertical-align: middle;
+        }
+
+        .outklip-block {
+            display: block;
+            margin: 10px;
+        }
+
+        #outklip-webcam-video-container {
+            display: block;
+            position: fixed; /* Stay in place */
+            z-index: 2147483647; /* Sit on top */
+            left: 10px;
+            bottom: 52px; /* height of control icon 42px + bottom position of control icon 10px = 52px; */
+            border: none;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        #outklip-control-container {
+            z-index: 2147483647; /* Sit on top */
+            left: 10px;
+            bottom: 10px;
+            display: none;
+            position: fixed; /* Stay in place */
+            border: none;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.333);
+            border-radius: 7.5px;
+            padding: 5px;
+        }
+
+        .outklip-switches {
+            display: inline-grid;
+            grid-template-columns: 35px 110px 65px;
+            grid-row-gap: 1rem;
+            grid-column-gap: 0.5rem;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        #outklip-mic-container {
+            display: none;
+        }
+
+        #outklip-webcam-player {
+            display: none; /* Hidden by default */
+            cursor: move;
+        }
+
+        #outklip-profile-photo {
+            display: none; /* Hidden by default */
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 50% 50%;
+            border-radius: 0.2rem;
+            cursor: move;
+            vertical-align: middle; /* https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image */
+        }
+
+        .cursorpointer {
+            cursor: pointer;
+        }
+
+        #outklip-pause-resume-recording, #outklip-cancel-recording, #outklip-audio-control, #outklip-webcam-control, #outklip-finish-recording, #outklip-toggle-menu {
+            font-size: 25px;
+            width: auto;
+            color: white;
+        }
+
+        #recording-time-indicator, #toggle-menu, #toggle-pause-resume, #cancel-recording, #finish-recording {
+            margin: auto;
+            color: white;
+        }
+
+        .grid-of-one-control {
+            display: grid;
+            grid-template-columns: 42px;
+            grid-template-rows: auto;
+        }
+
+        .grid-of-four-controls {
+            display: grid;
+            grid-template-columns: 42px 42px 42px 42px;
+            grid-template-rows: auto;
+        }
+
+        .grid-of-three-controls {
+            display: grid;
+            grid-template-columns: 42px 42px 42px;
+            grid-template-rows: auto;
+        }
+
+        .grid-of-five-controls {
+            display: grid;
+            grid-template-columns: 42px 42px 42px 42px 73px;
+            grid-template-rows: auto;
+        }
+
+        .grid-of-six-controls {
+            display: grid;
+            grid-template-columns: 42px 42px 42px 42px 42px 73px;
+            grid-template-rows: auto;
+        }
+
+        .grid-of-seven-controls {
+            display: grid;
+            grid-template-columns: 42px 42px 42px 42px 42px 42px 73px;
+            grid-template-rows: auto;
+        }
+
+        #getcameraiframe {
+            overflow: hidden;
+            pointer-events: none;
+            width: 250px;
+            height: 250px;
+        }
+
+        /* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 41px;
+            height: 21px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {display:none;}
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color:  var(--ok-text-grey);
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px var(--ok-text-grey);
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(20px);
+            -ms-transform: translateX(20px);
+            transform: translateX(20px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 10.5px;
+        }
+
+        .slider.round:before {
+            border-radius: 15.5px;
+            box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 0 3px 1px rgba(0, 0, 0, 0.05);
+        }
+
+
+        #outklip-upgrade-cta-string {
+            font-size: 0.8em;
+            background-color: #deebff;
+            border-radius: 0.2rem;
+        }
+
+        .paint-canvas {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+            z-index: 2147483646;
+        }
+
+        #outklip-audioinfoicon{
+            height: auto;
+            width: 30px!important;
+            display: inline;
+            vertical-align: middle;
+        }
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border-radius: 0.2rem;
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: 0.3s;
+            font-size: 1em;
+            color: var(--ok-medium-grey);
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+            color: var(--ok-primary-color);
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #4a4a4a;
+            color: white;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+
+        #outklip-desktop-error, #outklip-tab-error, #outklip-camera-mode-error {
+            font-size: 0.8em;
+            font-family: 'sans-serif';
+        }
+
+        #outklip-link {
+            font-size: 0.8em;
+        }
+
+        #show-more-options {
+            font-size: 0.8em;
+            font-weight: bold;
+            outline: none;
+            margin-bottom: 5px;
+        }
+
+        .outklip-prompt-headline {
+            font-weight: bold;
+            text-align: left;
+            font-size: 1.2em;
+        }
+
+        .outklip-prompt-body {
+            text-align: left;
+        }
+
+        .outklip-blinking {
+            -webkit-animation: 2s blink ease infinite;
+            -moz-animation: 2s blink ease infinite;
+            -ms-animation: 2s blink ease infinite;
+            -o-animation: 2s blink ease infinite;
+            animation: 2s blink ease infinite;
+
+        }
+
+        #recording-blinker {
+            display: none;
+        }
+
+        @keyframes "blink" {
+            from, to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes blink {
+            from, to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes "blink" {
+            from, to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes "blink" {
+            from, to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes "blink" {
+            from, to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        #outklip-webcam-player~#outklip-webcam-controls, #outklip-profile-photo~#outklip-webcam-controls {
+            display: grid;
+            float:right;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        #outklip-webcam-player:hover~#outklip-webcam-controls, #outklip-profile-photo:hover~#outklip-webcam-controls, #outklip-webcam-player~#outklip-webcam-controls:hover, #outklip-profile-photo~#outklip-webcam-controls:hover {
+            display: grid;
+            float:right;
+            opacity: 1;
+            background: rgba(0, 0, 0, 0.333);
+            transition: opacity 0.2s;
+        }
+
+        #outklip-webcam-container-close-icon, #outklip-webcam-resize-icon, #outklip-change-avatar-icon, #outklip-webcam-change-filter, #outklip-open-picture-in-picture {
+            padding: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        #outklip-change-avatar-icon {
+            display: none;
+        }
+
+        .disable-hover{
+            pointer-events: none;
+        }
+
+        .filter-none {
+            filter: none;
+        }
+
+        #outklip-motivational-message {
+            color: #9e9e9e;
+        }
+
+        #outklip-live-video-viewer-for-pip{
+            overflow: hidden;
+            object-fit: cover;
+            width: 250px;
+            height: 250px;
+            border-radius: 0.2rem;
+            display: none;
+        }
+
+        .noSelect {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #config-options {
+            display: none;
+        }
+
+        .nounderline {
+            text-decoration: none;
+        }
+
+        .ok-clickable-text:hover *, .ok-clickable-text:hover{
+            color: var(--ok-primary-color) !important;
+            cursor: pointer;
+        }
+
+        .ok-primary-button-small {
+            padding: 4px;
+            border-radius: 4px;
+            background-color: var(--ok-primary-color);
+            color: white !important;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .ok-secondary-button-small, .ok-secondary-button-medium {
+            padding: 4px;
+            border-radius: 4px;
+            border: 1px solid var(--ok-primary-color);
+            color: var(--ok-primary-color);
+            cursor: pointer;
+        }
+
+        .ok-secondary-button-small *, .ok-secondary-button-medium * {
+            color: var(--ok-primary-color) !important;
+        }
+
+        .ok-secondary-button-small:hover, .ok-secondary-button-medium:hover {
+            border: 1px solid var(--ok-primary-color-light);
+        }
+
+        .ok-secondary-button-small *:hover,  .ok-secondary-button-medium *:hover{
+            color: var(--ok-primary-color-light) !important;
+        }
+
+        .ok-primary-button-medium {
+            padding: 10px 20px;
+            border-radius: 4px;
+            background-color: var(--ok-primary-color);
+            color: white !important;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .ok-primary-button-small:hover, .ok-primary-button-medium:hover  {
+            background-color: var(--ok-primary-color-light);
+            color: white;
+        }
+
+        .ok-textbutton-small, .ok-textbutton-small * {
+            padding: 5px;
+            color: var(--ok-primary-color) !important;
+            cursor: pointer;
+        }
+
+        .ok-textbutton-medium, .ok-textbutton-medium * {
+            padding: 10px;
+            color: var(--ok-primary-color) !important;
+            cursor: pointer;
+        }
+
+        .ok-textbutton-small:hover, .ok-textbutton-small:hover *, .ok-textbutton-medium:hover, .ok-textbutton-medium:hover *{
+            background-color: var(--ok-gray-highlight);
+            border-radius: 4px;
+        }
+
+        #outklip-create-account, #outklip-log-in {
+            text-decoration: none;
+        }
+
+        #outklip-login-section {
+            padding-top: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+    <div id="outklip-sandbox">
+        <div id="outklip-modal-id" class="outklip-fixed-modal">
+            <div id="outklip-signup-modal" class="outklip-config-content">
+                <span class="ok-clickable-text" id="outklip-close-signup" title="Close">&times;</span>
+                <div class="outklip-block">
+                    <a href="https://outklip.com" target="_blank" title="Visit outklip.com">
+                        <img id="outklip-signup-logo" style="width:100px"/>
+                    </a>
+                </div>
+                <div class="outklip-block">
+                    <b>🚀 Create great screencasts</b>
+                </div>
+                <div class="outklip-block">
+                    <br>
+                    <a class="ok-primary-button-medium" id="outklip-create-account" href="https://outklip.com/signup" target="_blank" title="Sign up on outklip.com">
+                        Sign up
+                    </a>
+                    <div id="outklip-login-section">
+                        Already a member?
+                        <a id="outklip-log-in" href="https://outklip.com/login" target="_blank" title="Log into outklip.com">
+                            <span class="ok-textbutton-small">Log in</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="outklip-config-modal" class="outklip-config-content">
+                <span class="ok-clickable-text" id="outklip-close-config" title="Close">&times;</span>
+                <div class="outklip-block">
+                    <a href="https://outklip.com/myklips" target="_blank" title="Show past klips">
+                        <img id="outklip-config-logo" style="width:100px"/>
+                    </a>
+                </div>
+                <div id="outklip-version-subtitle-container" class="outklip-block">
+                    <div id="outklip-version-subtitle-string" class="outklip-h4 gray" />
+                </div>
+                <div class="outklip-block">
+                    <!-- Tab links -->
+                    <div class="tab">
+                        <button class="tablinks outklip-small" id="desktop-button">Desktop</button>
+                        <button class="tablinks outklip-small" id="tab-button">Tab</button>
+                        <button class="tablinks outklip-small" id="cameramode-button">Camera only</button>
+                    </div>
+                    <!-- Tab content -->
+                    <div id="record-desktop" class="tabcontent">
+                        <div class="outklip-block">
+                            <h3 class="outklip-small">Record desktop with:</h3>
+                            <div class="outklip-switches">
+                                <a id="outklip-recordaudiosetting" href="#">
+                                    <i class="fas fa-microphone" title="Record microphone"></i>
+                                </a>
+                                <a id="outklip-recordaudiosettinglabel" class="outklip-small" href="#">
+                                    Mic
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="audioswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <a id="outklip-recordcamerasetting" href="#">
+                                    <i class="fas fa-video" title="Record camera"></i>
+                                </a>
+                                <a id="outklip-recordcamerasettinglabel" class="outklip-small" href="#">
+                                    Camera
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="cameraswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="outklip-block" id="outklip-desktop-error"></div>
+                        </div>
+                    </div>
+
+                    <div id="record-tab" class="tabcontent">
+                        <div class="outklip-block">
+                            <h3 class="outklip-small">Record tab with:</h3>
+                            <div class="outklip-switches">
+                                <a id="outklip-recordtabmicsetting" href="#">
+                                    <i class="fas fa-microphone" title="Record microphone"></i>
+                                </a>
+                                <a id="outklip-recordtabmicsettinglabel" class="outklip-small" href="#">
+                                    Mic
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="tabmicswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <a id="outklip-recordtabaudiosetting" href="#">
+                                    <i class="fas fa-volume-up" title="Record tab audio"></i>
+                                </a>
+                                <a id="outklip-recordtabaudiosettinglabel" class="outklip-small" href="#">
+                                    Tab audio
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="tabaudioswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                                <a id="outklip-recordtabcamerasetting" href="#">
+                                    <i class="fas fa-video" title="Record camera"></i>
+                                </a>
+                                <a id="outklip-recordtabcamerasettinglabel" class="outklip-small" href="#">
+                                    Camera
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="tabcameraswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="outklip-block" id="outklip-tab-error"></div>
+                        </div>
+                    </div>
+                    <div id="record-camera" class="tabcontent">
+                        <div class="outklip-block">
+                            <h3 class="outklip-small">Record camera with:</h3>
+                            <div class="outklip-switches">
+                                <a id="outklip-recordcameramicsetting" href="#">
+                                    <i class="fas fa-microphone" title="Record microphone"></i>
+                                </a>
+                                <a id="outklip-recordcameramicsettinglabel" class="outklip-small" href="#">
+                                    Mic
+                                </a>
+                                <label class="switch">
+                                    <input type="checkbox" id="cameramicswitch">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="outklip-block" id="outklip-camera-mode-error"></div>
+                        </div>
+                    </div>
+                    <div id="show-more-options">
+                        <span id="show-more-options-button" class="ok-clickable-text">Show more options</span>
+                        <i id="show-more-options-button-icon" class="fas fa-caret-down ok-clickable-text"></i>
+                    </div>
+                    <div id="config-options">
+                        <div class="outklip-switches">
+                            <i id="outklip-active-mic-device-icon" class="fas fa-microphone" title="Active mic device"></i>
+                            <span class="outklip-small" id="outklip-active-mic-device-label" title="Active mic device">
+                                Mic device
+                            </span>
+                            <select id="micdeviceselect" title="Select the mic device">
+                                <option value="none">None</option>
+                            </select>
+                            <i id="outklip-active-camera-device-icon" class="fas fa-camera" title="Active camera device"></i>
+                            <span class="outklip-small" id="outklip-active-camera-device-label" title="Active camera device">
+                                Camera device
+                            </span>
+                            <select id="cameradeviceselect" title="Select the camera device">
+                                <option value="none">None</option>
+                            </select>
+                            <a id="outklip-show-control-panel-icon" href="#" title="Show control panel">
+                                <i class="fas fa-sliders-h"></i>
+                            </a>
+                            <a class="outklip-small" id="outklip-show-control-panel-label" href="#" title="Show control panel">
+                                Control panel
+                            </a>
+                            <label class="switch" title="Show control panel">
+                                <input type="checkbox" id="controlpanelswitch" />
+                                <span class="slider round"></span>
+                            </label>
+                            <a id="outklip-show-profile-photo-icon" href="#" title="Show profile photo when camera is off">
+                                <i class="fas fa-portrait"></i>
+                            </a>
+                            <a class="outklip-small" id="outklip-show-profile-photo-label" href="#" title="Show profile photo when camera is off">
+                                Profile photo
+                            </a>
+                            <label class="switch" title="Show profile photo when camera is off">
+                                <input type="checkbox" id="profilephotoswitch" />
+                                <span class="slider round"></span>
+                            </label>
+                            <a id="outklip-show-picture-in-picture-icon" href="#" title="Enable camera video to be visible outside browser">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a class="outklip-small" id="outklip-show-picture-in-picture-label" href="#" title="Enable camera video to be visible outside browser">
+                                Pop-out video
+                            </a>
+                            <label class="switch" title="Enable camera video to be visible outside browser">
+                                <input type="checkbox" id="pictureinpictureswitch" />
+                                <span class="slider round"></span>
+                            </label>
+                            <i id="outklip-countdown-before-recording-icon" class="fas fa-hourglass-start" title="Countdown before recording"></i>
+                            <span class="outklip-small" id="outklip-countdown-before-recording-label" title="Countdown before recording">
+                                Countdown
+                            </span>
+                            <span>
+                                <span id="countdownwhitespaceprefix" />
+                                <span id="countdownvalue" class="noSelect outklip-small" />
+                                <i id="countdownvaluedecrement" class="fas fa-minus-circle cursorpointer noSelect" title="Decrease countdown"/>
+                                <i id="countdownvalueincrement" class="fas fa-plus-circle cursorpointer noSelect" title="Increase countdown"/>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="outklip-block">
+                    <br>
+                    <a class="ok-primary-button-medium" id="outklip-startrecording">
+                        RECORD
+                    </a>
+                </div>
+                <div id="outklip-upgrade-cta-container" class="outklip-block">
+                    <br>
+                    <div id="outklip-upgrade-cta-string"/>
+                </div>
+                <a class="ok-clickable-text" id="outklip-settings-link" target="_blank"><i id="outklip-settings-icon" class="fas fa-cog" title="Open advanced options"></i></a>
+            </div>
+        </div>
+        <div id="outklip-camera-modal-content"/>
+        <div id="outklip-countdown-container" class="outklip-fixed-modal">
+            <div class="outklip-countdown-content">
+                <div class="outklip-countdown-label">
+                    Ready?
+                </div>
+                <div id="outklip-countdown-timer">3</div>
+                <br>
+                <a id="outklip-countdown-pause-resume-button" class="ok-primary-button-medium"> Pause countdown </a>
+                <br>
+                <br>
+                <a id="outklip-cancel-recording-during-countdown" class="ok-secondary-button-medium"> Cancel recording</a>
+            </div>
+        </div>
+        <div id="outklip-loader-container" class="outklip-fixed-modal">
+            <div id="outklip-loader-content">
+                <span id="outklip-close-loader" class="ok-clickable-text">&times;</span>
+                <div class="outklip-block">
+                    <i class="fas fa-spinner fa-pulse"></i>
+                    <div id="outklip-loader-percentage-complete">Uploading... 0% complete</div>
+                </div>
+                <div class="outklip-block">
+                    <div class="outklip-h4" id="outklip-motivational-message" />
+                </div>
+            </div>
+        </div>
+        <div id="outklip-allurls-rationale-container" class="outklip-fixed-modal">
+            <div id="outklip-allurls-rationale-content">
+                <span id="outklip-close-allurls-rationale-modal" class="ok-clickable-text">&times;</span>
+                <div class="outklip-block">
+                    <div class="outklip-prompt-headline"> Want the camera to be seen across browser tabs? </div>
+                </div>
+                <div class="outklip-block">
+                    <div class="outklip-prompt-body"> If so, we need an extra permission. You'll see the permission on the next screen.</div>
+                </div>
+                <div class="outklip-block">
+                    <a id="outklip-cancel-allurls-rationale" class="ok-clickable-text" href="#"> No </a>
+                    <span>&nbsp;&nbsp;</span>
+                    <a id="outklip-show-allurls-permission" class="ok-primary-button-small"> Yes </a>
+                </div>
+            </div>
+        </div>
+        <div id="outklip-webcam-video-container">
+            <div id="outklip-webcam-player">
+                <video id="outklip-live-video-viewer-for-pip" autoplay></video>
+            </div>
+            <img id="outklip-profile-photo" />
+            <div id="outklip-webcam-controls">
+                <i class="fas fa-times" id="outklip-webcam-container-close-icon" title="Close"></i>
+                <i class="fas fa-expand-alt" id="outklip-webcam-resize-icon" title="Resize"></i>
+                <i class="fas fa-magic" id="outklip-webcam-change-filter" title="Change filter"></i>
+                <a id="outklip-change-avatar-icon" href="https://outklip.com/account" target="_blank" title="Change avatar">
+                    <i class="fas fa-link"></i>
+                </a>
+                <i class="fas fa-external-link-alt" id="outklip-open-picture-in-picture" title="Pop out"></i>
+            </div>
+        </div>
+        <div id="outklip-control-container">
+            <a id="toggle-menu" class="cursorpointer">
+                <i id="outklip-toggle-menu" class="fas fa-ellipsis-v"></i>
+            </a>
+            <a id="toggle-pause-resume" class="cursorpointer">
+                <i id="outklip-pause-resume-recording" class="fas fa-play"></i>
+            </a>
+            <a id="cancel-recording" class="cursorpointer">
+                <i id="outklip-cancel-recording" class="fas fa-trash-alt" title="Discard recording" ></i>
+            </a>
+            <a id="finish-recording" class="cursorpointer">
+                <i id="outklip-finish-recording" class="fas fa-stop" title="Finish recording"></i>
+            </a>
+            <span id="recording-time-indicator">
+                <svg id="recording-blinker" height="10" width="10" class="outklip-blinking">
+                    <circle cx="5" cy="5" r="5" fill="#be1e2d" />
+                </svg>
+                <span id="recording-time-indicator-string">0:00</span>
+            </span>
+        </div>
+        <div id="outklip-mic-container" />
+    </div>
+</template>

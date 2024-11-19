@@ -1,0 +1,48 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "GrepolisToolkit, le script !",
+  "version": "2.0.20",
+  "manifest_version": 2,
+  "description": "Script améliorant l'expérience utilisateur dans le jeu Grepolis.",
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "https://*.grepolis.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://*.grepolis.com/*"
+      ],
+      "js": [
+        "js/launcher.js"
+      ]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://*.grepolistoolkit.com/*"
+      ],
+      "js": [
+        "js/map_connector.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "js/app.min.js",
+    "css/app.min.css",
+    "fonts/*",
+    "img/*"
+  ]
+}

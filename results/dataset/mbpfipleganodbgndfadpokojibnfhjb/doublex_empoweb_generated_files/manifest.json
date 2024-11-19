@@ -1,0 +1,41 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "VidAngel for Chrome",
+  "version": "0.0.0.7",
+  "description": "Enhance your VidAngel experience!",
+  "permissions": [
+    "cookies",
+    "*://*.netflix.com/*",
+    "*://www.amazon.com/",
+    "*://atv-ps.amazon.com/*",
+    "*://amazon.com/",
+    "*://*.vidangel.com/*",
+    "declarativeContent"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "externally_connectable": {
+    "matches": ["*://*.vidangel.com/*"]
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/va_icon_16.png",
+      "32": "images/va_icon_32.png",
+      "48": "images/va_icon_48.png",
+      "128": "images/va_icon_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/va_icon_16.png",
+    "32": "images/va_icon_32.png",
+    "48": "images/va_icon_48.png",
+    "128": "images/va_icon_128.png"
+  },
+  "manifest_version": 2
+}

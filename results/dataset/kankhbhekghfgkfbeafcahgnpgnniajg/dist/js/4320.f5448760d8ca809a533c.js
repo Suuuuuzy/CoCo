@@ -1,0 +1,1 @@
+(self.webpackChunknewtab=self.webpackChunknewtab||[]).push([[4320],{4320:a=>{a.exports='<div class="weather-box"> <img class="iconName" alt=""> <div> <div class="displayName">{{displayName}}</div> <div class="now">{{now}}</div> <div class="low_high">{{low_high}}</div> </div> </div>'}}]);

@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Nadawca AirMedia"
+  },
+  "appDesc": {
+    "message": "Dubluj obraz z urządzenia na ekran dowolnego komputera w dowolnym momencie"
+  },
+  "extTitle": {
+    "message": "Nadawca AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Połącz z AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Pokaż pulpit"
+  },
+  "tip_sel_dsk": {
+    "message": "Dublowane będzie wyłącznie wideo"
+  },
+  "hit_pin": {
+    "message": "Wprowadź kod PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Dublowany będzie zarówno obraz, jak i dźwięk"
+  },
+  "btn_connect": {
+    "message": "POŁĄCZ"
+  },
+  "btn_cancel": {
+    "message": "ANULUJ"
+  },
+  "btn_stop": {
+    "message": "ZATRZYMAJ"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ANULUJ"
+  },
+  "btn_retry_cancel": {
+    "message": "ANULUJ"
+  },
+  "btn_retry": {
+    "message": "PONÓW"
+  },
+  "hit_warn": {
+    "message": "Nie można połączyć. Sprawdź ustawienia."
+  },
+  "hit_ip": {
+    "message": "Adres IP lub nazwa hosta"
+  },
+  "tip_sel_tab_title": {
+    "message": "Pokaż bieżącą kartę"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Nieprawidłowy kod PIN. Spróbuj ponownie."
+  }
+}

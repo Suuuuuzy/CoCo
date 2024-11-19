@@ -1,0 +1,66 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "ru",
+  "version": "0.5.0",
+  "author": "Bigwer",
+  "icons": {"20": "images/icon_20.png","48": "images/icon_48.png","64": "images/icon_64.png","128": "images/icon_128.png"},
+  "content_scripts": [
+    {
+      "matches": [
+		"https://i-heroes-vk.nextersglobal.com/*",
+		"https://i-heroes-mm.nextersglobal.com/*",
+		"https://i-heroes-mg.nextersglobal.com/*",
+		"https://i-heroes-ok.nextersglobal.com/*",
+		"https://i-heroes-fb.nextersglobal.com/*",
+		"https://i.hero-wars-fb.com/*",
+		"https://hero-wars.com/*"
+	  ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": ["contentscript.js"]
+    }
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "permissions": [ 
+	"unlimitedStorage", 
+	"storage", 
+	"webRequest", 
+	"webRequestBlocking",
+	"https://i-heroes-vk.nextersglobal.com/*",
+	"https://i-heroes-mm.nextersglobal.com/*",
+	"https://i-heroes-mg.nextersglobal.com/*",
+	"https://i-heroes-ok.nextersglobal.com/*",
+	"https://i-heroes-fb.nextersglobal.com/*",
+	"https://i.hero-wars-fb.com/*",
+	"https://hero-wars.com/*",
+	"https://heroes-vk.nextersglobal.com/*",
+	"https://heroes-mm.nextersglobal.com/*",
+	"https://heroes-mg.nextersglobal.com/*",
+	"https://heroes-ok.nextersglobal.com/*",
+	"https://heroes-fb.nextersglobal.com/*",
+	"https://heroes-wb.nextersglobal.com/*",
+	"https://heroes.cdnvideo.ru/*",
+	"https://vk.com/bestmoba",
+	"https://my.mail.ru/apps/746862",
+	"https://games.mail.ru/app/3550",
+	"https://ok.ru/game/moba",
+	"https://apps.facebook.com/mobaheroes/",
+	"https://hwgame.top/*",
+	"https://static.hwgame.top/*",
+	"https://cdn.hwgame.top/*"
+  ],
+  "web_accessible_resources": ["injected.js","panel.js"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+  "browser_action": {
+    "default_title": "HWGame",
+    "default_icon": "images/icon_48.png",
+    "default_popup": "panel.html"
+  }
+}

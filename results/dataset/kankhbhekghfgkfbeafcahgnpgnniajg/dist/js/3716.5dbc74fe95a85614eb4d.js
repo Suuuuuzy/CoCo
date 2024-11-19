@@ -1,0 +1,1 @@
+(self.webpackChunknewtab=self.webpackChunknewtab||[]).push([[3716],{3716:(e,n,t)=>{"use strict";t.r(n),t.d(n,{default:()=>s}),t(6327),t(9405);const s=function(e){const n={}[e];n&&n()}}}]);

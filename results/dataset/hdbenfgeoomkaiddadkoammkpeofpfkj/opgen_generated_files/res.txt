@@ -1,0 +1,50 @@
+(['12003', '12059', '12231'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 935	    request.params = requestFromWeb.params;
+	requestFromWeb.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url
+
+(['12003', '12059', '12231', '12233'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 935	    request.params = requestFromWeb.params;
+	requestFromWeb.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url.match(regex)
+
+(['12003', '12059', '12231'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 935	    request.params = requestFromWeb.params;
+	requestFromWeb.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url
+
+(['12003', '12059', '12231', '12233'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 935	    request.params = requestFromWeb.params;
+	requestFromWeb.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/hdbenfgeoomkaiddadkoammkpeofpfkj/opgen_generated_files/bg.js
+Line 979	          if (request.method == "proxyRequest" && request.params.url.match(regex)) {
+	request.params.url.match(regex)
+

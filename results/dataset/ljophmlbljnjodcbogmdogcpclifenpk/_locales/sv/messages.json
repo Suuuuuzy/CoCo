@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "AirMedia-avsändare"
+  },
+  "appDesc": {
+    "message": "Spegla din enhet när som helst på vilken datorskärm som helst"
+  },
+  "extTitle": {
+    "message": "AirMedia-avsändare"
+  },
+  "titleConnectRecv": {
+    "message": "Anslut till AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Presentera skrivbord"
+  },
+  "tip_sel_dsk": {
+    "message": "Endast video kommer att speglas"
+  },
+  "hit_pin": {
+    "message": "Ange PIN-kod"
+  },
+  "tip_sel_tab": {
+    "message": "Både video och ljud kommer att speglas"
+  },
+  "btn_connect": {
+    "message": "ANSLUT"
+  },
+  "btn_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_stop": {
+    "message": "STOPPA"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_retry_cancel": {
+    "message": "AVBRYT"
+  },
+  "btn_retry": {
+    "message": "FÖRSÖK IGEN"
+  },
+  "hit_warn": {
+    "message": "Det gick inte att ansluta. Kontrollera dina inställningar."
+  },
+  "hit_ip": {
+    "message": "IP-adress eller värddatornamn"
+  },
+  "tip_sel_tab_title": {
+    "message": "Presentera aktuell flik"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Felaktig PIN-kod. Försök igen."
+  }
+}

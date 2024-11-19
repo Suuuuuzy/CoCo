@@ -1,0 +1,662 @@
+(['21695', '21983', '22024', '22084'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1756	        if (e.set_wl) {
+	e.set_wl
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1760	                if (o[r].id === e.set_wl.id) {
+	e.set_wl.id
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1767	            localStorage.setItem("had_wl", JSON.stringify(o));
+	JSON.stringify(o)
+
+(['21695', '21983', '22084'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1756	        if (e.set_wl) {
+	e.set_wl
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1767	            localStorage.setItem("had_wl", JSON.stringify(o));
+	JSON.stringify(o)
+
+(['21695', '22130', '22802'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1716	        if (t.changeOptions.enable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.enable_most_visited);
+	t.changeOptions.enable_most_visited
+
+(['21695', '22130', '22857'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1718	        if (t.changeOptions.enable_apps) localStorage.setItem("enable_apps", t.changeOptions.enable_apps);
+	t.changeOptions.enable_apps
+
+(['21695', '22130', '22912'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1720	        if (t.changeOptions.enable_share) localStorage.setItem("enable_share", t.changeOptions.enable_share);
+	t.changeOptions.enable_share
+
+(['21695', '22130', '22967'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1722	        if (t.changeOptions.enable_todo) localStorage.setItem("enable_todo", t.changeOptions.enable_todo);
+	t.changeOptions.enable_todo
+
+(['21695', '22130', '22990'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1723	        else if (t.changeOptions.disable_todo) localStorage.setItem("enable_todo", t.changeOptions.disable_todo == "yes" ? "no" : "yes");
+	t.changeOptions.disable_todo
+
+(['21695', '22130', '22217'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1700	                delete t.changeOptions["countdownToTime"];
+	t.changeOptions["countdownToTime"]
+
+(['21695', '22130', '22286'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1704	            } else if (typeof t.changeOptions[o] !== "undefined") delete t.changeOptions[o]
+	t.changeOptions[o]
+
+(['21695', '22130', '22825'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1717	        else if (t.changeOptions.disable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.disable_most_visited == "yes" ? "no" : "yes");
+	t.changeOptions.disable_most_visited
+
+(['21695', '22130', '22880'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1719	        else if (t.changeOptions.disable_apps) localStorage.setItem("enable_apps", t.changeOptions.disable_apps == "yes" ? "no" : "yes");
+	t.changeOptions.disable_apps
+
+(['21695', '22130', '23056'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1725	            if (t.changeOptions[e] !== null) {
+	t.changeOptions[e]
+
+(['21695', '22130', '22183'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1698	                delete t.changeOptions["countdownPosition"];
+	t.changeOptions["countdownPosition"]
+
+(['21695', '22130', '22200'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1699	                delete t.changeOptions["countdownText"];
+	t.changeOptions["countdownText"]
+
+(['21695', '22130', '22912'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1720	        if (t.changeOptions.enable_share) localStorage.setItem("enable_share", t.changeOptions.enable_share);
+	t.changeOptions.enable_share
+
+(['21695', '22130', '22268'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1703	                delete t.changeOptions["countdown_notified"]
+	t.changeOptions["countdown_notified"]
+
+(['21695', '22130', '22251'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1702	                delete t.changeOptions["countdown_background"];
+	t.changeOptions["countdown_background"]
+
+(['21695', '22130', '22967'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1722	        if (t.changeOptions.enable_todo) localStorage.setItem("enable_todo", t.changeOptions.enable_todo);
+	t.changeOptions.enable_todo
+
+(['21695', '22130', '22154'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1697	                delete t.changeOptions["enable_countdown"];
+	t.changeOptions["enable_countdown"]
+
+(['21695', '22130', '23058'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1725	            if (t.changeOptions[e] !== null) {
+	t.changeOptions[e]
+
+(['21695', '22130', '22857'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1718	        if (t.changeOptions.enable_apps) localStorage.setItem("enable_apps", t.changeOptions.enable_apps);
+	t.changeOptions.enable_apps
+
+(['21695', '22130', '22802'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1716	        if (t.changeOptions.enable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.enable_most_visited);
+	t.changeOptions.enable_most_visited
+
+(['21695', '22130', '22935'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1721	        else if (t.changeOptions.disable_share) localStorage.setItem("enable_share", t.changeOptions.disable_share == "yes" ? "no" : "yes");
+	t.changeOptions.disable_share
+
+(['21695', '22130', '22683'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1706	        if (t.changeOptions["had_wl"]) {
+	t.changeOptions["had_wl"]
+
+(['21695', '22130', '22234'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1701	                delete t.changeOptions["countdown_text_color"];
+	t.changeOptions["countdown_text_color"]
+
+(['21695', '23363', '23366'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1773	        } else if (e.syncNote) {
+	e.syncNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1774	            localStorage.setItem("notes", e.syncNote.notes);
+	e.syncNote.notes
+
+(['21695', '23363', '23387'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1773	        } else if (e.syncNote) {
+	e.syncNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1775	            localStorage.setItem("enable_note", e.syncNote.enabled);
+	e.syncNote.enabled
+
+(['21695', '23675', '23678'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1785	        } else if (e.updateNote) {
+	e.updateNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1786	            localStorage.setItem("notes", e.updateNote.notes);
+	e.updateNote.notes
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['21695', '21983', '22024', '24182'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1756	        if (e.set_wl) {
+	e.set_wl
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1760	                if (o[r].id === e.set_wl.id) {
+	e.set_wl.id
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1767	            localStorage.setItem("had_wl", JSON.stringify(o));
+	JSON.stringify(o)
+
+(['21695', '21983', '24182'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1756	        if (e.set_wl) {
+	e.set_wl
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1767	            localStorage.setItem("had_wl", JSON.stringify(o));
+	JSON.stringify(o)
+
+(['21695', '22130', '22802'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1716	        if (t.changeOptions.enable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.enable_most_visited);
+	t.changeOptions.enable_most_visited
+
+(['21695', '22130', '22857'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1718	        if (t.changeOptions.enable_apps) localStorage.setItem("enable_apps", t.changeOptions.enable_apps);
+	t.changeOptions.enable_apps
+
+(['21695', '22130', '22912'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1720	        if (t.changeOptions.enable_share) localStorage.setItem("enable_share", t.changeOptions.enable_share);
+	t.changeOptions.enable_share
+
+(['21695', '22130', '22967'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1722	        if (t.changeOptions.enable_todo) localStorage.setItem("enable_todo", t.changeOptions.enable_todo);
+	t.changeOptions.enable_todo
+
+(['21695', '22130', '22990'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1723	        else if (t.changeOptions.disable_todo) localStorage.setItem("enable_todo", t.changeOptions.disable_todo == "yes" ? "no" : "yes");
+	t.changeOptions.disable_todo
+
+(['21695', '22130', '22217'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1700	                delete t.changeOptions["countdownToTime"];
+	t.changeOptions["countdownToTime"]
+
+(['21695', '22130', '22286'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1704	            } else if (typeof t.changeOptions[o] !== "undefined") delete t.changeOptions[o]
+	t.changeOptions[o]
+
+(['21695', '22130', '22825'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1717	        else if (t.changeOptions.disable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.disable_most_visited == "yes" ? "no" : "yes");
+	t.changeOptions.disable_most_visited
+
+(['21695', '22130', '22880'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1719	        else if (t.changeOptions.disable_apps) localStorage.setItem("enable_apps", t.changeOptions.disable_apps == "yes" ? "no" : "yes");
+	t.changeOptions.disable_apps
+
+(['21695', '22130', '23056'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1725	            if (t.changeOptions[e] !== null) {
+	t.changeOptions[e]
+
+(['21695', '22130', '22183'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1698	                delete t.changeOptions["countdownPosition"];
+	t.changeOptions["countdownPosition"]
+
+(['21695', '22130', '22200'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1699	                delete t.changeOptions["countdownText"];
+	t.changeOptions["countdownText"]
+
+(['21695', '22130', '22912'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1720	        if (t.changeOptions.enable_share) localStorage.setItem("enable_share", t.changeOptions.enable_share);
+	t.changeOptions.enable_share
+
+(['21695', '22130', '22268'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1703	                delete t.changeOptions["countdown_notified"]
+	t.changeOptions["countdown_notified"]
+
+(['21695', '22130', '22251'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1702	                delete t.changeOptions["countdown_background"];
+	t.changeOptions["countdown_background"]
+
+(['21695', '22130', '22967'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1722	        if (t.changeOptions.enable_todo) localStorage.setItem("enable_todo", t.changeOptions.enable_todo);
+	t.changeOptions.enable_todo
+
+(['21695', '22130', '22154'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1697	                delete t.changeOptions["enable_countdown"];
+	t.changeOptions["enable_countdown"]
+
+(['21695', '22130', '23058'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1725	            if (t.changeOptions[e] !== null) {
+	t.changeOptions[e]
+
+(['21695', '22130', '22857'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1718	        if (t.changeOptions.enable_apps) localStorage.setItem("enable_apps", t.changeOptions.enable_apps);
+	t.changeOptions.enable_apps
+
+(['21695', '22130', '22802'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1716	        if (t.changeOptions.enable_most_visited) localStorage.setItem("enable_most_visited", t.changeOptions.enable_most_visited);
+	t.changeOptions.enable_most_visited
+
+(['21695', '22130', '22935'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1721	        else if (t.changeOptions.disable_share) localStorage.setItem("enable_share", t.changeOptions.disable_share == "yes" ? "no" : "yes");
+	t.changeOptions.disable_share
+
+(['21695', '22130', '22683'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1706	        if (t.changeOptions["had_wl"]) {
+	t.changeOptions["had_wl"]
+
+(['21695', '22130', '22234'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1770	        if (e.changeOptions) {
+	e.changeOptions
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1701	                delete t.changeOptions["countdown_text_color"];
+	t.changeOptions["countdown_text_color"]
+
+(['21695', '23363', '23366'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1773	        } else if (e.syncNote) {
+	e.syncNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1774	            localStorage.setItem("notes", e.syncNote.notes);
+	e.syncNote.notes
+
+(['21695', '23363', '23387'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1773	        } else if (e.syncNote) {
+	e.syncNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1775	            localStorage.setItem("enable_note", e.syncNote.enabled);
+	e.syncNote.enabled
+
+(['21695', '23675', '23678'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with localStorage_setItem_value
+from bg_chrome_runtime_MessageExternal to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1785	        } else if (e.updateNote) {
+	e.updateNote
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd/opgen_generated_files/bg.js
+Line 1786	            localStorage.setItem("notes", e.updateNote.notes);
+	e.updateNote.notes
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+
+(['15053'], 'management_getSelf_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/kafdgfnbckhdajclialkhoebpopbogkd with sendResponseExternal_sink
+from management_getSelf_source to sendResponseExternal_sink
+==========================
+

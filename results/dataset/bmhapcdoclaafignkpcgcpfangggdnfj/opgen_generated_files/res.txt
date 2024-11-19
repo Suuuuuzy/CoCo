@@ -1,0 +1,17 @@
+(['60094', '60469', '60471', '60484'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj with chrome_storage_local_set_sink
+from cs_window_eventListener_message to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 575	  	window.addEventListener('message', event => {
+	event
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 579			    let mKey = event.data.params.key;
+	event.data
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 579			    let mKey = event.data.params.key;
+	event.data.params
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bmhapcdoclaafignkpcgcpfangggdnfj/opgen_generated_files/cs_0.js
+Line 584				        msgData[mKey] = event.data.params.value;
+	event.data.params.value
+

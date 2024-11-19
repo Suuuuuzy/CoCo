@@ -1,0 +1,56 @@
+{
+    "extName": {
+        "message": "Abcd PDF - Chrome新标签页"
+    },
+    "description": {
+        "message": "100％免费，它将转换和创建各种类型的文件（例如Word DOC，Excel XLS和PowerPoint PPT）。"
+    },
+    "menu_collect_page": {
+        "message": "收藏当前网站到“Abcd PDF - Chrome新标签页”"
+    },
+    "menu_search": {
+        "message": "搜索: \"%s\""
+    },
+    "menu_search_privacy": {
+        "message": "通过隐私模式搜索：\"%s\""
+    },
+    "menu_link_privacy": {
+        "message": "通过隐私模式打开链接"
+    },
+    "merge_pdf": {
+        "message": "合并PDF"
+    },
+    "split_pdf": {
+        "message": "拆分PDF"
+    },
+    "pdf_to_word": {
+        "message": "PDF转Word"
+    },
+    "pdf_to_excel": {
+        "message": "PDF转Excel"
+    },
+    "pdf_to_ppt": {
+        "message": "PDF转PPT"
+    },
+    "pdf_to_jpg": {
+        "message": "PDF转JPG"
+    },
+    "pdf_to_png": {
+        "message": "PDF转PNG"
+    },
+    "word_to_pdf": {
+        "message": "Word转PDF"
+    },
+    "excel_to_pdf": {
+        "message": "Excel转PDF"
+    },
+    "ppt_to_pdf": {
+        "message": "PPT转PDF"
+    },
+    "jpg_to_pdf": {
+        "message": "JPG转PDF"
+    },
+    "png_to_pdf": {
+        "message": "PNG转PDF"
+    }
+}

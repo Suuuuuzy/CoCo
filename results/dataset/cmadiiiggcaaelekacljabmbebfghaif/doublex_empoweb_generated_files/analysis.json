@@ -1,0 +1,110 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set({'guid': 'items.guid'})",
+                "sink-param1": {
+                    "guid": "items.guid"
+                },
+                "line": "207 - 207",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(JSON.parse(request.storage))",
+                "sink-param1": "JSON.parse(request.storage)",
+                "line": "26 - 26",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "5 - 5",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(guid, <pdg_js.node.FunctionExpression object at 0x7f7bd685d760>)",
+                "sink-param1": "guid",
+                "sink-param2": "function(items) {\n if (items && items[\"guid\"]) {\n guidT = items[\"guid\"];\n }\n\n localStorage.setItem(\"guid\", guidT);\n\n var obj = {};\n obj[\"guid\"] = guidT;\n chrome.storage.sync.set(obj);\n }",
+                "line": "198 - 208",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(None, <pdg_js.node.FunctionExpression object at 0x7f7bd6a52130>)",
+                "sink-param1": null,
+                "sink-param2": "function(items) {\n for (var key in items) {\n if (items.hasOwnProperty(key)) {\n localStorage.setItem(key, items[key]);\n }\n }\n\n sendResponse({\n storage: items\n });\n }",
+                "line": "35 - 45",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(guid, <pdg_js.node.FunctionExpression object at 0x7f7bd6d4a6d0>)",
+                "sink-param1": "guid",
+                "sink-param2": "function(items) {\n if (items && items[\"guid\"]) {\n sendResponse({\n guid: items[\"guid\"]\n });\n getGuid();\n } else {\n sendResponse({\n guid: getGuid()\n });\n }\n }",
+                "line": "54 - 67",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(guid, <pdg_js.node.FunctionExpression object at 0x7f7bd685d760>)",
+                "sink-param1": "guid",
+                "sink-param2": "function(items) {\n if (items && items[\"guid\"]) {\n guidT = items[\"guid\"];\n }\n\n localStorage.setItem(\"guid\", guidT);\n\n var obj = {};\n obj[\"guid\"] = guidT;\n chrome.storage.sync.set(obj);\n }",
+                "line": "198 - 208",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "cookies.getAll",
+                "value": "chrome.cookies.getAll(<pdg_js.node.ValueExpr object at 0x7f7bd68aa0d0>, <pdg_js.node.FunctionExpression object at 0x7f7bd68aa100>)",
+                "sink-param1": "{\n url: \"https://findmanual.org\"\n }",
+                "sink-param2": "function(cookies) {\n for (var i = 0; i < cookies.length; i++) {\n var cookie = cookies[i];\n if (cookie.name.indexOf('feat') === 0) {\n try {\n var fm = JSON.parse(decodeURIComponent(cookie.value));\n if (fm && fm[\"successurl\"]){\n\t openThankyouPage(fm);\n\t }\n } catch (err) {}\n\n return;\n }\n }\n }",
+                "line": "155 - 172",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(None, <pdg_js.node.FunctionExpression object at 0x7f7bd6a52130>)",
+                "sink-param1": null,
+                "sink-param2": "function(items) {\n for (var key in items) {\n if (items.hasOwnProperty(key)) {\n localStorage.setItem(key, items[key]);\n }\n }\n\n sendResponse({\n storage: items\n });\n }",
+                "line": "35 - 45",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(guid, <pdg_js.node.FunctionExpression object at 0x7f7bd6d4a6d0>)",
+                "sink-param1": "guid",
+                "sink-param2": "function(items) {\n if (items && items[\"guid\"]) {\n sendResponse({\n guid: items[\"guid\"]\n });\n getGuid();\n } else {\n sendResponse({\n guid: getGuid()\n });\n }\n }",
+                "line": "54 - 67",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

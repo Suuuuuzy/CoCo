@@ -1,0 +1,33 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(hwg_renew_key, 28800000)",
+                "sink-param1": "hwg_renew_key",
+                "sink-param2": 28800000,
+                "line": "344 - 344",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(get_loot_info_data, 21600000)",
+                "sink-param1": "get_loot_info_data",
+                "sink-param2": 21600000,
+                "line": "316 - 316",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/10k/foikfmnjgoljejophccdlhenbkogiemo/doublex_generated_files/bg.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

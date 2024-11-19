@@ -1,0 +1,31 @@
+(['12725', '12741', '12774'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl with chrome_storage_sync_set_sink
+from cs_window_eventListener_message to chrome_storage_sync_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 623	window.addEventListener('message', function({ data }) {
+	data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 627	    Object.keys(data.settings).forEach(name => {
+	data.settings
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 628	      const value = data.settings[name];
+	data.settings[name]
+
+(['12725', '12741', '12745', '12774'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl with chrome_storage_sync_set_sink
+from cs_window_eventListener_message to chrome_storage_sync_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 623	window.addEventListener('message', function({ data }) {
+	data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 627	    Object.keys(data.settings).forEach(name => {
+	data.settings
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 627	    Object.keys(data.settings).forEach(name => {
+	Object.keys(data.settings)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cdapnbiifmnajacjlfiikicefmidkbdl/opgen_generated_files/cs_0.js
+Line 628	      const value = data.settings[name];
+	data.settings[name]
+

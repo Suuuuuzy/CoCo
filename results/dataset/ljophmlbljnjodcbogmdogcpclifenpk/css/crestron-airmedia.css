@@ -1,0 +1,323 @@
+:root {
+    --mdc-theme-background: #fff;
+    /*--mdc-theme-primary: #4080f0;*/
+    --mdc-theme-primary: #0094D9;
+    --mdc-theme-on-primary: #fff;
+    --mdc-theme-secondary: #1080D0;
+    --mdc-theme-on-secondary: #fff;
+    --mdc-theme-error: #b00020;
+    --mdc-theme-on-error: #fff;
+    --mdc-theme-surface: #fff;
+    --mdc-theme-on-surface: #404040;
+    --crestron-body-width: 360px;
+    --crestron-body-height: 440px;
+    --crestron-container-spacing: 20px;
+    --crestron-container-top: 40px;
+    --crestron-button-margin: 5px;
+    --crestron-connect-button-margin: 10px;
+    --crestron-connect-status-icon-width: 28px;
+    --crestron-connect-status-icon-height: 28px;
+    --crestron-connect-status-icon-margin: 12px;
+}
+
+body {
+    --s-main-w: var(--crestron-body-width);
+    --s-main-h: var(--crestron-body-height);
+    width: var(--s-main-w);
+    font-size: 12px;
+    font-style: normal;
+    text-align: start;
+    direction: __MSG_@@bidi_dir__;
+}
+
+.main_page {
+    width: var(--crestron-body-width);
+    max-width: var(--crestron-body-width);
+}
+
+.main_header {
+    width: var(--crestron-body-width);
+    height: 90px;
+    line-height: 90px;
+}
+
+.crestron-form-group {
+
+}
+
+.crestron-connect-container {
+    margin: var(--crestron-container-spacing);
+}
+
+.crestron-auth-container{
+    margin: var(--crestron-container-top) var(--crestron-container-spacing) var(--crestron-container-spacing);
+}
+
+.div_connect_title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: .825rem;
+}
+
+.div_connect_title label {
+    font-size: larger;
+    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 0;
+}
+
+#btn_main {
+    height: auto;
+    margin-bottom: 0;
+}
+
+#page_auth {
+    height: 100%;
+}
+
+.auth_btns button {
+    margin-top: 0;
+}
+
+.auth_btns,
+.error_buttons {
+    margin-top: var(--crestron-container-spacing);
+    margin-bottom: var(--crestron-container-spacing);
+}
+
+.div_warn {
+    text-align: center;
+    width: auto;
+    margin: var(--crestron-container-top) var(--crestron-container-spacing) var(--crestron-container-spacing);
+}
+
+.icon_warn {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.icon_warn path {
+    fill: var(--c-orage);
+}
+
+.auth-ok-button,
+.auth-cancel-button,
+.error-retry-button,
+.error-cancel-button {
+    margin-top: var(--crestron-button-margin);
+    margin-bottom: var(--crestron-button-margin);
+}
+
+#btn_connect,
+#btn_cancel,
+#btn_stop {
+    margin-top: var(--crestron-connect-button-margin);
+    margin-bottom: var(--crestron-button-margin);
+}
+
+@keyframes crestron-circular-progress-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes crestron-circular-progress-dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124;
+    }
+}
+
+.crestron-circular-progress {
+    position: relative;
+    width: var(--crestron-connect-status-icon-width);
+    height: var(--crestron-connect-status-icon-height);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-__MSG_@@bidi_start_edge__: auto;
+    margin-__MSG_@@bidi_end_edge__: var(--crestron-connect-status-icon-margin);
+    animation: crestron-circular-progress-rotate 2s linear infinite;
+}
+
+.crestron-circular-progress__path {
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: crestron-circular-progress-dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+    stroke: var(--mdc-theme-primary);
+}
+
+@keyframes crestron-circular-checkmark-stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes crestron-circular-checkmark-scale {
+    0%, 100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+@keyframes crestron-circular-checkmark-fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px var(--c-green);
+    }
+}
+
+.crestron-circular-checkmark {
+    width: var(--crestron-connect-status-icon-width);
+    height: var(--crestron-connect-status-icon-height);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-__MSG_@@bidi_start_edge__: auto;
+    margin-__MSG_@@bidi_end_edge__: var(--crestron-connect-status-icon-margin);
+    border-radius: 50%;
+    display: block;
+    stroke-width: 5;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px var(--c-green);
+    animation: crestron-circular-checkmark-fill .4s ease-in-out .4s forwards, crestron-circular-checkmark-scale .3s ease-in-out .9s both;
+}
+
+.crestron-circular-checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: var(--c-green);
+    fill: none;
+    animation: crestron-circular-checkmark-stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.crestron-circular-checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: crestron-circular-checkmark-stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+.input-group {
+    min-height: 40px;
+}
+
+.mdc-form-field {
+    margin: 5px auto;
+}
+
+.mdc-radio {
+    margin: auto 5px;
+}
+
+#div_line_sel {
+    width: calc(100% - 50px);
+}
+
+.source-selection-grid-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_sel_title {
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #063061;
+}
+
+.div_sel_tip {
+    margin-bottom: 0;
+    font-size: smaller;
+    color: #9AA0A6;
+}
+
+.max-control-width {
+    width: 100%;
+}
+
+.p_warn {
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.2;
+}
+
+#div_mir_sel {
+    margin: auto auto auto 5px;
+}
+
+#inp_pincode_helper_text {
+    font-weight: 400;
+    color: var(--c-orage);
+}
+
+/*.mdc-notched-outline__trailing {*/
+    /*display: block;*/
+/*}*/
+
+.input-group-addon {
+    width: 100%;
+    height: 100%;
+}
+
+.main_process #inp_connect {
+    display: flex;
+}
+
+.main_succ #inp_connect {
+    display: flex;
+}
+
+.main_process #inp_ao_process {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_succ #inp_ao_suss {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_auth_cancel, #btn_retry_cancel {
+    margin-top: 4px;
+}
+
+/*.main_process #page_connect,*/
+/*.main_page #page_connect,*/
+/*.main_succ #page_connect {*/
+    /*display: none;*/
+/*}*/
+
+/*.auth_btns button {*/
+    /*margin-top: var(--crestron-button-margin);*/
+/*}*/
+
+/*.crestron-page-connect {*/
+    /*display: none;*/
+/*}*/
+
+/*.crestron-page-auth {*/
+    /*display: none;*/
+/*}*/
+
+/*.crestron-page-error {*/
+    /*display: inline;*/
+/*}*/
+

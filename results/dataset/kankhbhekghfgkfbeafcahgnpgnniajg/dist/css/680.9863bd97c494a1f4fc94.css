@@ -1,0 +1,43 @@
+.weather-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.weather-box .iconName {
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+}
+
+.weather-box .displayName {
+    font-size: 14px;
+}
+
+.weather-box .now {
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 60px;
+}
+
+.weather-box .low_high {
+    font-size: 14px;
+}
+
+.query-city .seg-list,
+.query-city .search-input {
+    border: 1px solid #eee;
+}
+
+.query-city .clear {
+    top: 7px;
+}
+
+.query-city .search-input.on {
+    border-radius: .25rem;
+}
+
+.query-city .search-box .autocomplete {
+    border-radius: 0 0 .25rem .25rem;
+}

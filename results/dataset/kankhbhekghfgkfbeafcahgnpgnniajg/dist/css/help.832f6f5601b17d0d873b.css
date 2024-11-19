@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(/dist/font/SourceSansPro-Light.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(/dist/font/SourceSansPro-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(/dist/font/SourceSansPro-SemiBold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(/dist/font/SourceSansPro-Bold.ttf) format('truetype')
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Microsoft Yahei', "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f3f0ec;
+}
+
+.header {
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 12%);
+    -webkit-box-shadow: 0 3px 6px 0 rgb(0 0 0 / 12%);
+}
+
+.header .nav-link {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media (min-width: 992px) {
+    .header .navbar-nav {
+        margin-left: 30px;
+    }
+
+    .header .nav-item {
+        margin: 0 20px;
+    }
+}
+
+.form-control:focus{
+    border-color: unset;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input:required {
+    box-shadow: none;
+}
+
+.main-box {
+    /* min-height: calc(100vh - 130px); */
+    flex: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-box {
+    box-sizing: border-box;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 0 auto 50px auto;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%), 0 2px 4px 0 rgb(0 0 0 / 24%);
+    -webkit-box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%), 0 2px 4px 0 rgb(0 0 0 / 24%);
+    min-height: 720px;
+}
+
+.content-box form {
+    margin: 0 auto;
+}
+
+.content-box h1 {
+    margin-bottom: 30px;
+}
+
+.content-box h2 {
+    font-size: 1.5rem;
+}
+
+.content-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.content-box .content-info {
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: hsla(0, 0%, 100%, .6);
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%);
+    -webkit-box-shadow: 0 -3px 6px 0 rgb(0 0 0 / 12%);
+}
+
+.alert {
+    margin: 0 auto 20px auto;
+}
+input[type="text"].validate-error,
+input[type="password"].validate-error {
+    /* border: 1px solid #e5322d; */
+    border-color: #e5322d;
+    color: #e5322d !important;
+}
+
+input[type="text"].validate-error:focus,
+input[type="password"].validate-error:focus {
+    outline: none;
+}
+
+label.validate-error {
+    color: #e5322d;
+}

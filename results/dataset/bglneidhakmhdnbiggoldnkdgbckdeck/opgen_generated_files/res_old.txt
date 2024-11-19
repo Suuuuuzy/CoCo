@@ -1,0 +1,13 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck with chrome_storage_local_set_sink
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck with sendResponseExternal_sink out
+[(['19737', '19763'], 'storage_local_get_source')]
+from storage_local_get_source to sendResponseExternal_sink out
+['3207', '7440']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 556	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/bglneidhakmhdnbiggoldnkdgbckdeck/opgen_generated_files/bg.js
+Line 1196					resolve(parseInt(result[key]));
+	parseInt(result[key])
+

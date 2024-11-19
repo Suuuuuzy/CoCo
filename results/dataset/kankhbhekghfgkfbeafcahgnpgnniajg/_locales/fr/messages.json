@@ -1,0 +1,56 @@
+{
+    "extName": {
+        "message": "Abcd PDF - Nouvel onglet pour Chrome"
+    },
+    "description": {
+        "message": "100% gratuit et convertira et créera différents types de fichiers (tels que Word DOC, Excel XLS et PowerPoint PPT)."
+    },
+    "menu_collect_page": {
+        "message": "Ajouter le site Web actuel aux favoris dans \"Abcd PDF - Nouvel onglet pour Chrome\""
+    },
+    "menu_search": {
+        "message": "Recherche par: \"%s\""
+    },
+    "menu_search_privacy": {
+        "message": "Recherche par mode incognito: \"%s\""
+    },
+    "menu_link_privacy": {
+        "message": "Ouvrir le lien en mode navigation privée"
+    },
+    "merge_pdf": {
+        "message": "Fusionner PDF"
+    },
+    "split_pdf": {
+        "message": "Diviser PDF"
+    },
+    "pdf_to_word": {
+        "message": "PDF en Word"
+    },
+    "pdf_to_excel": {
+        "message": "PDF en Excel"
+    },
+    "pdf_to_ppt": {
+        "message": "PDF en PPT"
+    },
+    "pdf_to_jpg": {
+        "message": "PDF en JPG"
+    },
+    "pdf_to_png": {
+        "message": "PDF en PNG"
+    },
+    "word_to_pdf": {
+        "message": "Word en PDF"
+    },
+    "excel_to_pdf": {
+        "message": "Excel en PDF"
+    },
+    "ppt_to_pdf": {
+        "message": "PPT en PDF"
+    },
+    "jpg_to_pdf": {
+        "message": "JPG en PDF"
+    },
+    "png_to_pdf": {
+        "message": "PNG en PDF"
+    }
+}

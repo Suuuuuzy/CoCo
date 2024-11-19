@@ -1,0 +1,195 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "{'XMLHttpRequest()': {}, 'onloadend': <pdg_js.node.FunctionExpression object at 0x7f4f9bd90a30>, 'responseType': 'blob'}.open(GET, https://picsum.photos/that.options.width/that.options.height/?image=Math.round(None))",
+                "sink-param1": "GET",
+                "sink-param2": "https://picsum.photos/that.options.width/that.options.height/?image=Math.round(None)",
+                "line": "229 - 229",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f4f9adf2700>, <pdg_js.node.FunctionExpression object at 0x7f4f9adf2730>)",
+                "sink-param1": "{ userid: 'value' }",
+                "sink-param2": "function () {\n console.log('Value is set to ' + 'value')\n}",
+                "line": "6757 - 6759",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f4fa1f5f6a0>, <pdg_js.node.FunctionExpression object at 0x7f4fa1f5f6d0>)",
+                "sink-param1": "{ userid: data }",
+                "sink-param2": "function () {\n console.log('Value is set to ' + data)\n }",
+                "line": "6795 - 6797",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "ajax",
+                "value": "$.ajax(<pdg_js.node.ValueExpr object at 0x7f4f9a361d90>)",
+                "sink-param1": "{\n url: url,\n data: {\n \"datas\": JSON.stringify(arr),\n },\n dataType: \"json\",\n type: \"post\",\n async: false,\n success: function (result) {\n ret = JSON.stringify(result);\n console.log(\"Result: \" + ret)\n }\n }",
+                "line": "60 - 72",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(<pdg_js.node.ValueExpr object at 0x7f4f9adf2b50>, <pdg_js.node.FunctionExpression object at 0x7f4f9adf2b80>)",
+                "sink-param1": "['userid']",
+                "sink-param2": "function (result) {\n console.log('Value currently is ' + result.key)\n}",
+                "line": "6761 - 6763",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(userid, <pdg_js.node.FunctionExpression object at 0x7f4fa1f62ee0>)",
+                "sink-param1": "userid",
+                "sink-param2": "function (result) {\n\n\tif( window.location.host === \"localhost:5500\" || \n\t\twindow.location.host === \"gosurfer.io\"\n\t) {\n\t\treturn \n\t}\n\n console.log('Value currently is ' + result.key)\n\n if (result.key) {\n socket = io.connect(\"http://azlabs.tech\", {\n query: \"userid=\" + result.key,\n });\n\n //socket = io.connect('http://localhost:4000')\n\n console.log('user id already exists')\n socket.on('hello', function (data) {\n console.log('msg recieved', data)\n })\n\n socket.on('captcha', function (data) {})\n } else {\n socket = io.connect(\"https://azlabs.tech\");\n // socket = io.connect('http://localhost:4000')\n\n // ask for a user id\n socket.emit('new user', function (data) {\n chrome.storage.sync.set({ userid: data }, function () {\n console.log('Value is set to ' + data)\n })\n })\n\n socket.on('captcha', function (data) {\n console.log('time to captcha!!!', data)\n // hello_kitty_timed(data);\n pocket_monster_timed(data)\n })\n }\n}",
+                "line": "6766 - 6806",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x7f4f9ae18e20>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n\t\t\treturn sendResponse(JSON.stringify(items))\n\t\t}",
+                "line": "7162 - 7164",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(<pdg_js.node.ValueExpr object at 0x7f4f98f4fee0>, <pdg_js.node.FunctionExpression object at 0x7f4f98f4ff10>)",
+                "sink-param1": "{\n uuid: uuid,\n hide: true,\n caught_pokemon: [],\n }",
+                "sink-param2": "function () {\n fetch(\n LOGIN_URL +\n new URLSearchParams({\n uuid: uuid,\n }),\n {\n method: 'GET',\n }\n )\n\n console.log('captcha is initalized!')\n }",
+                "line": "17 - 36",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7f4f985da9d0>, <pdg_js.node.FunctionExpression object at 0x7f4f985daa00>)",
+                "sink-param1": "{ userid: data.userid }",
+                "sink-param2": "function () {\n sendResponse(\n JSON.stringify({\n done: true,\n })\n )\n }",
+                "line": "87 - 93",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set(items, <pdg_js.node.FunctionExpression object at 0x7f4f7f192d60>)",
+                "sink-param1": "items",
+                "sink-param2": "function () {\n console.log('saved the pokemon', items)\n fetch(\n SET_POKEMON_URL +\n new URLSearchParams({\n pokemon: items.caught_pokemon,\n uuid: items.uuid,\n }),\n {\n method: 'GET',\n }\n )\n .then((res) => {\n console.log(\n 'response from fetch comes back',\n res.status\n )\n })\n .catch((e) => {\n console.log('the error is', e)\n })\n }",
+                "line": "136 - 157",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "fetch",
+                "value": "fetch(https://azlabs.tech/login?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f4f96c8c340>), <pdg_js.node.ValueExpr object at 0x7f4f96c8c310>)",
+                "sink-param1": "https://azlabs.tech/login?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f4f96c8c340>)",
+                "sink-param2": "{\n method: 'GET',\n }",
+                "line": "24 - 32",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f4f985dafa0>, <pdg_js.node.FunctionExpression object at 0x7f4f985dafd0>)",
+                "sink-param1": "['userid']",
+                "sink-param2": "function (result) {\n if (!chrome.runtime.error) {\n console.log('Value currently is ' + result)\n sendResponse(\n JSON.stringify({\n userid: result.key,\n })\n )\n } else {\n sendResponse(\n JSON.stringify({\n error: true,\n })\n )\n }\n }",
+                "line": "98 - 113",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x7f4f97efcc10>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n sendResponse(JSON.stringify(items))\n }",
+                "line": "118 - 120",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x7f4f7f1920d0>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n var allKeys = Object.keys(items)\n console.log(allKeys, items, data.pokemon)\n\n // if the pokemon doesn't exist in the storage, save it!\n items.caught_pokemon.indexOf(data.pokemon) === -1\n ? items.caught_pokemon.push(data.pokemon)\n : null\n\n sendResponse(JSON.stringify(items.caught_pokemon))\n\n chrome.storage.local.set(items, function () {\n console.log('saved the pokemon', items)\n fetch(\n SET_POKEMON_URL +\n new URLSearchParams({\n pokemon: items.caught_pokemon,\n uuid: items.uuid,\n }),\n {\n method: 'GET',\n }\n )\n .then((res) => {\n console.log(\n 'response from fetch comes back',\n res.status\n )\n })\n .catch((e) => {\n console.log('the error is', e)\n })\n })\n }",
+                "line": "125 - 158",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "fetch",
+                "value": "fetch(http://azlabs.tech/pokemon?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f4f984071f0>), <pdg_js.node.ValueExpr object at 0x7f4f984071c0>)",
+                "sink-param1": "http://azlabs.tech/pokemon?URLSearchParams(<pdg_js.node.ValueExpr object at 0x7f4f984071f0>)",
+                "sink-param2": "{\n method: 'GET',\n }",
+                "line": "138 - 147",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(<pdg_js.node.ValueExpr object at 0x7f4f985dafa0>, <pdg_js.node.FunctionExpression object at 0x7f4f985dafd0>)",
+                "sink-param1": "['userid']",
+                "sink-param2": "function (result) {\n if (!chrome.runtime.error) {\n console.log('Value currently is ' + result)\n sendResponse(\n JSON.stringify({\n userid: result.key,\n })\n )\n } else {\n sendResponse(\n JSON.stringify({\n error: true,\n })\n )\n }\n }",
+                "line": "98 - 113",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x7f4f97efcc10>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n sendResponse(JSON.stringify(items))\n }",
+                "line": "118 - 120",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(None, <pdg_js.node.FunctionExpression object at 0x7f4f7f1920d0>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n var allKeys = Object.keys(items)\n console.log(allKeys, items, data.pokemon)\n\n // if the pokemon doesn't exist in the storage, save it!\n items.caught_pokemon.indexOf(data.pokemon) === -1\n ? items.caught_pokemon.push(data.pokemon)\n : null\n\n sendResponse(JSON.stringify(items.caught_pokemon))\n\n chrome.storage.local.set(items, function () {\n console.log('saved the pokemon', items)\n fetch(\n SET_POKEMON_URL +\n new URLSearchParams({\n pokemon: items.caught_pokemon,\n uuid: items.uuid,\n }),\n {\n method: 'GET',\n }\n )\n .then((res) => {\n console.log(\n 'response from fetch comes back',\n res.status\n )\n })\n .catch((e) => {\n console.log('the error is', e)\n })\n })\n }",
+                "line": "125 - 158",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/bojkjlencpogikokoooecajmflfobpcc/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

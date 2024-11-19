@@ -1,0 +1,153 @@
+(['14904', '14917', '14955', '15182', '15240'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cs_window_eventListener_message to chrome_cookies_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['9386'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cookies_source to chrome_cookies_set_sink
+==========================
+
+(['14904', '14917', '14955', '15182', '15240'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['14904', '14917', '14955', '15182', '15392'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cs_window_eventListener_message to chrome_cookies_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 887	        let engine = request.engine.toLowerCase() === 'default' ? 'duckduckgo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['9386'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_cookies_set_sink
+from cookies_source to chrome_cookies_set_sink
+==========================
+
+(['14904', '14917', '14955', '15182', '15184'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine.toLowerCase()
+
+(['14904', '14917', '14955', '15182'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with localStorage_setItem_value
+from cs_window_eventListener_message to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 883	        let engine = request.engine.toLowerCase() === 'yahoo' || request.engine.toLowerCase() === 'default' ? 'yahoo' : request.engine.toLowerCase()
+	request.engine
+
+(['14904', '14917', '14955', '15704', '15709', '15860'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_tabs_create_sink
+from cs_window_eventListener_message to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 893	        const data = request.data;
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 894	        openIncognito(data.query, data.se);
+	data.se
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 901	        const url = data.query ? `${config.search}&se=${data.se}&q=${data.query}` : null;
+	`${config.search}&se=${data.se}&q=${data.query}`
+
+(['14904', '14917', '14955', '15704', '15707', '15860'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe with chrome_tabs_create_sink
+from cs_window_eventListener_message to chrome_tabs_create_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 585	    window.addEventListener('message', event => {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/cs_0.js
+Line 591	        chrome.runtime.sendMessage(event.data, response => {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 893	        const data = request.data;
+	request.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 894	        openIncognito(data.query, data.se);
+	data.query
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ggjakfijchdkbmmhbfemjciidhnipgoe/opgen_generated_files/bg.js
+Line 901	        const url = data.query ? `${config.search}&se=${data.se}&q=${data.query}` : null;
+	`${config.search}&se=${data.se}&q=${data.query}`
+

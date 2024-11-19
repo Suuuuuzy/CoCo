@@ -1,0 +1,55 @@
+(['73128', '73257'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+
+(['73128'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+
+(['73128', '73257', '73259'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon.indexOf(data.pokemon)
+
+(['73128', '73257', '73286'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 983	                items.caught_pokemon.indexOf(data.pokemon) === -1
+	items.caught_pokemon
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 984	                    ? items.caught_pokemon.push(data.pokemon)
+	items.caught_pokemon.push(data.pokemon)
+
+(['73131'], 'storage_local_get_source')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc with chrome_storage_local_set_sink
+from storage_local_get_source to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/new_sus/detected/bojkjlencpogikokoooecajmflfobpcc/opgen_generated_files/bg.js
+Line 687	    var storage_local_get_source = {'key':'value'};
+	
+

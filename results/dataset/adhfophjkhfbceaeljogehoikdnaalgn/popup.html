@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                width: 300px;
+                height: 200px;
+            }
+            a {
+                padding: 5px 10px;
+                border: 1px solid #aaa;
+                cursor: pointer;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            #url-list .item {
+                height: 26px;
+                line-height: 26px;
+            }
+            #url-list .item a {
+                padding: 3px 5px;
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>인포맥스 로그인</h1>
+        <div id="step1">
+            <input type="text" id="userid" placeholder="아이디" />
+            <input type="text" id="userpw" placeholder="비밀번호" />
+            <a id="btn-login">로그인</a>
+        </div>
+        <div id="step2">
+            <!-- <div style="margin-bottom: 20px;">
+        <h3 style="margin-bottom: 0;">제외리스트</h3>
+        <div id="url-list" style="height:160px; overflow-y: scroll;"></div>
+        <a id="btn-exclude" class="btn btn-sm btn-danger">
+          현재사이트 사용안함
+        </a>
+      </div> -->
+            <div style="margin-bottom: 20px;">
+                <a id="btn-settings" class="btn btn-sm btn-danger" target="_blank">
+                    설정페이지
+                </a>
+            </div>
+            <div>
+                <a id="btn-logout" class="btn btn-sm btn-danger">로그아웃</a>
+            </div>
+        </div>
+        <!-- <iframe src="https://news.einfomax.co.kr" frameborder="0"></iframe> -->
+        <script src="lib/jquery-3.4.1.min.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>

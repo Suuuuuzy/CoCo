@@ -1,0 +1,14 @@
+{
+    "extension": "/Users/jianjia/Desktop/help/16_COCO_RATE/foahoboefnlidmejppiibgnifpbjeknh/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

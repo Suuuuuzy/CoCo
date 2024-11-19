@@ -1,0 +1,47 @@
+{
+  "extensionNameOdilo": {
+    "message": "eBook Offline Reader"
+  },
+  "extensionNameCeibal": {
+    "message": "Ceibal Library Reader"
+  },
+  "extensionDescriptionOdilo": {
+    "message": "List of nubereader books"
+  },
+  "extensionDescriptionCeibal": {
+    "message": "Catalog of books downloaded from the Ceibal Library"
+  },
+  "browserTitleOdilo": {
+    "message": "eBook Offline Reader"
+  },
+  "browserTitleCeibal": {
+    "message": "Ceibal Library Reader"
+  },
+  "title_odilo": {
+    "message": "NUBEREADER"
+  },
+  "title_ceibal": {
+    "message": "CEIBAL"
+  },
+  "expireLoan": {
+    "message": "Expired load"
+  },
+  "expires": {
+    "message": "Expires"
+  },
+  "textBadge": {
+      "message": "You do not have downloaded titles"
+  },
+  "shortDateFormat": {
+    "message": "mm/dd/yyyy"
+  },
+  "alertCacheMessage": {
+      "message": "Downloaded books will be lost if you delete the data and the browser cache."
+  },
+  "alertOnlineMessage": {
+      "message": "Downloaded books can only be read when you do not have an internet connection. For an online reading, access your loans online and press the Display button again to continue reading."
+  },
+  "alertOnlineMessageDialogTitle": {
+      "message": "Online reading not allowed"
+  }
+}

@@ -1,0 +1,69 @@
+.resizable-handle {
+    display: block;
+    font-size: .1px;
+    position: absolute;
+}
+
+.resizable-n {
+    cursor: n-resize;
+    height: 12px;
+    left: 9px;
+    top: -5px;
+    width: calc(100% - 18px);
+}
+
+.resizable-e {
+    cursor: e-resize;
+    height: calc(100% - 18px);
+    right: -9px;
+    top: 9px;
+    width: 12px;
+}
+
+.resizable-s {
+    bottom: -9px;
+    cursor: s-resize;
+    height: 12px;
+    left: 9px;
+    width: calc(100% - 18px);
+}
+
+.resizable-w {
+    cursor: w-resize;
+    height: calc(100% - 18px);
+    left: -9px;
+    top: 9px;
+    width: 12px;
+}
+
+.resizable-ne {
+    cursor: ne-resize;
+    height: 18px;
+    right: -9px;
+    top: -9px;
+    width: 18px;
+}
+
+.resizable-se {
+    bottom: -9px;
+    cursor: se-resize;
+    height: 18px;
+    right: -9px;
+    width: 18px;
+}
+
+.resizable-sw {
+    bottom: -9px;
+    cursor: sw-resize;
+    height: 18px;
+    left: -9px;
+    width: 18px;
+}
+
+.resizable-nw {
+    cursor: nw-resize;
+    height: 18px;
+    left: -9px;
+    top: -9px;
+    width: 18px;
+}

@@ -1,0 +1,23 @@
+{
+  "_description": "Suspicious APIs considered by DoubleX for /media/data2/jianjia/extension_data/unzipped_extensions/gkcaldngjihkfdllegnaniclnpdfcaid/doublex_generated_files",
+  "cs": {
+    "direct_dangers": {
+      "execution": [
+        "eval",
+        "setInterval",
+        "setTimeout"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {}
+  },
+  "bp": {
+    "direct_dangers": {
+      "execution": [
+        "tabs.executeScript"
+      ]
+    },
+    "indirect_dangers": {},
+    "exfiltration_dangers": {}
+  }
+}

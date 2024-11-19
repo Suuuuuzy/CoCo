@@ -1,0 +1,33 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7f2cdaaeac70>, 1000)",
+                "sink-param1": "function(){\n drivably.checkVin();\n }",
+                "sink-param2": 1000,
+                "line": "313 - 315",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setInterval",
+                "value": "setInterval(<pdg_js.node.FunctionExpression object at 0x7f2cda809460>, 1000)",
+                "sink-param1": "function(){\n drivably.urlIsChanged(window.location.href);\n }",
+                "sink-param2": 1000,
+                "line": "594 - 596",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/djdfomgalgbgnhknemfkegbehojkmkii/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

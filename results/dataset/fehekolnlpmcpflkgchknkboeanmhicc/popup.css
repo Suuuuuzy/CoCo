@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+#container {
+    background-color: #FFF;
+    width: 170px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.menu-link {
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-link.group, .menu-link.item {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.menu-link.group.last, .menu-link.item.last  {
+    margin-bottom: -1px;
+}
+
+#links-container {
+    margin: 0;
+    padding: 0;
+}
+
+#links-container .menu-link {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+
+#links-container .menu-link i {
+    width: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#links-container .menu-link span {
+    padding-left: 10px;
+}
+
+#links-container li:hover {
+    background-color: #F0F0F0;
+    outline: none;
+}
+
+.menu-link.divider {
+    border-top: 1px solid #CACACA;
+}
+
+.fa-gtk {
+    font-size: 18px !important;
+}
+
+.fa-gtk:before {
+    content: "G";
+}

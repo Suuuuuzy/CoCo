@@ -1,0 +1,215 @@
+<html>
+<head>
+<title id="extTitle" class="need_l18n_title">AirMedia Sender</title>
+<script type="text/javascript" charset="utf-8" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+<link href="css/reset.css" rel="stylesheet" />
+<style type="text/css">
+    .head {
+        background-color: #F3F3F3;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #E1E1E1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .headbar {
+        width: 900px;
+        margin: 0px auto;
+    }
+
+    .sidebar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #E8E8E8;
+    }
+
+    .intro {
+        margin: 0px auto 0px auto;
+        color: #646464; padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .conter {
+        margin: 0px auto 0px auto;
+    }
+
+    .left {
+        float: left;
+    }
+
+    a {
+        text-decoration:none;
+    }
+
+    button, .button, input[type=button], input[type="submit"], input[type="reset"] {
+        display: inline-block;
+        padding: 12px 22px;
+        margin: 0;
+        cursor: pointer;
+        text-align: center;
+        white-space: nowrap;
+        word-spacing: nowrap;
+        vertical-align: middle;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: normal;
+        color: #fff !important;
+        background-color: #00a4d9;
+        border: 1px solid #00a4d9;
+        border-color: #00a4d9 #00a4d9 #00a4d9 #00a4d9;
+    }
+
+    .button:hover, .button.default:hover, .button.black:hover, .button.blue:hover, .button.cyan:hover, .button.green:hover, .button.orange:hover, .button.pink:hover, .button.red:hover, .button.teal:hover {
+        color: #fff !important;
+        background-color: #0189b5 !important;
+        border-color: #0189b5 !important;
+        background-image: none;
+        -webkit-transition: 0.3s linear;
+        -moz-transition: 0.3s linear;
+        transition: 0.3s linear;
+    }
+
+
+    div#div_control_room {
+        position:absolute;
+        left:0px;
+        top:0px;
+        z-index:100;
+        width:300px;
+        height:30px;
+        font:bold 20px arial,sans-serif;
+    }
+    div#div_hts, #div_auth, #div_loading {
+    	width:100%;
+    	height: 100%;
+    	vertical-align: middle;
+        text-align: center;
+    	display: none;
+        padding: 0px;
+        margin: 0px;
+        border-spacing: 0px;
+        border:0px;
+    }
+    #div_logo,#hitSecurity {
+        text-align: center;
+    }
+    #td_hits, #td_auth {
+        background-image: url(image/bg.png);
+        width: 471px;
+        max-width: 471px;
+        max-height: 254px;
+        height: 254px;
+    }
+    #td_hits_msg {
+        vertical-align: middle;
+        text-align: left;
+        font:bold 18px arial,sans-serif;
+        padding: 0px;
+        margin: 0px;
+        border-spacing: 0px;
+        border:0px;
+
+        width:312px;
+        max-width:312px;
+        max-height: 135px;
+        height: 135px;
+    }
+    #conn_btn_add_fav {
+        position: relative;
+        left: 316px;
+        top: 0px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        display: none;
+    }
+    #fnt_name {
+        line-height: 40px;
+        color: #4C4C4C;
+        text-align:left;
+        overflow: hidden;
+        width: 290px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    #fnt_hits {
+        white-space: nowrap;
+    }
+
+</style>
+</head>
+<body>
+<div id="div_control_room">
+<label id="lbl_room"></label>
+</div>
+<script type="text/javascript" src="js/spt1.js"></script>
+    <div class="head" id="div_title">
+        <div class="headbar">
+            <img src="image/logo.png" />
+        </div>
+    </div>
+    <div id="div_loading">
+        <div class="headbar" style="padding-top: 30px;">
+            <div class="sidebar">
+                <p class ="conter" style=" width: 600px; color: #646464;">
+                    <img src='image/connecting.gif'>
+                </p>
+            </div>
+            <div class ="sidebar" style="border-bottom-width: 0px;">
+                <div class="conter"   style="width: 150px;">
+                    <a class="button default need_l18n" id="btnCancel">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="div_hts">
+        <div class="headbar" style="padding-top: 30px;">
+            <div class="sidebar">
+                <p class ="conter need_l18n" id="hitNotClose" style=" width: 600px; color: #646464;">
+                    Please keep this page opened while using AirMedia to share computer screens.
+                </p>
+            </div>
+            <div style="padding-top: 30px; padding-bottom: 30px; white-space: nowrap;">
+                <div class="conter"  style="border: 1px solid #CCCCCC; width: 400px; white-space: nowrap;height: 40px;">
+                    <div  class="left" style="padding-right: 15px; width: 25px;padding-left: 15px; padding-top: 8px;">
+                        <img src="image/icon1.png" />
+                        <img id="conn_btn_add_fav" src="image/btn_add_fav.png"/>
+                    </div>
+                    <p id="fnt_name"></p>
+                </div>
+            </div>
+            <div class ="sidebar" style="border-bottom-width: 0px;">
+                <div class="conter"   style="width: 150px;">
+                    <a class="button default need_l18n" id="buttonClose">Stop Sharing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="div_auth">
+        <div class="headbar" style="padding-top: 30px;">
+            <div class="sidebar">
+                <p class ="conter" style=" width: 600px; color: #646464;">
+                    <div id="hitSecurity" class="need_l18n_raw_html">Please enter the password to start sharing.</div>
+                </p>
+            </div>
+            <div style="padding-top: 30px; padding-bottom: 30px" id="div_input">
+                <div class="conter"  style="border: 1px solid #CCCCCC; width: 400px; height: 40px">
+                    <div id="div_security"><input type="password" style="width:100%;height:100%;bordor:0px;" id="inp_security"></div>
+                </div>
+            </div>
+            <div class ="sidebar" style="border-bottom-width: 0px;">
+                <div class="conter"   style="width: 188px;">
+                    <a class="button default need_l18n" id="btnConnect">Start Sharing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

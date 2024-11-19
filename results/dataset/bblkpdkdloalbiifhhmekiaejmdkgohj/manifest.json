@@ -1,0 +1,56 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "划词小窗搜题",
+  "short_name": "划词搜题",
+  "description": "划词搜题，选中题目即可搜索，方便快捷",
+  "version": "1.0.7",
+  "homepage_url": "https://www.zaixiantiku.com",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "options/defaultConfig.js",
+      "js/background.js"
+    ]
+  },
+  "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "storage",
+    "cookies"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file://*/*"
+      ],
+      "js": [
+        "options/defaultConfig.js",
+        "js/content.js"
+      ],
+      "css":["css/icons.css","css/popup.css","css/iframe.css"],
+      "all_frames" : true ,
+      "run_at" : "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "js/*",
+    "css/*"
+  ],
+  "browser_action":
+  {
+    "default_icon": "images/icon128.png",
+    "default_title": "划词搜题插件",
+    "default_popup": "options/options.html"
+  },
+  "options_page": "options/setting.html",
+  "manifest_version": 2
+}

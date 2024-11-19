@@ -1,0 +1,88 @@
+(['23766', '23778', '23780', '23782'], 'document_eventListener_RequestWindow')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestWindow to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 564	document.addEventListener('RequestWindow', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 565	    var pid = evt.detail.pid;
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 565	    var pid = evt.detail.pid;
+	evt.detail.pid
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 566	    var urlPost = window.location.protocol + '//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=' + pid;
+	urlPost = window.location.protocol + '//spineditor.com/Code/Web/WebService.asmx/PostForum?pid=' + pid
+
+(['24077', '24087', '24114', '27097'], 'document_eventListener_RequestLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 888	document.addEventListener('RequestLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 889	    if (evt.detail != null) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 899	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 899	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+
+(['24077', '24087', '24114', '27097', '27257'], 'document_eventListener_RequestLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_RequestLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 888	document.addEventListener('RequestLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 889	    if (evt.detail != null) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 899	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 899	    url = requestLinkTemp.url;
+	requestLinkTemp.url
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 968	        if (linkUrl.localeCompare(spinUrlRequest) == 0) {
+	linkUrl.localeCompare(spinUrlRequest)
+
+(['24176', '24222', '27393', '27545'], 'document_eventListener_AjaxLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_url_sink
+from document_eventListener_AjaxLink to XMLHttpRequest_url_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 950	document.addEventListener('AjaxLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 952	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 952	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 1038	        var linkUrl = request.obj.url;
+	request.obj.url
+
+(['24176', '24222', '27393', '27548'], 'document_eventListener_AjaxLink')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa with XMLHttpRequest_post_sink
+from document_eventListener_AjaxLink to XMLHttpRequest_post_sink
+==========================
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 950	document.addEventListener('AjaxLink', function (evt) {
+	evt
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 952	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/cs_0.js
+Line 952	        chrome.runtime.sendMessage({ type: "PostRequest", obj: evt.detail }, function (response) {
+	evt.detail
+$FilePath$/Users/jianjia/Documents/COCO_results/all/10k/aiacepmnmgokkgjaplbbloiccdmmfcaa/opgen_generated_files/bg.js
+Line 1039	        var datajson = request.obj.data;
+	request.obj.data
+

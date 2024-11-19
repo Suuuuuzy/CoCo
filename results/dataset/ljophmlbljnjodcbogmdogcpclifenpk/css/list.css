@@ -1,0 +1,211 @@
+.main_page {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 268px;
+    max-width: 268px;
+    border: 0px;
+    border-radius: 5px;
+    background: #ece9e9;
+    padding-bottom: 21px;
+    display: none;
+}
+.main_header {
+    position: relative;
+    left: 4px;
+    top: 9px;
+    width: 260px;
+    height: 35px;
+    background: transparent;
+}
+.header_icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.header_logo {
+    position: absolute;
+    left: 47px;
+    top: 0px;
+}
+.img_help {
+    position: absolute;
+    left: 241px;
+    top: 0px;
+    cursor: pointer;
+}
+.server_list_page {
+    width: 260px;
+    max-width: 260px;
+    margin-bottom: 0px;
+}
+#div_sel_source {
+    position: relative;
+    top: 17px;
+    left: 4px;
+    width: 260px;
+    height: 30px;
+    background: transparent;
+}
+#div_connect_mir {
+    position: relative;
+    left: 4px;
+    top: 19px;
+}
+.list_page {
+    position: relative;
+    left: 0px;
+    width: 260px;
+    min-height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+.list_title {
+    position: relative;
+    left: 5px;
+    top: 6px;
+    width: 255px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+.list_title_icon {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+.list_title_name {
+    position: absolute;
+    left: 14px;
+    top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list_title_input {
+    position: absolute;
+    left: 88px;
+    width: 125px;
+    height: 20px;
+    line-height: 20px;
+    border-width: 1px;
+    border-color: #d9d1c6;
+}
+.list_title_connect {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    width: 22px;
+    height: 20px;
+}
+.list_content_scroll {
+    position: relative;
+    margin-left: 0px;
+    width: 260px;
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list_content_no_scroll {
+    position: relative;
+    margin-left: 0px;
+    width: 260px;
+    overflow: hidden;
+}
+#mir_desk {
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    width: 130px;
+    height: 26px;
+    background-image: url(../image/mir_dsk_e.png);
+    vertical-align: middle;
+    line-height:26px;
+    color: #FFFFF;
+}
+#mir_tab {
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    text-align: center;
+    width: 130px;
+    height: 26px;
+    background-image: url(../image/mir_tab_d.png);
+    vertical-align: middle;
+    line-height:26px;
+    color: #e84d3c;
+}
+#ServerListPage {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+}
+.list_item {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 260px;
+}
+.list_item:hover {
+    background: #E6E6E6;
+}
+.list_content {
+    position: relative;
+    top: 0px;
+}
+.list_iten_content {
+    position: relative;
+    top: 0px;
+    left: 26px;
+    width: 234px;
+    height: 30px;
+    border-bottom: 1px solid #d2d2d2;
+    cursor: default;
+}
+.list_item_event_area {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 177px;
+    height: 30px;
+    cursor: pointer;
+}
+.list_item_icon {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 22px;
+    cursor: pointer;
+}
+.list_item_name {
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    width: 147px;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list_item_img_connect {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    width: 15px;
+    height: 15px;
+    cursor: default;
+}
+.list_item_img_favorite {
+    position: absolute;
+    right: 35px;
+    top: 7px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+#title_connect_m360 {
+    font-size: 14px;
+}

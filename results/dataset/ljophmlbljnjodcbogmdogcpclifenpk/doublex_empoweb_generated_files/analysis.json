@@ -1,0 +1,66 @@
+{
+    "extension": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "storage.local.set",
+                "value": "chrome.storage.local.set({'ams_stg_ip': 'c.endpoint'})",
+                "sink-param1": {
+                    "ams_stg_ip": "c.endpoint"
+                },
+                "line": "20 - 20",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(p, <pdg_js.node.FunctionExpression object at 0x7fc9e749b9a0>)",
+                "sink-param1": "p",
+                "sink-param2": "function(a){storageInited=!0;w.s=a}",
+                "line": "19 - 19",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(a, <pdg_js.node.FunctionExpression object at 0x7fc9e74ce040>)",
+                "sink-param1": "a",
+                "sink-param2": "function(d){storageInited=!0;d&&(w.s=d,c(d[a]))}",
+                "line": "20 - 20",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(p, <pdg_js.node.FunctionExpression object at 0x7fc9e749b9a0>)",
+                "sink-param1": "p",
+                "sink-param2": "function(a){storageInited=!0;w.s=a}",
+                "line": "19 - 19",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "storage.local.get",
+                "value": "chrome.storage.local.get(a, <pdg_js.node.FunctionExpression object at 0x7fc9e74ce040>)",
+                "sink-param1": "a",
+                "sink-param2": "function(d){storageInited=!0;d&&(w.s=d,c(d[a]))}",
+                "line": "20 - 20",
+                "filename": "/Users/jianjia/Documents/COCO_results/all/1k_9k/ljophmlbljnjodcbogmdogcpclifenpk/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

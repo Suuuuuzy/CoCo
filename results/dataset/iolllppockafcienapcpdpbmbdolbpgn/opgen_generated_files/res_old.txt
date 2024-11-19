@@ -1,0 +1,571 @@
+(['13686', '13696', '13698', '14258', '14413', '14423', '14449'], 'document_eventListener_extensions_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_extensions_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 577	function allowedExtensionsRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 578	    if(param && param.detail && param.detail.domain) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 578	    if(param && param.detail && param.detail.domain) {
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 578	    if(param && param.detail && param.detail.domain) {
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 902	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain));
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 902	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain));
+	url.replace("%domain", encodeURIComponent(request.detail.domain))
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '13782', '14540', '14704', '14719', '14732', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+	url.replace("%token", request.detail.token)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '14538', '14691', '14709', '14719', '14732', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 875	                if(request.detail.domain && request.detail.token) {
+	request.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 878	                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '14538', '14725', '14732', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 879	                    if(request.detail.fileName) {
+	request.detail.fileName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '13782', '14540', '14704', '14719', '14732', '14748', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+	url.replace("%token", request.detail.token)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 882	                        url = url.replace("name=%fileName", "");
+	url.replace("name=%fileName", "")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '14538', '14691', '14709', '14719', '14732', '14748', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 875	                if(request.detail.domain && request.detail.token) {
+	request.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 878	                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 882	                        url = url.replace("name=%fileName", "");
+	url.replace("name=%fileName", "")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '14538', '14725', '14732', '14748', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 879	                    if(request.detail.fileName) {
+	request.detail.fileName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 880	                        url = url.replace("%fileName", request.detail.fileName);
+	url.replace("%fileName", request.detail.fileName)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 882	                        url = url.replace("name=%fileName", "");
+	url.replace("name=%fileName", "")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '13782', '14540', '14704', '14719', '14748', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+	url.replace("%token", request.detail.token)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 882	                        url = url.replace("name=%fileName", "");
+	url.replace("name=%fileName", "")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13770', '13780', '14538', '14691', '14709', '14719', '14748', '14784'], 'document_eventListener_open_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_open_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 562	function openDocumentRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 563	    if(param && param.detail && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 875	                if(request.detail.domain && request.detail.token) {
+	request.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 878	                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 877	                    url = url.replace("%token", request.detail.token)
+                             .replace("%domain", encodeURIComponent(request.detail.domain));
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 882	                        url = url.replace("name=%fileName", "");
+	url.replace("name=%fileName", "")
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13854', '13864', '13866', '14880', '15039', '15049', '15059', '15085'], 'document_eventListener_document_progress_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_document_progress_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 591	function documentProgressRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 892	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 892	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+	url.replace("%domain", encodeURIComponent(request.detail.domain))
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 892	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13854', '13864', '13868', '14882', '15059', '15085'], 'document_eventListener_document_progress_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_document_progress_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 591	function documentProgressRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 592	    if(param && param.detail && param.detail.domain && param.detail.token) {
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 892	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13952', '15181', '15343', '15353', '15363', '15373', '15383', '15393', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail.domain
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+	encodeURIComponent(request.detail.domain)
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+	url.replace("%domain", encodeURIComponent(request.detail.domain))
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13954', '15187', '15363', '15373', '15383', '15393', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 607	                   param.detail.token &&
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 607	                   param.detail.token &&
+	param.detail.token
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13956', '15189', '15373', '15383', '15393', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 608	                   param.detail.fileName &&
+	param.detail.fileName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 608	                   param.detail.fileName &&
+	param.detail.fileName
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13958', '15183', '15383', '15393', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 609	                   param.detail.signType &&
+	param.detail.signType
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 609	                   param.detail.signType &&
+	param.detail.signType
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13960', '15179', '15393', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 610	                   param.detail.taskId &&
+	param.detail.taskId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 610	                   param.detail.taskId &&
+	param.detail.taskId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+
+(['13940', '13950', '13962', '15185', '15403', '15429'], 'document_eventListener_sign_document_request')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn with XMLHttpRequest_url_sink
+from document_eventListener_sign_document_request to XMLHttpRequest_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 605	function signRequest(param) {
+	param
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 606	    if(param && param.detail && param.detail.domain && 
+	param.detail
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 611	                   param.detail.actionId) { 
+	param.detail.actionId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/cs_0.js
+Line 611	                   param.detail.actionId) { 
+	param.detail.actionId
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 916	                    url = url.replace("%domain", encodeURIComponent(request.detail.domain))
+                             .replace("%token", request.detail.token)
+                             .replace("%name", request.detail.fileName)
+                             .replace("%signType", request.detail.signType)
+                             .replace("%taskId", request.detail.taskId)
+                             .replace("%actionId", request.detail.actionId);
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/iolllppockafcienapcpdpbmbdolbpgn/opgen_generated_files/bg.js
+Line 933	        var url = partialUrl.replace("%port", ports[portIndex]);
+	partialUrl.replace("%port", ports[portIndex])
+

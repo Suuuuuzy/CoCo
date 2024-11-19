@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Odosielač AirMedia"
+  },
+  "appDesc": {
+    "message": "Zrkadlovo pripojte svoje zariadenie kedykoľvek k akejkoľvek počítačovej obrazovke"
+  },
+  "extTitle": {
+    "message": "Odosielač AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Pripojte k AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Prezentujte desktop"
+  },
+  "tip_sel_dsk": {
+    "message": "Zrkadlovo sa bude prezentovať len video"
+  },
+  "hit_pin": {
+    "message": "Zadajte PIN kód"
+  },
+  "tip_sel_tab": {
+    "message": "Zrkadlovo sa budú prezentovať video aj audio"
+  },
+  "btn_connect": {
+    "message": "PRIPOJIŤ"
+  },
+  "btn_cancel": {
+    "message": "ZRUŠIŤ"
+  },
+  "btn_stop": {
+    "message": "ZASTAVIŤ"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "ZRUŠIŤ"
+  },
+  "btn_retry_cancel": {
+    "message": "ZRUŠIŤ"
+  },
+  "btn_retry": {
+    "message": "ZOPAKOVAŤ ZNOVA"
+  },
+  "hit_warn": {
+    "message": "Nie je možné pripojiť. Skontrolujte svoje nastavenia."
+  },
+  "hit_ip": {
+    "message": "IP adresa alebo názov hostiteľa"
+  },
+  "tip_sel_tab_title": {
+    "message": "Prezentovať aktuálnu tabuľku"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Nesprávny PIN kód. Skúste to znova."
+  }
+}

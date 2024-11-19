@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "مرسل AirMedia"
+  },
+  "appDesc": {
+    "message": "اعرض جهازك على أي شاشة كمبيوتر في أي وقت"
+  },
+  "extTitle": {
+    "message": "مرسل AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "متصل بـ AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "عرض سطح المكتب"
+  },
+  "tip_sel_dsk": {
+    "message": "سيتم عرض الفيديو فقط"
+  },
+  "hit_pin": {
+    "message": "أدخل رمز PIN"
+  },
+  "tip_sel_tab": {
+    "message": "سيتم عرض كل من الفيديو والملف الصوتي"
+  },
+  "btn_connect": {
+    "message": "اتصال"
+  },
+  "btn_cancel": {
+    "message": "إلغاء"
+  },
+  "btn_stop": {
+    "message": "إيقاف"
+  },
+  "btn_ok": {
+    "message": "موافق"
+  },
+  "btn_auth_cancel": {
+    "message": "إلغاء"
+  },
+  "btn_retry_cancel": {
+    "message": "إلغاء"
+  },
+  "btn_retry": {
+    "message": "إعادة المحاولة"
+  },
+  "hit_warn": {
+    "message": "تعذر الاتصال. يرجى التحقق من إعداداتك."
+  },
+  "hit_ip": {
+    "message": "عنوان IP أو اسم المضيف"
+  },
+  "tip_sel_tab_title": {
+    "message": "عرض علامة التبويب الحالية"
+  },
+  "inp_pincode_helper_text": {
+    "message": "رمز PIN غير صحيح. يُرجى إعادة المحاولة."
+  }
+}

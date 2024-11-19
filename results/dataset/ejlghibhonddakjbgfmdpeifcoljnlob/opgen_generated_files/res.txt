@@ -1,0 +1,1020 @@
+(['30613', '30623', '30628', '30648', '31768'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['30613', '30623', '30628', '30827', '32680'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['30613', '30623', '30628', '30833', '33590'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['30613', '30623', '30628', '30839', '34500'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['30613', '30623', '30628', '30648', '35425'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['30613', '30623', '30628', '30827', '36305'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['30613', '30623', '30628', '30833', '37185'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['30613', '30623', '30628', '30839', '38065'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['30613', '30623', '30628', '30648', '38990'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30827', '39870'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30833', '40750'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30839', '41630'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30648', '38990'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30827', '39870'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30833', '40750'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['30613', '30623', '30628', '30839', '41630'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_0.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47271', '48391'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['47236', '47246', '47251', '47449', '49303'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['47236', '47246', '47251', '47455', '50213'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['47236', '47246', '47251', '47461', '51123'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['47236', '47246', '47251', '47271', '52048'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['47236', '47246', '47251', '47449', '52928'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['47236', '47246', '47251', '47455', '53808'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['47236', '47246', '47251', '47461', '54688'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['47236', '47246', '47251', '47271', '55613'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47449', '56493'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47455', '57373'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47461', '58253'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47271', '55613'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47449', '56493'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47455', '57373'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['47236', '47246', '47251', '47461', '58253'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_1.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '63894', '65014'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['63859', '63869', '63874', '64072', '65926'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['63859', '63869', '63874', '64078', '66836'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['63859', '63869', '63874', '64084', '67746'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['63859', '63869', '63874', '63894', '68671'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['63859', '63869', '63874', '64072', '69551'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['63859', '63869', '63874', '64078', '70431'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['63859', '63869', '63874', '64084', '71311'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 924	                if (element.shopee_api_product !== "") {
+	element.shopee_api_product
+
+(['63859', '63869', '63874', '63894', '72236'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64072', '73116'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64078', '73996'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64084', '74876'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '63894', '72236'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64072', '73116'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64078', '73996'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['63859', '63869', '63874', '64084', '74876'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_2.js
+Line 972	                if (element.sendo_api_product !== "") {
+	element.sendo_api_product
+
+(['80482', '80492', '80497', '80517', '81637'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 123	        if (a[0] == '#'){
+	a[0]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['80482', '80492', '80497', '80696', '82549'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+
+(['80482', '80492', '80497', '80702', '83459'], 'cs_window_eventListener_message')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob with jQuery_ajax_settings_url_sink
+from cs_window_eventListener_message to jQuery_ajax_settings_url_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 821	window.addEventListener("message", function(event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 822	    if (event.data.function_name == "addbody") {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 823	        $(event.data.function_params).appendTo("body");
+	event.data.function_params
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 253	        this[i] = array_in[i];
+	array_in[i]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/ejlghibhonddakjbgfmdpeifcoljnlob/opgen_generated_files/cs_3.js
+Line 859	                if (element.tiki_api_product !== "") {
+	element.tiki_api_product
+

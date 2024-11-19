@@ -1,0 +1,24 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {
+            "danger1": {
+                "danger": "cookies.getAll",
+                "value": "chrome.cookies.getAll(<pdg_js.node.ValueExpr object at 0x7fbfa8bd22b0>, <pdg_js.node.FunctionExpression object at 0x7fbfa8bd22e0>)",
+                "sink-param1": "{\n url: \"https://findmanual.org\"\n }",
+                "sink-param2": "function(cookies) {\n for (var i = 0; i < cookies.length; i++) {\n var cookie = cookies[i];\n if (cookie.name.indexOf('feat') === 0) {\n try {\n var fm = JSON.parse(decodeURIComponent(cookie.value));\n if (fm && fm[\"successurl\"]){\n\t openThankyouPage(fm);\n\t }\n } catch (err) {}\n\n return;\n }\n }\n }",
+                "line": "155 - 172",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/doublex_generated_files/bg.js",
+                "dataflow": false
+            }
+        }
+    }
+}

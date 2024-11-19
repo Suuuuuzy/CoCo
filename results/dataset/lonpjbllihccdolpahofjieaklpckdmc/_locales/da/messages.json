@@ -1,0 +1,233 @@
+{
+    "language": {
+        "message": "da"
+    },
+    "extName": {
+        "message": "SIKKER SHOPPING"
+    },
+    "extDescription": {
+        "message": "Beskyt dig selv med SIKKER SHOPPING og deltag i kampen for mere tryg og sikker nethandel."
+    },
+    "alertHeading": {
+        "message": "Hjemmesiden er ikke sikker"
+    },
+    "alertSubHeading": {
+        "message": "Denne webshop er mistænkt for at være falsk."
+    },
+    "alertText": {
+        "message": "Vi fraråder at handle på siden. Du risikerer blandt andet, at dine bankoplysninger og persondata bliver misbrugt, at du får et forfalsket kopiprodukt, eller at varen aldrig dukker op."
+    },
+    "alertTextSecondPara": {
+        "message": "Dette er en advarsel fra din SIKKER SHOPPING browserudvidelse."
+    },
+    "alertTextBottom": {
+        "message": "SIKKER SHOPPING er skabt af e-mærket med støtte fra TrygFonden."
+    },
+    "alertMessageFrom": {
+        "message": ""
+    },
+    "alertAdvancedText": {
+        "message": "Webshoppen er under mistanke for at være falsk, og du risikerer at handle med it-kriminelle. Siden er indgivet til politimyndighederne med henblik på yderligere efterforskning."
+    },
+    "serviceMessage": {
+        "message": "Dette er en advarsel fra"
+    },
+    "advancedButton": {
+        "message": "Detaljer"
+    },
+    "backToSafetyButton": {
+        "message": "Tilbage i sikkerhed"
+    },
+    "readMoreLink": {
+        "message": "Læs mere"
+    },
+    "continueToSiteButton": {
+        "message": "Fortsæt alligevel til siden (Usikkert)"
+    },
+    "alertPopup": {
+        "message": "Advarsel!"
+    },
+    "alertTextPopup": {
+        "message": "Denne shop er mistænkt for at være falsk. Vi fraråder at handle eller afgive information på siden."
+    },
+    "approvePopup": {
+        "message": "Godkendt"
+    },
+    "popupCertificateTextPrefix": {
+        "message": "Du kan trygt handle her -  "
+    },
+    "popupCertificateTextPostfix": {
+        "message": " er nemlig en e-mærket webshop."
+    },
+    "reportFormButton": {
+        "message": "Mistænkelig webshop?"
+    },
+    "reportFormHeading": {
+        "message": "Falsk webshop?"
+    },
+    "reportFormText": {
+        "message": "Mistænker du denne shop for at være falsk? Send os et tip."
+    },
+    "reportSuccessResponse": {
+        "message": "Tak for dit tip!"
+    },
+    "reportSuccessResponseText": {
+        "message": "Dit tip er registreret. Tak for dit bidrag til kampen for mere sikker nethandel."
+    },
+    "reportSendButtonText": {
+        "message": "Send tip"
+    },
+    "backButton": {
+        "message": "Tilbage"
+    },
+    "reportUrl": {
+        "message": "Webadresse"
+    },
+    "popupUnknownDomain": {
+        "message": "Ukendt domæne"
+    },
+    "popupSuspectTitle": {
+        "message": "Website er mistænkt for fup"
+    },
+    "popupMemberButton": {
+        "message": "Se certifikat"
+    },
+    "iconDefaultTitle": {
+        "message": "SIKKER SHOPPING"
+    },
+    "iconMemberTitle": {
+        "message": "e-mærket hjemmeside"
+    },
+    "iconSuspectTitle": {
+        "message": "Mistænkelig webshop"
+    },
+    "iconUnknownDomain": {
+        "message": "SIKKER SHOPPING"
+    },
+    "iconServerError": {
+        "message": "Kunne ikke forbinde til serveren"
+    },
+    "serpMemberTitle": {
+        "message": "Websitet er e-mærket"
+    },
+    "serpSuspectTitle": {
+        "message": "Websitet er mistænkt for svindel"
+    },
+    "welcomePageTitle": {
+        "message": "SIKKER SHOPPING"
+    },
+    "welcomeThanksTitle": {
+        "message": "Tak fordi du har installeret SIKKER SHOPPING"
+    },
+    "welcomeThanksText": {
+        "message": "Tak for at du deltager i kampen for mere sikker nethandel."
+    },
+    "welcomeHeading": {
+        "message": "Velkommen til e-mærket's SIKKER SHOPPING!"
+    },
+    "welcomeAllowStatisticsText": {
+        "message": "Indsend anonym statistik"
+    },
+    "welcomeAllowStatisticsAcceptButton": {
+        "message": "OK, bidrag med anonym statistik"
+    },
+    "welcomeAllowStatisticsDeclineButton": {
+        "message": "Nej tak"
+    },
+    "welcomeThankYou": {
+        "message": "Tak for at du vil være med til at gøre ehandel mere sikkert"
+    },
+    "welcomeThanksFor": {
+        "message": "Tak for din hjælp..."
+    },
+    "welcomeChangeOptions": {
+        "message": "Indstilling gemt. Du kan altid ændre indstillinger i SIKKER SHOPPING udvidelsen."
+    },
+    "welcomeTextForOptInAnalytics": {
+        "message": "For at følge hvilken effekt SIKKER SHOPPING har på at modvirke it-svindel, fører vi statistik via Google Analytics, så vi kan gøre SIKKER SHOPPING endnu bedre. Tryk ”OK” for at dele anonymiseret statistik (se hvilken statistik vi indsamler her) og giv dit bidrag til kampen for mere sikker nethandel."
+    },
+    "optionsPageTitle": {
+        "message": "SIKKER SHOPPING - Valgmuligheder"
+    },
+    "optionsHeading": {
+        "message": "Valgmuligheder"
+    },
+    "optionsText": {
+        "message": ""
+    },
+    "optionsAnalyticsOptInLabel": {
+        "message": "Bidrag med anonym statistik"
+    },
+    "optionsShowEMarkLabel": {
+        "message": "Vis e-mærkede webshops"
+    },
+    "optionsShowSuspectLabel": {
+        "message": "Vis falske webshops"
+    },
+    "optionsAnalyticsTitleAttr": {
+        "message": "Du deler fx statistik om, hvor mange gange advarselsikoner bliver vist i søgeresultater, og hvor ofte advarselssiden vises. På den måde er du med til at gøre SIKKER SHOPPING til et endnu stærkere kriminalpræventivt værktøj. Bemærk, at der IKKE er tale om deling af søgeord og personoplysninger af nogen art – herunder IP-adresse. Statistikken er således anonym. Læs mere om, hvilken statistik SIKKER SHOPPING ellers indsamler i beskrivelsen på Chrome Webshop. Har du spørgsmål til statistik i SIKKER SHOPPING, er du velkommen til at skrive til info@emaerket.dk"
+    },
+    "optionsShowEMarkTitleAttr": {
+        "message": "Du får vist et e-mærke i søgeresultaterne ud for e-mærkede webshops"
+    },
+    "optionsShowSuspectTitleAttr": {
+        "message": "Du får vist et rødt advarselsikon i søgeresultaterne ud for shops, der mistænkes at være falske"
+    },
+    "infoModalHeader": {
+        "message": "Sådan hjælper du os med at bekæmpe falske webshops"
+    },
+    "infoModalText": {
+        "message": "SIKKER SHOPPING er et kriminalpræventivt værktøj skabt af e-mærket med støtte fra TrygFonden. Derfor er vi interesseret i at følge med i, hvilken effekt SIKKER SHOPPING har på at modvirke forbrugere i at blive snydt af fupbutikker på nettet. Til det formål benytter SIKKER SHOPPING Google Analytics til at føre statistik, så vi kan gøre SIKKER SHOPPING endnu bedre."
+    },
+    "infoModalFollowingText": {
+        "message": "Når SIKKER SHOPPING udvidelsen benyttes, indsamles følgende oplysninger:"
+    },
+    "infoModalInformationsTracked1": {
+        "message": "Hvor mange gange SIKKER SHOPPING's røde advarselsikon bliver vist i søgeresultaterne"
+    },
+    "infoModalInformationsTracked2": {
+        "message": "Hvor mange gange SIKKER SHOPPING's advarselsside bliver vist"
+    },
+    "infoModalInformationsTracked3": {
+        "message": "Hvor mange gange der klikkes på \"Tilbage i sikkerhed\" (på advarselssiden)"
+    },
+    "infoModalInformationsTracked4": {
+        "message": "Hvor mange gange der klikkes på \"Avanceret\" (på advarselssiden)"
+    },
+    "infoModalInformationsTracked5": {
+        "message": "Hvor mange gange der klikkes videre til en mistænkt fupbutik fra \"Advarselssiden\""
+    },
+    "infoModalInformationsTracked6": {
+        "message": "Hvor mange gange et e-mærke bliver vist i søgeresultaterne"
+    },
+    "infoModalInformationsTracked7": {
+        "message": "Hvor mange gange der fra søgeresultaterne klikkes videre til en e-mærket webshop"
+    },
+    "infoModalInformationsTracked8": {
+        "message": "Hvor mange gange der fra søgeresultaterne klikkes videre til en webshop, der har anført et rødt SIKKER SHOPPING advarsels-ikon"
+    },
+    "infoModalNotTracked": {
+        "message": "Når du benytter SIKKER SHOPPING, indsamles der:"
+    },
+    "infoModalNot": {
+        "message": "IKKE"
+    },
+    "infoModalNotTracked1": {
+        "message": "personoplysninger af nogen art, herunder IP-adresse"
+    },
+    "infoModalNotTracked2": {
+        "message": "informationer om søgeord i forbindelse med søgeresultater"
+    },
+    "infoModalNotTracked3": {
+        "message": "nogle former for informationer efter, at du har klikket dig videre fra en søgeresultatside, hvor SIKKER SHOPPING har vist et advarselsikon og/eller et e-mærke"
+    },
+    "infoModalNotTracked4": {
+        "message": "nogle former for informationer efter, at du har klikket dig videre fra \"Advarselssiden\""
+    },
+    "infoModalClosingLine": {
+        "message": "Hvis du ikke ønsker at bidrage til vores statistik i Google Analytics, kan du til enhver tid ændre dette. Det gør du ved at højreklikke på SIKKER SHOPPING i værktøjslinjen og vælg \"Valgmuligheder\""
+    },
+    "reportSendFailed": {
+        "message": "Der opstod en fejl. Prøv igen senere."
+    }
+}

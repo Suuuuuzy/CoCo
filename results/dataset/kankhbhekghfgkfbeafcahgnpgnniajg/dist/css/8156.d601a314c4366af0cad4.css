@@ -1,0 +1,88 @@
+.widget-todo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.widget-todo-content {
+    overflow: hidden !important;
+    padding: 0 0 10px 0 !important;
+}
+
+.todo-task-list {
+    /* background-color: #999; */
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 5px;
+}
+
+.todo-task-item {
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid #686868;
+    display: flex;
+    align-items: center;
+}
+
+.todo-task-item:hover {
+    background-color: rgb(54, 54, 54, 0.5);
+}
+
+.todo-task-item .todo-task-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #686868;
+}
+
+.todo-task-item span {
+    color: #eeeeee;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    flex: 1;
+}
+
+.todo-task-item .draggble-handler {
+    width: 24px;
+    height: 24px;
+    background: url(/dist/images/draggble.svg);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.todo-task-item .todo-task-item-setting {
+    cursor: pointer;
+    display: none;
+    margin-right: 5px;
+}
+
+.todo-task-item .todo-task-item-setting:hover {
+    background-color: rgba(140, 140, 140, 0.8);
+    border-radius: 50%;
+}
+
+.todo-task-item:hover .todo-task-item-setting {
+    display: block;
+}
+
+.todo-status-complete {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-status-complete span {
+    color: #999;
+}
+
+.todo-add-task {
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+
+.todo-task-item:hover .todo-task-item-setting svg {
+    fill: #eeeeee;
+}

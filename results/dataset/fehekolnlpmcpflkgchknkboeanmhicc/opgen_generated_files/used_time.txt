@@ -1,0 +1,206 @@
+/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc timeout after 600 seconds with 46.83377308707124% stmt covered####All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: 600
+call_limit: 3
+entry_func: None
+list: ./tmp_env/tmp_split_list/11
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: None
+chrome_extension: True
+run_with_pq: False
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: /media/data2/jianjia/extension_data/unzipped_extensions/
+autostop: False
+no_merge: True
+thread_stmt: False
+all_branch: False
+/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc finish within 5.731664657592773 seconds####
+
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: 600
+call_limit: 3
+entry_func: None
+list: ./tmp_env/tmp_split_list/3
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: None
+chrome_extension: True
+run_with_pq: False
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: /media/data2/jianjia/extension_data/unzipped_extensions
+autostop: False
+no_merge: False
+thread_stmt: False
+all_branch: False
+war: False
+/media/data2/jianjia/extension_data/unzipped_extensions/fehekolnlpmcpflkgchknkboeanmhicc finish within 3.7032434940338135 seconds####
+
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: None
+call_limit: 3
+entry_func: None
+list: None
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: /Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc
+chrome_extension: True
+run_with_pq: False
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: demos/
+autostop: False
+no_merge: False
+thread_stmt: False
+all_branch: False
+war: False
+measure_thread: False
+measure_code_cov_progress: False
+time_slice: 0.1
+/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc finish within 1.869128942489624 seconds#### with code_cov 96.0% stmt covered####
+
+analysis starts
+2023-03-20 01:28:22.050226
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: None
+call_limit: 3
+entry_func: None
+list: None
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: /Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc
+chrome_extension: True
+run_with_pq: False
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: demos/
+autostop: False
+no_merge: False
+thread_stmt: False
+all_branch: False
+war: False
+measure_thread: False
+measure_code_cov_progress: False
+time_slice: 0.1
+seq_timeout: 20
+policy: 1
+alpha: 0.2
+beta: 0.8
+gamma: 1
+ablation_mode: CoCo-single
+code_progress_html: False
+1679290102.9631271----test_graph starts
+1679290103.543958----tainted detected!~~~in extension: /Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+(['16136', '16149', '16192', '16353', '16354', '16366'], 'document_eventListener_gtkAskAddonShowInGame')
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 467	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 468	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 468	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordX
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordX)
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+
+1679290103.5456462----tainted detected!~~~in extension: /Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc with chrome_tabs_executeScript_sink
+(['16136', '16149', '16192', '16360', '16361', '16366'], 'document_eventListener_gtkAskAddonShowInGame')
+from document_eventListener_gtkAskAddonShowInGame to chrome_tabs_executeScript_sink
+==========================
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 467	document.addEventListener('gtkAskAddonShowInGame', function(event) {
+	event
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 468	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/cs_1.js
+Line 468	    chrome.runtime.sendMessage({data: event.detail}, function(response) {
+	event.detail
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	data.coordY
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	encodeURI(data.coordY)
+$FilePath$/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/opgen_generated_files/bg.js
+Line 969	            chrome.tabs.executeScript(tabs[0].id, {code: "window.postMessage({ type: 'gtkShowInGame', coordX: " + encodeURI(data.coordX) + ", coordY: " + encodeURI(data.coordY) + " }, '*');"});
+	
+
+~~taint detected
+/Users/jianjia/Documents/projects/COCO/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc finish within 0.8000152111053467 seconds#### with code_cov 0.0% stmt covered####
+

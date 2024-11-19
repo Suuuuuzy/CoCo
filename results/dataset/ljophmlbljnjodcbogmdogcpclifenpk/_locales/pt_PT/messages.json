@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Emissor de AirMedia"
+  },
+  "appDesc": {
+    "message": "Espelhe o seu dispositivo em qualquer ecrã de computador em qualquer momento"
+  },
+  "extTitle": {
+    "message": "Emissor de AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Ligue a AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Apresentar ambiente de trabalho"
+  },
+  "tip_sel_dsk": {
+    "message": "Apenas os ficheiros de vídeo serão espelhados"
+  },
+  "hit_pin": {
+    "message": "Introduzir código PIN"
+  },
+  "tip_sel_tab": {
+    "message": "Os ficheiros de vídeo e de áudio serão espelhados"
+  },
+  "btn_connect": {
+    "message": "LIGAR"
+  },
+  "btn_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_stop": {
+    "message": "PARAR"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_auth_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry_cancel": {
+    "message": "CANCELAR"
+  },
+  "btn_retry": {
+    "message": "TENTAR NOVAMENTE"
+  },
+  "hit_warn": {
+    "message": "Não é possível estabelecer ligação. Verifique as suas definições."
+  },
+  "hit_ip": {
+    "message": "Endereço IP ou nome de anfitrião"
+  },
+  "tip_sel_tab_title": {
+    "message": "Apresentar separador atual"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Código PIN incorreto. Tente novamente."
+  }
+}

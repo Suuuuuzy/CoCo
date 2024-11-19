@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "image/oibn.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "libs/jquery-3.5.1.slim.js", "js/nidfar/otunmbra/gtirtan/ghiParTo.js", "js/hifdar/jioknar/fadraTis.js", "js/hifdar/jioknar/merWety.js", "js/nidfar/otunmbra/gtirtan/uinert/gterTo.js", "js/hteriost/yertendast/yjiOpr.js", "js/hteriost/yertendast/fuNdort.js" ],
+      "matches": [ "*://*.tiktok.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://*.tiktok.com/*" ],
+      "js": [ "libs/jquery-3.5.1.slim.js", "js/nidfar/otunmbra/gtirtan/uinert/gterTo.js", "js/hifdar/jioknar/hindal/sdXetr.js", "js/hifdar/jioknar/hindal/gharVerWq.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "image/oibn.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "TikTok Mobile View [2021]",
+   "permissions": [ "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.6.1",
+   "web_accessible_resources": [ "*.css", "*.js" ]
+}

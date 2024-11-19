@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/* Block with VIN button and modal */
+#vin-block {
+  width: 100px !important;
+  position: relative !important;
+}
+
+#vin-block .error {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  color: red !important;
+}
+
+/* Button VIN */
+#vin-btn {
+  width: 120px !important;
+  height: 35px !important;
+  background: #FF8C01 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* Modal with informations */
+#vin-modal {
+  box-sizing: content-box !important;
+  text-align: left !important;
+  width: 640px !important;
+  height: auto !important;
+  position: absolute !important;
+  z-index: 9999 !important;
+  color: #323232 !important;
+  font-family: 'Lato', sans-serif !important;
+  left: -270px;
+  top: 35px;
+  display: none;
+}
+
+#vin-modal #vin-modal-body {
+  margin-top: 10px !important;
+  display: block !important;
+  padding: 20px !important;
+  background: white !important;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.14), 0 3px 4px 0 rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2) !important;
+  border-radius: 5px !important;
+}
+
+#vin-modal #vin-modal-body.error-modal {
+  text-align: center !important;
+  padding: 0 0 30px 0 !important;
+  overflow: hidden !important;
+}
+
+#vin-modal #vin-modal-body.error-modal .header {
+  height: auto !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  background-color: #FF8C01 !important;
+  padding: 20px 0 !important;
+  margin-bottom: 20px !important;
+}
+
+#vin-modal #vin-modal-body.error-modal .header img {
+  width: 190px !important;
+}
+
+#vin-modal #vin-modal-body.error-modal h2 {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  color: #323232 !important;
+  font-size: 32px !important;
+  font-weight: normal !important;
+}
+
+#vin-modal #vin-modal-body.error-modal p {
+  width: 100% !important;
+  margin: 10px 0 0 0 !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  display: inline-block !important;
+}
+
+#vin-modal #vin-modal-body.error-modal a {
+  width: 190px !important;
+  height: 35px !important;
+  background: #FF8C01 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 30px 0 0 0 !important;
+  display: inline-block !important;
+  font-weight: bold !important;
+  line-height: 35px !important;
+  text-decoration: none !important;
+}
+
+#vin-modal .detail {
+  display: block !important;
+}
+
+#vin-modal .detail .photo {
+  width: 100px !important;
+  height: 100px !important;
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  border-radius: 100% !important;
+  border: 10px solid #FF8C01 !important;
+  overflow: hidden !important;
+}
+
+#vin-modal .detail .photo img {
+  width: 95% !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+}
+
+#vin-modal .detail h3 {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  font-size: 26px !important;
+  margin: 0 0 0 30px !important;
+  line-height: 30px !important;
+  color: #323232 !important;
+}
+
+#vin-modal .detail h3 span {
+  font-size: 26px !important;
+  display: block !important;
+  color: #EC6810 !important;
+  background: none !important;
+}
+
+#vin-modal .detail h3 p {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+}
+
+#vin-modal .filters {
+  margin-top: 20px !important;
+}
+
+#vin-modal .filters select {
+  height: 30px !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  box-sizing: border-box !important;
+}
+
+#vin-modal .filters #select-detail {
+  width: 370px !important;
+}
+
+#vin-modal .filters #select-valuation {
+  width: 180px !important;
+  margin-left: 30px !important;
+}
+
+#vin-modal .list {
+  width: 200px !important;
+  display: inline-block !important;
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  vertical-align: top !important;
+}
+
+#vin-modal .list li {
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+#vin-modal .list li h4 {
+  font-size: 20px !important;
+  margin: 0 !important;
+  font-weight: bold !important;
+  color: #323232 !important;
+}
+
+#vin-modal .list li p {
+  margin: 0 !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+
+#vin-modal .list li p span {
+  float: right !important;
+  margin-right: 30px !important;
+}
+
+#vin-modal .options {
+  margin-top: 20px !important;
+}
+
+#vin-modal .options h4 {
+  font-size: 20px !important;
+  margin: 0 !important;
+  font-weight: bold !important;
+  color: #323232 !important;
+}
+
+#vin-modal .options #list-options {
+  width: 600px !important;
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  vertical-align: top !important;
+}
+
+#vin-modal .options #list-options li {
+  width: 300px !important;
+  display: inline-block !important;
+}
+
+#vin-modal .options #list-options label {
+  width: 90% !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+}
+
+#vin-modal .options #list-options label span {
+  float: right !important;
+}
+
+#vin-modal .list-score {
+  margin-top: 20px !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  border-top: 1px solid #eee !important;
+}
+
+#vin-modal .list-score li {
+  display: inline-block !important;
+  margin: 10px 25px 0 0 !important;
+  text-align: center !important;
+}
+
+#vin-modal .list-score p {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin: 0 !important;
+}
+
+#vin-modal .list-score li span {
+  display: inline-block !important;
+  margin-top: 5px !important;
+  padding: 10px 15px !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+}
+
+#vin-modal .input-group {
+  width: 100% !important;
+  margin-top: 10px !important;
+  padding: 18px 0 !important;
+  border-top: 1px solid #eee !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#vin-modal .btn-group {
+  width: 100% !important;
+  padding: 0 0 18px 0 !important;
+  border-bottom: 1px solid #eee !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#vin-modal .btn-group ul {
+  margin: 0 !important;
+  font-size: 14px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+}
+
+#vin-modal .btn-group ul li {
+  width: 50% !important;
+  display: inline-block !important;
+}
+
+#vin-modal .btn-group ul li p {
+  margin: 0 0 5px 0 !important;
+}
+
+#vin-modal .list-group {
+  width: 100% !important;
+  margin-top: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#vin-modal label {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  margin: 0 5px 0 0 !important;
+}
+
+#vin-modal #buy-price, #vin-modal #mileage {
+  width: 120px !important;
+  height: 35px !important;
+  box-sizing: border-box !important;
+  vertical-align: top !important;
+  border: 1px solid #CFCFCF !important;
+  color: #404040 !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  margin-right: 10px !important;
+}
+
+#vin-modal #list-vehicles {
+  width: 200px !important;
+  height: 35px !important;
+  box-sizing: border-box !important;
+  vertical-align: top !important;
+  border: 1px solid #CFCFCF !important;
+  color: #404040 !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+}
+
+#vin-modal #save-vehicle {
+  width: 100px !important;
+  height: 35px !important;
+  background: #FF8C01 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-left: 10px !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  font-weight: bold !important;
+}
+
+#vin-modal #msg {
+  display: inline-block !important;
+  margin: 0 0 0 20px !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  vertical-align: top !important;
+}
+
+/* Scores colors */
+.score-a {
+  background-color: #AAEBE3 !important;
+  color: #23625A !important;
+}
+
+.score-b {
+  background-color: #F7D57A !important;
+  color: #CC9D00 !important;
+}
+
+.score-c {
+  background-color: #AACBEB !important;
+  color: #232F62 !important;
+}
+
+.score-d {
+  background-color: #BA8FFF !important;
+  color: #6412FF !important;
+}
+
+.score-e {
+  background-color: #FFEB8C !important;
+  color: #E88976 !important;
+}
+
+.score-f {
+  background-color: #EBAE88 !important;
+  color: #FF6B06 !important;
+}
+
+.score-ab {
+  background-image: linear-gradient(to right, #AAEBE3, #F7D57A) !important;
+  color: #23625A !important;
+}
+
+.score-ac {
+  background-image: linear-gradient(to right, #AAEBE3, #AACBEB) !important;
+  color: #23625A !important;
+}
+
+.score-bc {
+  background-image: linear-gradient(to right, #F7D57A, #AACBEB) !important;
+  color: #CC9D00 !important;
+}
+
+/* Carfax */
+#carfax-dealer-snapshot-popup {
+  z-index: 9999 !important;
+}

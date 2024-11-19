@@ -1,0 +1,60 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "window.setTimeout(<pdg_js.node.FunctionExpression object at 0x7f36075f3670>, 1000)",
+                "sink-param1": "function () {\n msg.data.fields.forEach(element => {\n if (element.step == msg.step) {\n var x = ''\n if (element.selector) {\n x = document.querySelector(element.selector)\n }\n if (x) {\n if (element.type == 'value') {\n x.value = element.value;\n const event = new Event('input', { bubbles: true });\n document.querySelector(element.selector).dispatchEvent(event);\n } else {\n if (element.script) {\n // if JS code is available for extra functions\n eval(element.script)\n }\n }\n } else if (element.script) {\n // if JS code is available for extra functions\n eval(element.script)\n }\n }\n });\n\n window.setTimeout(function () {\n msg.data.elements.every(element => {\n // if (element.step == msg.step) {\n var x = ''\n if (element.selector) {\n x = document.querySelector(element.selector)\n }\n if (x) {\n if (element.action == 'click') {\n x.click()\n return false\n } else if (element.action == 'submit') {\n x.submit()\n return false\n }\n } else if (element.script) {\n // if JS code is available for extra functions\n eval(element.script)\n return false\n }\n // }\n });\n }, 1);\n\n }",
+                "sink-param2": 1000,
+                "line": "12 - 61",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "27 - 27",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "32 - 32",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "window.setTimeout(<pdg_js.node.FunctionExpression object at 0x7f3607621c70>, 1)",
+                "sink-param1": "function () {\n msg.data.elements.every(element => {\n // if (element.step == msg.step) {\n var x = ''\n if (element.selector) {\n x = document.querySelector(element.selector)\n }\n if (x) {\n if (element.action == 'click') {\n x.click()\n return false\n } else if (element.action == 'submit') {\n x.submit()\n return false\n }\n } else if (element.script) {\n // if JS code is available for extra functions\n eval(element.script)\n return false\n }\n // }\n });\n }",
+                "sink-param2": 1,
+                "line": "37 - 59",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger5": {
+                "danger": "eval",
+                "value": "eval(element.script)",
+                "sink-param1": "element.script",
+                "line": "54 - 54",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/ilecenhhieemgphjfbmggnhllgcfipfi/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

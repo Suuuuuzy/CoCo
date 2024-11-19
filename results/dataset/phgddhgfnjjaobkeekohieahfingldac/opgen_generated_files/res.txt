@@ -1,0 +1,28 @@
+(['16708', '16720', '16724'], 'document_eventListener_fdWebExtension.saveToStorage')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac with chrome_storage_local_set_sink
+from document_eventListener_fdWebExtension.saveToStorage to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 582	document.addEventListener('fdWebExtension.saveToStorage', e => {
+	e
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 583	  var key = e.detail.key;
+	e.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 584	  var value = e.detail.value;
+	e.detail.value
+
+(['16808', '16819', '16821'], 'document_eventListener_fdWebExtension.deleteFromStorage')
+~~~tainted detected!~~~in extension: /Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac with chrome_storage_local_remove_sink
+from document_eventListener_fdWebExtension.deleteFromStorage to chrome_storage_local_remove_sink
+==========================
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 589	document.addEventListener('fdWebExtension.deleteFromStorage', e => {
+	e
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 590	  var key = e.detail.key;
+	e.detail
+$FilePath$/Users/jianjia/Documents/tmp/EOPG/result_analyze/opgen_results/server/all/detected/phgddhgfnjjaobkeekohieahfingldac/opgen_generated_files/cs_0.js
+Line 590	  var key = e.detail.key;
+	e.detail.key
+

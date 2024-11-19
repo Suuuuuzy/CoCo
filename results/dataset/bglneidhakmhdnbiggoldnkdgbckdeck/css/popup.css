@@ -1,0 +1,116 @@
+#booleanGroup {
+	display: table;
+}
+.setting {
+	display: table-row;
+}
+.setting-label {
+	display: table-cell;
+	padding: 5px 20px 5px 5px;
+	white-space: nowrap;
+	font-size: 1.5em;
+}
+.setting-contol {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+}
+.toggle {
+	position: absolute;
+	margin-left: -9999px;
+	visibility: hidden;
+}
+.toggle + label {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	user-select: none;
+}
+input.toggle + label {
+	padding: 2px;
+	width: 60px;
+	height: 25px;
+}
+input.toggle + label:before,
+input.toggle + label:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+}
+input.toggle + label:before {
+	background-color: #dddddd;
+	content: attr(data-off);
+	transition: transform 0.5s;
+	backface-visibility: hidden;
+}
+input.toggle + label:after {
+	background-color: #8ce196;
+	content: attr(data-on);
+	transition: transform 0.5s;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	border-radius: 5px;
+}
+input.toggle:checked + label:before {
+	transform: rotateY(180deg);
+}
+input.toggle:checked + label:after {
+	transform: rotateY(0);
+}
+#advancedSettings {
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+}
+#advancedSettings a {
+	color: #a2a2a2;
+	border: 1px solid #a2a2a2;
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: 600;
+	padding: 4px 6px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+#advancedSettings a:hover {
+	background-color: #f1f1f1;
+	border: 2px solid #a2a2a2;
+	margin-right: 0;
+	margin-left: 0;
+}
+#pendingMessages {
+	display: none;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#pendingMessages span {
+	color: #a2a2a2;
+	border: 1px solid #a2a2a2;
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: 600;
+	padding: 4px 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+#pendingMessages span:hover {
+	background-color: #f1f1f1;
+}
+	

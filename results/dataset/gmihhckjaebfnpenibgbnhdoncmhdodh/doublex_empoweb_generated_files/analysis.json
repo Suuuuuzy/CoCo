@@ -1,0 +1,74 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "XMLHttpRequest.open",
+                "value": "XMLHttpRequest().open(GET, https://api.fixer.io/latest?base=['USD', 'items.rates.base'], True)",
+                "sink-param1": "GET",
+                "sink-param2": "https://api.fixer.io/latest?base=['USD', 'items.rates.base']",
+                "sink-param3": true,
+                "line": "14 - 14",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(<pdg_js.node.ValueExpr object at 0x7fe10be0bc10>, <pdg_js.node.FunctionExpression object at 0x7fe10be0bc40>)",
+                "sink-param1": "{ 'rates': response }",
+                "sink-param2": "function () {\n callback(response);\n }",
+                "line": "46 - 48",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "storage.sync.set",
+                "value": "chrome.storage.sync.set(event.data.setting, <pdg_js.node.FunctionExpression object at 0x7fe138272a60>)",
+                "sink-param1": "event.data.setting",
+                "sink-param2": "function (items) {\n }",
+                "line": "80 - 81",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": true,
+                "param_id0": {
+                    "received_from_wa_1": {
+                        "wa": "event",
+                        "line": "55 - 55",
+                        "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/cs_0.js",
+                        "where": "event"
+                    }
+                }
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "storage.sync.get",
+                "value": "chrome.storage.sync.get(None, <pdg_js.node.FunctionExpression object at 0x7fe10be345b0>)",
+                "sink-param1": null,
+                "sink-param2": "function (items) {\n var expireDate = new Date();\n expireDate.setDate(expireDate.getDate() + 1);\n if (!items.rates || (new Date(items.rates.date)) >= expireDate) {\n fetchRates(items.rates ? items.rates.base : \"USD\", function (response) {\n window.postMessage({\n type: \"update\",\n settings: response,\n ksCurrency: true\n }, \"*\");\n })\n } else {\n window.postMessage({\n type: \"update\",\n settings: items.rates,\n ksCurrency: true\n }, \"*\");\n }\n\n\n }",
+                "line": "58 - 78",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(None, <pdg_js.node.ValueExpr object at 0x7fe12a032820>)",
+                "sink-param1": null,
+                "sink-param2": "{\n file: \"js/injector.js\"\n }",
+                "line": "32 - 34",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/doublex_empoweb_generated_files/bg.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

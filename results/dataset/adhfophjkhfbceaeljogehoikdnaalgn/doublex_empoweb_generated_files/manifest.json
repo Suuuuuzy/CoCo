@@ -1,0 +1,25 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "infomax-stock",
+    "version": "0.0.2",
+    "manifest_version": 2,
+    "description": "인포맥스",
+    "homepage_url": "http://www.einfomax.co.kr",
+    "background": {
+        "scripts": ["background2.js"],
+        "matches": ["http://*/*", "https://*/*"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["inject.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "popup.png"
+    },
+    "permissions": ["tabs", "activeTab", "storage", "http://*/*", "https://*/*"],
+    "minimum_chrome_version": "23"
+}

@@ -1,0 +1,68 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.nav-background {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da3535+0,ea6117+100&1+0,0.99+0 */
+    background: white !important;
+    background-color: hsla(0,0%,100%,.75) !important;
+}
+
+.brand-logo {
+    top: 5px;
+    left: 10px;
+}
+
+.logo {
+    max-width: 80%!important;
+}
+
+nav {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+form {
+    display: inline-block;
+}
+
+.medium-font {
+    font-size: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #DC453D !important;
+    color: white !important;
+}
+
+.alert-danger {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffdede;
+}
+
+.alert-info {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #deebff;
+}
+
+video {
+    width: 640px;
+    border-radius: 7.5px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+*:not(.material-icons) {
+    font-family: 'Avenir', sans-serif;
+    color: #4a4a4a;
+}

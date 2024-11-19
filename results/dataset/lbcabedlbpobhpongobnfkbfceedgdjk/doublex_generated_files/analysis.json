@@ -1,0 +1,234 @@
+{
+    "extension": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "setTimeout",
+                "value": "setTimeout(ie, s)",
+                "sink-param1": "ie",
+                "sink-param2": "s",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger2": {
+                "danger": "setTimeout",
+                "value": "setTimeout(ie, [None, [None, \"{'document': {}, 'onmouseup': 'd', 'onmousemove': 's'}.getElementById(outklip-root).shadowRoot\"]])",
+                "sink-param1": "ie",
+                "sink-param2": [
+                    null,
+                    [
+                        null,
+                        "{'document': {}, 'onmouseup': 'd', 'onmousemove': 's'}.getElementById(outklip-root).shadowRoot"
+                    ]
+                ],
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger3": {
+                "danger": "setTimeout",
+                "value": "setTimeout(he, 2000)",
+                "sink-param1": "he",
+                "sink-param2": 2000,
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            },
+            "danger4": {
+                "danger": "setTimeout",
+                "value": "setTimeout(ie, [None, [None, \"{'document': {}, 'onmouseup': 'd', 'onmousemove': 's'}.getElementById(outklip-root).shadowRoot\"]])",
+                "sink-param1": "ie",
+                "sink-param2": [
+                    null,
+                    [
+                        null,
+                        "{'document': {}, 'onmouseup': 'd', 'onmousemove': 's'}.getElementById(outklip-root).shadowRoot"
+                    ]
+                ],
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false
+            }
+        },
+        "indirect_dangers": {
+            "danger1": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc278679d60>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-config-modal\").style.display=\"none\",t.getElementById(\"outklip-signup-modal\").style.display=\"block\",t.getElementById(\"outklip-modal-id\").style.display=\"block\",t.getElementById(\"outklip-sandbox\").addEventListener(\"click\",R),t.getElementById(\"outklip-close-signup\").onclick=T,t.getElementById(\"outklip-signup-logo\").src=chrome.extension.getURL(\"images/v11/logo.png\")}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger2": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc279fed190>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-signup-modal\").style.display=\"none\",t.getElementById(\"outklip-modal-id\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger3": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc237172a00>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),ye();var n=u();n.getElementById(\"outklip-signup-modal\").style.display=\"none\",n.getElementById(\"outklip-config-modal\").style.display=\"block\",n.getElementById(\"outklip-modal-id\").style.display=\"block\",n.getElementById(\"outklip-webcam-video-container\").style.display=\"block\",h(),E(),V(),ee(),se(t.customerType,t.daysLeftInTrial,t.numCredits),n.getElementById(\"outklip-settings-link\").href=\"chrome-extension://\"+chrome.runtime.id+\"/settings.html\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger4": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc27a2a1fa0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),D()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger5": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc272dc1d30>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(t){g(t);var n=u();ae(),re(),chrome.storage.sync.get(\"countdownTimerValueInSeconds\",function(t){if(t.countdownTimerValueInSeconds){if(0===parseInt(t.countdownTimerValueInSeconds))return n.getElementById(\"outklip-countdown-container\").style.display=\"none\",clearTimeout(r),r=null,void e.postMessage({startRecording:!0});c=Math.round(1e3*parseInt(t.countdownTimerValueInSeconds,10)/300)+1}else c=d,chrome.storage.sync.set({countdownTimerValueInSeconds:\"3\"});n.getElementById(\"outklip-countdown-timer\").innerHTML=oe().toString(),n.getElementById(\"outklip-countdown-pause-resume-button\").addEventListener(\"click\",le),le(),ce()}),n.getElementById(\"outklip-cancel-recording-during-countdown\").addEventListener(\"click\",O),n.getElementById(\"toggle-menu\").removeEventListener(\"click\",te),n.getElementById(\"toggle-menu\").addEventListener(\"click\",ne),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",A),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",H),n.getElementById(\"toggle-pause-resume\").addEventListener(\"click\",le),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",T),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",N),n.getElementById(\"cancel-recording\").addEventListener(\"click\",O),n.getElementById(\"outklip-sandbox\").removeEventListener(\"click\",R)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger6": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc272f3da90>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u();t.switchactivetab&&ae(),re(),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",A),n.getElementById(\"toggle-pause-resume\").removeEventListener(\"click\",le),n.getElementById(\"toggle-pause-resume\").addEventListener(\"click\",H),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",T),n.getElementById(\"cancel-recording\").removeEventListener(\"click\",O),n.getElementById(\"cancel-recording\").addEventListener(\"click\",N),n.getElementById(\"outklip-webcam-resize-icon\").addEventListener(\"click\",x),n.getElementById(\"outklip-webcam-change-filter\").addEventListener(\"click\",w),n.getElementById(\"outklip-open-picture-in-picture\").addEventListener(\"click\",L),n.getElementById(\"outklip-webcam-container-close-icon\").addEventListener(\"click\",C),n.getElementById(\"toggle-menu\").removeEventListener(\"click\",te),n.getElementById(\"toggle-menu\").addEventListener(\"click\",ne)}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger7": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc279cc1b80>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u(),o=n.getElementById(\"getcameraiframe\");o&&o.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\");var i=n.getElementById(\"getcameramodeiframe\");i&&i.contentWindow.postMessage({type:\"DISABLE_CAMERA\"},\"*\"),t.switchactivetab||chrome.storage.sync.set({contentScriptState:\"none\"}),n.getElementById(\"outklip-webcam-video-container\").style.display=\"none\",n.getElementById(\"outklip-control-container\").style.display=\"none\",n.getElementById(\"outklip-camera-modal-content\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger8": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc2710a6220>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var n=u();n.getElementById(\"recording-time-indicator-string\").innerHTML=de(t.timeinseconds),n.getElementById(\"recording-blinker\").style.display=\"inline-block\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger9": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc26a330640>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e);var t=u();t.getElementById(\"outklip-close-loader\").onclick=z,t.getElementById(\"outklip-motivational-message\").innerHTML=m[Math.floor(Math.random()*m.length)],t.getElementById(\"outklip-loader-container\").style.display=\"block\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger10": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc26a335a60>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-container\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger11": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc26a326880>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-percentage-complete\").innerHTML=\"Uploading... \"+t.percentageUploadComplete+\"% complete\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger12": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc265fa4670>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-profile-photo\").src=a}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger13": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc265fa4e80>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),P()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger14": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc265f9c580>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),F()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger15": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc265f9ccd0>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),U()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger16": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc265edfd30>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),D()}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            },
+            "danger17": {
+                "danger": "get",
+                "value": "$.get(chrome.runtime.getURL(content/content.html), <pdg_js.node.FunctionExpression object at 0x7fc26c314910>)",
+                "sink-param1": "chrome.runtime.getURL(content/content.html)",
+                "sink-param2": "function(e){g(e),u().getElementById(\"outklip-loader-container\").style.display=\"none\"}",
+                "line": "3 - 3",
+                "filename": "/media/data2/jianjia/extension_data/unzipped_extensions/lbcabedlbpobhpongobnfkbfceedgdjk/doublex_generated_files/cs_0.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

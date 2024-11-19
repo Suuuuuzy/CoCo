@@ -1,0 +1,25 @@
+{
+    "extension": "/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/doublex_generated_files",
+    "benchmarks": {},
+    "cs": {
+        "direct_dangers": {},
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    },
+    "bp": {
+        "direct_dangers": {
+            "danger1": {
+                "danger": "tabs.executeScript",
+                "value": "chrome.tabs.executeScript(tabs.0.id, <pdg_js.node.ValueExpr object at 0x7fa43a07bfa0>)",
+                "sink-param1": "tabs.0.id",
+                "sink-param2": "{code: \"window.postMessage({ type: 'gtkShowInGame', coordX: \" + encodeURI(data.coordX) + \", coordY: \" + encodeURI(data.coordY) + \" }, '*');\"}",
+                "line": "7 - 7",
+                "filename": "/Users/jianjia/Desktop/help/16_COCO_RATE/fehekolnlpmcpflkgchknkboeanmhicc/doublex_generated_files/bg.js",
+                "dataflow": false,
+                "param_id0": {}
+            }
+        },
+        "indirect_dangers": {},
+        "exfiltration_dangers": {}
+    }
+}

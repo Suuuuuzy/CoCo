@@ -1,0 +1,10 @@
+﻿{
+  "extName":  {
+    "message": "Nuance PowerMic Web Extension",
+    "description": "Per Dragon Medical Embedded nelle applicazioni, questa estensione libera le funzionalità di Nuance PowerMic all'interno di Chrome."
+  },
+  "extDescription": {
+    "message": "Nuance PowerMic Web Extension per Chrome",
+    "description": "Per abilitare l'estensione, clicca su \"Aggiungi a Chrome\", conferma e aggiorna."
+  }
+}

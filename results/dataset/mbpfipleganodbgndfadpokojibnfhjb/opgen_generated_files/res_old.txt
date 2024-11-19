@@ -1,0 +1,257 @@
+(['9373', '9389', '9391', '9433'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with fetch_resource_sink
+from bg_chrome_runtime_MessageExternal to fetch_resource_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 951	  const char = message.auth.uri.match(/\?./) ? '&' : '?';
+	message.auth
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 951	  const char = message.auth.uri.match(/\?./) ? '&' : '?';
+	message.auth.uri
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 952	  const uri = message.auth.uri + char + 'version=' + EXTENSION_VERSION;
+	uri = message.auth.uri + char + 'version=' + EXTENSION_VERSION
+
+(['9373', '9389', '9391', '9433'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with fetch_resource_sink
+from bg_chrome_runtime_MessageExternal to fetch_resource_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 951	  const char = message.auth.uri.match(/\?./) ? '&' : '?';
+	message.auth
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 951	  const char = message.auth.uri.match(/\?./) ? '&' : '?';
+	message.auth.uri
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 952	  const uri = message.auth.uri + char + 'version=' + EXTENSION_VERSION;
+	uri = message.auth.uri + char + 'version=' + EXTENSION_VERSION
+
+(['9373', '9389', '9439', '9469'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with fetch_options_sink
+from bg_chrome_runtime_MessageExternal to fetch_options_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 951	  const char = message.auth.uri.match(/\?./) ? '&' : '?';
+	message.auth
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 953	  fetchToJSONResponse(uri, message.auth.options).then(response => {
+	message.auth.options
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 286	    sink_function(options.url, "fetch_options_sink");
+	options.url
+
+(['9373', '10247', '10289', '10291'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with chrome_cookies_remove_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_remove_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 955	    router(message.request, sender, sendResponse)
+	message.request
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args[0]
+
+(['10376'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10392'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10398'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['6224'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+
+(['10373'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10420'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 686	    var cookies_source = [cookie_source];
+	[cookie_source]
+
+(['6226'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+
+(['10406'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10386'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10382'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10412'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookies_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 685	    var cookie_source = {domain:'.uspto.gov', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['9373', '10247', '10289', '10291'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with chrome_cookies_set_sink
+from bg_chrome_runtime_MessageExternal to chrome_cookies_set_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 955	    router(message.request, sender, sendResponse)
+	message.request
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args[0]
+
+(['10518'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10532'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10526'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10512'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10506'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['6224'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+
+(['10502'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['10493'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['6226'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+
+(['10496'], 'cookie_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with sendResponseExternal_sink
+from cookie_source to sendResponseExternal_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 678	    var cookie_source = {domain:'cookie_domain', expirationDate:2070, hostOnly:true, httpOnly: false, name:'cookie_name', path:'cookie_path',sameSite:'no_restriction', secure:true, session: true, storeId:'cookie_storeId', value: 'cookie_value' };
+	
+
+(['9373', '10247', '10289', '10291'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with fetch_resource_sink
+from bg_chrome_runtime_MessageExternal to fetch_resource_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 955	    router(message.request, sender, sendResponse)
+	message.request
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args[0]
+
+(['9373', '10247', '10289', '10704', '10735'], 'bg_chrome_runtime_MessageExternal')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb with fetch_options_sink
+from bg_chrome_runtime_MessageExternal to fetch_options_sink
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 955	    router(message.request, sender, sendResponse)
+	message.request
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 999	      chrome.cookies[request.method](request.args[0], data => {
+	request.args
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 1010	      const options = request.args[1]
+	request.args[1]
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/mbpfipleganodbgndfadpokojibnfhjb/opgen_generated_files/bg.js
+Line 286	    sink_function(options.url, "fetch_options_sink");
+	options.url
+

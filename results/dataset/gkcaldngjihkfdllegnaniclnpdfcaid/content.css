@@ -1,0 +1,20 @@
+#enics_helper {
+    display: none;
+}
+
+#enics_iframe {
+    width: 100%;
+}
+
+#autofill-helper{
+    display: block !important;
+    float: right;
+    padding: 8px 16px;
+}
+
+#manual-instructions {
+    display: none !important;
+}
+#automated-instructions {
+    display: block !important;
+}

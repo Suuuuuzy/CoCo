@@ -1,0 +1,202 @@
+(['25878', '25905'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['13564'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+
+(['25881'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from storage_sync_get_source to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+
+(['25878', '25927'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['25878', '25948'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['25878', '25969'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['25881'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from storage_sync_get_source to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+
+(['25878', '25990'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['13564'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+
+(['26326', '26353'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['26329'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from storage_sync_get_source to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+
+(['13564'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+
+(['26326', '26375'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['26326', '26396'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['26326', '26417'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['13564'], 'cookies_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from cookies_source to localStorage_setItem_value
+==========================
+
+(['26326', '26438'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_key
+from storage_sync_get_source to localStorage_setItem_key
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 912	                            for (var key in items) {
+                                if (items.hasOwnProperty(key)) {
+                                    localStorage.setItem(key, items[key]);
+                                }
+                            }
+	
+
+(['26329'], 'storage_sync_get_source')
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif with localStorage_setItem_value
+from storage_sync_get_source to localStorage_setItem_value
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/cmadiiiggcaaelekacljabmbebfghaif/opgen_generated_files/bg.js
+Line 687	    var storage_sync_get_source = {'key':'value'};
+	
+

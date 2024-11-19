@@ -1,0 +1,15 @@
+~~~tainted detected!~~~in extension: /media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh with chrome_storage_sync_set_sink
+[(['11761', '12054', '12056'], 'cs_window_eventListener')]
+from cs_window_eventListener to chrome_storage_sync_set_sink
+['6565', '6762', '6761']
+==========================
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/opgen_generated_files/cs_0.js
+Line 506	window.addEventListener("message", function (event) {
+	event
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/opgen_generated_files/cs_0.js
+Line 531	            chrome.storage.sync.set(event.data.setting, function (items) {
+	event.data
+$FilePath$/media/data2/jianjia/extension_data/unzipped_extensions/gmihhckjaebfnpenibgbnhdoncmhdodh/opgen_generated_files/cs_0.js
+Line 531	            chrome.storage.sync.set(event.data.setting, function (items) {
+	event.data.setting
+

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="../assets/js/jquery-3.4.1.min.js"></script>
+  <script src="../assets/js/cleave.min.js"></script>
+  <script src="popup.js"></script>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/solid.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css" />
+  <style>
+    body {
+      width: 280px;
+      background: #f2f2f2;
+      margin: 0;
+    }
+
+    .footer {
+      background-color: #31383f;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      box-sizing: border-box;
+      color: #fff;
+    }
+
+    .footer .preferences {
+      cursor: pointer;
+    }
+
+    .futalert-badge {
+      font-size: 12px;
+      display: flex !important;
+      align-items: center;
+      width: 77px !important;
+      background: rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      padding-right: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .futalert-badge img {
+      width: 22px;
+      margin: 0 5px 0 0 !important;
+    }
+
+    .futalert-badge a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .list-wrapper {
+      list-style-type: none;
+      padding-inline-start: 0;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .list-wrapper li {
+      padding: 8px 12px;
+      background: #fff;
+      color: #0b1218;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .list-wrapper li:hover {
+      background: #f5f5f5;
+    }
+
+    .list-wrapper li.list-header {
+      background: #eee;
+      cursor: default;
+      font-size: 15px;
+    }
+
+    .list-wrapper li.list-header:hover {
+      background: #eee;
+    }
+
+    .list-wrapper li:last-child {
+      border-bottom: none;
+    }
+
+    .page-header {
+      background: #31383f;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .page-header span {
+      display: inline-block;
+      padding: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .welcome-text {
+      background: #31383f;
+      color: #fff;
+      padding: 10px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .review-button {
+      border: 1px solid #fff;
+      padding: 0 10px;
+      height: 22px;
+      line-height: 22px;
+      border-radius: 11px;
+      cursor: pointer;
+    }
+
+    .review-button a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 1px;
+      bottom: 1px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked+.slider {
+      background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+      -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+      transform: translateX(20px);
+    }
+
+    .block {
+      padding: 12px;
+      font-size: 14px;
+    }
+
+    .text-input {
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: .25rem;
+      border: 1px solid #ddd;
+      outline: none;
+      margin-bottom: 10px;
+      height: 36px;
+    }
+
+    .text-input.error {
+      border-color: #e60000;
+    }
+
+    .button {
+      height: 36px;
+      border-radius: .25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .button.primary {
+      background-color: #fc4554;
+      color: #fff;
+    }
+
+    .button.primary:hover {
+      background-color: #ff5664;
+    }
+
+    .button.secondary {
+      background: #7d7d7d;
+      color: #fff;
+    }
+
+    .button.secondary:hover {
+      background: #929292;
+    }
+
+    .button:disabled,
+    .button[disabled] {
+      background-color: #ccc !important;
+    }
+
+    .alert {
+      padding: 12px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 1px;
+      font-size: 14px;
+      display: none;
+      overflow: hidden;
+    }
+
+    .alert .alert-container {
+      float: left;
+      width: calc(100% - 25px);
+    }
+
+    .alert .alert-container p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .alert .alert-container p:last-child {
+      margin-bottom: 0;
+    }
+
+    .alert i.fas,
+    .alert i.fa,
+    .alert i.far {
+      float: left;
+      width: 25px;
+      margin-top: 4px;
+    }
+
+    .alert.active {
+      display: block !important;
+    }
+
+    .alert.danger {
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+    }
+
+    .alert.warning {
+      color: #8a6d3b;
+      background-color: #fcf8e3;
+      border-color: #faebcc;
+    }
+
+    .alert.info {
+      color: #31708f;
+      background-color: #d9edf7;
+      border-color: #bce8f1;
+    }
+
+    .alert.success {
+      color: #3c763d;
+      background-color: #dff0d8;
+      border-color: #d6e9c6;
+    }
+
+    #login-error,
+    #logout-wrapper,
+    #login-loading,
+    #import-error,
+    #import-success,
+    #import-loading,
+    #cancel-import-button {
+      display: none;
+    }
+
+    .input-label {
+      color: rgba(0, 0, 0, .7);
+      font-weight: 500;
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+
+    .text-block {
+      background: #fff;
+      padding: 12px;
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, .05);
+    }
+
+    .import-status {
+      margin-right: 5px;
+    }
+
+    .import-status i {
+      color: orange;
+    }
+
+    .import-status.completed {
+      color: #3c763d;
+      background-color: #dff0d8;
+      border-color: #d6e9c6;
+      padding: 0 5px;
+      border-radius: 10px;
+    }
+
+    .import-status.completed i {
+      color: green;
+    }
+
+    #donate-button {
+      float: right;
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HOME -->
+  <div class="page-wrapper"
+       id="page-home">
+    <div class="welcome-text">
+      <span>Thanks for using<br />FUT Alert - My Extension!</span>
+      <div class="review-button">
+        <a href="https://chrome.google.com/webstore/detail/fut-alert-my-extension/cmlkmalcjcbmledhdedbljhfejciicbh/reviews"
+           target="_blank">
+          Review
+        </a>
+      </div>
+    </div>
+    <ul class="list-wrapper">
+      <li class="list-header">
+        Tools
+      </li>
+      <li class="navigate"
+          data-page="import">
+        Import Your Club
+        <i class="fas fa-upload"></i>
+      </li>
+      <li class="navigate"
+          data-page="tax-calculator">
+        Tax Calculator
+        <i class="fas fa-calculator"></i>
+      </li>
+      <li class="list-header"></li>
+      <li class="navigate"
+          data-page="about">
+        About
+        <i class="fas fa-info-circle"></i>
+      </li>
+      <li class="navigate"
+          data-page="donate">
+        Support this Project
+        <i class="fab fa-paypal"></i>
+      </li>
+      <li class="navigate"
+          data-page="contact">
+        Contact
+        <i class="fas fa-envelope"></i>
+      </li>
+      <li class="navigate"
+          data-page="login"
+          id="login-item">
+        Login to FUT Alert
+        <i class="fas fa-key"></i>
+      </li>
+    </ul>
+  </div>
+
+  <!-- PREFERENCES -->
+  <div class="page-wrapper"
+       id="page-preferences">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Preferences</span>
+    </div>
+    <div class="alert info active">
+      <i class="fas fa-info-circle"></i>
+      <div class="alert-container">You may need to reload your Web App after changing extension settings</div>
+    </div>
+    <ul class="list-wrapper">
+      <li>
+        Show player data
+        <label class="switch">
+          <input id="show-player-detail"
+                 type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+  </div>
+
+  <!-- LOGIN -->
+  <div class="page-wrapper"
+       id="page-login">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Account</span>
+    </div>
+    <ul class="list-wrapper"
+        id="logout-wrapper">
+      <li class="list-header"
+          id="welcome-username"></li>
+      <li id="logout-button">
+        Logout
+        <i class="fas fa-sign-out-alt"></i>
+      </li>
+    </ul>
+    <div class="block"
+         id="login-block">
+      <input type="text"
+             class="text-input"
+             id="username-input"
+             placeholder="Username" />
+      <input type="password"
+             class="text-input"
+             id="password-input"
+             placeholder="Password" />
+      <div class="button primary"
+           id="login-button">Login</div>
+      <div class="alert danger"
+           id="login-error"></div>
+      <div class="alert info"
+           id="login-loading">
+        <i class="fas fa-circle-notch fa-spin"></i> Loading...
+      </div>
+    </div>
+  </div>
+
+  <!-- TAX CALCULATOR -->
+  <div class="page-wrapper"
+       id="page-tax-calculator">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Tax Calculator</span>
+    </div>
+    <div class="block">
+      <label class="input-label">Sales Price</label>
+      <input type="number"
+             class="text-input"
+             id="selling-price-input"
+             maxlength="8" />
+      <label class="input-label">EA Tax (5%)</label>
+      <input type="number"
+             class="text-input"
+             id="tax-price-input"
+             disabled />
+      <label class="input-label">Earnings</label>
+      <input type="number"
+             class="text-input"
+             id="earnings-price-input"
+             disabled />
+      <label class="input-label">Minimum sales price to earn <span id="minimum-coins">0</span> coins</label>
+      <input type="number"
+             class="text-input"
+             id="minimum-price-input"
+             disabled />
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="page-wrapper"
+       id="page-about">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>About</span>
+    </div>
+    <div class="block">
+      <div class="text-block">
+        <ul>
+          <li>Watch Profit &amp; Loss of the players in your club</li>
+          <li>Get buy advice / current prices for the players you search on the market</li>
+          <li>Import your club into your portfolio and much more..</li>
+          <ul>
+
+      </div>
+      <br>
+      <div style="text-align: center">
+        <a href="https://portfolio.futalert.co.uk"
+           target="_blank">FUT Alert - My Portfolio</a>
+      </div><br>
+    </div>
+  </div>
+
+  <!-- DONATE -->
+  <div class="page-wrapper"
+       id="page-donate">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Donate</span>
+    </div>
+    <div class="block">
+      <div class="text-block">
+        Support our project and<br/>Donate now with PayPal!
+      </div>
+      <div class="block"
+           id="donate-block">
+        <input type="text"
+               class="text-input"
+               name="amount"
+               id="amount-input"
+               placeholder="Donation Amount"
+               value="5.00" />
+        <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+             id="donate-button" />
+        <div class="alert danger"
+             id="donate-error"></div>
+        <div class="alert info"
+             id="donate-loading">
+          <i class="fas fa-circle-notch fa-spin"></i> Loading...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="page-wrapper"
+       id="page-contact">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Contact</span>
+    </div>
+    <div class="block">
+      <div class="text-block">
+        Please contact us from our Official Twitter account for any support / business related queries you may have..
+        <br><br> <a href="https://www.twitter.com/FUT_Alert"
+           target="_blank">FUT Alert - Twitter Account</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMPORT -->
+  <div class="page-wrapper"
+       id="page-import">
+    <div class="page-header">
+      <span class="navigate"
+            data-page="home"><i class="fas fa-chevron-left"></i> Back</span>
+      <span>Import</span>
+    </div>
+    <ul class="list-wrapper">
+      <li class="list-header"
+          style="justify-content: flex-end;">
+        Include
+      </li>
+      <li>
+        <span>
+          <span id="import-transfer-status"
+                class="import-status">
+            <i class="fas fa-clock"
+               style="color: orange"></i>
+          </span>
+          Transfer List
+        </span>
+        <label class="switch">
+          <input type="checkbox"
+                 id="include-transfer">
+          <span class="slider"></span>
+        </label>
+      </li>
+      <li>
+        <span>
+          <span id="import-unassigned-status"
+                class="import-status">
+            <i class="fas fa-clock"
+               style="color: orange"></i>
+          </span>
+          Unassigned List
+        </span>
+        <label class="switch">
+          <input type="checkbox"
+                 id="include-unassigned">
+          <span class="slider"></span>
+        </label>
+      </li>
+      <li>
+        <span>
+          <span id="import-won-status"
+                class="import-status">
+            <i class="fas fa-clock"
+               style="color: orange"></i>
+          </span>
+          Transfer Targets (Won)
+        </span>
+        <label class="switch">
+          <input type="checkbox"
+                 id="include-won">
+          <span class="slider"></span>
+        </label>
+      </li>
+      <li>
+        <span>
+          <span id="import-club-status"
+                class="import-status">
+            <i class="fas fa-clock"
+               style="color: orange"></i>
+          </span>
+          Club
+        </span>
+        <label class="switch">
+          <input type="checkbox"
+                 id="include-club">
+          <span class="slider"></span>
+        </label>
+      </li>
+      <li class="list-header">
+      </li>
+      <li>
+        Replace portfolio
+        <label class="switch">
+          <input type="checkbox"
+                 id="replace-portfolio">
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+    <div id="import-warning"
+         class="alert warning active">
+      <i class="fas fa-exclamation-triangle"></i>
+      <div class="alert-container"></div>
+    </div>
+    <div id="import-info"
+         class="alert info active">
+      <i class="fas fa-info-circle"></i>
+      <div class="alert-container">
+        Click on the Start import button to proceed
+      </div>
+    </div>
+    <div class="block">
+      <div class="button primary"
+           id="import-button">Start Import</div>
+      <div class="button secondary"
+           id="cancel-import-button">Cancel Import</div>
+      <div class="alert danger"
+           id="import-error"></div>
+      <div class="alert success"
+           id="import-success"></div>
+      <div class="alert info"
+           id="import-loading">
+        <i class="fas fa-circle-notch fa-spin"></i> Importing players...
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <span class="futalert-badge">
+      <a href="https://portfolio.futalert.co.uk/"
+         target="_blank">FUT Alert</a>
+    </span>
+    <div class="preferences navigate"
+         data-page="preferences">
+      <i class="fas fa-cog"></i> Preferences
+    </div>
+  </div>
+</body>
+
+</html>

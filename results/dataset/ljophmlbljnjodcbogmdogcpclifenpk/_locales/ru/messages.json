@@ -1,0 +1,59 @@
+{
+  "appName": {
+    "message": "Отправитель AirMedia"
+  },
+  "appDesc": {
+    "message": "Создайте зеркало вашего устройства на любом экране компьютера в любое время"
+  },
+  "extTitle": {
+    "message": "Отправитель AirMedia"
+  },
+  "titleConnectRecv": {
+    "message": "Подключиться к AirMedia"
+  },
+  "tip_sel_dsk_title": {
+    "message": "Представить рабочий стол"
+  },
+  "tip_sel_dsk": {
+    "message": "Будет передано только видео"
+  },
+  "hit_pin": {
+    "message": "Введите PIN-код"
+  },
+  "tip_sel_tab": {
+    "message": "Будет передано видео и аудио"
+  },
+  "btn_connect": {
+    "message": "ПОДКЛЮЧИТЬСЯ"
+  },
+  "btn_cancel": {
+    "message": "ОТМЕНА"
+  },
+  "btn_stop": {
+    "message": "ОСТАНОВИТЬ"
+  },
+  "btn_ok": {
+    "message": "ОК"
+  },
+  "btn_auth_cancel": {
+    "message": "ОТМЕНА"
+  },
+  "btn_retry_cancel": {
+    "message": "ОТМЕНА"
+  },
+  "btn_retry": {
+    "message": "ПОВТОРИТЬ"
+  },
+  "hit_warn": {
+    "message": "Не удалось подключиться. Проверьте ваши настройки."
+  },
+  "hit_ip": {
+    "message": "IP-адрес или имя хоста"
+  },
+  "tip_sel_tab_title": {
+    "message": "Представить текущую вкладку"
+  },
+  "inp_pincode_helper_text": {
+    "message": "Неверный PIN-код. Повторите попытку."
+  }
+}
