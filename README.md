@@ -8,7 +8,7 @@ Please refer to the paper for details.
 
 [CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation](https://yinzhicao.org/CoCo/CoCo.pdf)
 
-CoCo won the Distinguished Paper Award of CCS 2023.
+<span style="font-size:24px;">🏆</span> CoCo won the **Distinguished Paper Award** of CCS 2023.
 
 ## Installation
 CoCo requires Python 3.7+ and Node.js 12+. To set up the environment, run `./install.sh`.
