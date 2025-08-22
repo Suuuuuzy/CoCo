@@ -1,1 +1,248 @@
-/media/data2/jianjia/extension_data/unzipped_extensions/bilbbbdgdimchenccmooakpfomfajepd timeout after 600 seconds with 20.531674208144796% stmt covered####
+/media/data2/jianjia/extension_data/unzipped_extensions/bilbbbdgdimchenccmooakpfomfajepd timeout after 600 seconds with 20.531674208144796% stmt covered####analysis starts
+2025-08-22 11:02:53.551740
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: None
+call_limit: 3
+entry_func: None
+list: None
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd
+chrome_extension: True
+run_with_pq: True
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: demos/
+autostop: False
+no_merge: False
+thread_stmt: False
+all_branch: False
+war: False
+measure_thread: False
+measure_code_cov_progress: False
+time_slice: 0.1
+seq_timeout: 20
+policy: 1
+alpha: 0.2
+beta: 0.8
+gamma: 1
+ablation_mode: CoCo-single
+code_progress_html: False
+1755874974.546124----test_graph starts
+1755874978.964751----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36189'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 728	        'key': 'value'
+	
+
+1755874978.97321----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36283'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 752	        'key': 'value'
+	
+
+1755874979.383724----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with chrome_storage_sync_set_sink
+(['36067', '36103', '36448'], 'bg_chrome_runtime_MessageExternal')
+from bg_chrome_runtime_MessageExternal to chrome_storage_sync_set_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2762	                storageManager.storageType = request.params['storage'];
+	request.params
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2774	                storageManager.setToStorage(request.params['key'], request.params['value'], function(returnAllData) {
+	request.params['value']
+
+1755874979.387957----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36617'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 728	        'key': 'value'
+	
+
+1755874979.3881018----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36614'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 727	    var storage_sync_get_source = {
+        'key': 'value'
+    };
+	
+
+1755874979.394494----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with chrome_storage_local_set_sink
+(['36067', '36103', '36448'], 'bg_chrome_runtime_MessageExternal')
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2762	                storageManager.storageType = request.params['storage'];
+	request.params
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2774	                storageManager.setToStorage(request.params['key'], request.params['value'], function(returnAllData) {
+	request.params['value']
+
+1755874979.3970401----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36702'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 752	        'key': 'value'
+	
+
+1755874979.397248----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36699'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 751	    var storage_local_get_source = {
+        'key': 'value'
+    };
+	
+
+~~taint detected
+/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd finish within 6.193305015563965 seconds#### with code_cov 20.74074074074074% stmt covered####
+
+analysis starts
+2025-08-22 11:04:35.431547
+All args:
+print: False
+vul_type: chrome_ext
+prototype_pollution: False
+module: False
+exit: False
+single_branch: False
+run_all: False
+function_timeout: None
+timeout: None
+call_limit: 3
+entry_func: None
+list: None
+install: False
+run_env: ./tmp_env/
+no_file_based: False
+parallel: None
+auto_type: False
+export: None
+nodejs: False
+gc: False
+babel: None
+input_file: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd
+chrome_extension: True
+run_with_pq: True
+obj_traceback: False
+dx: False
+easy_test: False
+package_path: demos/
+autostop: False
+no_merge: False
+thread_stmt: False
+all_branch: False
+war: False
+measure_thread: False
+measure_code_cov_progress: False
+time_slice: 0.1
+seq_timeout: 20
+policy: 1
+alpha: 0.2
+beta: 0.8
+gamma: 1
+ablation_mode: CoCo-single
+code_progress_html: False
+1755875076.439649----test_graph starts
+1755875085.06499----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36189'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 728	        'key': 'value'
+	
+
+1755875085.074392----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36283'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 752	        'key': 'value'
+	
+
+1755875085.4623501----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with chrome_storage_sync_set_sink
+(['36067', '36103', '36448'], 'bg_chrome_runtime_MessageExternal')
+from bg_chrome_runtime_MessageExternal to chrome_storage_sync_set_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2762	                storageManager.storageType = request.params['storage'];
+	request.params
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2774	                storageManager.setToStorage(request.params['key'], request.params['value'], function(returnAllData) {
+	request.params['value']
+
+1755875085.4669352----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36614'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 727	    var storage_sync_get_source = {
+        'key': 'value'
+    };
+	
+
+1755875085.4670851----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36617'], 'storage_sync_get_source')
+from storage_sync_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 728	        'key': 'value'
+	
+
+1755875085.473883----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with chrome_storage_local_set_sink
+(['36067', '36103', '36448'], 'bg_chrome_runtime_MessageExternal')
+from bg_chrome_runtime_MessageExternal to chrome_storage_local_set_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2762	                storageManager.storageType = request.params['storage'];
+	request.params
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 2774	                storageManager.setToStorage(request.params['key'], request.params['value'], function(returnAllData) {
+	request.params['value']
+
+1755875085.4764118----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36699'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 751	    var storage_local_get_source = {
+        'key': 'value'
+    };
+	
+
+1755875085.476614----tainted detected!~~~in extension: /Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd with sendResponseExternal_sink
+(['36702'], 'storage_local_get_source')
+from storage_local_get_source to sendResponseExternal_sink
+==========================
+$FilePath$/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd/opgen_generated_files/bg.js
+Line 752	        'key': 'value'
+	
+
+~~taint detected
+/Users/susie/Documents/projects/coco/CoCo/results/dataset/bilbbbdgdimchenccmooakpfomfajepd finish within 10.32440710067749 seconds#### with code_cov 20.74074074074074% stmt covered####
+
