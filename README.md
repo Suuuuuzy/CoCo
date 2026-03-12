@@ -41,12 +41,11 @@ Results are stored in `extension_dir/opgen_generated_files/used_time.txt`
 
 If you find CoCo useful, please cite our paper :)
 ```
-@inproceedings{CoCoYu,
-author = {Yu, Jianjia and Li, Song and Zhu, Junmin and Cao, Yinzhi},
-year = {2023},
-month = {11},
-pages = {2441-2455},
-title = {CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation},
-doi = {10.1145/3576915.3616584}
+@inproceedings{yu2023coco,
+  title={CoCo: Efficient browser extension vulnerability detection via coverage-guided, concurrent abstract interpretation},
+  author={Yu, Jianjia and Li, Song and Zhu, Junmin and Cao, Yinzhi},
+  booktitle={Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={2441--2455},
+  year={2023}
 }
 ```
